@@ -4,13 +4,12 @@
 sudo apt update
 sudo apt install -y git python3 python3-venv python3-pip tesseract-ocr espeak
 
-# Clone the repository
-git clone https://github.com/Orranj/ocrDeviceResearch.git
-cd ocrDeviceResearch
-
 # Create a virtual environment
 python3 -m venv env
 source env/bin/activate
+
+echo "Installing system dependencies..."
+xargs -a apt_requirements.txt sudo apt install -y
 
 # Install Python dependencies
 pip install -r requirements.txt
