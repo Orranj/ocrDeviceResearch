@@ -1,4 +1,4 @@
-#!/home/raspberryuser/ocrDeviceResearch/env/bin/python3
+#!/home/pi/ocrDeviceResearch/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
