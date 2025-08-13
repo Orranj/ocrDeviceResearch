@@ -67,6 +67,9 @@ def process(img, display_invert = False):
     # correcting skew/rotation using OSD (orientation and script detection)
     img = deskew_using_osd(img)
 
+    # rotating image
+    img = cv2.rotate(img, cv2.ROTATE_180)
+
     # turn to RGB for colored bounding boxes
     img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
 
