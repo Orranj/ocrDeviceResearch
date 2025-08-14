@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
 import pytesseract
-from pytesseract import Output
-from tkinter import Tk, filedialog
+# from pytesseract import Output
 import time
+from picamera2 import Picamera2, Preview
 
 
 # --- Lighting & Contrast Enhancement ---
@@ -30,8 +30,8 @@ def deskew_using_osd(img):
             h, w = img.shape[:2]
             m = cv2.getRotationMatrix2D((w // 2, h // 2), -rotation_angle, 1)
             img = cv2.warpAffine(img, m, (w, h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
-    except:
-        pass
+    except Exception as e:
+        print(e)
     return img
 
 # --- OCR with Bounding Boxes ---
@@ -74,19 +74,18 @@ def detect_fingertip_and_crop_line(image):
     fx, fy = fingertip
     cv2.circle(image, fingertip, 20, (0, 0, 255), -1)
 
-    line_height = 250  # adjust if needed
-    side_crop = 700
+    line_height = 250  # height of text
+    side_crop = 700 # amount of px to crop off from the sides
+    shift_bottom = 10 # shift the crop box vertically downwards by this many px
     y_start = max(fy - line_height, 0)
-    y_end = max(fy + 10, 0)
+    y_end = max(fy + shift_bottom, 0)
     image = cv2.rectangle(image, (side_crop, y_start), (image.shape[1] - side_crop, y_end), (0, 255, 0), 2)
     crop = image[y_start:y_end, side_crop:image.shape[1] - side_crop]
 
     if crop.size == 0:
         print("Crop resulted in empty image.")
         return None, image
-    
-    crop = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY)
-    
+     
     return crop, image
 
 # --- Preprocessing for OCR ---
@@ -98,6 +97,7 @@ def process(img):
         scale = max_dim / max(h, w)
         img = cv2.resize(img, (int(w * scale), int(h * scale)), interpolation=cv2.INTER_AREA)
     print("resized", time.time() - start_time)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     # img = enhance_contrast_and_lighting(img)
     # gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     # gray = cv2.fastNlMeansDenoising(img)
@@ -119,6 +119,18 @@ def process(img):
     result_img, text = bounding_boxes_and_text(color_img)
     print("bounding boxes and yext", time.time() - start_time)
     return result_img, text
+
+
+# will work on a video version later
+# TODO: finish doig this function
+# def take_pic():
+#     picam2 = Picamera2()
+#     camera_config = picam2.create_still_configuration(main={"size": (640, 480)})
+#     picam2.configure(camera_config)
+#     picam2.start_preview(Preview.QTGL)
+#     picam2.start()
+#     time.sleep(5)
+
 
 # --- Main ---
 def main():
