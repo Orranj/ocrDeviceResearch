@@ -3,7 +3,7 @@ import numpy as np
 import pytesseract
 # from pytesseract import Output
 import time
-from picamera2 import Picamera2, Preview
+# from picamera2 import Picamera2, Preview
 
 
 # --- Lighting & Contrast Enhancement ---
@@ -91,17 +91,17 @@ def detect_fingertip_and_crop_line(image):
 # --- Preprocessing for OCR ---
 def process(img):
     start_time = time.time()
-    max_dim = 540
+    max_dim = 700
     h, w = img.shape[:2]
     if max(h, w) > max_dim:
         scale = max_dim / max(h, w)
         img = cv2.resize(img, (int(w * scale), int(h * scale)), interpolation=cv2.INTER_AREA)
     print("resized", time.time() - start_time)
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    gray = cv2.GaussianBlur(img, (3, 3), 0)
+    gray = cv2.cvtColor(gray, cv2.COLOR_BGR2GRAY)
     # img = enhance_contrast_and_lighting(img)
     # gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     # gray = cv2.fastNlMeansDenoising(img)
-    gray = cv2.GaussianBlur(img, (3, 3), 0)
     print("denoise", time.time() - start_time)
     gray = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 9, 9)
     print("binarize", time.time() - start_time)

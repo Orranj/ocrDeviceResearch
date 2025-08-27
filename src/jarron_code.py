@@ -3,6 +3,7 @@ import numpy as np
 import pytesseract
 import time
 import os
+from picamera2 import Picamera2, Preview
 
 # --- Conditional Deskew ---
 def deskew_using_osd(img):
@@ -17,7 +18,9 @@ def deskew_using_osd(img):
             img = cv2.warpAffine(img, m, (w, h),
                                  flags=cv2.INTER_CUBIC,
                                  borderMode=cv2.BORDER_REPLICATE)
+            print(f"deskewed from angle {rotation_angle}")
     except:
+        print("deskew unsuccessful")
         pass
     return img
 
@@ -50,21 +53,27 @@ def detect_fingertip_and_crop(image):
 
     # Dynamic crop height: detect text region above fingertip
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    _, bin_img = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
-    text_contours, _ = cv2.findContours(bin_img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    # _, bin_img = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    ret,thresh1 = cv2.threshold(gray, 0, 255,cv2.THRESH_OTSU|cv2.THRESH_BINARY_INV)
+    rect_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (105, 3))
+    dilation = cv2.dilate(thresh1, rect_kernel, iterations = 1)
+    cv2.imwrite("outputs/debug_dilated.jpg", dilation)
+    contours2, hierarchy = cv2.findContours(dilation, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 
-    if text_contours:
+    if contours2:
         # Find contour(s) closest to fingertip y
+        text_contours = [c for c in contours2 if ((cv2.boundingRect(c)[3] in range(100, 1000)) and (cv2.boundingRect(c)[1] <= fingertip[1]))]
         closest_contour = min(text_contours, key=lambda c: abs(cv2.boundingRect(c)[1] - fingertip[1]))
         x, y, w, h = cv2.boundingRect(closest_contour)
-        y_start = max(y - 5, 0)
-        y_end = min(y + h + 5, image.shape[0])
+        y_start = max(y - 15, 0)
+        y_end = min(y + h + 15, image.shape[0])
     else:
         # Fallback to fixed height
         y_start = max(fingertip[1] - 250, 0)
         y_end = min(fingertip[1] + 10, image.shape[0])
 
     side_crop = 700
+    cv2.rectangle(image, (side_crop, y_start), (image.shape[1] - side_crop, y_end), (0, 255, 0), 5)
     crop = image[y_start:y_end, side_crop:image.shape[1] - side_crop]
 
     return crop if crop.size > 0 else None, image
@@ -83,24 +92,24 @@ def main():
         print("Error: Could not read image.")
         return
 
+    # 4. Crop dynamically to line height
+    cropped, debug_img = detect_fingertip_and_crop(img)
+    if cropped is None:
+        print("No fingertip/line detected.")
+        return
+
     # 1. Resize
-    max_dim = 800
+    max_dim = 700
     h, w = img.shape[:2]
     if max(h, w) > max_dim:
         scale = max_dim / max(h, w)
         img = cv2.resize(img, (int(w * scale), int(h * scale)), interpolation=cv2.INTER_AREA)
 
     # 2. Deskew (only if needed)
-    img = deskew_using_osd(img)
+    # img = deskew_using_osd(img)
 
     # 3. Enhance (optional if needed before crop)
     img = enhance_for_ocr(img)
-
-    # 4. Crop dynamically to line height
-    cropped, debug_img = detect_fingertip_and_crop(img)
-    if cropped is None:
-        print("No fingertip/line detected.")
-        return
 
     # 5. OCR
     text = run_ocr(cropped)
