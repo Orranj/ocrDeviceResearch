@@ -131,6 +131,22 @@ def process(img):
 #     picam2.start()
 #     time.sleep(5)
 
+def ocr_pipeline(img):    
+    start_time = time.time()
+    # deskewed_img = deskew_using_osd(orig_img)
+    # print("Deskewed image")
+    cropped_line, debug_img = detect_fingertip_and_crop_line(img)
+    print(f"Image cropped to finger level: {time.time() - start_time:.2f}")
+    if cropped_line is None or cropped_line.size == 0:
+        print("Skipping OCR because no valid crop was found.")
+        return None, None
+
+    print("\nProcessing cropped line above fingertip...")
+    processed_img, text = process(cropped_line)
+    print(f"Detected Text:\n{text}")
+    print(f"Total Processing time: {time.time() - start_time:.2f}")
+    return debug_img, processed_img
+
 
 # --- Main ---
 def main():
@@ -143,25 +159,26 @@ def main():
     #     print("No file selected.")
     #     return
 
-    start_time = time.time()
     orig_img = cv2.imread("test.jpg")
     if orig_img is None:
         print("Error: Could not read image.")
         return
 
-    # deskewed_img = deskew_using_osd(orig_img)
-    # print("Deskewed image")
-    cropped_line, debug_img = detect_fingertip_and_crop_line(orig_img)
-    print(f"Image cropped to finger level: {time.time() - start_time:.2f}")
-    if cropped_line is None or cropped_line.size == 0:
-        print("Skipping OCR because no valid crop was found.")
-        return
+    # # deskewed_img = deskew_using_osd(orig_img)
+    # # print("Deskewed image")
+    # cropped_line, debug_img = detect_fingertip_and_crop_line(orig_img)
+    # print(f"Image cropped to finger level: {time.time() - start_time:.2f}")
+    # if cropped_line is None or cropped_line.size == 0:
+    #     print("Skipping OCR because no valid crop was found.")
+    #     return
 
-    print("\nProcessing cropped line above fingertip...")
-    processed_img, text = process(cropped_line)
-    print(f"Detected Text:\n{text}")
-    print(f"Total Processing time: {time.time() - start_time:.2f}")
+    # print("\nProcessing cropped line above fingertip...")
+    # processed_img, text = process(cropped_line)
+    # print(f"Detected Text:\n{text}")
+    # print(f"Total Processing time: {time.time() - start_time:.2f}")
 
+    debug_img, processed_img = ocr_pipeline(orig_img)
+    
     # cv2.imshow("Finger Detection", debug_img)
     # cv2.imshow("Cropped Line", cropped_line)
     # cv2.imshow("Processed Line", processed_img)
