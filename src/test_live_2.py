@@ -25,10 +25,11 @@ def detect_fingertip_and_crop_line(image):
 
     # crop a strip above fingertip
     line_height = 100  # adjust depending on font size
+    side_crop = 30
     y_end = max(fy - 5, 0)
     y_start = max(y_end - line_height, 0)
-    x_start = 50
-    x_end = image.shape[1] - 50
+    x_start = side_crop
+    x_end = image.shape[1] - side_crop
     cv2.rectangle(image, (x_start, y_start), (x_end, y_end), (0, 255, 0), 2)
     crop = image[y_start:y_end, x_start:x_end]
 
@@ -36,14 +37,17 @@ def detect_fingertip_and_crop_line(image):
 
 # --- OCR ---
 def run_ocr(img):
-    config = r'--oem 1 --psm 7'   # single line mode
+    config = r'--oem 3 --psm 7'   # single line mode
     text = pytesseract.image_to_string(img, config=config).strip()
     return text
 
 def main():
     picam2 = Picamera2()
-    preview_config = picam2.create_preview_configuration(main={"format": 'XRGB8888',"size": (720, 480)})
-    picam2.configure(preview_config)
+    cam_config = picam2.create_video_configuration(
+        main={"size": (640, 480), "format": "RGB888"},
+        controls={"FrameRate": 0.5}  # Set desired framerate
+    )
+    picam2.configure(cam_config)
     picam2.start()
 
     print("Press 'q' to quit.")
@@ -62,8 +66,8 @@ def main():
                                          cv2.THRESH_BINARY, 9, 9)
             color_img = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)
 
-            # detected_text = run_ocr(color_img)
-            detected_text = ""
+            detected_text = run_ocr(color_img)
+            # detected_text = ""
 
         # display text overlay
         cv2.putText(debug_img, detected_text, (50, 60),
