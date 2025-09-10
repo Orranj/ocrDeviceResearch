@@ -42,8 +42,11 @@ def run_ocr(img):
 
 def main():
     picam2 = Picamera2()
-    preview_config = picam2.create_preview_configuration(main={"format": 'XRGB8888',"size": (720, 480)})
-    picam2.configure(preview_config)
+    config = picam2.create_video_configuration(
+        main={"size": (640, 480)},
+        controls={"FrameRate": 1}  # Set desired framerate
+    )
+    picam2.configure(config)
     picam2.start()
 
     print("Press 'q' to quit.")
