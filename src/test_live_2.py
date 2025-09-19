@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import pytesseract
 from picamera2 import Picamera2
-import time
+# import time
 
 # --- Fingertip detection and crop line above ---
 def detect_fingertip_and_crop_line(image):
@@ -37,14 +37,14 @@ def detect_fingertip_and_crop_line(image):
 
 # --- OCR ---
 def run_ocr(img):
-    config = r'--oem 3 --psm 7'   # single line mode
+    config = r'--oem 3 --psm 7 -l eng+tgl'   # single line mode
     text = pytesseract.image_to_string(img, config=config).strip()
     return text
 
 def main():
     picam2 = Picamera2()
     cam_config = picam2.create_video_configuration(
-        main={"size": (640, 480), "format": "RGB888"},
+        main={"size": (720, 540), "format": "RGB888"},
         controls={"FrameRate": 0.5}  # Set desired framerate
     )
     picam2.configure(cam_config)
