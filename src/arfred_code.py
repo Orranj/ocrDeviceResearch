@@ -38,7 +38,7 @@ def deskew_using_osd(img):
 def bounding_boxes_and_text(img):
     print("text detection")
     start_time = time.time()
-    config = r'--oem 1 --psm 7'
+    config = r'--oem 3 --psm 7 -l eng+tgl'
     text = pytesseract.image_to_string(img, config=config)
     return img, text
     # data = pytesseract.image_to_data(img, config=config, output_type=Output.DICT)
@@ -75,8 +75,8 @@ def detect_fingertip_and_crop_line(image):
     cv2.circle(image, fingertip, 20, (0, 0, 255), -1)
 
     line_height = 250  # height of text
-    side_crop = 700 # amount of px to crop off from the sides
-    shift_bottom = 10 # shift the crop box vertically downwards by this many px
+    side_crop = 70 # amount of px to crop off from the sides
+    shift_bottom = 0 # shift the crop box vertically downwards by this many px
     y_start = max(fy - line_height, 0)
     y_end = max(fy + shift_bottom, 0)
     image = cv2.rectangle(image, (side_crop, y_start), (image.shape[1] - side_crop, y_end), (0, 255, 0), 2)

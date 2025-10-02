@@ -1,0 +1,250 @@
+from yapper.enums import (
+    Persona,
+    PiperQuality,
+    PiperVoiceBelgium,
+    PiperVoiceBrazil,
+    PiperVoiceCatalonia,
+    PiperVoiceChina,
+    PiperVoiceCongo,
+    PiperVoiceCzech,
+    PiperVoiceDenmark,
+    PiperVoiceFinland,
+    PiperVoiceFrance,
+    PiperVoiceGB,
+    PiperVoiceGeorgia,
+    PiperVoiceGermany,
+    PiperVoiceGreece,
+    PiperVoiceHungary,
+    PiperVoiceIceland,
+    PiperVoiceIran,
+    PiperVoiceItaly,
+    PiperVoiceJordan,
+    PiperVoiceKazakhstan,
+    PiperVoiceLatvia,
+    PiperVoiceLuxembourg,
+    PiperVoiceMexico,
+    PiperVoiceNepal,
+    PiperVoiceNetherlands,
+    PiperVoiceNorway,
+    PiperVoicePoland,
+    PiperVoicePortugal,
+    PiperVoiceRomania,
+    PiperVoiceRussia,
+    PiperVoiceSerbia,
+    PiperVoiceSlovakia,
+    PiperVoiceSlovenia,
+    PiperVoiceSpain,
+    PiperVoiceSweden,
+    PiperVoiceTurkey,
+    PiperVoiceUkraine,
+    PiperVoiceUS,
+    PiperVoiceVietnam,
+    PiperVoiceWales,
+)
+
+PLATFORM_LINUX = "linux"
+PLATFORM_MAC = "mac"
+PLATFORM_WINDOWS = "windows"
+
+VOICE_MALE = "m"
+VOICE_FEMALE = "f"
+
+SPEECH_RATE = 165
+SPEECH_VOLUME = 1
+
+FLD_ROLE = "role"
+FLD_CHOICES = "choices"
+FLD_MESSAGE = "message"
+FLD_CONTENT = "content"
+
+GROQ_FLD_MESSAGES = "messages"
+GROQ_FLD_MODEL = "model"
+
+GEMINI_FLD_SYS_INST = "system_instruction"
+GEMINI_FLD_PARTS = "parts"
+GEMINI_FLD_TEXT = "text"
+GEMINI_FLD_CONTENT = "content"
+GEMINI_FLD_CONTENTS = "contents"
+GEMINI_FLD_CANDIDATES = "candidates"
+
+ROLE_SYSTEM = "system"
+ROLE_USER = "user"
+
+GPT_MODEL_DEFAULT = "gpt-3.5-turbo"
+
+piper_enum_to_lang_code = {
+    PiperVoiceJordan: "ar_JO",
+    PiperVoiceCatalonia: "ca_ES",
+    PiperVoiceCzech: "cs_CZ",
+    PiperVoiceWales: "cy_GB",
+    PiperVoiceDenmark: "da_DK",
+    PiperVoiceGermany: "de_DE",
+    PiperVoiceGreece: "el_GR",
+    PiperVoiceSpain: "es_ES",
+    PiperVoiceMexico: "es_MX",
+    PiperVoiceIran: "fa_IR",
+    PiperVoiceFinland: "fi_FI",
+    PiperVoiceFrance: "fr_FR",
+    PiperVoiceHungary: "hu_HU",
+    PiperVoiceIceland: "is_IS",
+    PiperVoiceItaly: "it_IT",
+    PiperVoiceGeorgia: "ka_GE",
+    PiperVoiceKazakhstan: "kk_KZ",
+    PiperVoiceLuxembourg: "lb_LU",
+    PiperVoiceLatvia: "lv_LV",
+    PiperVoiceNepal: "ne_NP",
+    PiperVoiceBelgium: "nl_BE",
+    PiperVoiceNetherlands: "nl_NL",
+    PiperVoiceNorway: "no_NO",
+    PiperVoicePoland: "pl_PL",
+    PiperVoiceBrazil: "pt_BR",
+    PiperVoicePortugal: "pt_PT",
+    PiperVoiceRomania: "ro_RO",
+    PiperVoiceRussia: "ru_RU",
+    PiperVoiceSlovakia: "sk_SK",
+    PiperVoiceSlovenia: "sl_SI",
+    PiperVoiceSerbia: "sr_RS",
+    PiperVoiceSweden: "sv_SE",
+    PiperVoiceCongo: "sw_CD",
+    PiperVoiceTurkey: "tr_TR",
+    PiperVoiceUkraine: "uk_UA",
+    PiperVoiceVietnam: "vi_VN",
+    PiperVoiceChina: "zh_CN",
+    PiperVoiceUS: "en_US",
+    PiperVoiceGB: "en_GB",
+}
+
+piper_voice_quality_map = {
+    PiperVoiceJordan.KAREEM: PiperQuality.MEDIUM,
+    PiperVoiceCatalonia.UPC_ONA: PiperQuality.MEDIUM,
+    PiperVoiceCatalonia.UPC_PAU: PiperQuality.X_LOW,
+    PiperVoiceCzech.JIRKA: PiperQuality.MEDIUM,
+    PiperVoiceWales.BU_TTS: PiperQuality.MEDIUM,
+    PiperVoiceWales.GWRYW_GOGLEDDOL: PiperQuality.MEDIUM,
+    PiperVoiceDenmark.TALESYNTESE: PiperQuality.MEDIUM,
+    PiperVoiceGermany.EVA_K: PiperQuality.X_LOW,
+    PiperVoiceGermany.KARLSSON: PiperQuality.LOW,
+    PiperVoiceGermany.KERSTIN: PiperQuality.LOW,
+    PiperVoiceGermany.MLS: PiperQuality.MEDIUM,
+    PiperVoiceGermany.PAVOQUE: PiperQuality.LOW,
+    PiperVoiceGermany.RAMONA: PiperQuality.LOW,
+    PiperVoiceGermany.THORSTEN: PiperQuality.HIGH,
+    PiperVoiceGermany.THORSTEN_EMOTIONAL: PiperQuality.MEDIUM,
+    PiperVoiceGreece.RAPUNZELINA: PiperQuality.LOW,
+    PiperVoiceSpain.CARLFM: PiperQuality.X_LOW,
+    PiperVoiceSpain.DAVEFX: PiperQuality.MEDIUM,
+    PiperVoiceSpain.MLS_10246: PiperQuality.LOW,
+    PiperVoiceSpain.MLS_9972: PiperQuality.LOW,
+    PiperVoiceSpain.SHARVARD: PiperQuality.MEDIUM,
+    PiperVoiceMexico.ALD: PiperQuality.MEDIUM,
+    PiperVoiceMexico.CLAUDE: PiperQuality.HIGH,
+    PiperVoiceIran.AMIR: PiperQuality.MEDIUM,
+    PiperVoiceIran.GANJI: PiperQuality.MEDIUM,
+    PiperVoiceIran.GANJI_ADABI: PiperQuality.MEDIUM,
+    PiperVoiceIran.GYRO: PiperQuality.MEDIUM,
+    PiperVoiceIran.REZA_IBRAHIM: PiperQuality.MEDIUM,
+    PiperVoiceFinland.HARRI: PiperQuality.MEDIUM,
+    PiperVoiceFrance.GILLES: PiperQuality.LOW,
+    PiperVoiceFrance.MLS_1840: PiperQuality.LOW,
+    PiperVoiceFrance.SIWIS: PiperQuality.MEDIUM,
+    PiperVoiceFrance.TOM: PiperQuality.MEDIUM,
+    PiperVoiceFrance.UPMC: PiperQuality.MEDIUM,
+    PiperVoiceHungary.ANNA: PiperQuality.MEDIUM,
+    PiperVoiceHungary.BERTA: PiperQuality.MEDIUM,
+    PiperVoiceHungary.IMRE: PiperQuality.MEDIUM,
+    PiperVoiceIceland.BUI: PiperQuality.MEDIUM,
+    PiperVoiceIceland.SALKA: PiperQuality.MEDIUM,
+    PiperVoiceIceland.STEINN: PiperQuality.MEDIUM,
+    PiperVoiceIceland.UGLA: PiperQuality.MEDIUM,
+    PiperVoiceItaly.PAOLA: PiperQuality.MEDIUM,
+    PiperVoiceItaly.RICCARDO: PiperQuality.X_LOW,
+    PiperVoiceGeorgia.NATIA: PiperQuality.MEDIUM,
+    PiperVoiceKazakhstan.ISEKE: PiperQuality.X_LOW,
+    PiperVoiceKazakhstan.ISSAI: PiperQuality.HIGH,
+    PiperVoiceKazakhstan.RAYA: PiperQuality.X_LOW,
+    PiperVoiceLuxembourg.MARYLUX: PiperQuality.MEDIUM,
+    PiperVoiceLatvia.AIVARS: PiperQuality.MEDIUM,
+    PiperVoiceNepal.GOOGLE: PiperQuality.MEDIUM,
+    PiperVoiceBelgium.NATHALIE: PiperQuality.MEDIUM,
+    PiperVoiceBelgium.RDH: PiperQuality.MEDIUM,
+    PiperVoiceNetherlands.MLS_5809: PiperQuality.LOW,
+    PiperVoiceNetherlands.MLS_7432: PiperQuality.LOW,
+    PiperVoiceNetherlands.PIM: PiperQuality.MEDIUM,
+    PiperVoiceNetherlands.RONNIE: PiperQuality.MEDIUM,
+    PiperVoicePoland.DARKMAN: PiperQuality.MEDIUM,
+    PiperVoicePoland.GOSIA: PiperQuality.MEDIUM,
+    PiperVoicePoland.MC_SPEECH: PiperQuality.MEDIUM,
+    PiperVoiceBrazil.CADU: PiperQuality.MEDIUM,
+    PiperVoiceBrazil.EDRESSON: PiperQuality.LOW,
+    PiperVoiceBrazil.FABER: PiperQuality.MEDIUM,
+    PiperVoiceBrazil.JEFF: PiperQuality.MEDIUM,
+    PiperVoicePortugal.TUGAO: PiperQuality.MEDIUM,
+    PiperVoiceRomania.MIHAI: PiperQuality.MEDIUM,
+    PiperVoiceRussia.DENIS: PiperQuality.MEDIUM,
+    PiperVoiceRussia.DMITRI: PiperQuality.MEDIUM,
+    PiperVoiceRussia.IRINA: PiperQuality.MEDIUM,
+    PiperVoiceRussia.RUSLAN: PiperQuality.MEDIUM,
+    PiperVoiceSlovakia.LILI: PiperQuality.MEDIUM,
+    PiperVoiceSlovenia.ARTUR: PiperQuality.MEDIUM,
+    PiperVoiceSerbia.SERBSKI_INSTITUT: PiperQuality.MEDIUM,
+    PiperVoiceSweden.LISA: PiperQuality.MEDIUM,
+    PiperVoiceSweden.NST: PiperQuality.MEDIUM,
+    PiperVoiceCongo.LANFRICA: PiperQuality.MEDIUM,
+    PiperVoiceTurkey.DFKI: PiperQuality.MEDIUM,
+    PiperVoiceTurkey.FAHRETTIN: PiperQuality.MEDIUM,
+    PiperVoiceTurkey.FETTAH: PiperQuality.MEDIUM,
+    PiperVoiceUkraine.LADA: PiperQuality.X_LOW,
+    PiperVoiceUkraine.UKRAINIAN_TTS: PiperQuality.MEDIUM,
+    PiperVoiceVietnam.HOURS_SINGLE: PiperQuality.LOW,
+    PiperVoiceVietnam.VAIS1000: PiperQuality.MEDIUM,
+    PiperVoiceVietnam.VIVOS: PiperQuality.X_LOW,
+    PiperVoiceChina.HUAYAN: PiperQuality.MEDIUM,
+    PiperVoiceUS.AMY: PiperQuality.MEDIUM,
+    PiperVoiceUS.ARCTIC: PiperQuality.MEDIUM,
+    PiperVoiceUS.BRYCE: PiperQuality.MEDIUM,
+    PiperVoiceUS.DANNY: PiperQuality.LOW,
+    PiperVoiceUS.HFC_FEMALE: PiperQuality.MEDIUM,
+    PiperVoiceUS.HFC_MALE: PiperQuality.MEDIUM,
+    PiperVoiceUS.JOE: PiperQuality.MEDIUM,
+    PiperVoiceUS.JOHN: PiperQuality.MEDIUM,
+    PiperVoiceUS.KATHLEEN: PiperQuality.LOW,
+    PiperVoiceUS.KRISTIN: PiperQuality.MEDIUM,
+    PiperVoiceUS.KUSAL: PiperQuality.MEDIUM,
+    PiperVoiceUS.L2ARCTIC: PiperQuality.MEDIUM,
+    PiperVoiceUS.LESSAC: PiperQuality.HIGH,
+    PiperVoiceUS.LIBRITTS: PiperQuality.HIGH,
+    PiperVoiceUS.LIBRITTS_R: PiperQuality.MEDIUM,
+    PiperVoiceUS.LJSPEECH: PiperQuality.HIGH,
+    PiperVoiceUS.NORMAN: PiperQuality.MEDIUM,
+    PiperVoiceUS.RYAN: PiperQuality.HIGH,
+    PiperVoiceUS.REZA_IBRAHIM: PiperQuality.MEDIUM,
+    PiperVoiceUS.SAM: PiperQuality.MEDIUM,
+    PiperVoiceGB.ALAN: PiperQuality.MEDIUM,
+    PiperVoiceGB.ALBA: PiperQuality.MEDIUM,
+    PiperVoiceGB.ARU: PiperQuality.MEDIUM,
+    PiperVoiceGB.CORI: PiperQuality.HIGH,
+    PiperVoiceGB.JENNY_DIOCO: PiperQuality.MEDIUM,
+    PiperVoiceGB.NORTHERN_ENGLISH_MALE: PiperQuality.MEDIUM,
+    PiperVoiceGB.SEMAINE: PiperQuality.MEDIUM,
+    PiperVoiceGB.SOUTHERN_ENGLISH_FEMALE: PiperQuality.LOW,
+    PiperVoiceGB.VCTK: PiperQuality.MEDIUM,
+}
+
+persona_instrs = {
+    Persona.DEFAULT: "You are a programmer's funny coding companion",
+    Persona.JARVIS: "You are J.A.R.V.I.S, Iron Man's AI assiatant",
+    Persona.FRIDAY: "You are F.R.I.D.A.Y, Iron Man's AI assiatant",
+    Persona.ALFRED: "You are Alfred, Bruce Wayne's butler",
+    Persona.HAL: 'You are HAL-9000, the AI from "2000: A space odyssey"',
+    Persona.CORTANA: "You are Cortana, the AI from Halo games",
+    Persona.SAMANTHA: "You are Samantha, the AI from the film 'Her'",
+    Persona.TARS: "You are T.A.R.S, the AI from the film 'Interstellar'",
+}
+
+for persona in persona_instrs:
+    persona_instrs[persona] += "\n" + "Your job is to repeat what I say, "
+    persona_instrs[persona] += "say it in your own style, but do not change "
+    persona_instrs[
+        persona
+    ] += "the meaning. Keep your responses concise where "
+    persona_instrs[persona] += "possible."
