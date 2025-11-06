@@ -45,7 +45,7 @@ def main():
     picam2 = Picamera2()
     cam_config = picam2.create_video_configuration(
         main={"size": (800, 600), "format": "RGB888"},
-        controls={"FrameRate": 30}  # Set desired framerate
+        controls={"FrameRate": 12}  # Set desired framerate
     )
     picam2.configure(cam_config)
     picam2.start()
