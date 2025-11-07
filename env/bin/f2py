@@ -1,4 +1,4 @@
-#!/home/pi/ocrDeviceResearch/env/bin/python
+#!/home/pi/ocrDeviceResearch/new_env/bin/python3
 import sys
 from numpy.f2py.f2py2e import main
 if __name__ == '__main__':

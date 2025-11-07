@@ -1,4 +1,4 @@
-#!/home/pi/ocrDeviceResearch/env/bin/python
+#!/home/pi/ocrDeviceResearch/new_env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
