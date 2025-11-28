@@ -1,0 +1,100 @@
+07:37:37 [INFO] Initialization successful.
+07:37:37 [INFO] Camera now open.
+07:37:37 [INFO] Camera configuration has been adjusted!
+07:37:37 [INFO] Configuration successful!
+07:37:37 [INFO] Camera started
+07:37:37 [INFO] OCR worker started
+07:37:37 [INFO] Starting main loop
+07:37:39 [INFO] Queued frame 0 for OCR
+07:37:39 [INFO] OCR worker: received frame 0
+07:37:40 [INFO] OCR worker exception: cannot access local variable 'text' where it is not associated with a value
+07:37:59 [INFO] Queued frame 1 for OCR
+07:37:59 [INFO] OCR worker: received frame 1
+07:37:59 [INFO] OCR worker exception: cannot access local variable 'text' where it is not associated with a value
+07:37:59 [INFO] Queued frame 2 for OCR
+07:37:59 [INFO] OCR worker: received frame 2
+07:37:59 [INFO] OCR worker exception: cannot access local variable 'text' where it is not associated with a value
+07:38:00 [INFO] Queued frame 3 for OCR
+07:38:00 [INFO] OCR worker: received frame 3
+07:38:00 [INFO] OCR worker exception: cannot access local variable 'text' where it is not associated with a value
+07:38:00 [INFO] Queued frame 4 for OCR
+07:38:00 [INFO] OCR worker: received frame 4
+07:38:00 [INFO] Queued frame 5 for OCR
+07:38:04 [INFO] OCR done frame 4: text=''
+07:38:04 [INFO] timings (deskew=0.031s, prep=0.008s, ocr=4.318s) total=4.368s angle=0.00°
+07:38:04 [INFO] MSE: 17156.055405405405
+07:38:04 [INFO] OCR worker: received frame 5
+07:38:05 [INFO] Queued frame 36 for OCR
+07:38:09 [INFO] Saying with TTS: ss” OMequal tea oP2MCE to fours
+07:38:09 [INFO] OCR done frame 5: text='ss” OMequal tea oP2MCE to fours'
+07:38:09 [INFO] timings (deskew=0.035s, prep=0.010s, ocr=4.582s) total=4.645s angle=0.00°
+07:38:09 [INFO] MSE: 13578.80168918919
+07:38:09 [INFO] OCR worker: received frame 36
+07:38:09 [INFO] Queued frame 73 for OCR
+07:38:09 [INFO] OCR done frame 36: text='ss” OMequal tea oP2MCE to fours'
+07:38:09 [INFO] timings (deskew=0.033s, prep=0.007s, ocr=4.582s) total=0.069s angle=0.00°
+07:38:09 [INFO] MSE: 47395.31655405406
+07:38:09 [INFO] OCR worker: received frame 73
+07:38:09 [INFO] OCR done frame 73: text='ss” OMequal tea oP2MCE to fours'
+07:38:09 [INFO] timings (deskew=0.034s, prep=0.008s, ocr=4.582s) total=0.056s angle=0.00°
+07:38:09 [INFO] MSE: 53940.873648648645
+07:38:09 [INFO] Queued frame 74 for OCR
+07:38:09 [INFO] OCR worker: received frame 74
+07:38:10 [INFO] Queued frame 75 for OCR
+07:38:14 [INFO] Saying with TTS: on equal terms renee Hours
+07:38:19 [INFO] OCR done frame 74: text='on equal terms renee Hours'
+07:38:19 [INFO] timings (deskew=0.041s, prep=0.010s, ocr=4.984s) total=5.060s angle=0.00°
+07:38:19 [INFO] MSE: 16367.846959459459
+07:38:19 [INFO] OCR worker: received frame 75
+07:38:19 [INFO] Queued frame 138 for OCR
+07:38:24 [INFO] Saying with TTS: on equal terms renee fours
+07:38:24 [INFO] OCR done frame 75: text='on equal terms renee fours'
+07:38:24 [INFO] timings (deskew=0.041s, prep=0.021s, ocr=5.498s) total=5.580s angle=0.00°
+07:38:24 [INFO] MSE: 4394.459797297297
+07:38:24 [INFO] OCR worker: received frame 138
+07:38:24 [INFO] OCR done frame 138: text='on equal terms renee fours'
+07:38:24 [INFO] timings (deskew=0.039s, prep=0.013s, ocr=5.498s) total=0.079s angle=0.00°
+07:38:24 [INFO] MSE: 41311.085472972976
+07:38:24 [INFO] Queued frame 166 for OCR
+07:38:24 [INFO] OCR worker: received frame 166
+07:38:24 [INFO] OCR done frame 166: text='on equal terms renee fours'
+07:38:24 [INFO] timings (deskew=0.069s, prep=0.018s, ocr=5.498s) total=0.102s angle=0.00°
+07:38:24 [INFO] MSE: 49802.12027027027
+07:38:25 [INFO] Queued frame 167 for OCR
+07:38:25 [INFO] OCR worker: received frame 167
+07:38:25 [INFO] Queued frame 168 for OCR
+07:38:27 [INFO] OCR done frame 167: text=''
+07:38:27 [INFO] timings (deskew=0.075s, prep=0.027s, ocr=2.318s) total=2.497s angle=0.00°
+07:38:27 [INFO] MSE: 5499.006081081081
+07:38:27 [INFO] OCR worker: received frame 168
+07:38:27 [INFO] Queued frame 183 for OCR
+07:38:33 [INFO] Saying with TTS: male... Asthe sports scene.
+07:38:33 [INFO] OCR done frame 168: text='male... Asthe sports scene.'
+07:38:33 [INFO] timings (deskew=0.023s, prep=0.010s, ocr=5.313s) total=5.365s angle=0.00°
+07:38:33 [INFO] MSE: 5910.24527027027
+07:38:33 [INFO] OCR worker: received frame 183
+07:38:33 [INFO] Queued frame 217 for OCR
+07:38:33 [INFO] OCR done frame 183: text='male... Asthe sports scene.'
+07:38:33 [INFO] timings (deskew=0.039s, prep=0.025s, ocr=5.313s) total=0.089s angle=0.00°
+07:38:33 [INFO] MSE: 24930.05777027027
+07:38:33 [INFO] OCR worker: received frame 217
+07:38:33 [INFO] Queued frame 218 for OCR
+07:38:37 [INFO] Saying with TTS: nale _* Asthe sports scene
+07:38:37 [INFO] OCR done frame 217: text='nale _* Asthe sports scene'
+07:38:37 [INFO] timings (deskew=0.031s, prep=0.013s, ocr=4.516s) total=4.585s angle=0.00°
+07:38:37 [INFO] MSE: 16275.581756756757
+07:38:37 [INFO] OCR worker: received frame 218
+07:38:37 [INFO] Queued frame 243 for OCR
+07:38:39 [INFO] Quit requested
+07:38:39 [INFO] Shutting down: sending None to worker and waiting
+07:38:39 [INFO] OCR done frame 218: text=''
+07:38:39 [INFO] timings (deskew=0.044s, prep=0.007s, ocr=1.626s) total=1.701s angle=0.00°
+07:38:39 [INFO] MSE: 4961.231756756757
+07:38:39 [INFO] OCR worker: received frame 243
+07:38:39 [INFO] OCR done frame 243: text=''
+07:38:39 [INFO] timings (deskew=0.034s, prep=0.007s, ocr=1.626s) total=0.053s angle=0.00°
+07:38:39 [INFO] MSE: 30365.796283783784
+07:38:39 [INFO] OCR worker received shutdown signal
+07:38:39 [INFO] Camera stopped
+07:38:39 [INFO] Exited cleanly
+07:38:40 [INFO] Camera closed successfully.

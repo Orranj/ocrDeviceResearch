@@ -1,0 +1,386 @@
+09:01:08:%f [INFO] Initialization successful.
+09:01:08:%f [INFO] Camera now open.
+09:01:08:%f [INFO] Camera configuration has been adjusted!
+09:01:08:%f [INFO] Configuration successful!
+09:01:08:%f [INFO] Camera started
+09:01:08:%f [INFO] OCR worker started
+09:01:08:%f [INFO] Starting main loop
+09:01:31:%f [INFO] Queued frame 2 for OCR
+09:01:31:%f [INFO] OCR worker: received frame 2
+09:01:31:%f [INFO] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+09:01:32:%f [INFO] Queued frame 4 for OCR
+09:01:32:%f [INFO] OCR worker: received frame 4
+09:01:32:%f [INFO] OCR done frame 4: text=''
+09:01:32:%f [INFO] timings (prep=0.007s, ocr=0.000s) total=0.007s
+09:01:32:%f [INFO] MSE: 30160.151276145814
+09:01:32:%f [INFO] Queued frame 6 for OCR
+09:01:32:%f [INFO] OCR worker: received frame 6
+09:01:32:%f [INFO] OCR done frame 6: text=''
+09:01:32:%f [INFO] timings (prep=0.009s, ocr=0.000s) total=0.009s
+09:01:32:%f [INFO] MSE: 40289.193029893264
+09:01:32:%f [INFO] Queued frame 8 for OCR
+09:01:32:%f [INFO] OCR worker: received frame 8
+09:01:32:%f [INFO] OCR done frame 8: text=''
+09:01:32:%f [INFO] timings (prep=0.008s, ocr=0.000s) total=0.009s
+09:01:32:%f [INFO] MSE: 37438.133967921
+09:01:32:%f [INFO] Queued frame 10 for OCR
+09:01:32:%f [INFO] OCR worker: received frame 10
+09:01:32:%f [INFO] OCR done frame 10: text=''
+09:01:32:%f [INFO] timings (prep=0.007s, ocr=0.000s) total=0.007s
+09:01:32:%f [INFO] MSE: 40631.511478161876
+09:01:32:%f [INFO] Queued frame 12 for OCR
+09:01:32:%f [INFO] OCR worker: received frame 12
+09:01:32:%f [INFO] OCR done frame 12: text=''
+09:01:32:%f [INFO] timings (prep=0.008s, ocr=0.000s) total=0.008s
+09:01:32:%f [INFO] MSE: 32465.215616102105
+09:01:32:%f [INFO] Queued frame 14 for OCR
+09:01:32:%f [INFO] OCR worker: received frame 14
+09:01:33:%f [INFO] OCR done frame 14: text=''
+09:01:33:%f [INFO] timings (prep=0.009s, ocr=0.000s) total=0.011s
+09:01:33:%f [INFO] MSE: 36950.371107743966
+09:01:33:%f [INFO] Queued frame 16 for OCR
+09:01:33:%f [INFO] OCR worker: received frame 16
+09:01:33:%f [INFO] OCR done frame 16: text=''
+09:01:33:%f [INFO] timings (prep=0.005s, ocr=0.000s) total=0.006s
+09:01:33:%f [INFO] MSE: 39824.110159550335
+09:01:33:%f [INFO] Queued frame 18 for OCR
+09:01:33:%f [INFO] OCR worker: received frame 18
+09:01:33:%f [INFO] OCR done frame 18: text=''
+09:01:33:%f [INFO] timings (prep=0.010s, ocr=0.000s) total=0.010s
+09:01:33:%f [INFO] MSE: 35906.13701026609
+09:01:33:%f [INFO] Queued frame 20 for OCR
+09:01:33:%f [INFO] OCR worker: received frame 20
+09:01:33:%f [INFO] OCR done frame 20: text=''
+09:01:33:%f [INFO] timings (prep=0.013s, ocr=0.000s) total=0.015s
+09:01:33:%f [INFO] MSE: 35984.82805294476
+09:01:34:%f [INFO] Queued frame 22 for OCR
+09:01:34:%f [INFO] OCR worker: received frame 22
+09:01:34:%f [INFO] OCR done frame 22: text=''
+09:01:34:%f [INFO] timings (prep=0.007s, ocr=0.000s) total=0.007s
+09:01:34:%f [INFO] MSE: 29450.01612902784
+09:01:34:%f [INFO] Queued frame 24 for OCR
+09:01:34:%f [INFO] OCR worker: received frame 24
+09:01:34:%f [INFO] OCR done frame 24: text=''
+09:01:34:%f [INFO] timings (prep=0.004s, ocr=0.000s) total=0.005s
+09:01:34:%f [INFO] MSE: 28135.641986633254
+09:01:34:%f [INFO] Queued frame 26 for OCR
+09:01:34:%f [INFO] OCR worker: received frame 26
+09:01:34:%f [INFO] OCR done frame 26: text=''
+09:01:34:%f [INFO] timings (prep=0.007s, ocr=0.000s) total=0.008s
+09:01:34:%f [INFO] MSE: 31149.68779939857
+09:01:34:%f [INFO] Queued frame 28 for OCR
+09:01:34:%f [INFO] OCR worker: received frame 28
+09:01:34:%f [INFO] OCR done frame 28: text=''
+09:01:34:%f [INFO] timings (prep=0.008s, ocr=0.000s) total=0.009s
+09:01:34:%f [INFO] MSE: 30437.003384038973
+09:01:35:%f [INFO] Queued frame 30 for OCR
+09:01:35:%f [INFO] OCR worker: received frame 30
+09:01:35:%f [INFO] OCR done frame 30: text=''
+09:01:35:%f [INFO] timings (prep=0.016s, ocr=0.000s) total=0.016s
+09:01:35:%f [INFO] MSE: 26661.832270119772
+09:01:35:%f [INFO] Queued frame 32 for OCR
+09:01:35:%f [INFO] OCR worker: received frame 32
+09:01:35:%f [INFO] OCR done frame 32: text=''
+09:01:35:%f [INFO] timings (prep=0.010s, ocr=0.000s) total=0.011s
+09:01:35:%f [INFO] MSE: 29483.117202901052
+09:01:35:%f [INFO] Queued frame 36 for OCR
+09:01:35:%f [INFO] OCR worker: received frame 36
+09:01:35:%f [INFO] OCR done frame 36: text=''
+09:01:35:%f [INFO] timings (prep=0.005s, ocr=0.000s) total=0.005s
+09:01:35:%f [INFO] MSE: 31134.027606462998
+09:01:36:%f [INFO] Queued frame 38 for OCR
+09:01:36:%f [INFO] OCR worker: received frame 38
+09:01:36:%f [INFO] OCR done frame 38: text=''
+09:01:36:%f [INFO] timings (prep=0.007s, ocr=0.000s) total=0.007s
+09:01:36:%f [INFO] MSE: 28449.361592134188
+09:01:36:%f [INFO] Queued frame 42 for OCR
+09:01:36:%f [INFO] OCR worker: received frame 42
+09:01:36:%f [INFO] OCR done frame 42: text=''
+09:01:36:%f [INFO] timings (prep=0.010s, ocr=0.000s) total=0.010s
+09:01:36:%f [INFO] MSE: 35427.56765571128
+09:01:36:%f [INFO] Queued frame 44 for OCR
+09:01:36:%f [INFO] OCR worker: received frame 44
+09:01:36:%f [INFO] OCR done frame 44: text=''
+09:01:36:%f [INFO] timings (prep=0.020s, ocr=0.000s) total=0.021s
+09:01:36:%f [INFO] MSE: 34091.8883313905
+09:01:37:%f [INFO] Queued frame 46 for OCR
+09:01:37:%f [INFO] OCR worker: received frame 46
+09:01:37:%f [INFO] OCR done frame 46: text=''
+09:01:37:%f [INFO] timings (prep=0.009s, ocr=0.000s) total=0.009s
+09:01:37:%f [INFO] MSE: 30701.83056431652
+09:01:37:%f [INFO] Queued frame 48 for OCR
+09:01:37:%f [INFO] OCR worker: received frame 48
+09:01:37:%f [INFO] OCR done frame 48: text=''
+09:01:37:%f [INFO] timings (prep=0.017s, ocr=0.000s) total=0.018s
+09:01:37:%f [INFO] MSE: 31956.4958185343
+09:01:37:%f [INFO] Queued frame 50 for OCR
+09:01:37:%f [INFO] OCR worker: received frame 50
+09:01:37:%f [INFO] OCR done frame 50: text=''
+09:01:37:%f [INFO] timings (prep=0.010s, ocr=0.000s) total=0.010s
+09:01:37:%f [INFO] MSE: 27419.318919331312
+09:01:37:%f [INFO] Queued frame 52 for OCR
+09:01:37:%f [INFO] OCR worker: received frame 52
+09:01:37:%f [INFO] OCR done frame 52: text=''
+09:01:37:%f [INFO] timings (prep=0.015s, ocr=0.000s) total=0.016s
+09:01:37:%f [INFO] MSE: 33363.12260565549
+09:01:37:%f [INFO] Queued frame 54 for OCR
+09:01:37:%f [INFO] OCR worker: received frame 54
+09:01:37:%f [INFO] OCR done frame 54: text=''
+09:01:37:%f [INFO] timings (prep=0.009s, ocr=0.000s) total=0.010s
+09:01:37:%f [INFO] MSE: 32871.27051088838
+09:01:38:%f [INFO] Queued frame 56 for OCR
+09:01:38:%f [INFO] OCR worker: received frame 56
+09:01:38:%f [INFO] OCR done frame 56: text=''
+09:01:38:%f [INFO] timings (prep=0.004s, ocr=0.000s) total=0.007s
+09:01:38:%f [INFO] MSE: 39254.266328642545
+09:01:38:%f [INFO] Queued frame 58 for OCR
+09:01:38:%f [INFO] OCR worker: received frame 58
+09:01:38:%f [INFO] OCR done frame 58: text=''
+09:01:38:%f [INFO] timings (prep=0.008s, ocr=0.000s) total=0.008s
+09:01:38:%f [INFO] MSE: 33028.16071173204
+09:01:38:%f [INFO] Queued frame 60 for OCR
+09:01:38:%f [INFO] OCR worker: received frame 60
+09:01:38:%f [INFO] OCR done frame 60: text=''
+09:01:38:%f [INFO] timings (prep=0.007s, ocr=0.000s) total=0.007s
+09:01:38:%f [INFO] MSE: 31346.335910278252
+09:01:38:%f [INFO] Queued frame 62 for OCR
+09:01:38:%f [INFO] OCR worker: received frame 62
+09:01:38:%f [INFO] OCR done frame 62: text=''
+09:01:38:%f [INFO] timings (prep=0.007s, ocr=0.000s) total=0.007s
+09:01:38:%f [INFO] MSE: 23636.725661563192
+09:01:39:%f [INFO] Queued frame 64 for OCR
+09:01:39:%f [INFO] OCR worker: received frame 64
+09:01:39:%f [INFO] OCR done frame 64: text=''
+09:01:39:%f [INFO] timings (prep=0.008s, ocr=0.000s) total=0.008s
+09:01:39:%f [INFO] MSE: 32986.79053803204
+09:01:39:%f [INFO] Queued frame 66 for OCR
+09:01:39:%f [INFO] OCR worker: received frame 66
+09:01:39:%f [INFO] Queued frame 68 for OCR
+09:01:44:%f [INFO] OCR done frame 66: text='"his persona pertains'
+09:01:44:%f [INFO] Saying with TTS: "his persona pertains
+09:01:44:%f [INFO] timings (prep=0.006s, ocr=4.600s) total=4.607s
+09:01:44:%f [INFO] MSE: 18878.61289925719
+09:01:44:%f [INFO] OCR worker: received frame 68
+09:01:44:%f [INFO] OCR done frame 68: text='"his persona pertains'
+09:01:44:%f [INFO] timings (prep=0.014s, ocr=4.600s) total=0.015s
+09:01:44:%f [INFO] MSE: 27057.650951255913
+09:01:44:%f [INFO] Queued frame 102 for OCR
+09:01:44:%f [INFO] OCR worker: received frame 102
+09:01:44:%f [INFO] OCR done frame 102: text='"his persona pertains'
+09:01:44:%f [INFO] timings (prep=0.014s, ocr=4.600s) total=0.016s
+09:01:44:%f [INFO] MSE: 28497.319610798488
+09:01:44:%f [INFO] Queued frame 104 for OCR
+09:01:44:%f [INFO] OCR worker: received frame 104
+09:01:44:%f [INFO] Queued frame 106 for OCR
+09:01:47:%f [INFO] OCR done frame 104: text='"his persona pertain'
+09:01:47:%f [INFO] Saying with TTS: "his persona pertain
+09:01:50:%f [INFO] timings (prep=0.008s, ocr=2.938s) total=2.948s
+09:01:50:%f [INFO] MSE: 17870.024482355922
+09:01:50:%f [INFO] OCR worker: received frame 106
+09:01:50:%f [INFO] Queued frame 146 for OCR
+09:01:52:%f [INFO] OCR done frame 106: text=''
+09:01:52:%f [INFO] timings (prep=0.009s, ocr=1.639s) total=1.649s
+09:01:52:%f [INFO] MSE: 10926.38549567056
+09:01:52:%f [INFO] OCR worker: received frame 146
+09:01:52:%f [INFO] OCR done frame 146: text=''
+09:01:52:%f [INFO] timings (prep=0.008s, ocr=1.639s) total=0.008s
+09:01:52:%f [INFO] MSE: 38655.84690573989
+09:01:52:%f [INFO] Queued frame 156 for OCR
+09:01:52:%f [INFO] OCR worker: received frame 156
+09:01:52:%f [INFO] OCR done frame 156: text=''
+09:01:52:%f [INFO] timings (prep=0.012s, ocr=1.639s) total=0.012s
+09:01:52:%f [INFO] MSE: 33389.42384947665
+09:01:52:%f [INFO] Queued frame 158 for OCR
+09:01:52:%f [INFO] OCR worker: received frame 158
+09:01:52:%f [INFO] Queued frame 160 for OCR
+09:01:55:%f [INFO] OCR done frame 158: text='srtains to Hermanns *'
+09:01:55:%f [INFO] Saying with TTS: srtains to Hermanns *
+09:01:55:%f [INFO] timings (prep=0.012s, ocr=3.187s) total=3.206s
+09:01:55:%f [INFO] MSE: 14668.596558635048
+09:01:55:%f [INFO] OCR worker: received frame 160
+09:01:55:%f [INFO] Queued frame 182 for OCR
+09:01:57:%f [INFO] OCR done frame 160: text='srtains to Hermanns“'
+09:01:57:%f [INFO] Saying with TTS: srtains to Hermanns“
+09:01:59:%f [INFO] timings (prep=0.008s, ocr=2.041s) total=2.049s
+09:01:59:%f [INFO] MSE: 19332.969249445363
+09:01:59:%f [INFO] OCR worker: received frame 182
+09:01:59:%f [INFO] OCR done frame 182: text='srtains to Hermanns“'
+09:01:59:%f [INFO] timings (prep=0.021s, ocr=2.041s) total=0.021s
+09:01:59:%f [INFO] MSE: 25306.74267858272
+09:01:59:%f [INFO] Queued frame 208 for OCR
+09:01:59:%f [INFO] OCR worker: received frame 208
+09:01:59:%f [INFO] OCR done frame 208: text='srtains to Hermanns“'
+09:01:59:%f [INFO] timings (prep=0.014s, ocr=2.041s) total=0.015s
+09:01:59:%f [INFO] MSE: 33997.343646232126
+09:01:59:%f [INFO] Queued frame 210 for OCR
+09:01:59:%f [INFO] OCR worker: received frame 210
+09:01:59:%f [INFO] OCR done frame 210: text='srtains to Hermanns“'
+09:01:59:%f [INFO] timings (prep=0.020s, ocr=2.041s) total=0.021s
+09:01:59:%f [INFO] MSE: 24287.997035572942
+09:01:59:%f [INFO] Queued frame 212 for OCR
+09:01:59:%f [INFO] OCR worker: received frame 212
+09:02:00:%f [INFO] Queued frame 214 for OCR
+09:02:02:%f [INFO] OCR done frame 212: text='mn’s “D” auadrant.th'
+09:02:02:%f [INFO] Saying with TTS: mn’s “D” auadrant.th
+09:02:02:%f [INFO] timings (prep=0.010s, ocr=2.420s) total=2.431s
+09:02:02:%f [INFO] MSE: 19302.674685131075
+09:02:02:%f [INFO] OCR worker: received frame 214
+09:02:02:%f [INFO] Queued frame 228 for OCR
+09:02:04:%f [INFO] OCR done frame 214: text='mn’s “D” quadrant,th'
+09:02:04:%f [INFO] Saying with TTS: mn’s “D” quadrant,th
+09:02:06:%f [INFO] timings (prep=0.016s, ocr=2.196s) total=2.213s
+09:02:06:%f [INFO] MSE: 13819.494382936013
+09:02:06:%f [INFO] OCR worker: received frame 228
+09:02:06:%f [INFO] OCR done frame 228: text='mn’s “D” quadrant,th'
+09:02:06:%f [INFO] timings (prep=0.022s, ocr=2.196s) total=0.024s
+09:02:06:%f [INFO] MSE: 26967.38029546066
+09:02:06:%f [INFO] Queued frame 256 for OCR
+09:02:06:%f [INFO] OCR worker: received frame 256
+09:02:06:%f [INFO] OCR done frame 256: text='mn’s “D” quadrant,th'
+09:02:06:%f [INFO] timings (prep=0.006s, ocr=2.196s) total=0.007s
+09:02:06:%f [INFO] MSE: 20763.32704553873
+09:02:06:%f [INFO] Queued frame 258 for OCR
+09:02:06:%f [INFO] OCR worker: received frame 258
+09:02:06:%f [INFO] OCR done frame 258: text='mn’s “D” quadrant,th'
+09:02:06:%f [INFO] timings (prep=0.008s, ocr=2.196s) total=0.009s
+09:02:06:%f [INFO] MSE: 23304.265703943558
+09:02:06:%f [INFO] Queued frame 260 for OCR
+09:02:06:%f [INFO] OCR worker: received frame 260
+09:02:06:%f [INFO] OCR done frame 260: text='mn’s “D” quadrant,th'
+09:02:06:%f [INFO] timings (prep=0.008s, ocr=2.196s) total=0.009s
+09:02:06:%f [INFO] MSE: 21080.34273914919
+09:02:07:%f [INFO] Queued frame 262 for OCR
+09:02:07:%f [INFO] OCR worker: received frame 262
+09:02:07:%f [INFO] OCR done frame 262: text='mn’s “D” quadrant,th'
+09:02:07:%f [INFO] timings (prep=0.019s, ocr=2.196s) total=0.019s
+09:02:07:%f [INFO] MSE: 22105.72041350383
+09:02:07:%f [INFO] Queued frame 264 for OCR
+09:02:07:%f [INFO] OCR worker: received frame 264
+09:02:07:%f [INFO] Queued frame 266 for OCR
+09:02:11:%f [INFO] OCR done frame 264: text='in’s “D” quadrant. The'
+09:02:11:%f [INFO] Saying with TTS: in’s “D” quadrant. The
+09:02:11:%f [INFO] timings (prep=0.012s, ocr=3.521s) total=3.534s
+09:02:11:%f [INFO] MSE: 17760.525752353165
+09:02:11:%f [INFO] OCR worker: received frame 266
+09:02:11:%f [INFO] Queued frame 292 for OCR
+09:02:14:%f [INFO] OCR done frame 266: text='in’s “D” quadrant. Th'
+09:02:14:%f [INFO] Saying with TTS: in’s “D” quadrant. Th
+09:02:14:%f [INFO] timings (prep=0.020s, ocr=3.047s) total=3.067s
+09:02:14:%f [INFO] MSE: 14029.635597548498
+09:02:14:%f [INFO] OCR worker: received frame 292
+09:02:14:%f [INFO] OCR done frame 292: text='in’s “D” quadrant. Th'
+09:02:14:%f [INFO] timings (prep=0.017s, ocr=3.047s) total=0.018s
+09:02:14:%f [INFO] MSE: 28746.09016892558
+09:02:14:%f [INFO] Queued frame 314 for OCR
+09:02:14:%f [INFO] OCR worker: received frame 314
+09:02:14:%f [INFO] OCR done frame 314: text='in’s “D” quadrant. Th'
+09:02:14:%f [INFO] timings (prep=0.015s, ocr=3.047s) total=0.016s
+09:02:14:%f [INFO] MSE: 34473.13301688722
+09:02:14:%f [INFO] Queued frame 316 for OCR
+09:02:14:%f [INFO] OCR worker: received frame 316
+09:02:14:%f [INFO] OCR done frame 316: text='in’s “D” quadrant. Th'
+09:02:14:%f [INFO] timings (prep=0.012s, ocr=3.047s) total=0.013s
+09:02:14:%f [INFO] MSE: 24428.14821061965
+09:02:15:%f [INFO] Queued frame 318 for OCR
+09:02:15:%f [INFO] OCR worker: received frame 318
+09:02:15:%f [INFO] OCR done frame 318: text='in’s “D” quadrant. Th'
+09:02:15:%f [INFO] timings (prep=0.012s, ocr=3.047s) total=0.012s
+09:02:15:%f [INFO] MSE: 26981.843895479047
+09:02:15:%f [INFO] Queued frame 320 for OCR
+09:02:15:%f [INFO] OCR worker: received frame 320
+09:02:15:%f [INFO] OCR done frame 320: text='in’s “D” quadrant. Th'
+09:02:15:%f [INFO] timings (prep=0.006s, ocr=3.047s) total=0.007s
+09:02:15:%f [INFO] MSE: 21995.13582590478
+09:02:15:%f [INFO] Queued frame 322 for OCR
+09:02:15:%f [INFO] OCR worker: received frame 322
+09:02:15:%f [INFO] Queued frame 324 for OCR
+09:02:17:%f [INFO] OCR done frame 322: text='in’ “D" quadrant. Th'
+09:02:17:%f [INFO] Saying with TTS: in’ “D" quadrant. Th
+09:02:18:%f [INFO] timings (prep=0.004s, ocr=2.116s) total=2.121s
+09:02:18:%f [INFO] MSE: 12967.445777792942
+09:02:18:%f [INFO] OCR worker: received frame 324
+09:02:18:%f [INFO] Queued frame 340 for OCR
+09:02:22:%f [INFO] OCR done frame 324: text='nn’s “D" quadrant. 10'
+09:02:22:%f [INFO] Saying with TTS: nn’s “D" quadrant. 10
+09:02:22:%f [INFO] timings (prep=0.005s, ocr=4.210s) total=4.218s
+09:02:22:%f [INFO] MSE: 15851.075673278454
+09:02:22:%f [INFO] OCR worker: received frame 340
+09:02:22:%f [INFO] OCR done frame 340: text='nn’s “D" quadrant. 10'
+09:02:22:%f [INFO] timings (prep=0.006s, ocr=4.210s) total=0.006s
+09:02:22:%f [INFO] MSE: 37076.85969712106
+09:02:22:%f [INFO] Queued frame 372 for OCR
+09:02:22:%f [INFO] OCR worker: received frame 372
+09:02:22:%f [INFO] OCR done frame 372: text='nn’s “D" quadrant. 10'
+09:02:22:%f [INFO] timings (prep=0.014s, ocr=4.210s) total=0.015s
+09:02:22:%f [INFO] MSE: 34382.473732993676
+09:02:22:%f [INFO] Queued frame 374 for OCR
+09:02:22:%f [INFO] OCR worker: received frame 374
+09:02:22:%f [INFO] OCR done frame 374: text='nn’s “D" quadrant. 10'
+09:02:22:%f [INFO] timings (prep=0.010s, ocr=4.210s) total=0.011s
+09:02:22:%f [INFO] MSE: 23632.59877795923
+09:02:23:%f [INFO] Queued frame 376 for OCR
+09:02:23:%f [INFO] OCR worker: received frame 376
+09:02:23:%f [INFO] Queued frame 378 for OCR
+09:02:24:%f [INFO] OCR done frame 376: text=''
+09:02:24:%f [INFO] timings (prep=0.007s, ocr=1.470s) total=1.477s
+09:02:24:%f [INFO] MSE: 17782.479439043364
+09:02:24:%f [INFO] OCR worker: received frame 378
+09:02:24:%f [INFO] Queued frame 388 for OCR
+09:02:28:%f [INFO] OCR done frame 378: text='nt. The Ideator is ape'
+09:02:28:%f [INFO] Saying with TTS: nt. The Ideator is ape
+09:02:28:%f [INFO] timings (prep=0.012s, ocr=3.992s) total=4.005s
+09:02:28:%f [INFO] MSE: 14092.066917241062
+09:02:28:%f [INFO] OCR worker: received frame 388
+09:02:29:%f [INFO] Queued frame 418 for OCR
+09:02:30:%f [INFO] OCR done frame 388: text=''
+09:02:30:%f [INFO] timings (prep=0.010s, ocr=1.425s) total=1.435s
+09:02:30:%f [INFO] MSE: 18764.604312374933
+09:02:30:%f [INFO] OCR worker: received frame 418
+09:02:30:%f [INFO] OCR done frame 418: text=''
+09:02:30:%f [INFO] timings (prep=0.027s, ocr=1.425s) total=0.028s
+09:02:30:%f [INFO] MSE: 30603.187334001665
+09:02:30:%f [INFO] Queued frame 426 for OCR
+09:02:30:%f [INFO] OCR worker: received frame 426
+09:02:30:%f [INFO] Queued frame 428 for OCR
+09:02:33:%f [INFO] OCR done frame 426: text='int. The Ideator is a pe'
+09:02:33:%f [INFO] Saying with TTS: int. The Ideator is a pe
+09:02:33:%f [INFO] timings (prep=0.016s, ocr=2.852s) total=2.870s
+09:02:33:%f [INFO] MSE: 19791.6800701709
+09:02:33:%f [INFO] OCR worker: received frame 428
+09:02:33:%f [INFO] Queued frame 448 for OCR
+09:02:36:%f [INFO] OCR done frame 428: text='nt The Ideator is ape'
+09:02:36:%f [INFO] Saying with TTS: nt The Ideator is ape
+09:02:36:%f [INFO] timings (prep=0.013s, ocr=3.648s) total=3.662s
+09:02:36:%f [INFO] MSE: 14243.52484464432
+09:02:36:%f [INFO] OCR worker: received frame 448
+09:02:36:%f [INFO] OCR done frame 448: text='nt The Ideator is ape'
+09:02:36:%f [INFO] timings (prep=0.007s, ocr=3.648s) total=0.007s
+09:02:36:%f [INFO] MSE: 31631.308461712422
+09:02:36:%f [INFO] Queued frame 472 for OCR
+09:02:36:%f [INFO] OCR worker: received frame 472
+09:02:36:%f [INFO] OCR done frame 472: text='nt The Ideator is ape'
+09:02:36:%f [INFO] timings (prep=0.022s, ocr=3.648s) total=0.022s
+09:02:36:%f [INFO] MSE: 26555.529085295966
+09:02:37:%f [INFO] Queued frame 474 for OCR
+09:02:37:%f [INFO] OCR worker: received frame 474
+09:02:37:%f [INFO] Queued frame 476 for OCR
+09:02:40:%f [INFO] OCR done frame 474: text='orisa person'
+09:02:40:%f [INFO] Saying with TTS: orisa person
+09:02:40:%f [INFO] timings (prep=0.012s, ocr=3.683s) total=3.696s
+09:02:40:%f [INFO] MSE: 7284.256997113707
+09:02:40:%f [INFO] OCR worker: received frame 476
+09:02:40:%f [INFO] Queued frame 500 for OCR
+09:02:44:%f [INFO] OCR done frame 476: text='orisaperson'
+09:02:44:%f [INFO] Saying with TTS: orisaperson
+09:02:44:%f [INFO] timings (prep=0.011s, ocr=3.152s) total=3.164s
+09:02:44:%f [INFO] MSE: 10962.034482704385
+09:02:44:%f [INFO] OCR worker: received frame 500
+09:02:44:%f [INFO] Queued frame 522 for OCR
+09:02:44:%f [INFO] Quit requested
+09:02:44:%f [INFO] Shutting down: sending None to worker and waiting
+09:02:45:%f [INFO] OCR done frame 500: text='oris a person'
+09:02:45:%f [INFO] Saying with TTS: oris a person
+09:02:45:%f [INFO] Camera stopped
+09:02:45:%f [INFO] Exited cleanly
+09:02:46:%f [INFO] Camera closed successfully.

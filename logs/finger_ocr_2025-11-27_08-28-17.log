@@ -1,0 +1,1331 @@
+08:28:18 [INFO] Initialization successful.
+08:28:18 [INFO] Camera now open.
+08:28:18 [INFO] Camera configuration has been adjusted!
+08:28:18 [INFO] Configuration successful!
+08:28:18 [INFO] Camera started
+08:28:18 [INFO] OCR worker started
+08:28:18 [INFO] Starting main loop
+08:28:19 [INFO] Queued frame 0 for OCR
+08:28:19 [INFO] OCR worker: received frame 0
+08:28:20 [INFO] OCR done frame 0: text=''
+08:28:20 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:54 [INFO] Queued frame 1 for OCR
+08:28:54 [INFO] OCR worker: received frame 1
+08:28:54 [INFO] OCR done frame 1: text=''
+08:28:54 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:55 [INFO] Queued frame 2 for OCR
+08:28:55 [INFO] OCR worker: received frame 2
+08:28:55 [INFO] OCR done frame 2: text=''
+08:28:55 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:55 [INFO] Queued frame 3 for OCR
+08:28:55 [INFO] OCR worker: received frame 3
+08:28:55 [INFO] OCR done frame 3: text=''
+08:28:55 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:55 [INFO] Queued frame 4 for OCR
+08:28:55 [INFO] OCR worker: received frame 4
+08:28:55 [INFO] OCR done frame 4: text=''
+08:28:55 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:55 [INFO] Queued frame 5 for OCR
+08:28:55 [INFO] OCR worker: received frame 5
+08:28:55 [INFO] OCR done frame 5: text=''
+08:28:55 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:55 [INFO] Queued frame 6 for OCR
+08:28:55 [INFO] OCR worker: received frame 6
+08:28:55 [INFO] OCR done frame 6: text=''
+08:28:55 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:55 [INFO] Queued frame 7 for OCR
+08:28:55 [INFO] OCR worker: received frame 7
+08:28:55 [INFO] OCR done frame 7: text=''
+08:28:55 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:55 [INFO] Queued frame 8 for OCR
+08:28:55 [INFO] OCR worker: received frame 8
+08:28:55 [INFO] OCR done frame 8: text=''
+08:28:55 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:56 [INFO] Queued frame 9 for OCR
+08:28:56 [INFO] OCR worker: received frame 9
+08:28:56 [INFO] OCR done frame 9: text=''
+08:28:56 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:56 [INFO] Queued frame 10 for OCR
+08:28:56 [INFO] OCR worker: received frame 10
+08:28:56 [INFO] OCR done frame 10: text=''
+08:28:56 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:56 [INFO] Queued frame 11 for OCR
+08:28:56 [INFO] OCR worker: received frame 11
+08:28:56 [INFO] OCR done frame 11: text=''
+08:28:56 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:56 [INFO] Queued frame 12 for OCR
+08:28:56 [INFO] OCR worker: received frame 12
+08:28:56 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,400,3) (23,400,3) 
+08:28:56 [INFO] Queued frame 13 for OCR
+08:28:56 [INFO] OCR worker: received frame 13
+08:28:56 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,400,3) (42,400,3) 
+08:28:56 [INFO] Queued frame 14 for OCR
+08:28:56 [INFO] OCR worker: received frame 14
+08:28:56 [INFO] OCR done frame 14: text=''
+08:28:56 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:56 [INFO] Queued frame 15 for OCR
+08:28:56 [INFO] OCR worker: received frame 15
+08:28:56 [INFO] OCR done frame 15: text=''
+08:28:56 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:56 [INFO] Queued frame 16 for OCR
+08:28:56 [INFO] OCR worker: received frame 16
+08:28:56 [INFO] OCR done frame 16: text=''
+08:28:56 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:57 [INFO] Queued frame 17 for OCR
+08:28:57 [INFO] OCR worker: received frame 17
+08:28:57 [INFO] OCR done frame 17: text=''
+08:28:57 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:57 [INFO] Queued frame 18 for OCR
+08:28:57 [INFO] OCR worker: received frame 18
+08:28:57 [INFO] OCR done frame 18: text=''
+08:28:57 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:57 [INFO] Queued frame 19 for OCR
+08:28:57 [INFO] OCR worker: received frame 19
+08:28:57 [INFO] OCR done frame 19: text=''
+08:28:57 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:57 [INFO] Queued frame 20 for OCR
+08:28:57 [INFO] OCR worker: received frame 20
+08:28:57 [INFO] OCR done frame 20: text=''
+08:28:57 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:57 [INFO] Queued frame 21 for OCR
+08:28:57 [INFO] OCR worker: received frame 21
+08:28:57 [INFO] OCR done frame 21: text=''
+08:28:57 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:57 [INFO] Queued frame 22 for OCR
+08:28:57 [INFO] OCR worker: received frame 22
+08:28:57 [INFO] OCR done frame 22: text=''
+08:28:57 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:57 [INFO] Queued frame 23 for OCR
+08:28:57 [INFO] OCR worker: received frame 23
+08:28:57 [INFO] OCR done frame 23: text=''
+08:28:57 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:57 [INFO] Queued frame 24 for OCR
+08:28:57 [INFO] OCR worker: received frame 24
+08:28:57 [INFO] OCR done frame 24: text=''
+08:28:57 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:57 [INFO] Queued frame 25 for OCR
+08:28:57 [INFO] OCR worker: received frame 25
+08:28:57 [INFO] OCR done frame 25: text=''
+08:28:57 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:58 [INFO] Queued frame 26 for OCR
+08:28:58 [INFO] OCR worker: received frame 26
+08:28:58 [INFO] OCR done frame 26: text=''
+08:28:58 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:58 [INFO] Queued frame 27 for OCR
+08:28:58 [INFO] OCR worker: received frame 27
+08:28:58 [INFO] OCR done frame 27: text=''
+08:28:58 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:58 [INFO] Queued frame 28 for OCR
+08:28:58 [INFO] OCR worker: received frame 28
+08:28:58 [INFO] OCR done frame 28: text=''
+08:28:58 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:58 [INFO] Queued frame 29 for OCR
+08:28:58 [INFO] OCR worker: received frame 29
+08:28:58 [INFO] OCR done frame 29: text=''
+08:28:58 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:58 [INFO] Queued frame 30 for OCR
+08:28:58 [INFO] OCR worker: received frame 30
+08:28:58 [INFO] OCR done frame 30: text=''
+08:28:58 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:58 [INFO] Queued frame 31 for OCR
+08:28:58 [INFO] OCR worker: received frame 31
+08:28:58 [INFO] OCR done frame 31: text=''
+08:28:58 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:58 [INFO] Queued frame 32 for OCR
+08:28:58 [INFO] OCR worker: received frame 32
+08:28:58 [INFO] OCR done frame 32: text=''
+08:28:58 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:58 [INFO] Queued frame 33 for OCR
+08:28:58 [INFO] OCR worker: received frame 33
+08:28:58 [INFO] OCR done frame 33: text=''
+08:28:58 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:58 [INFO] Queued frame 34 for OCR
+08:28:58 [INFO] OCR worker: received frame 34
+08:28:58 [INFO] OCR done frame 34: text=''
+08:28:58 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:58 [INFO] Queued frame 35 for OCR
+08:28:58 [INFO] OCR worker: received frame 35
+08:28:59 [INFO] OCR done frame 35: text=''
+08:28:59 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:59 [INFO] Queued frame 36 for OCR
+08:28:59 [INFO] OCR worker: received frame 36
+08:28:59 [INFO] OCR done frame 36: text=''
+08:28:59 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:59 [INFO] Queued frame 37 for OCR
+08:28:59 [INFO] OCR worker: received frame 37
+08:28:59 [INFO] OCR done frame 37: text=''
+08:28:59 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:59 [INFO] Queued frame 38 for OCR
+08:28:59 [INFO] OCR worker: received frame 38
+08:28:59 [INFO] OCR done frame 38: text=''
+08:28:59 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:59 [INFO] Queued frame 39 for OCR
+08:28:59 [INFO] OCR worker: received frame 39
+08:28:59 [INFO] OCR done frame 39: text=''
+08:28:59 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:59 [INFO] Queued frame 40 for OCR
+08:28:59 [INFO] OCR worker: received frame 40
+08:28:59 [INFO] OCR done frame 40: text=''
+08:28:59 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:59 [INFO] Queued frame 41 for OCR
+08:28:59 [INFO] OCR worker: received frame 41
+08:28:59 [INFO] OCR done frame 41: text=''
+08:28:59 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:59 [INFO] Queued frame 42 for OCR
+08:28:59 [INFO] OCR worker: received frame 42
+08:28:59 [INFO] OCR done frame 42: text=''
+08:28:59 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:28:59 [INFO] Queued frame 43 for OCR
+08:28:59 [INFO] OCR worker: received frame 43
+08:28:59 [INFO] OCR done frame 43: text=''
+08:28:59 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:00 [INFO] Queued frame 44 for OCR
+08:29:00 [INFO] OCR worker: received frame 44
+08:29:00 [INFO] OCR done frame 44: text=''
+08:29:00 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:00 [INFO] Queued frame 45 for OCR
+08:29:00 [INFO] OCR worker: received frame 45
+08:29:00 [INFO] OCR done frame 45: text=''
+08:29:00 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:00 [INFO] Queued frame 46 for OCR
+08:29:00 [INFO] OCR worker: received frame 46
+08:29:00 [INFO] OCR done frame 46: text=''
+08:29:00 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:00 [INFO] Queued frame 47 for OCR
+08:29:00 [INFO] OCR worker: received frame 47
+08:29:00 [INFO] OCR done frame 47: text=''
+08:29:00 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:00 [INFO] Queued frame 48 for OCR
+08:29:00 [INFO] OCR worker: received frame 48
+08:29:00 [INFO] OCR done frame 48: text=''
+08:29:00 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:00 [INFO] Queued frame 49 for OCR
+08:29:00 [INFO] OCR worker: received frame 49
+08:29:00 [INFO] OCR done frame 49: text=''
+08:29:00 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:00 [INFO] Queued frame 50 for OCR
+08:29:00 [INFO] OCR worker: received frame 50
+08:29:00 [INFO] OCR done frame 50: text=''
+08:29:00 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:00 [INFO] Queued frame 51 for OCR
+08:29:00 [INFO] OCR worker: received frame 51
+08:29:00 [INFO] OCR done frame 51: text=''
+08:29:00 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:00 [INFO] Queued frame 52 for OCR
+08:29:00 [INFO] OCR worker: received frame 52
+08:29:00 [INFO] OCR done frame 52: text=''
+08:29:00 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:01 [INFO] Queued frame 53 for OCR
+08:29:01 [INFO] OCR worker: received frame 53
+08:29:01 [INFO] OCR done frame 53: text=''
+08:29:01 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:01 [INFO] Queued frame 54 for OCR
+08:29:01 [INFO] OCR worker: received frame 54
+08:29:01 [INFO] OCR done frame 54: text=''
+08:29:01 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:01 [INFO] Queued frame 55 for OCR
+08:29:01 [INFO] OCR worker: received frame 55
+08:29:01 [INFO] OCR done frame 55: text=''
+08:29:01 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:01 [INFO] Queued frame 56 for OCR
+08:29:01 [INFO] OCR worker: received frame 56
+08:29:01 [INFO] OCR done frame 56: text=''
+08:29:01 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:01 [INFO] Queued frame 57 for OCR
+08:29:01 [INFO] OCR worker: received frame 57
+08:29:01 [INFO] OCR done frame 57: text=''
+08:29:01 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:01 [INFO] Queued frame 58 for OCR
+08:29:01 [INFO] OCR worker: received frame 58
+08:29:01 [INFO] OCR done frame 58: text=''
+08:29:01 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:01 [INFO] Queued frame 59 for OCR
+08:29:01 [INFO] OCR worker: received frame 59
+08:29:01 [INFO] OCR done frame 59: text=''
+08:29:01 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:01 [INFO] Queued frame 60 for OCR
+08:29:01 [INFO] OCR worker: received frame 60
+08:29:01 [INFO] OCR done frame 60: text=''
+08:29:01 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:01 [INFO] Queued frame 61 for OCR
+08:29:01 [INFO] OCR worker: received frame 61
+08:29:02 [INFO] OCR done frame 61: text=''
+08:29:02 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:02 [INFO] Queued frame 62 for OCR
+08:29:02 [INFO] OCR worker: received frame 62
+08:29:02 [INFO] OCR done frame 62: text=''
+08:29:02 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:02 [INFO] Queued frame 63 for OCR
+08:29:02 [INFO] OCR worker: received frame 63
+08:29:02 [INFO] OCR done frame 63: text=''
+08:29:02 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:02 [INFO] Queued frame 64 for OCR
+08:29:02 [INFO] OCR worker: received frame 64
+08:29:02 [INFO] OCR done frame 64: text=''
+08:29:02 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:02 [INFO] Queued frame 65 for OCR
+08:29:02 [INFO] OCR worker: received frame 65
+08:29:02 [INFO] OCR done frame 65: text=''
+08:29:02 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:02 [INFO] Queued frame 66 for OCR
+08:29:02 [INFO] OCR worker: received frame 66
+08:29:02 [INFO] OCR done frame 66: text=''
+08:29:02 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:02 [INFO] Queued frame 67 for OCR
+08:29:02 [INFO] OCR worker: received frame 67
+08:29:02 [INFO] OCR done frame 67: text=''
+08:29:02 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:02 [INFO] Queued frame 68 for OCR
+08:29:02 [INFO] OCR worker: received frame 68
+08:29:02 [INFO] OCR done frame 68: text=''
+08:29:02 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:02 [INFO] Queued frame 69 for OCR
+08:29:02 [INFO] OCR worker: received frame 69
+08:29:03 [INFO] OCR done frame 69: text=''
+08:29:03 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:03 [INFO] Queued frame 70 for OCR
+08:29:03 [INFO] OCR worker: received frame 70
+08:29:03 [INFO] OCR done frame 70: text=''
+08:29:03 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:03 [INFO] Queued frame 71 for OCR
+08:29:03 [INFO] OCR worker: received frame 71
+08:29:03 [INFO] OCR done frame 71: text=''
+08:29:03 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:03 [INFO] Queued frame 72 for OCR
+08:29:03 [INFO] OCR worker: received frame 72
+08:29:03 [INFO] OCR done frame 72: text=''
+08:29:03 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:03 [INFO] Queued frame 73 for OCR
+08:29:03 [INFO] OCR worker: received frame 73
+08:29:03 [INFO] OCR done frame 73: text=''
+08:29:03 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:03 [INFO] Queued frame 74 for OCR
+08:29:03 [INFO] OCR worker: received frame 74
+08:29:03 [INFO] OCR done frame 74: text=''
+08:29:03 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:03 [INFO] Queued frame 75 for OCR
+08:29:03 [INFO] OCR worker: received frame 75
+08:29:03 [INFO] OCR done frame 75: text=''
+08:29:03 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:04 [INFO] Queued frame 76 for OCR
+08:29:04 [INFO] OCR worker: received frame 76
+08:29:04 [INFO] OCR done frame 76: text=''
+08:29:04 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:04 [INFO] Queued frame 77 for OCR
+08:29:04 [INFO] OCR worker: received frame 77
+08:29:04 [INFO] OCR done frame 77: text=''
+08:29:04 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:04 [INFO] Queued frame 78 for OCR
+08:29:04 [INFO] OCR worker: received frame 78
+08:29:04 [INFO] OCR done frame 78: text=''
+08:29:04 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:04 [INFO] Queued frame 79 for OCR
+08:29:04 [INFO] OCR worker: received frame 79
+08:29:04 [INFO] OCR done frame 79: text=''
+08:29:04 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:05 [INFO] Queued frame 80 for OCR
+08:29:05 [INFO] OCR worker: received frame 80
+08:29:05 [INFO] OCR done frame 80: text=''
+08:29:05 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:05 [INFO] Queued frame 81 for OCR
+08:29:05 [INFO] OCR worker: received frame 81
+08:29:05 [INFO] OCR done frame 81: text=''
+08:29:05 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:05 [INFO] Queued frame 82 for OCR
+08:29:05 [INFO] OCR worker: received frame 82
+08:29:05 [INFO] OCR done frame 82: text=''
+08:29:05 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:05 [INFO] Queued frame 83 for OCR
+08:29:05 [INFO] OCR worker: received frame 83
+08:29:05 [INFO] OCR done frame 83: text=''
+08:29:05 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:05 [INFO] Queued frame 84 for OCR
+08:29:05 [INFO] OCR worker: received frame 84
+08:29:05 [INFO] OCR done frame 84: text=''
+08:29:05 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:05 [INFO] Queued frame 85 for OCR
+08:29:05 [INFO] OCR worker: received frame 85
+08:29:06 [INFO] OCR done frame 85: text=''
+08:29:06 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:06 [INFO] Queued frame 86 for OCR
+08:29:06 [INFO] OCR worker: received frame 86
+08:29:06 [INFO] OCR done frame 86: text=''
+08:29:06 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:06 [INFO] Queued frame 87 for OCR
+08:29:06 [INFO] OCR worker: received frame 87
+08:29:06 [INFO] OCR done frame 87: text=''
+08:29:06 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:06 [INFO] Queued frame 88 for OCR
+08:29:06 [INFO] OCR worker: received frame 88
+08:29:06 [INFO] OCR done frame 88: text=''
+08:29:06 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:06 [INFO] Queued frame 89 for OCR
+08:29:06 [INFO] OCR worker: received frame 89
+08:29:06 [INFO] OCR done frame 89: text=''
+08:29:06 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:06 [INFO] Queued frame 90 for OCR
+08:29:06 [INFO] OCR worker: received frame 90
+08:29:06 [INFO] OCR done frame 90: text=''
+08:29:06 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:06 [INFO] Queued frame 91 for OCR
+08:29:06 [INFO] OCR worker: received frame 91
+08:29:06 [INFO] OCR done frame 91: text=''
+08:29:06 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:07 [INFO] Queued frame 92 for OCR
+08:29:07 [INFO] OCR worker: received frame 92
+08:29:07 [INFO] OCR done frame 92: text=''
+08:29:07 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:07 [INFO] Queued frame 93 for OCR
+08:29:07 [INFO] OCR worker: received frame 93
+08:29:07 [INFO] OCR done frame 93: text=''
+08:29:07 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:07 [INFO] Queued frame 94 for OCR
+08:29:07 [INFO] OCR worker: received frame 94
+08:29:07 [INFO] OCR done frame 94: text=''
+08:29:07 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:07 [INFO] Queued frame 95 for OCR
+08:29:07 [INFO] OCR worker: received frame 95
+08:29:07 [INFO] OCR done frame 95: text=''
+08:29:07 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:07 [INFO] Queued frame 96 for OCR
+08:29:07 [INFO] OCR worker: received frame 96
+08:29:07 [INFO] OCR done frame 96: text=''
+08:29:07 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:07 [INFO] Queued frame 97 for OCR
+08:29:07 [INFO] OCR worker: received frame 97
+08:29:07 [INFO] OCR done frame 97: text=''
+08:29:07 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:08 [INFO] Queued frame 98 for OCR
+08:29:08 [INFO] OCR worker: received frame 98
+08:29:08 [INFO] OCR done frame 98: text=''
+08:29:08 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:08 [INFO] Queued frame 99 for OCR
+08:29:08 [INFO] OCR worker: received frame 99
+08:29:08 [INFO] OCR done frame 99: text=''
+08:29:08 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:08 [INFO] Queued frame 100 for OCR
+08:29:08 [INFO] OCR worker: received frame 100
+08:29:08 [INFO] OCR done frame 100: text=''
+08:29:08 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:08 [INFO] Queued frame 101 for OCR
+08:29:08 [INFO] OCR worker: received frame 101
+08:29:08 [INFO] OCR done frame 101: text=''
+08:29:08 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:08 [INFO] Queued frame 102 for OCR
+08:29:08 [INFO] OCR worker: received frame 102
+08:29:08 [INFO] OCR done frame 102: text=''
+08:29:08 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:09 [INFO] Queued frame 103 for OCR
+08:29:09 [INFO] OCR worker: received frame 103
+08:29:09 [INFO] OCR done frame 103: text=''
+08:29:09 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:09 [INFO] Queued frame 104 for OCR
+08:29:09 [INFO] OCR worker: received frame 104
+08:29:09 [INFO] OCR done frame 104: text=''
+08:29:09 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:09 [INFO] Queued frame 105 for OCR
+08:29:09 [INFO] OCR worker: received frame 105
+08:29:09 [INFO] OCR done frame 105: text=''
+08:29:09 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:09 [INFO] Queued frame 106 for OCR
+08:29:09 [INFO] OCR worker: received frame 106
+08:29:09 [INFO] OCR done frame 106: text=''
+08:29:09 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:09 [INFO] Queued frame 107 for OCR
+08:29:09 [INFO] OCR worker: received frame 107
+08:29:09 [INFO] OCR done frame 107: text=''
+08:29:09 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:10 [INFO] Queued frame 108 for OCR
+08:29:10 [INFO] OCR worker: received frame 108
+08:29:10 [INFO] OCR done frame 108: text=''
+08:29:10 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:10 [INFO] Queued frame 109 for OCR
+08:29:10 [INFO] OCR worker: received frame 109
+08:29:10 [INFO] OCR done frame 109: text=''
+08:29:10 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:10 [INFO] Queued frame 110 for OCR
+08:29:10 [INFO] OCR worker: received frame 110
+08:29:10 [INFO] OCR done frame 110: text=''
+08:29:10 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:10 [INFO] Queued frame 111 for OCR
+08:29:10 [INFO] OCR worker: received frame 111
+08:29:10 [INFO] OCR done frame 111: text=''
+08:29:10 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:10 [INFO] Queued frame 112 for OCR
+08:29:10 [INFO] OCR worker: received frame 112
+08:29:10 [INFO] OCR done frame 112: text=''
+08:29:10 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:11 [INFO] Queued frame 113 for OCR
+08:29:11 [INFO] OCR worker: received frame 113
+08:29:11 [INFO] OCR done frame 113: text=''
+08:29:11 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:11 [INFO] Queued frame 114 for OCR
+08:29:11 [INFO] OCR worker: received frame 114
+08:29:11 [INFO] OCR done frame 114: text=''
+08:29:11 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:11 [INFO] Queued frame 115 for OCR
+08:29:11 [INFO] OCR worker: received frame 115
+08:29:11 [INFO] OCR done frame 115: text=''
+08:29:11 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:11 [INFO] Queued frame 116 for OCR
+08:29:11 [INFO] OCR worker: received frame 116
+08:29:11 [INFO] OCR done frame 116: text=''
+08:29:11 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:11 [INFO] Queued frame 117 for OCR
+08:29:11 [INFO] OCR worker: received frame 117
+08:29:11 [INFO] OCR done frame 117: text=''
+08:29:11 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:11 [INFO] Queued frame 118 for OCR
+08:29:11 [INFO] OCR worker: received frame 118
+08:29:11 [INFO] OCR done frame 118: text=''
+08:29:11 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:12 [INFO] Queued frame 119 for OCR
+08:29:12 [INFO] OCR worker: received frame 119
+08:29:12 [INFO] OCR done frame 119: text=''
+08:29:12 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:12 [INFO] Queued frame 120 for OCR
+08:29:12 [INFO] OCR worker: received frame 120
+08:29:12 [INFO] OCR done frame 120: text=''
+08:29:12 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:12 [INFO] Queued frame 121 for OCR
+08:29:12 [INFO] OCR worker: received frame 121
+08:29:12 [INFO] OCR done frame 121: text=''
+08:29:12 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:12 [INFO] Queued frame 122 for OCR
+08:29:12 [INFO] OCR worker: received frame 122
+08:29:12 [INFO] OCR done frame 122: text=''
+08:29:12 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:12 [INFO] Queued frame 123 for OCR
+08:29:12 [INFO] OCR worker: received frame 123
+08:29:12 [INFO] OCR done frame 123: text=''
+08:29:12 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:12 [INFO] Queued frame 124 for OCR
+08:29:12 [INFO] OCR worker: received frame 124
+08:29:13 [INFO] OCR done frame 124: text=''
+08:29:13 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:13 [INFO] Queued frame 125 for OCR
+08:29:13 [INFO] OCR worker: received frame 125
+08:29:13 [INFO] OCR done frame 125: text=''
+08:29:13 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:13 [INFO] Queued frame 126 for OCR
+08:29:13 [INFO] OCR worker: received frame 126
+08:29:13 [INFO] OCR done frame 126: text=''
+08:29:13 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:13 [INFO] Queued frame 127 for OCR
+08:29:13 [INFO] OCR worker: received frame 127
+08:29:13 [INFO] OCR done frame 127: text=''
+08:29:13 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:13 [INFO] Queued frame 128 for OCR
+08:29:13 [INFO] OCR worker: received frame 128
+08:29:13 [INFO] OCR done frame 128: text=''
+08:29:13 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:13 [INFO] Queued frame 129 for OCR
+08:29:13 [INFO] OCR worker: received frame 129
+08:29:13 [INFO] OCR done frame 129: text=''
+08:29:13 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:14 [INFO] Queued frame 130 for OCR
+08:29:14 [INFO] OCR worker: received frame 130
+08:29:14 [INFO] OCR done frame 130: text=''
+08:29:14 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:14 [INFO] Queued frame 131 for OCR
+08:29:14 [INFO] OCR worker: received frame 131
+08:29:14 [INFO] OCR done frame 131: text=''
+08:29:14 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:14 [INFO] Queued frame 132 for OCR
+08:29:14 [INFO] OCR worker: received frame 132
+08:29:14 [INFO] OCR done frame 132: text=''
+08:29:14 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:14 [INFO] Queued frame 133 for OCR
+08:29:14 [INFO] OCR worker: received frame 133
+08:29:14 [INFO] OCR done frame 133: text=''
+08:29:14 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:14 [INFO] Queued frame 134 for OCR
+08:29:14 [INFO] OCR worker: received frame 134
+08:29:14 [INFO] OCR done frame 134: text=''
+08:29:14 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:14 [INFO] Queued frame 135 for OCR
+08:29:14 [INFO] OCR worker: received frame 135
+08:29:14 [INFO] OCR done frame 135: text=''
+08:29:14 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:15 [INFO] Queued frame 136 for OCR
+08:29:15 [INFO] OCR worker: received frame 136
+08:29:15 [INFO] OCR done frame 136: text=''
+08:29:15 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:15 [INFO] Queued frame 137 for OCR
+08:29:15 [INFO] OCR worker: received frame 137
+08:29:15 [INFO] OCR done frame 137: text=''
+08:29:15 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:15 [INFO] Queued frame 138 for OCR
+08:29:15 [INFO] OCR worker: received frame 138
+08:29:15 [INFO] OCR done frame 138: text=''
+08:29:15 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:15 [INFO] Queued frame 139 for OCR
+08:29:15 [INFO] OCR worker: received frame 139
+08:29:15 [INFO] OCR done frame 139: text=''
+08:29:15 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:15 [INFO] Queued frame 140 for OCR
+08:29:15 [INFO] OCR worker: received frame 140
+08:29:15 [INFO] OCR done frame 140: text=''
+08:29:15 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:15 [INFO] Queued frame 141 for OCR
+08:29:15 [INFO] OCR worker: received frame 141
+08:29:15 [INFO] OCR done frame 141: text=''
+08:29:15 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:16 [INFO] Queued frame 142 for OCR
+08:29:16 [INFO] OCR worker: received frame 142
+08:29:16 [INFO] OCR done frame 142: text=''
+08:29:16 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:16 [INFO] Queued frame 143 for OCR
+08:29:16 [INFO] OCR worker: received frame 143
+08:29:16 [INFO] OCR done frame 143: text=''
+08:29:16 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:16 [INFO] Queued frame 144 for OCR
+08:29:16 [INFO] OCR worker: received frame 144
+08:29:16 [INFO] OCR done frame 144: text=''
+08:29:16 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:16 [INFO] Queued frame 145 for OCR
+08:29:16 [INFO] OCR worker: received frame 145
+08:29:16 [INFO] OCR done frame 145: text=''
+08:29:16 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:16 [INFO] Queued frame 146 for OCR
+08:29:16 [INFO] OCR worker: received frame 146
+08:29:16 [INFO] OCR done frame 146: text=''
+08:29:16 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:17 [INFO] Queued frame 147 for OCR
+08:29:17 [INFO] OCR worker: received frame 147
+08:29:17 [INFO] OCR done frame 147: text=''
+08:29:17 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:17 [INFO] Queued frame 148 for OCR
+08:29:17 [INFO] OCR worker: received frame 148
+08:29:17 [INFO] OCR done frame 148: text=''
+08:29:17 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:17 [INFO] Queued frame 149 for OCR
+08:29:17 [INFO] OCR worker: received frame 149
+08:29:17 [INFO] OCR done frame 149: text=''
+08:29:17 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:17 [INFO] Queued frame 150 for OCR
+08:29:17 [INFO] OCR worker: received frame 150
+08:29:17 [INFO] OCR done frame 150: text=''
+08:29:17 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:17 [INFO] Queued frame 151 for OCR
+08:29:17 [INFO] OCR worker: received frame 151
+08:29:17 [INFO] OCR done frame 151: text=''
+08:29:17 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:17 [INFO] Queued frame 152 for OCR
+08:29:17 [INFO] OCR worker: received frame 152
+08:29:18 [INFO] OCR done frame 152: text=''
+08:29:18 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:18 [INFO] Queued frame 153 for OCR
+08:29:18 [INFO] OCR worker: received frame 153
+08:29:18 [INFO] OCR done frame 153: text=''
+08:29:18 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:18 [INFO] Queued frame 154 for OCR
+08:29:18 [INFO] OCR worker: received frame 154
+08:29:18 [INFO] OCR done frame 154: text=''
+08:29:18 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:18 [INFO] Queued frame 155 for OCR
+08:29:18 [INFO] OCR worker: received frame 155
+08:29:18 [INFO] OCR done frame 155: text=''
+08:29:18 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:18 [INFO] Queued frame 156 for OCR
+08:29:18 [INFO] OCR worker: received frame 156
+08:29:18 [INFO] OCR done frame 156: text=''
+08:29:18 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:18 [INFO] Queued frame 157 for OCR
+08:29:18 [INFO] OCR worker: received frame 157
+08:29:18 [INFO] OCR done frame 157: text=''
+08:29:18 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:19 [INFO] Queued frame 158 for OCR
+08:29:19 [INFO] OCR worker: received frame 158
+08:29:19 [INFO] OCR done frame 158: text=''
+08:29:19 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:19 [INFO] Queued frame 159 for OCR
+08:29:19 [INFO] OCR worker: received frame 159
+08:29:19 [INFO] OCR done frame 159: text=''
+08:29:19 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:19 [INFO] Queued frame 160 for OCR
+08:29:19 [INFO] OCR worker: received frame 160
+08:29:19 [INFO] OCR done frame 160: text=''
+08:29:19 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:19 [INFO] Queued frame 161 for OCR
+08:29:19 [INFO] OCR worker: received frame 161
+08:29:19 [INFO] OCR done frame 161: text=''
+08:29:19 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:19 [INFO] Queued frame 162 for OCR
+08:29:19 [INFO] OCR worker: received frame 162
+08:29:19 [INFO] OCR done frame 162: text=''
+08:29:19 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:19 [INFO] Queued frame 163 for OCR
+08:29:19 [INFO] OCR worker: received frame 163
+08:29:20 [INFO] OCR done frame 163: text=''
+08:29:20 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:20 [INFO] Queued frame 164 for OCR
+08:29:20 [INFO] OCR worker: received frame 164
+08:29:20 [INFO] OCR done frame 164: text=''
+08:29:20 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:20 [INFO] Queued frame 165 for OCR
+08:29:20 [INFO] OCR worker: received frame 165
+08:29:20 [INFO] OCR done frame 165: text=''
+08:29:20 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:20 [INFO] Queued frame 166 for OCR
+08:29:20 [INFO] OCR worker: received frame 166
+08:29:20 [INFO] OCR done frame 166: text=''
+08:29:20 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:20 [INFO] Queued frame 167 for OCR
+08:29:20 [INFO] OCR worker: received frame 167
+08:29:20 [INFO] OCR done frame 167: text=''
+08:29:20 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:20 [INFO] Queued frame 168 for OCR
+08:29:20 [INFO] OCR worker: received frame 168
+08:29:21 [INFO] OCR done frame 168: text=''
+08:29:21 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:21 [INFO] Queued frame 169 for OCR
+08:29:21 [INFO] OCR worker: received frame 169
+08:29:21 [INFO] OCR done frame 169: text=''
+08:29:21 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:21 [INFO] Queued frame 170 for OCR
+08:29:21 [INFO] OCR worker: received frame 170
+08:29:21 [INFO] OCR done frame 170: text=''
+08:29:21 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:21 [INFO] Queued frame 171 for OCR
+08:29:21 [INFO] OCR worker: received frame 171
+08:29:21 [INFO] OCR done frame 171: text=''
+08:29:21 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:21 [INFO] Queued frame 172 for OCR
+08:29:21 [INFO] OCR worker: received frame 172
+08:29:21 [INFO] OCR done frame 172: text=''
+08:29:21 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:21 [INFO] Queued frame 173 for OCR
+08:29:21 [INFO] OCR worker: received frame 173
+08:29:21 [INFO] OCR done frame 173: text=''
+08:29:21 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:22 [INFO] Queued frame 174 for OCR
+08:29:22 [INFO] OCR worker: received frame 174
+08:29:22 [INFO] OCR done frame 174: text=''
+08:29:22 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:22 [INFO] Queued frame 175 for OCR
+08:29:22 [INFO] OCR worker: received frame 175
+08:29:22 [INFO] OCR done frame 175: text=''
+08:29:22 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:22 [INFO] Queued frame 176 for OCR
+08:29:22 [INFO] OCR worker: received frame 176
+08:29:22 [INFO] OCR done frame 176: text=''
+08:29:22 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:22 [INFO] Queued frame 177 for OCR
+08:29:22 [INFO] OCR worker: received frame 177
+08:29:22 [INFO] OCR done frame 177: text=''
+08:29:22 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:22 [INFO] Queued frame 178 for OCR
+08:29:22 [INFO] OCR worker: received frame 178
+08:29:22 [INFO] OCR done frame 178: text=''
+08:29:22 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:22 [INFO] Queued frame 179 for OCR
+08:29:22 [INFO] OCR worker: received frame 179
+08:29:23 [INFO] OCR done frame 179: text=''
+08:29:23 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:23 [INFO] Queued frame 180 for OCR
+08:29:23 [INFO] OCR worker: received frame 180
+08:29:23 [INFO] OCR done frame 180: text=''
+08:29:23 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:23 [INFO] Queued frame 181 for OCR
+08:29:23 [INFO] OCR worker: received frame 181
+08:29:23 [INFO] OCR done frame 181: text=''
+08:29:23 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:23 [INFO] Queued frame 182 for OCR
+08:29:23 [INFO] OCR worker: received frame 182
+08:29:23 [INFO] OCR done frame 182: text=''
+08:29:23 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:23 [INFO] Queued frame 183 for OCR
+08:29:23 [INFO] OCR worker: received frame 183
+08:29:23 [INFO] OCR done frame 183: text=''
+08:29:23 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:23 [INFO] Queued frame 184 for OCR
+08:29:23 [INFO] OCR worker: received frame 184
+08:29:23 [INFO] OCR done frame 184: text=''
+08:29:23 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:24 [INFO] Queued frame 185 for OCR
+08:29:24 [INFO] OCR worker: received frame 185
+08:29:24 [INFO] OCR done frame 185: text=''
+08:29:24 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:24 [INFO] Queued frame 186 for OCR
+08:29:24 [INFO] OCR worker: received frame 186
+08:29:24 [INFO] OCR done frame 186: text=''
+08:29:24 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:24 [INFO] Queued frame 187 for OCR
+08:29:24 [INFO] OCR worker: received frame 187
+08:29:24 [INFO] OCR done frame 187: text=''
+08:29:24 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:24 [INFO] Queued frame 188 for OCR
+08:29:24 [INFO] OCR worker: received frame 188
+08:29:24 [INFO] OCR done frame 188: text=''
+08:29:24 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:24 [INFO] Queued frame 189 for OCR
+08:29:24 [INFO] OCR worker: received frame 189
+08:29:24 [INFO] OCR done frame 189: text=''
+08:29:24 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:24 [INFO] Queued frame 190 for OCR
+08:29:24 [INFO] OCR worker: received frame 190
+08:29:25 [INFO] OCR done frame 190: text=''
+08:29:25 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:25 [INFO] Queued frame 191 for OCR
+08:29:25 [INFO] OCR worker: received frame 191
+08:29:25 [INFO] OCR done frame 191: text=''
+08:29:25 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:25 [INFO] Queued frame 192 for OCR
+08:29:25 [INFO] OCR worker: received frame 192
+08:29:25 [INFO] OCR done frame 192: text=''
+08:29:25 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:25 [INFO] Queued frame 193 for OCR
+08:29:25 [INFO] OCR worker: received frame 193
+08:29:25 [INFO] OCR done frame 193: text=''
+08:29:25 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:25 [INFO] Queued frame 194 for OCR
+08:29:25 [INFO] OCR worker: received frame 194
+08:29:25 [INFO] OCR done frame 194: text=''
+08:29:25 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:25 [INFO] Queued frame 195 for OCR
+08:29:25 [INFO] OCR worker: received frame 195
+08:29:25 [INFO] OCR done frame 195: text=''
+08:29:25 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:25 [INFO] Queued frame 196 for OCR
+08:29:25 [INFO] OCR worker: received frame 196
+08:29:26 [INFO] OCR done frame 196: text=''
+08:29:26 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:26 [INFO] Queued frame 197 for OCR
+08:29:26 [INFO] OCR worker: received frame 197
+08:29:26 [INFO] OCR done frame 197: text=''
+08:29:26 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:26 [INFO] Queued frame 198 for OCR
+08:29:26 [INFO] OCR worker: received frame 198
+08:29:26 [INFO] OCR done frame 198: text=''
+08:29:26 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:26 [INFO] Queued frame 199 for OCR
+08:29:26 [INFO] OCR worker: received frame 199
+08:29:26 [INFO] OCR done frame 199: text=''
+08:29:26 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:26 [INFO] Queued frame 200 for OCR
+08:29:26 [INFO] OCR worker: received frame 200
+08:29:26 [INFO] OCR done frame 200: text=''
+08:29:26 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:26 [INFO] Queued frame 201 for OCR
+08:29:26 [INFO] OCR worker: received frame 201
+08:29:27 [INFO] OCR done frame 201: text=''
+08:29:27 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:27 [INFO] Queued frame 202 for OCR
+08:29:27 [INFO] OCR worker: received frame 202
+08:29:27 [INFO] OCR done frame 202: text=''
+08:29:27 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:27 [INFO] Queued frame 203 for OCR
+08:29:27 [INFO] OCR worker: received frame 203
+08:29:27 [INFO] OCR done frame 203: text=''
+08:29:27 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:27 [INFO] Queued frame 204 for OCR
+08:29:27 [INFO] OCR worker: received frame 204
+08:29:27 [INFO] OCR done frame 204: text=''
+08:29:27 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:27 [INFO] Queued frame 205 for OCR
+08:29:27 [INFO] OCR worker: received frame 205
+08:29:27 [INFO] OCR done frame 205: text=''
+08:29:27 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:27 [INFO] Queued frame 206 for OCR
+08:29:27 [INFO] OCR worker: received frame 206
+08:29:27 [INFO] OCR done frame 206: text=''
+08:29:27 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:28 [INFO] Queued frame 207 for OCR
+08:29:28 [INFO] OCR worker: received frame 207
+08:29:28 [INFO] OCR done frame 207: text=''
+08:29:28 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:28 [INFO] Queued frame 208 for OCR
+08:29:28 [INFO] OCR worker: received frame 208
+08:29:28 [INFO] OCR done frame 208: text=''
+08:29:28 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:28 [INFO] Queued frame 209 for OCR
+08:29:28 [INFO] OCR worker: received frame 209
+08:29:28 [INFO] OCR done frame 209: text=''
+08:29:28 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:28 [INFO] Queued frame 210 for OCR
+08:29:28 [INFO] OCR worker: received frame 210
+08:29:28 [INFO] OCR done frame 210: text=''
+08:29:28 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:28 [INFO] Queued frame 211 for OCR
+08:29:28 [INFO] OCR worker: received frame 211
+08:29:28 [INFO] OCR done frame 211: text=''
+08:29:28 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:28 [INFO] Queued frame 212 for OCR
+08:29:28 [INFO] OCR worker: received frame 212
+08:29:28 [INFO] OCR done frame 212: text=''
+08:29:28 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:29 [INFO] Queued frame 213 for OCR
+08:29:29 [INFO] OCR worker: received frame 213
+08:29:29 [INFO] OCR done frame 213: text=''
+08:29:29 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:29 [INFO] Queued frame 214 for OCR
+08:29:29 [INFO] OCR worker: received frame 214
+08:29:29 [INFO] OCR done frame 214: text=''
+08:29:29 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:29 [INFO] Queued frame 215 for OCR
+08:29:29 [INFO] OCR worker: received frame 215
+08:29:29 [INFO] OCR done frame 215: text=''
+08:29:29 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:29 [INFO] Queued frame 216 for OCR
+08:29:29 [INFO] OCR worker: received frame 216
+08:29:29 [INFO] OCR done frame 216: text=''
+08:29:29 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:29 [INFO] Queued frame 217 for OCR
+08:29:29 [INFO] OCR worker: received frame 217
+08:29:29 [INFO] OCR done frame 217: text=''
+08:29:29 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:30 [INFO] Queued frame 218 for OCR
+08:29:30 [INFO] OCR worker: received frame 218
+08:29:30 [INFO] OCR done frame 218: text=''
+08:29:30 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:30 [INFO] Queued frame 219 for OCR
+08:29:30 [INFO] OCR worker: received frame 219
+08:29:30 [INFO] OCR done frame 219: text=''
+08:29:30 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:30 [INFO] Queued frame 220 for OCR
+08:29:30 [INFO] OCR worker: received frame 220
+08:29:30 [INFO] OCR done frame 220: text=''
+08:29:30 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:30 [INFO] Queued frame 221 for OCR
+08:29:30 [INFO] OCR worker: received frame 221
+08:29:30 [INFO] OCR done frame 221: text=''
+08:29:30 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:30 [INFO] Queued frame 222 for OCR
+08:29:30 [INFO] OCR worker: received frame 222
+08:29:30 [INFO] OCR done frame 222: text=''
+08:29:30 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:30 [INFO] Queued frame 223 for OCR
+08:29:30 [INFO] OCR worker: received frame 223
+08:29:30 [INFO] OCR done frame 223: text=''
+08:29:30 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:31 [INFO] Queued frame 224 for OCR
+08:29:31 [INFO] OCR worker: received frame 224
+08:29:31 [INFO] OCR done frame 224: text=''
+08:29:31 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:31 [INFO] Queued frame 225 for OCR
+08:29:31 [INFO] OCR worker: received frame 225
+08:29:31 [INFO] OCR done frame 225: text=''
+08:29:31 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:31 [INFO] Queued frame 226 for OCR
+08:29:31 [INFO] OCR worker: received frame 226
+08:29:31 [INFO] OCR done frame 226: text=''
+08:29:31 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:31 [INFO] Queued frame 227 for OCR
+08:29:31 [INFO] OCR worker: received frame 227
+08:29:31 [INFO] OCR done frame 227: text=''
+08:29:31 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:31 [INFO] Queued frame 228 for OCR
+08:29:31 [INFO] OCR worker: received frame 228
+08:29:31 [INFO] OCR done frame 228: text=''
+08:29:31 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:31 [INFO] Queued frame 229 for OCR
+08:29:31 [INFO] OCR worker: received frame 229
+08:29:31 [INFO] OCR done frame 229: text=''
+08:29:32 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:32 [INFO] Queued frame 230 for OCR
+08:29:32 [INFO] OCR worker: received frame 230
+08:29:32 [INFO] OCR done frame 230: text=''
+08:29:32 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:32 [INFO] Queued frame 231 for OCR
+08:29:32 [INFO] OCR worker: received frame 231
+08:29:32 [INFO] OCR done frame 231: text=''
+08:29:32 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:32 [INFO] Queued frame 232 for OCR
+08:29:32 [INFO] OCR worker: received frame 232
+08:29:32 [INFO] OCR done frame 232: text=''
+08:29:32 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:32 [INFO] Queued frame 233 for OCR
+08:29:32 [INFO] OCR worker: received frame 233
+08:29:32 [INFO] OCR done frame 233: text=''
+08:29:32 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:32 [INFO] Queued frame 234 for OCR
+08:29:32 [INFO] OCR worker: received frame 234
+08:29:32 [INFO] OCR done frame 234: text=''
+08:29:32 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:33 [INFO] Queued frame 235 for OCR
+08:29:33 [INFO] OCR worker: received frame 235
+08:29:33 [INFO] OCR done frame 235: text=''
+08:29:33 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:33 [INFO] Queued frame 236 for OCR
+08:29:33 [INFO] OCR worker: received frame 236
+08:29:33 [INFO] OCR done frame 236: text=''
+08:29:33 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:33 [INFO] Queued frame 237 for OCR
+08:29:33 [INFO] OCR worker: received frame 237
+08:29:33 [INFO] OCR done frame 237: text=''
+08:29:33 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:33 [INFO] Queued frame 238 for OCR
+08:29:33 [INFO] OCR worker: received frame 238
+08:29:33 [INFO] OCR done frame 238: text=''
+08:29:33 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:33 [INFO] Queued frame 239 for OCR
+08:29:33 [INFO] OCR worker: received frame 239
+08:29:33 [INFO] OCR done frame 239: text=''
+08:29:33 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:33 [INFO] Queued frame 240 for OCR
+08:29:33 [INFO] OCR worker: received frame 240
+08:29:33 [INFO] OCR done frame 240: text=''
+08:29:33 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:34 [INFO] Queued frame 241 for OCR
+08:29:34 [INFO] OCR worker: received frame 241
+08:29:34 [INFO] OCR done frame 241: text=''
+08:29:34 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:34 [INFO] Queued frame 242 for OCR
+08:29:34 [INFO] OCR worker: received frame 242
+08:29:34 [INFO] OCR done frame 242: text=''
+08:29:34 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:34 [INFO] Queued frame 243 for OCR
+08:29:34 [INFO] OCR worker: received frame 243
+08:29:34 [INFO] OCR done frame 243: text=''
+08:29:34 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:34 [INFO] Queued frame 244 for OCR
+08:29:34 [INFO] OCR worker: received frame 244
+08:29:34 [INFO] OCR done frame 244: text=''
+08:29:34 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:34 [INFO] Queued frame 245 for OCR
+08:29:34 [INFO] OCR worker: received frame 245
+08:29:34 [INFO] OCR done frame 245: text=''
+08:29:34 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:35 [INFO] Queued frame 246 for OCR
+08:29:35 [INFO] OCR worker: received frame 246
+08:29:35 [INFO] OCR done frame 246: text=''
+08:29:35 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:35 [INFO] Queued frame 247 for OCR
+08:29:35 [INFO] OCR worker: received frame 247
+08:29:35 [INFO] OCR done frame 247: text=''
+08:29:35 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:35 [INFO] Queued frame 248 for OCR
+08:29:35 [INFO] OCR worker: received frame 248
+08:29:35 [INFO] OCR done frame 248: text=''
+08:29:35 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:35 [INFO] Queued frame 249 for OCR
+08:29:35 [INFO] OCR worker: received frame 249
+08:29:35 [INFO] OCR done frame 249: text=''
+08:29:35 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:35 [INFO] Queued frame 250 for OCR
+08:29:35 [INFO] OCR worker: received frame 250
+08:29:35 [INFO] OCR done frame 250: text=''
+08:29:35 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:35 [INFO] Queued frame 251 for OCR
+08:29:35 [INFO] OCR worker: received frame 251
+08:29:35 [INFO] OCR done frame 251: text=''
+08:29:35 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:36 [INFO] Queued frame 252 for OCR
+08:29:36 [INFO] OCR worker: received frame 252
+08:29:36 [INFO] OCR done frame 252: text=''
+08:29:36 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:36 [INFO] Queued frame 253 for OCR
+08:29:36 [INFO] OCR worker: received frame 253
+08:29:36 [INFO] OCR done frame 253: text=''
+08:29:36 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:36 [INFO] Queued frame 254 for OCR
+08:29:36 [INFO] OCR worker: received frame 254
+08:29:36 [INFO] OCR done frame 254: text=''
+08:29:36 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:36 [INFO] Queued frame 255 for OCR
+08:29:36 [INFO] OCR worker: received frame 255
+08:29:36 [INFO] OCR done frame 255: text=''
+08:29:36 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:36 [INFO] Queued frame 256 for OCR
+08:29:36 [INFO] OCR worker: received frame 256
+08:29:36 [INFO] OCR done frame 256: text=''
+08:29:36 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:36 [INFO] Queued frame 257 for OCR
+08:29:36 [INFO] OCR worker: received frame 257
+08:29:36 [INFO] OCR done frame 257: text=''
+08:29:36 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:37 [INFO] Queued frame 258 for OCR
+08:29:37 [INFO] OCR worker: received frame 258
+08:29:37 [INFO] OCR done frame 258: text=''
+08:29:37 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:37 [INFO] Queued frame 259 for OCR
+08:29:37 [INFO] OCR worker: received frame 259
+08:29:37 [INFO] OCR done frame 259: text=''
+08:29:37 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:37 [INFO] Queued frame 260 for OCR
+08:29:37 [INFO] OCR worker: received frame 260
+08:29:37 [INFO] OCR done frame 260: text=''
+08:29:37 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:37 [INFO] Queued frame 261 for OCR
+08:29:37 [INFO] OCR worker: received frame 261
+08:29:37 [INFO] OCR done frame 261: text=''
+08:29:37 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:37 [INFO] Queued frame 262 for OCR
+08:29:37 [INFO] OCR worker: received frame 262
+08:29:37 [INFO] OCR done frame 262: text=''
+08:29:37 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:37 [INFO] Queued frame 263 for OCR
+08:29:37 [INFO] OCR worker: received frame 263
+08:29:37 [INFO] OCR done frame 263: text=''
+08:29:37 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:38 [INFO] Queued frame 264 for OCR
+08:29:38 [INFO] OCR worker: received frame 264
+08:29:38 [INFO] OCR done frame 264: text=''
+08:29:38 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:38 [INFO] Queued frame 265 for OCR
+08:29:38 [INFO] OCR worker: received frame 265
+08:29:38 [INFO] OCR done frame 265: text=''
+08:29:38 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:38 [INFO] Queued frame 266 for OCR
+08:29:38 [INFO] OCR worker: received frame 266
+08:29:38 [INFO] OCR done frame 266: text=''
+08:29:38 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:38 [INFO] Queued frame 267 for OCR
+08:29:38 [INFO] OCR worker: received frame 267
+08:29:38 [INFO] OCR done frame 267: text=''
+08:29:38 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:38 [INFO] Queued frame 268 for OCR
+08:29:38 [INFO] OCR worker: received frame 268
+08:29:38 [INFO] OCR done frame 268: text=''
+08:29:38 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:38 [INFO] Queued frame 269 for OCR
+08:29:38 [INFO] OCR worker: received frame 269
+08:29:38 [INFO] OCR done frame 269: text=''
+08:29:38 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:39 [INFO] Queued frame 270 for OCR
+08:29:39 [INFO] OCR worker: received frame 270
+08:29:39 [INFO] OCR done frame 270: text=''
+08:29:39 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:39 [INFO] Queued frame 271 for OCR
+08:29:39 [INFO] OCR worker: received frame 271
+08:29:39 [INFO] OCR done frame 271: text=''
+08:29:39 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:39 [INFO] Queued frame 272 for OCR
+08:29:39 [INFO] OCR worker: received frame 272
+08:29:39 [INFO] OCR done frame 272: text=''
+08:29:39 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:39 [INFO] Queued frame 273 for OCR
+08:29:39 [INFO] OCR worker: received frame 273
+08:29:39 [INFO] OCR done frame 273: text=''
+08:29:39 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:39 [INFO] Queued frame 274 for OCR
+08:29:39 [INFO] OCR worker: received frame 274
+08:29:39 [INFO] OCR done frame 274: text=''
+08:29:39 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:39 [INFO] Queued frame 275 for OCR
+08:29:39 [INFO] OCR worker: received frame 275
+08:29:40 [INFO] OCR done frame 275: text=''
+08:29:40 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:40 [INFO] Queued frame 276 for OCR
+08:29:40 [INFO] OCR worker: received frame 276
+08:29:40 [INFO] OCR done frame 276: text=''
+08:29:40 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:40 [INFO] Queued frame 277 for OCR
+08:29:40 [INFO] OCR worker: received frame 277
+08:29:40 [INFO] OCR done frame 277: text=''
+08:29:40 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:40 [INFO] Queued frame 278 for OCR
+08:29:40 [INFO] OCR worker: received frame 278
+08:29:40 [INFO] OCR done frame 278: text=''
+08:29:40 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:40 [INFO] Queued frame 279 for OCR
+08:29:40 [INFO] OCR worker: received frame 279
+08:29:40 [INFO] OCR done frame 279: text=''
+08:29:40 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:40 [INFO] Queued frame 280 for OCR
+08:29:40 [INFO] OCR worker: received frame 280
+08:29:40 [INFO] OCR done frame 280: text=''
+08:29:40 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:41 [INFO] Queued frame 281 for OCR
+08:29:41 [INFO] OCR worker: received frame 281
+08:29:41 [INFO] OCR done frame 281: text=''
+08:29:41 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:41 [INFO] Queued frame 282 for OCR
+08:29:41 [INFO] OCR worker: received frame 282
+08:29:41 [INFO] OCR done frame 282: text=''
+08:29:41 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:41 [INFO] Queued frame 283 for OCR
+08:29:41 [INFO] OCR worker: received frame 283
+08:29:41 [INFO] OCR done frame 283: text=''
+08:29:41 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:41 [INFO] Queued frame 284 for OCR
+08:29:41 [INFO] OCR worker: received frame 284
+08:29:41 [INFO] OCR done frame 284: text=''
+08:29:41 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:41 [INFO] Queued frame 285 for OCR
+08:29:41 [INFO] OCR worker: received frame 285
+08:29:41 [INFO] OCR done frame 285: text=''
+08:29:41 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:42 [INFO] Queued frame 286 for OCR
+08:29:42 [INFO] OCR worker: received frame 286
+08:29:42 [INFO] OCR done frame 286: text=''
+08:29:42 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:42 [INFO] Queued frame 287 for OCR
+08:29:42 [INFO] OCR worker: received frame 287
+08:29:42 [INFO] OCR done frame 287: text=''
+08:29:42 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:42 [INFO] Queued frame 288 for OCR
+08:29:42 [INFO] OCR worker: received frame 288
+08:29:42 [INFO] OCR done frame 288: text=''
+08:29:42 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:42 [INFO] Queued frame 289 for OCR
+08:29:42 [INFO] OCR worker: received frame 289
+08:29:42 [INFO] OCR done frame 289: text=''
+08:29:42 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:42 [INFO] Queued frame 290 for OCR
+08:29:42 [INFO] OCR worker: received frame 290
+08:29:42 [INFO] OCR done frame 290: text=''
+08:29:42 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:43 [INFO] Queued frame 291 for OCR
+08:29:43 [INFO] OCR worker: received frame 291
+08:29:43 [INFO] OCR done frame 291: text=''
+08:29:43 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:43 [INFO] OCR worker: received frame 292
+08:29:43 [INFO] Queued frame 292 for OCR
+08:29:43 [INFO] OCR done frame 292: text=''
+08:29:43 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:43 [INFO] Queued frame 293 for OCR
+08:29:43 [INFO] OCR worker: received frame 293
+08:29:43 [INFO] OCR done frame 293: text=''
+08:29:43 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:43 [INFO] Queued frame 294 for OCR
+08:29:43 [INFO] OCR worker: received frame 294
+08:29:43 [INFO] OCR done frame 294: text=''
+08:29:43 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:43 [INFO] Queued frame 295 for OCR
+08:29:43 [INFO] OCR worker: received frame 295
+08:29:43 [INFO] OCR done frame 295: text=''
+08:29:43 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:43 [INFO] Queued frame 296 for OCR
+08:29:43 [INFO] OCR worker: received frame 296
+08:29:44 [INFO] OCR done frame 296: text=''
+08:29:44 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:44 [INFO] Queued frame 297 for OCR
+08:29:44 [INFO] OCR worker: received frame 297
+08:29:44 [INFO] OCR done frame 297: text=''
+08:29:44 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:44 [INFO] Queued frame 298 for OCR
+08:29:44 [INFO] OCR worker: received frame 298
+08:29:44 [INFO] OCR done frame 298: text=''
+08:29:44 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:44 [INFO] Queued frame 299 for OCR
+08:29:44 [INFO] OCR worker: received frame 299
+08:29:44 [INFO] OCR done frame 299: text=''
+08:29:44 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:44 [INFO] Queued frame 300 for OCR
+08:29:44 [INFO] OCR worker: received frame 300
+08:29:44 [INFO] OCR done frame 300: text=''
+08:29:44 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:44 [INFO] Queued frame 301 for OCR
+08:29:44 [INFO] OCR worker: received frame 301
+08:29:44 [INFO] OCR done frame 301: text=''
+08:29:44 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:44 [INFO] Queued frame 302 for OCR
+08:29:44 [INFO] OCR worker: received frame 302
+08:29:44 [INFO] OCR done frame 302: text=''
+08:29:44 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:45 [INFO] Queued frame 303 for OCR
+08:29:45 [INFO] OCR worker: received frame 303
+08:29:45 [INFO] OCR done frame 303: text=''
+08:29:45 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:45 [INFO] Queued frame 304 for OCR
+08:29:45 [INFO] OCR worker: received frame 304
+08:29:45 [INFO] OCR done frame 304: text=''
+08:29:45 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:45 [INFO] Queued frame 305 for OCR
+08:29:45 [INFO] OCR worker: received frame 305
+08:29:45 [INFO] OCR done frame 305: text=''
+08:29:45 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:45 [INFO] Queued frame 306 for OCR
+08:29:45 [INFO] OCR worker: received frame 306
+08:29:45 [INFO] OCR done frame 306: text=''
+08:29:45 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:45 [INFO] Queued frame 307 for OCR
+08:29:45 [INFO] OCR worker: received frame 307
+08:29:45 [INFO] OCR done frame 307: text=''
+08:29:45 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:46 [INFO] Queued frame 308 for OCR
+08:29:46 [INFO] OCR worker: received frame 308
+08:29:46 [INFO] OCR done frame 308: text=''
+08:29:46 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:46 [INFO] Queued frame 309 for OCR
+08:29:46 [INFO] OCR worker: received frame 309
+08:29:46 [INFO] OCR done frame 309: text=''
+08:29:46 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:46 [INFO] Queued frame 310 for OCR
+08:29:46 [INFO] OCR worker: received frame 310
+08:29:46 [INFO] OCR done frame 310: text=''
+08:29:46 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:46 [INFO] Queued frame 311 for OCR
+08:29:46 [INFO] OCR worker: received frame 311
+08:29:46 [INFO] OCR done frame 311: text=''
+08:29:46 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:46 [INFO] Queued frame 312 for OCR
+08:29:46 [INFO] OCR worker: received frame 312
+08:29:46 [INFO] OCR done frame 312: text=''
+08:29:46 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:46 [INFO] Queued frame 313 for OCR
+08:29:46 [INFO] OCR worker: received frame 313
+08:29:47 [INFO] OCR done frame 313: text=''
+08:29:47 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:47 [INFO] Queued frame 314 for OCR
+08:29:47 [INFO] OCR worker: received frame 314
+08:29:47 [INFO] OCR done frame 314: text=''
+08:29:47 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:47 [INFO] Queued frame 315 for OCR
+08:29:47 [INFO] OCR worker: received frame 315
+08:29:47 [INFO] OCR done frame 315: text=''
+08:29:47 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:47 [INFO] Queued frame 316 for OCR
+08:29:47 [INFO] OCR worker: received frame 316
+08:29:47 [INFO] OCR done frame 316: text=''
+08:29:47 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:47 [INFO] Queued frame 317 for OCR
+08:29:47 [INFO] OCR worker: received frame 317
+08:29:47 [INFO] OCR done frame 317: text=''
+08:29:47 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:47 [INFO] Queued frame 318 for OCR
+08:29:47 [INFO] OCR worker: received frame 318
+08:29:47 [INFO] OCR done frame 318: text=''
+08:29:47 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:47 [INFO] Queued frame 319 for OCR
+08:29:47 [INFO] OCR worker: received frame 319
+08:29:48 [INFO] OCR done frame 319: text=''
+08:29:48 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:48 [INFO] Queued frame 320 for OCR
+08:29:48 [INFO] OCR worker: received frame 320
+08:29:48 [INFO] OCR done frame 320: text=''
+08:29:48 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:48 [INFO] Queued frame 321 for OCR
+08:29:48 [INFO] OCR worker: received frame 321
+08:29:48 [INFO] OCR done frame 321: text=''
+08:29:48 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:48 [INFO] Queued frame 322 for OCR
+08:29:48 [INFO] OCR worker: received frame 322
+08:29:48 [INFO] OCR done frame 322: text=''
+08:29:48 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:48 [INFO] OCR worker: received frame 323
+08:29:48 [INFO] Queued frame 323 for OCR
+08:29:48 [INFO] OCR done frame 323: text=''
+08:29:48 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:48 [INFO] Queued frame 324 for OCR
+08:29:48 [INFO] OCR worker: received frame 324
+08:29:49 [INFO] OCR done frame 324: text=''
+08:29:49 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:49 [INFO] Queued frame 325 for OCR
+08:29:49 [INFO] OCR worker: received frame 325
+08:29:49 [INFO] OCR done frame 325: text=''
+08:29:49 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:49 [INFO] Queued frame 326 for OCR
+08:29:49 [INFO] OCR worker: received frame 326
+08:29:49 [INFO] OCR done frame 326: text=''
+08:29:49 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:49 [INFO] Queued frame 327 for OCR
+08:29:49 [INFO] OCR worker: received frame 327
+08:29:49 [INFO] OCR done frame 327: text=''
+08:29:49 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:49 [INFO] Queued frame 328 for OCR
+08:29:49 [INFO] OCR worker: received frame 328
+08:29:49 [INFO] OCR done frame 328: text=''
+08:29:49 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:49 [INFO] Queued frame 329 for OCR
+08:29:49 [INFO] OCR worker: received frame 329
+08:29:49 [INFO] OCR done frame 329: text=''
+08:29:49 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:29:50 [INFO] Quit requested
+08:29:50 [INFO] Shutting down: sending None to worker and waiting
+08:29:50 [INFO] OCR worker received shutdown signal
+08:29:50 [INFO] Camera stopped
+08:29:50 [INFO] Exited cleanly
+08:29:50 [INFO] Camera closed successfully.

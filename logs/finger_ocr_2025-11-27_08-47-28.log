@@ -1,0 +1,178 @@
+08:47:29 [INFO] Initialization successful.
+08:47:29 [INFO] Camera now open.
+08:47:29 [INFO] Camera configuration has been adjusted!
+08:47:29 [INFO] Configuration successful!
+08:47:29 [INFO] Camera started
+08:47:29 [INFO] OCR worker started
+08:47:29 [INFO] Starting main loop
+08:47:57 [INFO] Queued frame 1 for OCR
+08:47:57 [INFO] OCR worker: received frame 1
+08:47:58 [INFO] Queued frame 2 for OCR
+08:48:01 [INFO] OCR done frame 1: text=''
+08:48:01 [INFO] timings (deskew=0.096s, prep=0.058s, ocr=3.884s) total=4.049s angle=0.00°
+08:48:01 [INFO] MSE: 5419.83375
+08:48:01 [INFO] OCR worker: received frame 2
+08:48:01 [INFO] Queued frame 36 for OCR
+08:48:02 [INFO] OCR done frame 2: text=''
+08:48:02 [INFO] timings (deskew=0.016s, prep=0.004s, ocr=1.581s) total=1.602s angle=0.00°
+08:48:02 [INFO] MSE: 4241.255625
+08:48:02 [INFO] OCR worker: received frame 36
+08:48:03 [INFO] Queued frame 48 for OCR
+08:48:04 [INFO] OCR done frame 36: text=''
+08:48:04 [INFO] timings (deskew=0.012s, prep=0.012s, ocr=1.444s) total=1.470s angle=0.00°
+08:48:04 [INFO] MSE: 5814.860624999999
+08:48:04 [INFO] OCR worker: received frame 48
+08:48:04 [INFO] Queued frame 60 for OCR
+08:48:06 [INFO] OCR done frame 48: text='and pup,'
+08:48:06 [INFO] Saying with TTS: and pup,
+08:48:07 [INFO] timings (deskew=0.010s, prep=0.007s, ocr=2.514s) total=2.532s angle=0.00°
+08:48:07 [INFO] MSE: 5483.233125
+08:48:07 [INFO] OCR worker: received frame 60
+08:48:07 [INFO] Queued frame 80 for OCR
+08:48:09 [INFO] OCR done frame 60: text='and puzzii'
+08:48:09 [INFO] Saying with TTS: and puzzii
+08:48:12 [INFO] timings (deskew=0.039s, prep=0.007s, ocr=2.772s) total=2.819s angle=0.00°
+08:48:12 [INFO] MSE: 6216.39
+08:48:12 [INFO] OCR worker: received frame 80
+08:48:12 [INFO] Queued frame 116 for OCR
+08:48:15 [INFO] OCR done frame 80: text='and puzzlin'
+08:48:15 [INFO] Saying with TTS: and puzzlin
+08:48:15 [INFO] timings (deskew=0.019s, prep=0.006s, ocr=3.118s) total=3.144s angle=0.00°
+08:48:15 [INFO] MSE: 7271.420625
+08:48:15 [INFO] OCR worker: received frame 116
+08:48:15 [INFO] Queued frame 138 for OCR
+08:48:17 [INFO] OCR done frame 116: text='and puzzling'
+08:48:17 [INFO] Saying with TTS: and puzzling
+08:48:17 [INFO] timings (deskew=0.048s, prep=0.008s, ocr=2.234s) total=2.291s angle=0.00°
+08:48:17 [INFO] MSE: 6884.521875000001
+08:48:17 [INFO] OCR worker: received frame 138
+08:48:17 [INFO] Queued frame 153 for OCR
+08:48:20 [INFO] OCR done frame 138: text='and puzzling'
+08:48:20 [INFO] timings (deskew=0.025s, prep=0.005s, ocr=2.660s) total=2.691s angle=0.00°
+08:48:20 [INFO] MSE: 6552.894375
+08:48:20 [INFO] OCR worker: received frame 153
+08:48:20 [INFO] Queued frame 171 for OCR
+08:48:22 [INFO] OCR done frame 153: text='and puzzling'
+08:48:22 [INFO] timings (deskew=0.016s, prep=0.004s, ocr=2.240s) total=2.261s angle=0.00°
+08:48:22 [INFO] MSE: 2353.905
+08:48:22 [INFO] OCR worker: received frame 171
+08:48:22 [INFO] Queued frame 189 for OCR
+08:48:23 [INFO] OCR done frame 171: text=''
+08:48:23 [INFO] timings (deskew=0.012s, prep=0.004s, ocr=1.323s) total=1.339s angle=0.00°
+08:48:23 [INFO] MSE: 9874.04625
+08:48:23 [INFO] OCR worker: received frame 189
+08:48:23 [INFO] Queued frame 200 for OCR
+08:48:25 [INFO] OCR done frame 189: text='| puzzling questions'
+08:48:25 [INFO] Saying with TTS: | puzzling questions
+08:48:25 [INFO] timings (deskew=0.017s, prep=0.004s, ocr=1.585s) total=1.607s angle=0.00°
+08:48:25 [INFO] MSE: 10891.687499999998
+08:48:25 [INFO] OCR worker: received frame 200
+08:48:25 [INFO] Queued frame 212 for OCR
+08:48:27 [INFO] OCR done frame 200: text='| puzzling questions'
+08:48:27 [INFO] timings (deskew=0.012s, prep=0.007s, ocr=2.524s) total=2.544s angle=0.00°
+08:48:27 [INFO] MSE: 6588.658125
+08:48:27 [INFO] OCR worker: received frame 212
+08:48:27 [INFO] Queued frame 229 for OCR
+08:48:31 [INFO] OCR done frame 212: text='| puzzling questions'
+08:48:31 [INFO] timings (deskew=0.020s, prep=0.013s, ocr=3.368s) total=3.402s angle=0.00°
+08:48:31 [INFO] MSE: 7783.4925
+08:48:31 [INFO] OCR worker: received frame 229
+08:48:31 [INFO] Queued frame 256 for OCR
+08:48:33 [INFO] OCR done frame 229: text='| puzzling questions'
+08:48:33 [INFO] timings (deskew=0.012s, prep=0.004s, ocr=1.677s) total=1.694s angle=0.00°
+08:48:33 [INFO] MSE: 5140.22625
+08:48:33 [INFO] OCR worker: received frame 256
+08:48:33 [INFO] Queued frame 269 for OCR
+08:48:34 [INFO] OCR done frame 256: text=''
+08:48:34 [INFO] timings (deskew=0.022s, prep=0.005s, ocr=1.563s) total=1.590s angle=0.00°
+08:48:34 [INFO] MSE: 12231.202500000001
+08:48:34 [INFO] OCR worker: received frame 269
+08:48:34 [INFO] Queued frame 282 for OCR
+08:48:36 [INFO] OCR done frame 269: text=''
+08:48:36 [INFO] timings (deskew=0.012s, prep=0.017s, ocr=1.392s) total=1.421s angle=0.00°
+08:48:36 [INFO] MSE: 11979.230624999998
+08:48:36 [INFO] OCR worker: received frame 282
+08:48:36 [INFO] Queued frame 293 for OCR
+08:48:37 [INFO] OCR done frame 282: text=''
+08:48:37 [INFO] timings (deskew=0.011s, prep=0.004s, ocr=1.279s) total=1.295s angle=0.00°
+08:48:37 [INFO] MSE: 10542.178124999999
+08:48:37 [INFO] OCR worker: received frame 293
+08:48:37 [INFO] Queued frame 304 for OCR
+08:48:39 [INFO] OCR done frame 293: text='‘questions expressed'
+08:48:39 [INFO] Saying with TTS: ‘questions expressed
+08:48:39 [INFO] timings (deskew=0.010s, prep=0.010s, ocr=2.309s) total=2.331s angle=0.00°
+08:48:39 [INFO] MSE: 5335.30125
+08:48:39 [INFO] OCR worker: received frame 304
+08:48:39 [INFO] Queued frame 323 for OCR
+08:48:41 [INFO] OCR done frame 304: text=''
+08:48:41 [INFO] timings (deskew=0.018s, prep=0.011s, ocr=1.500s) total=1.529s angle=0.00°
+08:48:41 [INFO] MSE: 9719.611874999999
+08:48:41 [INFO] OCR worker: received frame 323
+08:48:41 [INFO] Queued frame 333 for OCR
+08:48:43 [INFO] OCR done frame 323: text='questions expressed'
+08:48:43 [INFO] Saying with TTS: questions expressed
+08:48:43 [INFO] timings (deskew=0.019s, prep=0.015s, ocr=2.544s) total=2.577s angle=0.00°
+08:48:43 [INFO] MSE: 6533.386875
+08:48:43 [INFO] OCR worker: received frame 333
+08:48:43 [INFO] Queued frame 352 for OCR
+08:48:45 [INFO] OCR done frame 333: text=''
+08:48:45 [INFO] timings (deskew=0.023s, prep=0.012s, ocr=1.581s) total=1.616s angle=0.00°
+08:48:45 [INFO] MSE: 5397.075000000001
+08:48:45 [INFO] OCR worker: received frame 352
+08:48:45 [INFO] Queued frame 363 for OCR
+08:48:46 [INFO] OCR done frame 352: text=''
+08:48:46 [INFO] timings (deskew=0.011s, prep=0.005s, ocr=1.423s) total=1.439s angle=0.00°
+08:48:46 [INFO] MSE: 12000.363750000002
+08:48:46 [INFO] OCR worker: received frame 363
+08:48:46 [INFO] Queued frame 373 for OCR
+08:48:48 [INFO] OCR done frame 363: text=''
+08:48:48 [INFO] timings (deskew=0.010s, prep=0.005s, ocr=1.238s) total=1.254s angle=0.00°
+08:48:48 [INFO] MSE: 6824.373750000001
+08:48:48 [INFO] OCR worker: received frame 373
+08:48:48 [INFO] Queued frame 383 for OCR
+08:48:49 [INFO] OCR done frame 373: text=''
+08:48:49 [INFO] timings (deskew=0.020s, prep=0.004s, ocr=1.285s) total=1.310s angle=0.00°
+08:48:49 [INFO] MSE: 5613.283125
+08:48:49 [INFO] OCR worker: received frame 383
+08:48:49 [INFO] Queued frame 393 for OCR
+08:48:52 [INFO] OCR done frame 383: text='ressed memorably, ¢'
+08:48:52 [INFO] Saying with TTS: ressed memorably, ¢
+08:48:52 [INFO] timings (deskew=0.018s, prep=0.006s, ocr=2.787s) total=2.811s angle=0.00°
+08:48:52 [INFO] MSE: 5678.308125
+08:48:52 [INFO] OCR worker: received frame 393
+08:48:52 [INFO] Queued frame 414 for OCR
+08:48:53 [INFO] OCR done frame 393: text=''
+08:48:53 [INFO] timings (deskew=0.012s, prep=0.005s, ocr=1.548s) total=1.565s angle=0.00°
+08:48:53 [INFO] MSE: 2800.951875
+08:48:53 [INFO] OCR worker: received frame 414
+08:48:54 [INFO] Queued frame 425 for OCR
+08:48:57 [INFO] OCR done frame 414: text='ressed memorably. ¢'
+08:48:57 [INFO] Saying with TTS: ressed memorably. ¢
+08:48:57 [INFO] timings (deskew=0.015s, prep=0.008s, ocr=3.542s) total=3.566s angle=0.00°
+08:48:57 [INFO] MSE: 9342.466875
+08:48:57 [INFO] OCR worker: received frame 425
+08:48:57 [INFO] Queued frame 453 for OCR
+08:48:59 [INFO] OCR done frame 425: text=''
+08:48:59 [INFO] timings (deskew=0.030s, prep=0.007s, ocr=1.551s) total=1.589s angle=0.00°
+08:48:59 [INFO] MSE: 8888.9175
+08:48:59 [INFO] OCR worker: received frame 453
+08:48:59 [INFO] Queued frame 464 for OCR
+08:49:02 [INFO] OCR done frame 453: text='morably. OF the m.'
+08:49:02 [INFO] Saying with TTS: morably. OF the m.
+08:49:02 [INFO] timings (deskew=0.011s, prep=0.004s, ocr=3.032s) total=3.046s angle=0.00°
+08:49:02 [INFO] MSE: 13372.391250000002
+08:49:02 [INFO] OCR worker: received frame 464
+08:49:02 [INFO] Queued frame 487 for OCR
+08:49:06 [INFO] OCR done frame 464: text='sorably. Of the man'
+08:49:06 [INFO] Saying with TTS: sorably. Of the man
+08:49:06 [INFO] timings (deskew=0.016s, prep=0.008s, ocr=4.218s) total=4.242s angle=0.00°
+08:49:06 [INFO] MSE: 13447.17
+08:49:06 [INFO] OCR worker: received frame 487
+08:49:06 [INFO] Queued frame 517 for OCR
+08:49:06 [INFO] Quit requested
+08:49:06 [INFO] Shutting down: sending None to worker and waiting
+08:49:07 [INFO] OCR done frame 487: text='orably. Of the many'
+08:49:07 [INFO] Saying with TTS: orably. Of the many
+08:49:07 [INFO] Camera stopped
+08:49:07 [INFO] Exited cleanly
+08:49:08 [INFO] Camera closed successfully.

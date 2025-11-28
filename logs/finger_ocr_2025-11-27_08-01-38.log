@@ -1,0 +1,117 @@
+08:01:38 [INFO] Initialization successful.
+08:01:38 [INFO] Camera now open.
+08:01:38 [INFO] Camera configuration has been adjusted!
+08:01:38 [INFO] Configuration successful!
+08:01:38 [INFO] Camera started
+08:01:38 [INFO] OCR worker started
+08:01:38 [INFO] Starting main loop
+08:01:58 [INFO] Queued frame 46 for OCR
+08:01:58 [INFO] OCR worker: received frame 46
+08:01:58 [INFO] Queued frame 47 for OCR
+08:02:07 [INFO] OCR done frame 46: text='Be'
+08:02:07 [INFO] Saying with TTS: Be
+08:02:07 [INFO] timings (deskew=0.316s, prep=0.082s, ocr=8.434s) total=9.082s angle=0.00°
+08:02:07 [INFO] MSE: 5132.581418918919
+08:02:07 [INFO] OCR worker: received frame 47
+08:02:07 [INFO] Queued frame 98 for OCR
+08:02:12 [INFO] OCR done frame 47: text='a vault i li'
+08:02:12 [INFO] Saying with TTS: a vault i li
+08:02:12 [INFO] timings (deskew=0.038s, prep=0.015s, ocr=4.549s) total=4.631s angle=0.00°
+08:02:12 [INFO] MSE: 13431.177364864865
+08:02:12 [INFO] OCR worker: received frame 98
+08:02:12 [INFO] OCR done frame 98: text='a vault i li'
+08:02:12 [INFO] timings (deskew=0.025s, prep=0.030s, ocr=4.549s) total=0.079s angle=0.00°
+08:02:12 [INFO] MSE: 22575.977027027027
+08:02:12 [INFO] Queued frame 122 for OCR
+08:02:12 [INFO] OCR worker: received frame 122
+08:02:12 [INFO] Queued frame 123 for OCR
+08:02:14 [INFO] OCR done frame 122: text='contribution to'
+08:02:14 [INFO] Saying with TTS: contribution to
+08:02:14 [INFO] timings (deskew=0.049s, prep=0.028s, ocr=2.364s) total=2.515s angle=0.00°
+08:02:14 [INFO] MSE: 20343.159121621622
+08:02:14 [INFO] OCR worker: received frame 123
+08:02:14 [INFO] Queued frame 137 for OCR
+08:02:19 [INFO] OCR done frame 123: text='contribution to'
+08:02:19 [INFO] timings (deskew=0.028s, prep=0.093s, ocr=4.360s) total=4.539s angle=0.00°
+08:02:19 [INFO] MSE: 9991.003378378378
+08:02:19 [INFO] OCR worker: received frame 137
+08:02:19 [INFO] Queued frame 166 for OCR
+08:02:22 [INFO] OCR done frame 137: text='contribution to'
+08:02:22 [INFO] timings (deskew=0.034s, prep=0.009s, ocr=3.652s) total=3.708s angle=0.00°
+08:02:22 [INFO] MSE: 16291.398648648648
+08:02:22 [INFO] OCR worker: received frame 166
+08:02:23 [INFO] Queued frame 193 for OCR
+08:02:25 [INFO] OCR done frame 166: text='contribution to'
+08:02:25 [INFO] timings (deskew=0.025s, prep=0.011s, ocr=2.961s) total=3.008s angle=0.00°
+08:02:25 [INFO] MSE: 12727.325675675676
+08:02:25 [INFO] OCR worker: received frame 193
+08:02:26 [INFO] Queued frame 215 for OCR
+08:02:29 [INFO] OCR done frame 193: text='COMMIS ty +'
+08:02:29 [INFO] Saying with TTS: COMMIS ty +
+08:02:29 [INFO] timings (deskew=0.024s, prep=0.009s, ocr=3.892s) total=3.950s angle=0.00°
+08:02:29 [INFO] MSE: 17533.024662162163
+08:02:29 [INFO] OCR worker: received frame 215
+08:02:30 [INFO] OCR done frame 215: text='COMMIS ty +'
+08:02:30 [INFO] timings (deskew=0.038s, prep=0.023s, ocr=3.892s) total=0.087s angle=0.00°
+08:02:30 [INFO] MSE: 29588.132432432434
+08:02:30 [INFO] Queued frame 244 for OCR
+08:02:30 [INFO] OCR worker: received frame 244
+08:02:30 [INFO] OCR done frame 244: text='COMMIS ty +'
+08:02:30 [INFO] timings (deskew=0.094s, prep=0.040s, ocr=3.892s) total=0.160s angle=0.00°
+08:02:30 [INFO] MSE: 34443.91824324324
+08:02:30 [INFO] Queued frame 245 for OCR
+08:02:30 [INFO] OCR worker: received frame 245
+08:02:30 [INFO] Queued frame 246 for OCR
+08:02:32 [INFO] OCR done frame 245: text=''
+08:02:32 [INFO] timings (deskew=0.058s, prep=0.015s, ocr=1.623s) total=1.717s angle=0.00°
+08:02:32 [INFO] MSE: 9764.294594594594
+08:02:32 [INFO] OCR worker: received frame 246
+08:02:32 [INFO] Queued frame 258 for OCR
+08:02:34 [INFO] OCR done frame 246: text='ribution to the subject and {'
+08:02:34 [INFO] Saying with TTS: ribution to the subject and {
+08:02:34 [INFO] timings (deskew=0.021s, prep=0.010s, ocr=2.547s) total=2.595s angle=0.00°
+08:02:34 [INFO] MSE: 6875.0756756756755
+08:02:34 [INFO] OCR worker: received frame 258
+08:02:34 [INFO] Queued frame 274 for OCR
+08:02:36 [INFO] OCR done frame 258: text=''
+08:02:36 [INFO] timings (deskew=0.045s, prep=0.030s, ocr=1.543s) total=1.658s angle=0.00°
+08:02:36 [INFO] MSE: 12946.126013513514
+08:02:36 [INFO] OCR worker: received frame 274
+08:02:36 [INFO] Queued frame 285 for OCR
+08:02:41 [INFO] OCR done frame 274: text='ribution to the subject and {'
+08:02:41 [INFO] timings (deskew=0.021s, prep=0.009s, ocr=5.187s) total=5.234s angle=0.00°
+08:02:41 [INFO] MSE: 18236.87635135135
+08:02:41 [INFO] OCR worker: received frame 285
+08:02:41 [INFO] Queued frame 320 for OCR
+08:02:45 [INFO] OCR done frame 285: text='ribution to the subject and f'
+08:02:45 [INFO] Saying with TTS: ribution to the subject and f
+08:02:45 [INFO] timings (deskew=0.024s, prep=0.014s, ocr=4.135s) total=4.197s angle=0.00°
+08:02:45 [INFO] MSE: 14564.721283783783
+08:02:45 [INFO] OCR worker: received frame 320
+08:02:45 [INFO] OCR done frame 320: text='ribution to the subject and f'
+08:02:45 [INFO] timings (deskew=0.038s, prep=0.007s, ocr=4.135s) total=0.075s angle=0.00°
+08:02:45 [INFO] MSE: 22288.636824324323
+08:02:47 [INFO] Queued frame 367 for OCR
+08:02:47 [INFO] OCR worker: received frame 367
+08:02:47 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (18,740,3) 
+08:02:47 [INFO] Queued frame 368 for OCR
+08:02:47 [INFO] OCR worker: received frame 368
+08:02:48 [INFO] Queued frame 373 for OCR
+08:02:52 [INFO] OCR done frame 368: text='ee'
+08:02:52 [INFO] Saying with TTS: ee
+08:02:52 [INFO] timings (deskew=0.030s, prep=0.011s, ocr=4.738s) total=4.798s angle=0.00°
+08:02:52 [INFO] MSE: 6229.219256756757
+08:02:52 [INFO] OCR worker: received frame 373
+08:02:52 [INFO] Queued frame 401 for OCR
+08:02:57 [INFO] Quit requested
+08:02:57 [INFO] Shutting down: sending None to worker and waiting
+08:02:57 [INFO] OCR done frame 373: text='po — OS a'
+08:02:57 [INFO] Saying with TTS: po — OS a
+08:02:57 [INFO] timings (deskew=0.063s, prep=0.015s, ocr=5.219s) total=5.315s angle=0.00°
+08:02:57 [INFO] MSE: 8174.696959459459
+08:02:57 [INFO] OCR worker: received frame 401
+08:02:57 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (27,740,3) 
+08:02:57 [INFO] OCR worker received shutdown signal
+08:02:57 [INFO] Camera stopped
+08:02:57 [INFO] Exited cleanly
+08:02:58 [INFO] Camera closed successfully.

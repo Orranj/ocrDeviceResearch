@@ -1,0 +1,55 @@
+07:59:34 [INFO] Initialization successful.
+07:59:34 [INFO] Camera now open.
+07:59:34 [INFO] Camera configuration has been adjusted!
+07:59:34 [INFO] Configuration successful!
+07:59:35 [INFO] Camera started
+07:59:35 [INFO] OCR worker started
+07:59:35 [INFO] Starting main loop
+08:00:03 [INFO] Queued frame 37 for OCR
+08:00:03 [INFO] OCR worker: received frame 37
+08:00:03 [INFO] Queued frame 38 for OCR
+08:00:08 [INFO] OCR done frame 37: text=''
+08:00:08 [INFO] timings (deskew=0.078s, prep=0.056s, ocr=4.931s) total=5.183s angle=0.00°
+08:00:08 [INFO] MSE: 7178.2327702702705
+08:00:08 [INFO] OCR worker: received frame 38
+08:00:08 [INFO] Queued frame 73 for OCR
+08:00:13 [INFO] OCR done frame 38: text='PMs with Wes easy OBE ue'
+08:00:13 [INFO] Saying with TTS: PMs with Wes easy OBE ue
+08:00:13 [INFO] timings (deskew=0.024s, prep=0.009s, ocr=4.791s) total=4.844s angle=0.00°
+08:00:13 [INFO] MSE: 12940.853716216216
+08:00:13 [INFO] OCR worker: received frame 73
+08:00:13 [INFO] Queued frame 113 for OCR
+08:00:15 [INFO] OCR done frame 73: text=''
+08:00:15 [INFO] timings (deskew=0.022s, prep=0.023s, ocr=1.506s) total=1.576s angle=0.00°
+08:00:15 [INFO] MSE: 24640.08141891892
+08:00:15 [INFO] OCR worker: received frame 113
+08:00:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (5,740,3) 
+08:00:15 [INFO] Queued frame 123 for OCR
+08:00:15 [INFO] OCR worker: received frame 123
+08:00:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (19,740,3) 
+08:00:15 [INFO] Queued frame 124 for OCR
+08:00:15 [INFO] OCR worker: received frame 124
+08:00:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (23,740,3) 
+08:00:15 [INFO] Queued frame 125 for OCR
+08:00:15 [INFO] OCR worker: received frame 125
+08:00:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (17,740,3) 
+08:00:15 [INFO] Queued frame 126 for OCR
+08:00:15 [INFO] OCR worker: received frame 126
+08:00:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (28,740,3) 
+08:00:15 [INFO] Queued frame 127 for OCR
+08:00:15 [INFO] OCR worker: received frame 127
+08:00:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (3,740,3) 
+08:00:15 [INFO] Queued frame 128 for OCR
+08:00:15 [INFO] OCR worker: received frame 128
+08:00:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (14,740,3) 
+08:00:15 [INFO] Queued frame 129 for OCR
+08:00:15 [INFO] OCR worker: received frame 129
+08:00:16 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (22,740,3) 
+08:00:16 [INFO] Queued frame 130 for OCR
+08:00:16 [INFO] OCR worker: received frame 130
+08:00:16 [INFO] Queued frame 131 for OCR
+08:01:00 [INFO] Quit requested
+08:01:00 [INFO] Shutting down: sending None to worker and waiting
+08:01:01 [INFO] Camera stopped
+08:01:01 [INFO] Exited cleanly
+08:01:01 [INFO] Camera closed successfully.

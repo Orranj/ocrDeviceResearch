@@ -1,0 +1,808 @@
+08:31:14 [INFO] Initialization successful.
+08:31:14 [INFO] Camera now open.
+08:31:14 [INFO] Camera configuration has been adjusted!
+08:31:14 [INFO] Configuration successful!
+08:31:14 [INFO] Camera started
+08:31:14 [INFO] OCR worker started
+08:31:14 [INFO] Starting main loop
+08:31:18 [INFO] Queued frame 0 for OCR
+08:31:18 [INFO] OCR worker: received frame 0
+08:31:19 [INFO] OCR done frame 0: text=''
+08:31:19 [INFO] timings (deskew=0.275s, prep=0.043s, ocr=0.000s) total=0.576s angle=0.00°
+08:31:19 [INFO] MSE: 19878.1425
+08:31:38 [INFO] Queued frame 1 for OCR
+08:31:38 [INFO] OCR worker: received frame 1
+08:31:38 [INFO] OCR done frame 1: text=''
+08:31:38 [INFO] timings (deskew=0.033s, prep=0.007s, ocr=0.000s) total=0.056s angle=0.00°
+08:31:38 [INFO] MSE: 24784.27875
+08:31:38 [INFO] Queued frame 2 for OCR
+08:31:38 [INFO] OCR worker: received frame 2
+08:31:38 [INFO] OCR done frame 2: text=''
+08:31:38 [INFO] timings (deskew=0.011s, prep=0.004s, ocr=0.000s) total=0.030s angle=0.00°
+08:31:38 [INFO] MSE: 26257.095
+08:31:38 [INFO] Queued frame 3 for OCR
+08:31:38 [INFO] OCR worker: received frame 3
+08:31:38 [INFO] OCR done frame 3: text=''
+08:31:38 [INFO] timings (deskew=0.014s, prep=0.006s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:38 [INFO] MSE: 11972.728125
+08:31:38 [INFO] Queued frame 4 for OCR
+08:31:38 [INFO] OCR worker: received frame 4
+08:31:38 [INFO] OCR done frame 4: text=''
+08:31:38 [INFO] timings (deskew=0.015s, prep=0.004s, ocr=0.000s) total=0.034s angle=0.00°
+08:31:38 [INFO] MSE: 15918.12
+08:31:39 [INFO] Queued frame 5 for OCR
+08:31:39 [INFO] OCR worker: received frame 5
+08:31:39 [INFO] OCR done frame 5: text=''
+08:31:39 [INFO] timings (deskew=0.026s, prep=0.007s, ocr=0.000s) total=0.053s angle=0.00°
+08:31:39 [INFO] MSE: 8329.7025
+08:31:39 [INFO] Queued frame 6 for OCR
+08:31:39 [INFO] OCR worker: received frame 6
+08:31:39 [INFO] OCR done frame 6: text=''
+08:31:39 [INFO] timings (deskew=0.016s, prep=0.008s, ocr=0.000s) total=0.046s angle=0.00°
+08:31:39 [INFO] MSE: 6837.37875
+08:31:39 [INFO] Queued frame 7 for OCR
+08:31:39 [INFO] OCR worker: received frame 7
+08:31:39 [INFO] OCR done frame 7: text=''
+08:31:39 [INFO] timings (deskew=0.013s, prep=0.006s, ocr=0.000s) total=0.038s angle=0.00°
+08:31:39 [INFO] MSE: 9797.641875
+08:31:39 [INFO] Queued frame 8 for OCR
+08:31:39 [INFO] OCR worker: received frame 8
+08:31:39 [INFO] OCR done frame 8: text=''
+08:31:39 [INFO] timings (deskew=0.012s, prep=0.005s, ocr=0.000s) total=0.032s angle=0.00°
+08:31:39 [INFO] MSE: 8061.474375
+08:31:39 [INFO] Queued frame 9 for OCR
+08:31:39 [INFO] OCR worker: received frame 9
+08:31:39 [INFO] OCR done frame 9: text=''
+08:31:39 [INFO] timings (deskew=0.013s, prep=0.004s, ocr=0.000s) total=0.032s angle=0.00°
+08:31:39 [INFO] MSE: 17668.918125
+08:31:39 [INFO] Queued frame 10 for OCR
+08:31:39 [INFO] OCR worker: received frame 10
+08:31:39 [INFO] OCR done frame 10: text=''
+08:31:39 [INFO] timings (deskew=0.017s, prep=0.004s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:39 [INFO] MSE: 14742.793125
+08:31:39 [INFO] Queued frame 11 for OCR
+08:31:39 [INFO] OCR worker: received frame 11
+08:31:39 [INFO] OCR done frame 11: text=''
+08:31:39 [INFO] timings (deskew=0.012s, prep=0.005s, ocr=0.000s) total=0.032s angle=0.00°
+08:31:39 [INFO] MSE: 14211.21375
+08:31:39 [INFO] Queued frame 12 for OCR
+08:31:39 [INFO] OCR worker: received frame 12
+08:31:39 [INFO] OCR done frame 12: text=''
+08:31:39 [INFO] timings (deskew=0.017s, prep=0.006s, ocr=0.000s) total=0.040s angle=0.00°
+08:31:39 [INFO] MSE: 2701.78875
+08:31:39 [INFO] Queued frame 13 for OCR
+08:31:39 [INFO] OCR worker: received frame 13
+08:31:39 [INFO] OCR done frame 13: text=''
+08:31:39 [INFO] timings (deskew=0.012s, prep=0.007s, ocr=0.000s) total=0.034s angle=0.00°
+08:31:39 [INFO] MSE: 22062.9825
+08:31:40 [INFO] Queued frame 14 for OCR
+08:31:40 [INFO] OCR worker: received frame 14
+08:31:40 [INFO] OCR done frame 14: text=''
+08:31:40 [INFO] timings (deskew=0.011s, prep=0.005s, ocr=0.000s) total=0.033s angle=0.00°
+08:31:40 [INFO] MSE: 18512.6175
+08:31:40 [INFO] Queued frame 15 for OCR
+08:31:40 [INFO] OCR worker: received frame 15
+08:31:40 [INFO] OCR done frame 15: text=''
+08:31:40 [INFO] timings (deskew=0.022s, prep=0.008s, ocr=0.000s) total=0.045s angle=0.00°
+08:31:40 [INFO] MSE: 22326.33375
+08:31:40 [INFO] Queued frame 16 for OCR
+08:31:40 [INFO] OCR worker: received frame 16
+08:31:40 [INFO] OCR done frame 16: text=''
+08:31:40 [INFO] timings (deskew=0.020s, prep=0.006s, ocr=0.000s) total=0.041s angle=0.00°
+08:31:40 [INFO] MSE: 16181.47125
+08:31:40 [INFO] Queued frame 17 for OCR
+08:31:40 [INFO] OCR worker: received frame 17
+08:31:40 [INFO] OCR done frame 17: text=''
+08:31:40 [INFO] timings (deskew=0.010s, prep=0.005s, ocr=0.000s) total=0.031s angle=0.00°
+08:31:40 [INFO] MSE: 6656.934375
+08:31:40 [INFO] Queued frame 18 for OCR
+08:31:40 [INFO] OCR worker: received frame 18
+08:31:40 [INFO] OCR done frame 18: text=''
+08:31:40 [INFO] timings (deskew=0.010s, prep=0.007s, ocr=0.000s) total=0.032s angle=0.00°
+08:31:40 [INFO] MSE: 12850.565625
+08:31:40 [INFO] Queued frame 19 for OCR
+08:31:40 [INFO] OCR worker: received frame 19
+08:31:40 [INFO] OCR done frame 19: text=''
+08:31:40 [INFO] timings (deskew=0.010s, prep=0.007s, ocr=0.000s) total=0.031s angle=0.00°
+08:31:40 [INFO] MSE: 5940.03375
+08:31:40 [INFO] Queued frame 20 for OCR
+08:31:40 [INFO] OCR worker: received frame 20
+08:31:40 [INFO] OCR done frame 20: text=''
+08:31:40 [INFO] timings (deskew=0.012s, prep=0.007s, ocr=0.000s) total=0.038s angle=0.00°
+08:31:40 [INFO] MSE: 6500.874375
+08:31:40 [INFO] Queued frame 21 for OCR
+08:31:40 [INFO] OCR worker: received frame 21
+08:31:40 [INFO] OCR done frame 21: text=''
+08:31:40 [INFO] timings (deskew=0.014s, prep=0.004s, ocr=0.000s) total=0.038s angle=0.00°
+08:31:40 [INFO] MSE: 8334.579375
+08:31:40 [INFO] Queued frame 22 for OCR
+08:31:40 [INFO] OCR worker: received frame 22
+08:31:40 [INFO] OCR done frame 22: text=''
+08:31:40 [INFO] timings (deskew=0.015s, prep=0.005s, ocr=0.000s) total=0.038s angle=0.00°
+08:31:40 [INFO] MSE: 12860.319375
+08:31:41 [INFO] Queued frame 23 for OCR
+08:31:41 [INFO] OCR worker: received frame 23
+08:31:41 [INFO] OCR done frame 23: text=''
+08:31:41 [INFO] timings (deskew=0.013s, prep=0.008s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:41 [INFO] MSE: 5866.880625
+08:31:41 [INFO] Queued frame 24 for OCR
+08:31:41 [INFO] OCR worker: received frame 24
+08:31:41 [INFO] OCR done frame 24: text=''
+08:31:41 [INFO] timings (deskew=0.012s, prep=0.004s, ocr=0.000s) total=0.032s angle=0.00°
+08:31:41 [INFO] MSE: 8797.8825
+08:31:41 [INFO] Queued frame 25 for OCR
+08:31:41 [INFO] OCR worker: received frame 25
+08:31:41 [INFO] OCR done frame 25: text=''
+08:31:41 [INFO] timings (deskew=0.012s, prep=0.009s, ocr=0.000s) total=0.040s angle=0.00°
+08:31:41 [INFO] MSE: 11616.71625
+08:31:41 [INFO] Queued frame 26 for OCR
+08:31:41 [INFO] OCR worker: received frame 26
+08:31:41 [INFO] OCR done frame 26: text=''
+08:31:41 [INFO] timings (deskew=0.016s, prep=0.004s, ocr=0.000s) total=0.033s angle=0.00°
+08:31:41 [INFO] MSE: 9100.24875
+08:31:41 [INFO] Queued frame 27 for OCR
+08:31:41 [INFO] OCR worker: received frame 27
+08:31:41 [INFO] OCR done frame 27: text=''
+08:31:41 [INFO] timings (deskew=0.023s, prep=0.039s, ocr=0.000s) total=0.081s angle=0.00°
+08:31:41 [INFO] MSE: 4238.004375
+08:31:41 [INFO] Queued frame 28 for OCR
+08:31:41 [INFO] OCR worker: received frame 28
+08:31:41 [INFO] OCR done frame 28: text=''
+08:31:41 [INFO] timings (deskew=0.018s, prep=0.012s, ocr=0.000s) total=0.066s angle=0.00°
+08:31:41 [INFO] MSE: 2028.78
+08:31:41 [INFO] Queued frame 29 for OCR
+08:31:41 [INFO] OCR worker: received frame 29
+08:31:42 [INFO] OCR done frame 29: text=''
+08:31:42 [INFO] timings (deskew=0.014s, prep=0.008s, ocr=0.000s) total=0.037s angle=0.00°
+08:31:42 [INFO] MSE: 2297.008125
+08:31:42 [INFO] Queued frame 30 for OCR
+08:31:42 [INFO] OCR worker: received frame 30
+08:31:42 [INFO] OCR done frame 30: text=''
+08:31:42 [INFO] timings (deskew=0.021s, prep=0.010s, ocr=0.000s) total=0.078s angle=0.00°
+08:31:42 [INFO] MSE: 13938.10875
+08:31:42 [INFO] Queued frame 31 for OCR
+08:31:42 [INFO] OCR worker: received frame 31
+08:31:42 [INFO] OCR done frame 31: text=''
+08:31:42 [INFO] timings (deskew=0.042s, prep=0.009s, ocr=0.000s) total=0.072s angle=0.00°
+08:31:42 [INFO] MSE: 6949.546875
+08:31:42 [INFO] Queued frame 32 for OCR
+08:31:42 [INFO] OCR worker: received frame 32
+08:31:42 [INFO] OCR done frame 32: text=''
+08:31:42 [INFO] timings (deskew=0.011s, prep=0.006s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:42 [INFO] MSE: 9217.29375
+08:31:42 [INFO] Queued frame 33 for OCR
+08:31:42 [INFO] OCR worker: received frame 33
+08:31:42 [INFO] OCR done frame 33: text=''
+08:31:42 [INFO] timings (deskew=0.031s, prep=0.011s, ocr=0.000s) total=0.062s angle=0.00°
+08:31:42 [INFO] MSE: 3657.65625
+08:31:42 [INFO] Queued frame 34 for OCR
+08:31:42 [INFO] OCR worker: received frame 34
+08:31:42 [INFO] OCR done frame 34: text=''
+08:31:42 [INFO] timings (deskew=0.025s, prep=0.008s, ocr=0.000s) total=0.054s angle=0.00°
+08:31:42 [INFO] MSE: 7251.913125
+08:31:42 [INFO] Queued frame 35 for OCR
+08:31:42 [INFO] OCR worker: received frame 35
+08:31:42 [INFO] OCR done frame 35: text=''
+08:31:42 [INFO] timings (deskew=0.028s, prep=0.010s, ocr=0.000s) total=0.052s angle=0.00°
+08:31:42 [INFO] MSE: 5896.141875
+08:31:42 [INFO] Queued frame 36 for OCR
+08:31:42 [INFO] OCR worker: received frame 36
+08:31:43 [INFO] OCR done frame 36: text=''
+08:31:43 [INFO] timings (deskew=0.039s, prep=0.005s, ocr=0.000s) total=0.059s angle=0.00°
+08:31:43 [INFO] MSE: 6778.85625
+08:31:43 [INFO] Queued frame 37 for OCR
+08:31:43 [INFO] OCR worker: received frame 37
+08:31:43 [INFO] OCR done frame 37: text=''
+08:31:43 [INFO] timings (deskew=0.014s, prep=0.006s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:43 [INFO] MSE: 17590.888125
+08:31:43 [INFO] Queued frame 38 for OCR
+08:31:43 [INFO] OCR worker: received frame 38
+08:31:43 [INFO] OCR done frame 38: text=''
+08:31:43 [INFO] timings (deskew=0.011s, prep=0.006s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:43 [INFO] MSE: 18805.23
+08:31:43 [INFO] Queued frame 39 for OCR
+08:31:43 [INFO] OCR worker: received frame 39
+08:31:43 [INFO] OCR done frame 39: text=''
+08:31:43 [INFO] timings (deskew=0.020s, prep=0.009s, ocr=0.000s) total=0.045s angle=0.00°
+08:31:43 [INFO] MSE: 6344.814375
+08:31:43 [INFO] Queued frame 40 for OCR
+08:31:43 [INFO] OCR worker: received frame 40
+08:31:43 [INFO] OCR done frame 40: text=''
+08:31:43 [INFO] timings (deskew=0.014s, prep=0.007s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:43 [INFO] MSE: 11129.02875
+08:31:43 [INFO] Queued frame 41 for OCR
+08:31:43 [INFO] OCR worker: received frame 41
+08:31:43 [INFO] OCR done frame 41: text=''
+08:31:43 [INFO] timings (deskew=0.035s, prep=0.005s, ocr=0.000s) total=0.062s angle=0.00°
+08:31:43 [INFO] MSE: 8851.528125
+08:31:43 [INFO] Queued frame 42 for OCR
+08:31:43 [INFO] OCR worker: received frame 42
+08:31:43 [INFO] OCR done frame 42: text=''
+08:31:43 [INFO] timings (deskew=0.035s, prep=0.007s, ocr=0.000s) total=0.058s angle=0.00°
+08:31:43 [INFO] MSE: 8471.131875
+08:31:43 [INFO] Queued frame 43 for OCR
+08:31:43 [INFO] OCR worker: received frame 43
+08:31:44 [INFO] OCR done frame 43: text=''
+08:31:44 [INFO] timings (deskew=0.055s, prep=0.014s, ocr=0.000s) total=0.084s angle=0.00°
+08:31:44 [INFO] MSE: 8554.03875
+08:31:44 [INFO] Queued frame 44 for OCR
+08:31:44 [INFO] OCR worker: received frame 44
+08:31:44 [INFO] OCR done frame 44: text=''
+08:31:44 [INFO] timings (deskew=0.020s, prep=0.005s, ocr=0.000s) total=0.041s angle=0.00°
+08:31:44 [INFO] MSE: 3613.764375
+08:31:44 [INFO] Queued frame 45 for OCR
+08:31:44 [INFO] OCR worker: received frame 45
+08:31:44 [INFO] OCR done frame 45: text=''
+08:31:44 [INFO] timings (deskew=0.021s, prep=0.022s, ocr=0.000s) total=0.059s angle=0.00°
+08:31:44 [INFO] MSE: 16961.77125
+08:31:44 [INFO] Queued frame 46 for OCR
+08:31:44 [INFO] OCR worker: received frame 46
+08:31:44 [INFO] OCR done frame 46: text=''
+08:31:44 [INFO] timings (deskew=0.012s, prep=0.005s, ocr=0.000s) total=0.032s angle=0.00°
+08:31:44 [INFO] MSE: 7266.54375
+08:31:44 [INFO] Queued frame 47 for OCR
+08:31:44 [INFO] OCR worker: received frame 47
+08:31:44 [INFO] OCR done frame 47: text=''
+08:31:44 [INFO] timings (deskew=0.020s, prep=0.010s, ocr=0.000s) total=0.053s angle=0.00°
+08:31:44 [INFO] MSE: 14196.583125
+08:31:44 [INFO] Queued frame 48 for OCR
+08:31:44 [INFO] OCR worker: received frame 48
+08:31:44 [INFO] OCR done frame 48: text=''
+08:31:44 [INFO] timings (deskew=0.021s, prep=0.006s, ocr=0.000s) total=0.041s angle=0.00°
+08:31:44 [INFO] MSE: 4481.848125
+08:31:44 [INFO] Queued frame 49 for OCR
+08:31:44 [INFO] OCR worker: received frame 49
+08:31:44 [INFO] OCR done frame 49: text=''
+08:31:44 [INFO] timings (deskew=0.029s, prep=0.005s, ocr=0.000s) total=0.050s angle=0.00°
+08:31:44 [INFO] MSE: 8944.18875
+08:31:44 [INFO] Queued frame 50 for OCR
+08:31:44 [INFO] OCR worker: received frame 50
+08:31:44 [INFO] OCR done frame 50: text=''
+08:31:44 [INFO] timings (deskew=0.036s, prep=0.009s, ocr=0.000s) total=0.078s angle=0.00°
+08:31:44 [INFO] MSE: 17381.1825
+08:31:45 [INFO] Queued frame 51 for OCR
+08:31:45 [INFO] OCR worker: received frame 51
+08:31:45 [INFO] OCR done frame 51: text=''
+08:31:45 [INFO] timings (deskew=0.022s, prep=0.006s, ocr=0.000s) total=0.043s angle=0.00°
+08:31:45 [INFO] MSE: 22950.57375
+08:31:45 [INFO] Queued frame 52 for OCR
+08:31:45 [INFO] OCR worker: received frame 52
+08:31:45 [INFO] OCR done frame 52: text=''
+08:31:45 [INFO] timings (deskew=0.031s, prep=0.005s, ocr=0.000s) total=0.053s angle=0.00°
+08:31:45 [INFO] MSE: 20082.97125
+08:31:45 [INFO] Queued frame 53 for OCR
+08:31:45 [INFO] OCR worker: received frame 53
+08:31:45 [INFO] OCR done frame 53: text=''
+08:31:45 [INFO] timings (deskew=0.054s, prep=0.009s, ocr=0.000s) total=0.082s angle=0.00°
+08:31:45 [INFO] MSE: 20487.751875
+08:31:45 [INFO] Queued frame 54 for OCR
+08:31:45 [INFO] OCR worker: received frame 54
+08:31:45 [INFO] OCR done frame 54: text=''
+08:31:45 [INFO] timings (deskew=0.020s, prep=0.009s, ocr=0.000s) total=0.046s angle=0.00°
+08:31:45 [INFO] MSE: 10197.545625
+08:31:45 [INFO] Queued frame 55 for OCR
+08:31:45 [INFO] OCR worker: received frame 55
+08:31:45 [INFO] OCR done frame 55: text=''
+08:31:45 [INFO] timings (deskew=0.010s, prep=0.005s, ocr=0.000s) total=0.031s angle=0.00°
+08:31:45 [INFO] MSE: 10153.65375
+08:31:45 [INFO] Queued frame 56 for OCR
+08:31:45 [INFO] OCR worker: received frame 56
+08:31:45 [INFO] OCR done frame 56: text=''
+08:31:45 [INFO] timings (deskew=0.022s, prep=0.008s, ocr=0.000s) total=0.049s angle=0.00°
+08:31:45 [INFO] MSE: 5710.820625
+08:31:45 [INFO] Queued frame 57 for OCR
+08:31:45 [INFO] OCR worker: received frame 57
+08:31:45 [INFO] OCR done frame 57: text=''
+08:31:45 [INFO] timings (deskew=0.013s, prep=0.005s, ocr=0.000s) total=0.035s angle=0.00°
+08:31:45 [INFO] MSE: 9597.69
+08:31:45 [INFO] Queued frame 58 for OCR
+08:31:45 [INFO] OCR worker: received frame 58
+08:31:46 [INFO] OCR done frame 58: text=''
+08:31:46 [INFO] timings (deskew=0.022s, prep=0.008s, ocr=0.000s) total=0.050s angle=0.00°
+08:31:46 [INFO] MSE: 15893.735625
+08:31:46 [INFO] Queued frame 59 for OCR
+08:31:46 [INFO] OCR worker: received frame 59
+08:31:46 [INFO] OCR done frame 59: text=''
+08:31:46 [INFO] timings (deskew=0.016s, prep=0.008s, ocr=0.000s) total=0.039s angle=0.00°
+08:31:46 [INFO] MSE: 22360.471875
+08:31:46 [INFO] Queued frame 60 for OCR
+08:31:46 [INFO] OCR worker: received frame 60
+08:31:46 [INFO] OCR done frame 60: text=''
+08:31:46 [INFO] timings (deskew=0.024s, prep=0.019s, ocr=0.000s) total=0.058s angle=0.00°
+08:31:46 [INFO] MSE: 5418.208125
+08:31:46 [INFO] Queued frame 61 for OCR
+08:31:46 [INFO] OCR worker: received frame 61
+08:31:46 [INFO] OCR done frame 61: text=''
+08:31:46 [INFO] timings (deskew=0.021s, prep=0.005s, ocr=0.000s) total=0.042s angle=0.00°
+08:31:46 [INFO] MSE: 9592.813125
+08:31:46 [INFO] Queued frame 62 for OCR
+08:31:46 [INFO] OCR worker: received frame 62
+08:31:46 [INFO] OCR done frame 62: text=''
+08:31:46 [INFO] timings (deskew=0.024s, prep=0.006s, ocr=0.000s) total=0.052s angle=0.00°
+08:31:46 [INFO] MSE: 18605.278125
+08:31:46 [INFO] Queued frame 63 for OCR
+08:31:46 [INFO] OCR worker: received frame 63
+08:31:46 [INFO] OCR done frame 63: text=''
+08:31:46 [INFO] timings (deskew=0.017s, prep=0.005s, ocr=0.000s) total=0.037s angle=0.00°
+08:31:46 [INFO] MSE: 21082.730625
+08:31:46 [INFO] Queued frame 64 for OCR
+08:31:46 [INFO] OCR worker: received frame 64
+08:31:46 [INFO] OCR done frame 64: text=''
+08:31:46 [INFO] timings (deskew=0.023s, prep=0.012s, ocr=0.000s) total=0.052s angle=0.00°
+08:31:46 [INFO] MSE: 14801.315625
+08:31:46 [INFO] Queued frame 65 for OCR
+08:31:46 [INFO] OCR worker: received frame 65
+08:31:46 [INFO] OCR done frame 65: text=''
+08:31:46 [INFO] timings (deskew=0.025s, prep=0.012s, ocr=0.000s) total=0.072s angle=0.00°
+08:31:46 [INFO] MSE: 12996.871875
+08:31:47 [INFO] Queued frame 66 for OCR
+08:31:47 [INFO] OCR worker: received frame 66
+08:31:47 [INFO] OCR done frame 66: text=''
+08:31:47 [INFO] timings (deskew=0.020s, prep=0.006s, ocr=0.000s) total=0.043s angle=0.00°
+08:31:47 [INFO] MSE: 6803.240625
+08:31:47 [INFO] Queued frame 67 for OCR
+08:31:47 [INFO] OCR worker: received frame 67
+08:31:47 [INFO] OCR done frame 67: text=''
+08:31:47 [INFO] timings (deskew=0.019s, prep=0.004s, ocr=0.000s) total=0.039s angle=0.00°
+08:31:47 [INFO] MSE: 23784.519375
+08:31:47 [INFO] Queued frame 68 for OCR
+08:31:47 [INFO] OCR worker: received frame 68
+08:31:47 [INFO] OCR done frame 68: text=''
+08:31:47 [INFO] timings (deskew=0.020s, prep=0.007s, ocr=0.000s) total=0.042s angle=0.00°
+08:31:47 [INFO] MSE: 12294.601875
+08:31:47 [INFO] Queued frame 69 for OCR
+08:31:47 [INFO] OCR worker: received frame 69
+08:31:47 [INFO] OCR done frame 69: text=''
+08:31:47 [INFO] timings (deskew=0.014s, prep=0.006s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:47 [INFO] MSE: 8046.84375
+08:31:47 [INFO] Queued frame 70 for OCR
+08:31:47 [INFO] OCR worker: received frame 70
+08:31:47 [INFO] OCR done frame 70: text=''
+08:31:47 [INFO] timings (deskew=0.021s, prep=0.011s, ocr=0.000s) total=0.051s angle=0.00°
+08:31:47 [INFO] MSE: 14932.99125
+08:31:47 [INFO] Queued frame 71 for OCR
+08:31:47 [INFO] OCR worker: received frame 71
+08:31:47 [INFO] OCR done frame 71: text=''
+08:31:47 [INFO] timings (deskew=0.046s, prep=0.013s, ocr=0.000s) total=0.074s angle=0.00°
+08:31:47 [INFO] MSE: 11041.245
+08:31:47 [INFO] Queued frame 72 for OCR
+08:31:47 [INFO] OCR worker: received frame 72
+08:31:47 [INFO] OCR done frame 72: text=''
+08:31:47 [INFO] timings (deskew=0.016s, prep=0.005s, ocr=0.000s) total=0.035s angle=0.00°
+08:31:47 [INFO] MSE: 4808.59875
+08:31:47 [INFO] Queued frame 73 for OCR
+08:31:47 [INFO] OCR worker: received frame 73
+08:31:47 [INFO] OCR done frame 73: text=''
+08:31:47 [INFO] timings (deskew=0.024s, prep=0.007s, ocr=0.000s) total=0.048s angle=0.00°
+08:31:47 [INFO] MSE: 3764.9475
+08:31:48 [INFO] Queued frame 74 for OCR
+08:31:48 [INFO] OCR worker: received frame 74
+08:31:48 [INFO] OCR done frame 74: text=''
+08:31:48 [INFO] timings (deskew=0.033s, prep=0.007s, ocr=0.000s) total=0.067s angle=0.00°
+08:31:48 [INFO] MSE: 8251.6725
+08:31:48 [INFO] Queued frame 75 for OCR
+08:31:48 [INFO] OCR worker: received frame 75
+08:31:48 [INFO] OCR done frame 75: text=''
+08:31:48 [INFO] timings (deskew=0.020s, prep=0.006s, ocr=0.000s) total=0.041s angle=0.00°
+08:31:48 [INFO] MSE: 5988.8025
+08:31:48 [INFO] Queued frame 76 for OCR
+08:31:48 [INFO] OCR worker: received frame 76
+08:31:48 [INFO] OCR done frame 76: text=''
+08:31:48 [INFO] timings (deskew=0.032s, prep=0.018s, ocr=0.000s) total=0.081s angle=0.00°
+08:31:48 [INFO] MSE: 8500.393125
+08:31:48 [INFO] Queued frame 77 for OCR
+08:31:48 [INFO] OCR worker: received frame 77
+08:31:48 [INFO] OCR done frame 77: text=''
+08:31:48 [INFO] timings (deskew=0.011s, prep=0.009s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:48 [INFO] MSE: 11138.7825
+08:31:48 [INFO] Queued frame 78 for OCR
+08:31:48 [INFO] OCR worker: received frame 78
+08:31:48 [INFO] OCR done frame 78: text=''
+08:31:48 [INFO] timings (deskew=0.031s, prep=0.007s, ocr=0.000s) total=0.054s angle=0.00°
+08:31:48 [INFO] MSE: 8159.011875
+08:31:48 [INFO] Queued frame 79 for OCR
+08:31:48 [INFO] OCR worker: received frame 79
+08:31:48 [INFO] OCR done frame 79: text=''
+08:31:48 [INFO] timings (deskew=0.029s, prep=0.012s, ocr=0.000s) total=0.059s angle=0.00°
+08:31:48 [INFO] MSE: 6135.10875
+08:31:48 [INFO] Queued frame 80 for OCR
+08:31:48 [INFO] OCR worker: received frame 80
+08:31:48 [INFO] OCR done frame 80: text=''
+08:31:48 [INFO] timings (deskew=0.031s, prep=0.008s, ocr=0.000s) total=0.059s angle=0.00°
+08:31:48 [INFO] MSE: 3408.935625
+08:31:49 [INFO] Queued frame 81 for OCR
+08:31:49 [INFO] OCR worker: received frame 81
+08:31:49 [INFO] OCR done frame 81: text=''
+08:31:49 [INFO] timings (deskew=0.054s, prep=0.004s, ocr=0.000s) total=0.072s angle=0.00°
+08:31:49 [INFO] MSE: 7534.771875
+08:31:49 [INFO] Queued frame 82 for OCR
+08:31:49 [INFO] OCR worker: received frame 82
+08:31:49 [INFO] OCR done frame 82: text=''
+08:31:49 [INFO] timings (deskew=0.020s, prep=0.005s, ocr=0.000s) total=0.040s angle=0.00°
+08:31:49 [INFO] MSE: 3184.599375
+08:31:49 [INFO] Queued frame 83 for OCR
+08:31:49 [INFO] OCR worker: received frame 83
+08:31:49 [INFO] OCR done frame 83: text=''
+08:31:49 [INFO] timings (deskew=0.014s, prep=0.007s, ocr=0.000s) total=0.043s angle=0.00°
+08:31:49 [INFO] MSE: 7734.72375
+08:31:49 [INFO] Queued frame 84 for OCR
+08:31:49 [INFO] OCR worker: received frame 84
+08:31:49 [INFO] OCR done frame 84: text=''
+08:31:49 [INFO] timings (deskew=0.026s, prep=0.018s, ocr=0.000s) total=0.062s angle=0.00°
+08:31:49 [INFO] MSE: 6291.16875
+08:31:49 [INFO] Queued frame 85 for OCR
+08:31:49 [INFO] OCR worker: received frame 85
+08:31:49 [INFO] OCR done frame 85: text=''
+08:31:49 [INFO] timings (deskew=0.011s, prep=0.006s, ocr=0.000s) total=0.037s angle=0.00°
+08:31:49 [INFO] MSE: 4662.2925
+08:31:49 [INFO] Queued frame 86 for OCR
+08:31:49 [INFO] OCR worker: received frame 86
+08:31:49 [INFO] OCR done frame 86: text=''
+08:31:49 [INFO] timings (deskew=0.031s, prep=0.019s, ocr=0.000s) total=0.072s angle=0.00°
+08:31:49 [INFO] MSE: 5267.025
+08:31:49 [INFO] Queued frame 87 for OCR
+08:31:49 [INFO] OCR worker: received frame 87
+08:31:49 [INFO] OCR done frame 87: text=''
+08:31:49 [INFO] timings (deskew=0.016s, prep=0.004s, ocr=0.000s) total=0.044s angle=0.00°
+08:31:49 [INFO] MSE: 12358.00125
+08:31:49 [INFO] Queued frame 88 for OCR
+08:31:49 [INFO] OCR worker: received frame 88
+08:31:50 [INFO] OCR done frame 88: text=''
+08:31:50 [INFO] timings (deskew=0.053s, prep=0.006s, ocr=0.000s) total=0.075s angle=0.00°
+08:31:50 [INFO] MSE: 7768.861875
+08:31:50 [INFO] Queued frame 89 for OCR
+08:31:50 [INFO] OCR worker: received frame 89
+08:31:50 [INFO] OCR done frame 89: text=''
+08:31:50 [INFO] timings (deskew=0.012s, prep=0.009s, ocr=0.000s) total=0.039s angle=0.00°
+08:31:50 [INFO] MSE: 10470.650625
+08:31:50 [INFO] Queued frame 90 for OCR
+08:31:50 [INFO] OCR worker: received frame 90
+08:31:50 [INFO] OCR done frame 90: text=''
+08:31:50 [INFO] timings (deskew=0.027s, prep=0.017s, ocr=0.000s) total=0.069s angle=0.00°
+08:31:50 [INFO] MSE: 15230.480625
+08:31:50 [INFO] Queued frame 91 for OCR
+08:31:50 [INFO] OCR worker: received frame 91
+08:31:50 [INFO] OCR done frame 91: text=''
+08:31:50 [INFO] timings (deskew=0.022s, prep=0.006s, ocr=0.000s) total=0.044s angle=0.00°
+08:31:50 [INFO] MSE: 3360.166875
+08:31:50 [INFO] Queued frame 92 for OCR
+08:31:50 [INFO] OCR worker: received frame 92
+08:31:50 [INFO] OCR done frame 92: text=''
+08:31:50 [INFO] timings (deskew=0.028s, prep=0.005s, ocr=0.000s) total=0.061s angle=0.00°
+08:31:50 [INFO] MSE: 8739.36
+08:31:50 [INFO] Queued frame 93 for OCR
+08:31:50 [INFO] OCR worker: received frame 93
+08:31:50 [INFO] OCR done frame 93: text=''
+08:31:50 [INFO] timings (deskew=0.020s, prep=0.010s, ocr=0.000s) total=0.045s angle=0.00°
+08:31:50 [INFO] MSE: 7905.414375
+08:31:50 [INFO] Queued frame 94 for OCR
+08:31:50 [INFO] OCR worker: received frame 94
+08:31:50 [INFO] OCR done frame 94: text=''
+08:31:50 [INFO] timings (deskew=0.018s, prep=0.004s, ocr=0.000s) total=0.043s angle=0.00°
+08:31:50 [INFO] MSE: 5159.73375
+08:31:50 [INFO] Queued frame 95 for OCR
+08:31:50 [INFO] OCR worker: received frame 95
+08:31:50 [INFO] OCR done frame 95: text=''
+08:31:50 [INFO] timings (deskew=0.010s, prep=0.008s, ocr=0.000s) total=0.070s angle=0.00°
+08:31:50 [INFO] MSE: 2833.464375
+08:31:51 [INFO] Queued frame 96 for OCR
+08:31:51 [INFO] OCR worker: received frame 96
+08:31:51 [INFO] OCR done frame 96: text=''
+08:31:51 [INFO] timings (deskew=0.025s, prep=0.006s, ocr=0.000s) total=0.046s angle=0.00°
+08:31:51 [INFO] MSE: 6208.261875
+08:31:51 [INFO] Queued frame 97 for OCR
+08:31:51 [INFO] OCR worker: received frame 97
+08:31:51 [INFO] OCR done frame 97: text=''
+08:31:51 [INFO] timings (deskew=0.035s, prep=0.009s, ocr=0.000s) total=0.066s angle=0.00°
+08:31:51 [INFO] MSE: 8797.8825
+08:31:51 [INFO] Queued frame 98 for OCR
+08:31:51 [INFO] OCR worker: received frame 98
+08:31:51 [INFO] OCR done frame 98: text=''
+08:31:51 [INFO] timings (deskew=0.035s, prep=0.004s, ocr=0.000s) total=0.060s angle=0.00°
+08:31:51 [INFO] MSE: 7193.390625
+08:31:51 [INFO] Queued frame 99 for OCR
+08:31:51 [INFO] OCR worker: received frame 99
+08:31:51 [INFO] OCR done frame 99: text=''
+08:31:51 [INFO] timings (deskew=0.012s, prep=0.005s, ocr=0.000s) total=0.035s angle=0.00°
+08:31:51 [INFO] MSE: 8451.624375
+08:31:51 [INFO] Queued frame 100 for OCR
+08:31:51 [INFO] OCR worker: received frame 100
+08:31:51 [INFO] OCR done frame 100: text=''
+08:31:51 [INFO] timings (deskew=0.039s, prep=0.005s, ocr=0.000s) total=0.060s angle=0.00°
+08:31:51 [INFO] MSE: 14884.2225
+08:31:51 [INFO] Queued frame 101 for OCR
+08:31:51 [INFO] OCR worker: received frame 101
+08:31:51 [INFO] OCR done frame 101: text=''
+08:31:51 [INFO] timings (deskew=0.022s, prep=0.003s, ocr=0.000s) total=0.043s angle=0.00°
+08:31:51 [INFO] MSE: 23316.339375
+08:31:51 [INFO] Queued frame 102 for OCR
+08:31:51 [INFO] OCR worker: received frame 102
+08:31:51 [INFO] OCR done frame 102: text=''
+08:31:51 [INFO] timings (deskew=0.031s, prep=0.005s, ocr=0.000s) total=0.055s angle=0.00°
+08:31:51 [INFO] MSE: 20716.965
+08:31:51 [INFO] Queued frame 103 for OCR
+08:31:51 [INFO] OCR worker: received frame 103
+08:31:51 [INFO] OCR done frame 103: text=''
+08:31:51 [INFO] timings (deskew=0.019s, prep=0.006s, ocr=0.000s) total=0.056s angle=0.00°
+08:31:51 [INFO] MSE: 3213.860625
+08:31:52 [INFO] Queued frame 104 for OCR
+08:31:52 [INFO] OCR worker: received frame 104
+08:31:52 [INFO] OCR done frame 104: text=''
+08:31:52 [INFO] timings (deskew=0.012s, prep=0.006s, ocr=0.000s) total=0.034s angle=0.00°
+08:31:52 [INFO] MSE: 16083.93375
+08:31:52 [INFO] Queued frame 105 for OCR
+08:31:52 [INFO] OCR worker: received frame 105
+08:31:52 [INFO] OCR done frame 105: text=''
+08:31:52 [INFO] timings (deskew=0.038s, prep=0.005s, ocr=0.000s) total=0.057s angle=0.00°
+08:31:52 [INFO] MSE: 22682.345625
+08:31:52 [INFO] Queued frame 106 for OCR
+08:31:52 [INFO] OCR worker: received frame 106
+08:31:52 [INFO] OCR done frame 106: text=''
+08:31:52 [INFO] timings (deskew=0.019s, prep=0.007s, ocr=0.000s) total=0.042s angle=0.00°
+08:31:52 [INFO] MSE: 2326.269375
+08:31:52 [INFO] Queued frame 107 for OCR
+08:31:52 [INFO] OCR worker: received frame 107
+08:31:52 [INFO] OCR done frame 107: text=''
+08:31:52 [INFO] timings (deskew=0.034s, prep=0.005s, ocr=0.000s) total=0.058s angle=0.00°
+08:31:52 [INFO] MSE: 9563.551875
+08:31:52 [INFO] Queued frame 108 for OCR
+08:31:52 [INFO] OCR worker: received frame 108
+08:31:52 [INFO] OCR done frame 108: text=''
+08:31:52 [INFO] timings (deskew=0.014s, prep=0.008s, ocr=0.000s) total=0.037s angle=0.00°
+08:31:52 [INFO] MSE: 12123.91125
+08:31:52 [INFO] Queued frame 109 for OCR
+08:31:52 [INFO] OCR worker: received frame 109
+08:31:52 [INFO] OCR done frame 109: text=''
+08:31:52 [INFO] timings (deskew=0.013s, prep=0.015s, ocr=0.000s) total=0.050s angle=0.00°
+08:31:52 [INFO] MSE: 7090.97625
+08:31:52 [INFO] Queued frame 110 for OCR
+08:31:52 [INFO] OCR worker: received frame 110
+08:31:52 [INFO] OCR done frame 110: text=''
+08:31:52 [INFO] timings (deskew=0.050s, prep=0.013s, ocr=0.000s) total=0.078s angle=0.00°
+08:31:52 [INFO] MSE: 8315.071875
+08:31:53 [INFO] Queued frame 111 for OCR
+08:31:53 [INFO] OCR worker: received frame 111
+08:31:53 [INFO] OCR done frame 111: text=''
+08:31:53 [INFO] timings (deskew=0.014s, prep=0.004s, ocr=0.000s) total=0.034s angle=0.00°
+08:31:53 [INFO] MSE: 8051.720625
+08:31:53 [INFO] Queued frame 112 for OCR
+08:31:53 [INFO] OCR worker: received frame 112
+08:31:53 [INFO] OCR done frame 112: text=''
+08:31:53 [INFO] timings (deskew=0.010s, prep=0.008s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:53 [INFO] MSE: 19200.256875
+08:31:53 [INFO] Queued frame 113 for OCR
+08:31:53 [INFO] OCR worker: received frame 113
+08:31:53 [INFO] OCR done frame 113: text=''
+08:31:53 [INFO] timings (deskew=0.023s, prep=0.005s, ocr=0.000s) total=0.042s angle=0.00°
+08:31:53 [INFO] MSE: 14567.225625
+08:31:53 [INFO] Queued frame 114 for OCR
+08:31:53 [INFO] OCR worker: received frame 114
+08:31:53 [INFO] OCR done frame 114: text=''
+08:31:53 [INFO] timings (deskew=0.022s, prep=0.004s, ocr=0.000s) total=0.040s angle=0.00°
+08:31:53 [INFO] MSE: 4964.65875
+08:31:53 [INFO] Queued frame 115 for OCR
+08:31:53 [INFO] OCR worker: received frame 115
+08:31:53 [INFO] OCR done frame 115: text=''
+08:31:53 [INFO] timings (deskew=0.035s, prep=0.008s, ocr=0.000s) total=0.061s angle=0.00°
+08:31:53 [INFO] MSE: 11836.175625
+08:31:53 [INFO] Queued frame 116 for OCR
+08:31:53 [INFO] OCR worker: received frame 116
+08:31:53 [INFO] OCR done frame 116: text=''
+08:31:53 [INFO] timings (deskew=0.020s, prep=0.008s, ocr=0.000s) total=0.042s angle=0.00°
+08:31:53 [INFO] MSE: 10597.449375
+08:31:53 [INFO] Queued frame 117 for OCR
+08:31:53 [INFO] OCR worker: received frame 117
+08:31:53 [INFO] OCR done frame 117: text=''
+08:31:53 [INFO] timings (deskew=0.031s, prep=0.012s, ocr=0.000s) total=0.057s angle=0.00°
+08:31:53 [INFO] MSE: 17054.431875
+08:31:54 [INFO] Queued frame 118 for OCR
+08:31:54 [INFO] OCR worker: received frame 118
+08:31:54 [INFO] OCR done frame 118: text=''
+08:31:54 [INFO] timings (deskew=0.011s, prep=0.007s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:54 [INFO] MSE: 18156.605625
+08:31:54 [INFO] Queued frame 119 for OCR
+08:31:54 [INFO] OCR worker: received frame 119
+08:31:54 [INFO] OCR done frame 119: text=''
+08:31:54 [INFO] timings (deskew=0.020s, prep=0.006s, ocr=0.000s) total=0.046s angle=0.00°
+08:31:54 [INFO] MSE: 4447.71
+08:31:54 [INFO] Queued frame 120 for OCR
+08:31:54 [INFO] OCR worker: received frame 120
+08:31:54 [INFO] OCR done frame 120: text=''
+08:31:54 [INFO] timings (deskew=0.023s, prep=0.025s, ocr=0.000s) total=0.069s angle=0.00°
+08:31:54 [INFO] MSE: 13299.238125
+08:31:54 [INFO] Queued frame 121 for OCR
+08:31:54 [INFO] OCR worker: received frame 121
+08:31:54 [INFO] OCR done frame 121: text=''
+08:31:54 [INFO] timings (deskew=0.011s, prep=0.008s, ocr=0.000s) total=0.039s angle=0.00°
+08:31:54 [INFO] MSE: 18736.95375
+08:31:54 [INFO] Queued frame 122 for OCR
+08:31:54 [INFO] OCR worker: received frame 122
+08:31:54 [INFO] OCR done frame 122: text=''
+08:31:54 [INFO] timings (deskew=0.020s, prep=0.007s, ocr=0.000s) total=0.044s angle=0.00°
+08:31:54 [INFO] MSE: 4218.496875
+08:31:54 [INFO] Queued frame 123 for OCR
+08:31:54 [INFO] OCR worker: received frame 123
+08:31:54 [INFO] OCR done frame 123: text=''
+08:31:54 [INFO] timings (deskew=0.018s, prep=0.022s, ocr=0.000s) total=0.057s angle=0.00°
+08:31:54 [INFO] MSE: 12631.10625
+08:31:54 [INFO] Queued frame 124 for OCR
+08:31:54 [INFO] OCR worker: received frame 124
+08:31:54 [INFO] OCR done frame 124: text=''
+08:31:54 [INFO] timings (deskew=0.016s, prep=0.005s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:54 [INFO] MSE: 10924.2
+08:31:54 [INFO] Queued frame 125 for OCR
+08:31:54 [INFO] OCR worker: received frame 125
+08:31:54 [INFO] OCR done frame 125: text=''
+08:31:54 [INFO] timings (deskew=0.015s, prep=0.010s, ocr=0.000s) total=0.051s angle=0.00°
+08:31:54 [INFO] MSE: 15654.76875
+08:31:55 [INFO] Queued frame 126 for OCR
+08:31:55 [INFO] OCR worker: received frame 126
+08:31:55 [INFO] OCR done frame 126: text=''
+08:31:55 [INFO] timings (deskew=0.019s, prep=0.006s, ocr=0.000s) total=0.041s angle=0.00°
+08:31:55 [INFO] MSE: 13348.006875
+08:31:55 [INFO] Queued frame 127 for OCR
+08:31:55 [INFO] OCR worker: received frame 127
+08:31:55 [INFO] OCR done frame 127: text=''
+08:31:55 [INFO] timings (deskew=0.015s, prep=0.006s, ocr=0.000s) total=0.038s angle=0.00°
+08:31:55 [INFO] MSE: 8124.87375
+08:31:55 [INFO] Queued frame 128 for OCR
+08:31:55 [INFO] OCR worker: received frame 128
+08:31:55 [INFO] OCR done frame 128: text=''
+08:31:55 [INFO] timings (deskew=0.024s, prep=0.010s, ocr=0.000s) total=0.054s angle=0.00°
+08:31:55 [INFO] MSE: 17288.521875
+08:31:55 [INFO] Queued frame 129 for OCR
+08:31:55 [INFO] OCR worker: received frame 129
+08:31:55 [INFO] OCR done frame 129: text=''
+08:31:55 [INFO] timings (deskew=0.022s, prep=0.006s, ocr=0.000s) total=0.048s angle=0.00°
+08:31:55 [INFO] MSE: 12421.400625
+08:31:55 [INFO] Queued frame 130 for OCR
+08:31:55 [INFO] OCR worker: received frame 130
+08:31:55 [INFO] OCR done frame 130: text=''
+08:31:55 [INFO] timings (deskew=0.028s, prep=0.009s, ocr=0.000s) total=0.070s angle=0.00°
+08:31:55 [INFO] MSE: 8734.483125
+08:31:55 [INFO] Queued frame 131 for OCR
+08:31:55 [INFO] OCR worker: received frame 131
+08:31:55 [INFO] OCR done frame 131: text=''
+08:31:55 [INFO] timings (deskew=0.018s, prep=0.005s, ocr=0.000s) total=0.036s angle=0.00°
+08:31:55 [INFO] MSE: 8037.09
+08:31:55 [INFO] Queued frame 132 for OCR
+08:31:55 [INFO] OCR worker: received frame 132
+08:31:55 [INFO] OCR done frame 132: text=''
+08:31:55 [INFO] timings (deskew=0.022s, prep=0.005s, ocr=0.000s) total=0.049s angle=0.00°
+08:31:55 [INFO] MSE: 15922.996875
+08:31:55 [INFO] Queued frame 133 for OCR
+08:31:55 [INFO] OCR worker: received frame 133
+08:31:56 [INFO] OCR done frame 133: text=''
+08:31:56 [INFO] timings (deskew=0.018s, prep=0.005s, ocr=0.000s) total=0.040s angle=0.00°
+08:31:56 [INFO] MSE: 3087.061875
+08:31:56 [INFO] Queued frame 134 for OCR
+08:31:56 [INFO] OCR worker: received frame 134
+08:31:56 [INFO] OCR done frame 134: text=''
+08:31:56 [INFO] timings (deskew=0.016s, prep=0.006s, ocr=0.000s) total=0.039s angle=0.00°
+08:31:56 [INFO] MSE: 22570.1775
+08:31:56 [INFO] Queued frame 135 for OCR
+08:31:56 [INFO] OCR worker: received frame 135
+08:31:56 [INFO] OCR done frame 135: text=''
+08:31:56 [INFO] timings (deskew=0.030s, prep=0.014s, ocr=0.000s) total=0.058s angle=0.00°
+08:31:56 [INFO] MSE: 4052.683125
+08:31:56 [INFO] Queued frame 136 for OCR
+08:31:56 [INFO] OCR worker: received frame 136
+08:31:56 [INFO] OCR done frame 136: text=''
+08:31:56 [INFO] timings (deskew=0.016s, prep=0.003s, ocr=0.000s) total=0.034s angle=0.00°
+08:31:56 [INFO] MSE: 8685.714375
+08:31:56 [INFO] Queued frame 137 for OCR
+08:31:56 [INFO] OCR worker: received frame 137
+08:31:56 [INFO] OCR done frame 137: text=''
+08:31:56 [INFO] timings (deskew=0.022s, prep=0.018s, ocr=0.000s) total=0.072s angle=0.00°
+08:31:56 [INFO] MSE: 17010.54
+08:31:56 [INFO] Queued frame 138 for OCR
+08:31:56 [INFO] OCR worker: received frame 138
+08:31:56 [INFO] OCR done frame 138: text=''
+08:31:56 [INFO] timings (deskew=0.014s, prep=0.007s, ocr=0.000s) total=0.037s angle=0.00°
+08:31:56 [INFO] MSE: 5447.469375
+08:31:56 [INFO] Queued frame 139 for OCR
+08:31:56 [INFO] OCR worker: received frame 139
+08:31:56 [INFO] OCR done frame 139: text=''
+08:31:56 [INFO] timings (deskew=0.022s, prep=0.008s, ocr=0.000s) total=0.063s angle=0.00°
+08:31:56 [INFO] MSE: 5910.7725
+08:31:56 [INFO] Queued frame 140 for OCR
+08:31:56 [INFO] OCR worker: received frame 140
+08:31:56 [INFO] OCR done frame 140: text=''
+08:31:56 [INFO] timings (deskew=0.024s, prep=0.005s, ocr=0.000s) total=0.044s angle=0.00°
+08:31:56 [INFO] MSE: 24984.230625
+08:31:57 [INFO] Queued frame 141 for OCR
+08:31:57 [INFO] OCR worker: received frame 141
+08:31:57 [INFO] OCR done frame 141: text=''
+08:31:57 [INFO] timings (deskew=0.028s, prep=0.010s, ocr=0.000s) total=0.052s angle=0.00°
+08:31:57 [INFO] MSE: 26583.845625
+08:31:57 [INFO] Queued frame 142 for OCR
+08:31:57 [INFO] OCR worker: received frame 142
+08:31:57 [INFO] OCR done frame 142: text=''
+08:31:57 [INFO] timings (deskew=0.010s, prep=0.010s, ocr=0.000s) total=0.042s angle=0.00°
+08:31:57 [INFO] MSE: 21199.775625
+08:31:57 [INFO] Queued frame 143 for OCR
+08:31:57 [INFO] OCR worker: received frame 143
+08:31:57 [INFO] OCR done frame 143: text=''
+08:31:57 [INFO] timings (deskew=0.015s, prep=0.013s, ocr=0.000s) total=0.041s angle=0.00°
+08:31:57 [INFO] MSE: 13786.925625
+08:31:57 [INFO] Queued frame 144 for OCR
+08:31:57 [INFO] OCR worker: received frame 144
+08:31:57 [INFO] OCR done frame 144: text=''
+08:31:57 [INFO] timings (deskew=0.029s, prep=0.007s, ocr=0.000s) total=0.079s angle=0.00°
+08:31:57 [INFO] MSE: 26276.6025
+08:31:57 [INFO] Queued frame 145 for OCR
+08:31:57 [INFO] OCR worker: received frame 145
+08:31:57 [INFO] OCR done frame 145: text=''
+08:31:57 [INFO] timings (deskew=0.014s, prep=0.005s, ocr=0.000s) total=0.033s angle=0.00°
+08:31:57 [INFO] MSE: 16366.7925
+08:31:57 [INFO] Queued frame 146 for OCR
+08:31:57 [INFO] OCR worker: received frame 146
+08:31:57 [INFO] OCR done frame 146: text=''
+08:31:57 [INFO] timings (deskew=0.017s, prep=0.009s, ocr=0.000s) total=0.042s angle=0.00°
+08:31:57 [INFO] MSE: 10743.755625
+08:31:57 [INFO] Queued frame 147 for OCR
+08:31:57 [INFO] OCR worker: received frame 147
+08:31:57 [INFO] OCR done frame 147: text=''
+08:31:57 [INFO] timings (deskew=0.020s, prep=0.009s, ocr=0.000s) total=0.047s angle=0.00°
+08:31:57 [INFO] MSE: 20599.92
+08:31:57 [INFO] Queued frame 148 for OCR
+08:31:57 [INFO] OCR worker: received frame 148
+08:31:58 [INFO] OCR done frame 148: text=''
+08:31:58 [INFO] timings (deskew=0.030s, prep=0.006s, ocr=0.000s) total=0.052s angle=0.00°
+08:31:58 [INFO] MSE: 9680.596875
+08:31:58 [INFO] Queued frame 149 for OCR
+08:31:58 [INFO] OCR worker: received frame 149
+08:31:58 [INFO] OCR done frame 149: text=''
+08:31:58 [INFO] timings (deskew=0.041s, prep=0.013s, ocr=0.000s) total=0.070s angle=0.00°
+08:31:58 [INFO] MSE: 23594.32125
+08:31:58 [INFO] Queued frame 150 for OCR
+08:31:58 [INFO] OCR worker: received frame 150
+08:31:58 [INFO] OCR done frame 150: text=''
+08:31:58 [INFO] timings (deskew=0.029s, prep=0.004s, ocr=0.000s) total=0.048s angle=0.00°
+08:31:58 [INFO] MSE: 21794.754375
+08:31:58 [INFO] Queued frame 151 for OCR
+08:31:58 [INFO] OCR worker: received frame 151
+08:31:58 [INFO] OCR done frame 151: text=''
+08:31:58 [INFO] timings (deskew=0.021s, prep=0.010s, ocr=0.000s) total=0.046s angle=0.00°
+08:31:58 [INFO] MSE: 5832.7425
+08:31:58 [INFO] Queued frame 152 for OCR
+08:31:58 [INFO] OCR worker: received frame 152
+08:31:58 [INFO] OCR done frame 152: text=''
+08:31:58 [INFO] timings (deskew=0.011s, prep=0.006s, ocr=0.000s) total=0.033s angle=0.00°
+08:31:58 [INFO] MSE: 4252.635
+08:31:58 [INFO] Queued frame 153 for OCR
+08:31:58 [INFO] OCR worker: received frame 153
+08:31:58 [INFO] OCR done frame 153: text=''
+08:31:58 [INFO] timings (deskew=0.034s, prep=0.007s, ocr=0.000s) total=0.059s angle=0.00°
+08:31:58 [INFO] MSE: 13323.6225
+08:31:58 [INFO] Queued frame 154 for OCR
+08:31:58 [INFO] OCR worker: received frame 154
+08:31:58 [INFO] OCR done frame 154: text=''
+08:31:58 [INFO] timings (deskew=0.031s, prep=0.025s, ocr=0.000s) total=0.077s angle=0.00°
+08:31:58 [INFO] MSE: 20570.65875
+08:31:58 [INFO] Queued frame 155 for OCR
+08:31:58 [INFO] OCR worker: received frame 155
+08:31:58 [INFO] OCR done frame 155: text=''
+08:31:58 [INFO] timings (deskew=0.012s, prep=0.011s, ocr=0.000s) total=0.038s angle=0.00°
+08:31:58 [INFO] MSE: 11192.428125
+08:31:58 [INFO] Queued frame 156 for OCR
+08:31:58 [INFO] OCR worker: received frame 156
+08:31:59 [INFO] OCR done frame 156: text=''
+08:31:59 [INFO] timings (deskew=0.023s, prep=0.005s, ocr=0.000s) total=0.046s angle=0.00°
+08:31:59 [INFO] MSE: 26681.383125
+08:31:59 [INFO] Queued frame 157 for OCR
+08:31:59 [INFO] OCR worker: received frame 157
+08:31:59 [INFO] OCR done frame 157: text=''
+08:31:59 [INFO] timings (deskew=0.024s, prep=0.004s, ocr=0.000s) total=0.042s angle=0.00°
+08:31:59 [INFO] MSE: 17985.915
+08:31:59 [INFO] Queued frame 158 for OCR
+08:31:59 [INFO] OCR worker: received frame 158
+08:31:59 [INFO] OCR done frame 158: text=''
+08:31:59 [INFO] timings (deskew=0.049s, prep=0.015s, ocr=0.000s) total=0.081s angle=0.00°
+08:31:59 [INFO] MSE: 8914.9275
+08:31:59 [INFO] Quit requested
+08:31:59 [INFO] Shutting down: sending None to worker and waiting
+08:31:59 [INFO] OCR worker received shutdown signal
+08:31:59 [INFO] Camera stopped
+08:31:59 [INFO] Exited cleanly
+08:31:59 [INFO] Camera closed successfully.

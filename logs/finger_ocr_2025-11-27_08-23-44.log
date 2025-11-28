@@ -1,0 +1,359 @@
+08:23:45 [INFO] Initialization successful.
+08:23:45 [INFO] Camera now open.
+08:23:45 [INFO] Camera configuration has been adjusted!
+08:23:45 [INFO] Configuration successful!
+08:23:45 [INFO] Camera started
+08:23:45 [INFO] OCR worker started
+08:23:45 [INFO] Starting main loop
+08:23:48 [INFO] Queued frame 0 for OCR
+08:23:48 [INFO] OCR worker: received frame 0
+08:23:49 [INFO] OCR done frame 0: text=''
+08:23:49 [INFO] OCR worker exception: cannot access local variable 't_ocr' where it is not associated with a value
+08:24:17 [INFO] Queued frame 1 for OCR
+08:24:17 [INFO] OCR worker: received frame 1
+08:24:17 [INFO] Queued frame 2 for OCR
+08:24:23 [INFO] OCR done frame 1: text=''
+08:24:23 [INFO] timings (deskew=0.066s, prep=0.009s, ocr=6.062s) total=6.174s angle=0.00°
+08:24:23 [INFO] MSE: 28446.811875
+08:24:23 [INFO] OCR worker: received frame 2
+08:24:23 [INFO] OCR done frame 2: text=''
+08:24:23 [INFO] timings (deskew=0.011s, prep=0.004s, ocr=6.062s) total=0.027s angle=0.00°
+08:24:23 [INFO] MSE: 17615.2725
+08:24:23 [INFO] Queued frame 30 for OCR
+08:24:23 [INFO] OCR worker: received frame 30
+08:24:23 [INFO] Queued frame 31 for OCR
+08:24:24 [INFO] OCR done frame 30: text=''
+08:24:25 [INFO] timings (deskew=0.019s, prep=0.004s, ocr=1.351s) total=1.380s angle=0.00°
+08:24:25 [INFO] MSE: 27052.025625
+08:24:25 [INFO] OCR worker: received frame 31
+08:24:25 [INFO] OCR done frame 31: text=''
+08:24:25 [INFO] Queued frame 41 for OCR
+08:24:25 [INFO] timings (deskew=0.020s, prep=0.005s, ocr=1.351s) total=0.034s angle=0.00°
+08:24:25 [INFO] MSE: 15762.06
+08:24:25 [INFO] OCR worker: received frame 41
+08:24:25 [INFO] Queued frame 42 for OCR
+08:24:26 [INFO] OCR done frame 41: text=''
+08:24:26 [INFO] timings (deskew=0.019s, prep=0.005s, ocr=1.228s) total=1.259s angle=0.00°
+08:24:26 [INFO] MSE: 20146.370625
+08:24:26 [INFO] OCR worker: received frame 42
+08:24:26 [INFO] OCR done frame 42: text=''
+08:24:26 [INFO] timings (deskew=0.019s, prep=0.007s, ocr=1.228s) total=0.035s angle=0.00°
+08:24:26 [INFO] MSE: 9280.693125
+08:24:26 [INFO] Queued frame 51 for OCR
+08:24:26 [INFO] OCR worker: received frame 51
+08:24:26 [INFO] Queued frame 52 for OCR
+08:24:27 [INFO] OCR done frame 51: text=''
+08:24:27 [INFO] timings (deskew=0.019s, prep=0.004s, ocr=1.314s) total=1.347s angle=0.00°
+08:24:27 [INFO] MSE: 24438.020625
+08:24:27 [INFO] OCR worker: received frame 52
+08:24:27 [INFO] Queued frame 62 for OCR
+08:24:28 [INFO] OCR done frame 52: text=''
+08:24:28 [INFO] timings (deskew=0.011s, prep=0.004s, ocr=1.204s) total=1.227s angle=0.00°
+08:24:28 [INFO] MSE: 20673.073125
+08:24:28 [INFO] OCR worker: received frame 62
+08:24:29 [INFO] Queued frame 71 for OCR
+08:24:30 [INFO] OCR done frame 62: text=''
+08:24:30 [INFO] timings (deskew=0.011s, prep=0.003s, ocr=1.282s) total=1.304s angle=0.00°
+08:24:30 [INFO] MSE: 21692.34
+08:24:30 [INFO] OCR worker: received frame 71
+08:24:30 [INFO] Queued frame 81 for OCR
+08:24:30 [INFO] OCR done frame 71: text=''
+08:24:30 [INFO] timings (deskew=0.011s, prep=0.006s, ocr=1.282s) total=0.027s angle=0.00°
+08:24:30 [INFO] MSE: 11153.413125
+08:24:30 [INFO] OCR worker: received frame 81
+08:24:30 [INFO] Queued frame 82 for OCR
+08:24:33 [INFO] OCR done frame 81: text='__ In this chapte'
+08:24:33 [INFO] Saying with TTS: __ In this chapte
+08:24:33 [INFO] timings (deskew=0.011s, prep=0.006s, ocr=3.161s) total=3.189s angle=0.00°
+08:24:33 [INFO] MSE: 25998.620625
+08:24:33 [INFO] OCR worker: received frame 82
+08:24:33 [INFO] OCR done frame 82: text='__ In this chapte'
+08:24:33 [INFO] timings (deskew=0.011s, prep=0.012s, ocr=3.161s) total=0.032s angle=0.00°
+08:24:33 [INFO] MSE: 6973.93125
+08:24:33 [INFO] Queued frame 103 for OCR
+08:24:33 [INFO] OCR worker: received frame 103
+08:24:33 [INFO] Queued frame 104 for OCR
+08:24:35 [INFO] OCR done frame 103: text='eam cor apters We'
+08:24:35 [INFO] Saying with TTS: eam cor apters We
+08:24:38 [INFO] timings (deskew=0.024s, prep=0.007s, ocr=2.245s) total=2.287s angle=0.00°
+08:24:38 [INFO] MSE: 40736.536875
+08:24:38 [INFO] OCR worker: received frame 104
+08:24:38 [INFO] Queued frame 138 for OCR
+08:24:40 [INFO] OCR done frame 104: text='gam COP pten, WE'
+08:24:40 [INFO] Saying with TTS: gam COP pten, WE
+08:24:40 [INFO] timings (deskew=0.017s, prep=0.014s, ocr=2.573s) total=2.613s angle=0.00°
+08:24:40 [INFO] MSE: 42872.608125
+08:24:40 [INFO] OCR worker: received frame 138
+08:24:41 [INFO] Queued frame 154 for OCR
+08:24:42 [INFO] OCR done frame 138: text=''
+08:24:42 [INFO] timings (deskew=0.030s, prep=0.022s, ocr=1.582s) total=1.650s angle=0.00°
+08:24:42 [INFO] MSE: 44116.21125
+08:24:42 [INFO] OCR worker: received frame 154
+08:24:42 [INFO] Queued frame 166 for OCR
+08:24:45 [INFO] OCR done frame 154: text='ener'
+08:24:45 [INFO] Saying with TTS: ener
+08:24:45 [INFO] timings (deskew=0.012s, prep=0.004s, ocr=2.621s) total=2.646s angle=0.00°
+08:24:45 [INFO] MSE: 48363.969375
+08:24:45 [INFO] OCR worker: received frame 166
+08:24:45 [INFO] Queued frame 182 for OCR
+08:24:46 [INFO] OCR done frame 166: text=''
+08:24:46 [INFO] timings (deskew=0.033s, prep=0.011s, ocr=1.576s) total=1.628s angle=0.00°
+08:24:46 [INFO] MSE: 42433.689375
+08:24:46 [INFO] OCR worker: received frame 182
+08:24:46 [INFO] Queued frame 192 for OCR
+08:24:50 [INFO] OCR done frame 182: text='In this chapter'
+08:24:50 [INFO] Saying with TTS: In this chapter
+08:24:50 [INFO] timings (deskew=0.012s, prep=0.005s, ocr=3.233s) total=3.262s angle=0.00°
+08:24:50 [INFO] MSE: 29700.16875
+08:24:50 [INFO] OCR worker: received frame 192
+08:24:50 [INFO] Queued frame 217 for OCR
+08:24:51 [INFO] OCR done frame 192: text=''
+08:24:51 [INFO] timings (deskew=0.022s, prep=0.006s, ocr=1.550s) total=1.589s angle=0.00°
+08:24:51 [INFO] MSE: 39663.624375
+08:24:51 [INFO] OCR worker: received frame 217
+08:24:51 [INFO] Queued frame 227 for OCR
+08:24:53 [INFO] OCR done frame 217: text=''
+08:24:53 [INFO] timings (deskew=0.010s, prep=0.004s, ocr=1.501s) total=1.521s angle=0.00°
+08:24:53 [INFO] MSE: 37566.568125
+08:24:53 [INFO] OCR worker: received frame 227
+08:24:53 [INFO] Queued frame 238 for OCR
+08:24:54 [INFO] OCR done frame 227: text=''
+08:24:54 [INFO] timings (deskew=0.014s, prep=0.006s, ocr=1.344s) total=1.372s angle=0.00°
+08:24:54 [INFO] MSE: 35206.160625
+08:24:54 [INFO] OCR worker: received frame 238
+08:24:54 [INFO] Queued frame 248 for OCR
+08:24:56 [INFO] OCR done frame 238: text='ww Hh sar'
+08:24:56 [INFO] Saying with TTS: ww Hh sar
+08:24:56 [INFO] timings (deskew=0.022s, prep=0.006s, ocr=2.124s) total=2.160s angle=0.00°
+08:24:56 [INFO] MSE: 39478.303125
+08:24:56 [INFO] OCR worker: received frame 248
+08:24:56 [INFO] Queued frame 264 for OCR
+08:24:58 [INFO] OCR done frame 248: text=''
+08:24:58 [INFO] timings (deskew=0.024s, prep=0.005s, ocr=1.587s) total=1.625s angle=0.00°
+08:24:58 [INFO] MSE: 36727.745625
+08:24:58 [INFO] OCR worker: received frame 264
+08:24:58 [INFO] Queued frame 274 for OCR
+08:24:59 [INFO] OCR done frame 264: text=''
+08:24:59 [INFO] timings (deskew=0.014s, prep=0.005s, ocr=1.363s) total=1.388s angle=0.00°
+08:24:59 [INFO] MSE: 38493.174375
+08:24:59 [INFO] OCR worker: received frame 274
+08:25:00 [INFO] Queued frame 284 for OCR
+08:25:02 [INFO] OCR done frame 274: text='“In this chapter,'
+08:25:02 [INFO] Saying with TTS: “In this chapter,
+08:25:03 [INFO] timings (deskew=0.013s, prep=0.004s, ocr=3.072s) total=3.097s angle=0.00°
+08:25:03 [INFO] MSE: 28051.785
+08:25:03 [INFO] OCR worker: received frame 284
+08:25:03 [INFO] Queued frame 306 for OCR
+08:25:05 [INFO] OCR done frame 284: text='“In this chapter,'
+08:25:05 [INFO] timings (deskew=0.019s, prep=0.006s, ocr=2.564s) total=2.598s angle=0.00°
+08:25:05 [INFO] MSE: 29548.985625
+08:25:05 [INFO] OCR worker: received frame 306
+08:25:05 [INFO] Queued frame 322 for OCR
+08:25:07 [INFO] OCR done frame 306: text=''
+08:25:07 [INFO] timings (deskew=0.011s, prep=0.005s, ocr=1.377s) total=1.402s angle=0.00°
+08:25:07 [INFO] MSE: 24847.678125
+08:25:07 [INFO] OCR worker: received frame 322
+08:25:07 [INFO] Queued frame 332 for OCR
+08:25:09 [INFO] OCR done frame 322: text='io OO ee ce'
+08:25:09 [INFO] Saying with TTS: io OO ee ce
+08:25:09 [INFO] timings (deskew=0.012s, prep=0.010s, ocr=2.672s) total=2.707s angle=0.00°
+08:25:09 [INFO] MSE: 51138.91125
+08:25:09 [INFO] OCR worker: received frame 332
+08:25:09 [INFO] Queued frame 352 for OCR
+08:25:13 [INFO] OCR done frame 332: text='ter, we have discuss'
+08:25:13 [INFO] Saying with TTS: ter, we have discuss
+08:25:13 [INFO] timings (deskew=0.013s, prep=0.010s, ocr=3.829s) total=3.862s angle=0.00°
+08:25:13 [INFO] MSE: 50743.884375
+08:25:13 [INFO] OCR worker: received frame 352
+08:25:13 [INFO] Queued frame 378 for OCR
+08:25:15 [INFO] OCR done frame 352: text=''
+08:25:15 [INFO] timings (deskew=0.016s, prep=0.006s, ocr=1.495s) total=1.529s angle=0.00°
+08:25:15 [INFO] MSE: 41199.84
+08:25:15 [INFO] OCR worker: received frame 378
+08:25:15 [INFO] Queued frame 387 for OCR
+08:25:17 [INFO] OCR done frame 378: text='er, we have discusse'
+08:25:17 [INFO] Saying with TTS: er, we have discusse
+08:25:17 [INFO] timings (deskew=0.040s, prep=0.012s, ocr=2.212s) total=2.275s angle=0.00°
+08:25:17 [INFO] MSE: 46954.5525
+08:25:17 [INFO] OCR worker: received frame 387
+08:25:17 [INFO] Queued frame 404 for OCR
+08:25:21 [INFO] OCR done frame 387: text='en, we have discusse'
+08:25:21 [INFO] Saying with TTS: en, we have discusse
+08:25:21 [INFO] timings (deskew=0.019s, prep=0.004s, ocr=3.896s) total=3.928s angle=0.00°
+08:25:21 [INFO] MSE: 32845.753125
+08:25:21 [INFO] OCR worker: received frame 404
+08:25:21 [INFO] Queued frame 422 for OCR
+08:25:23 [INFO] OCR done frame 404: text=''
+08:25:23 [INFO] timings (deskew=0.014s, prep=0.007s, ocr=2.443s) total=2.483s angle=0.00°
+08:25:23 [INFO] MSE: 43218.86625
+08:25:23 [INFO] OCR worker: received frame 422
+08:25:23 [INFO] Queued frame 433 for OCR
+08:25:26 [INFO] OCR done frame 422: text='‘used some historic'
+08:25:26 [INFO] Saying with TTS: ‘used some historic
+08:25:26 [INFO] timings (deskew=0.026s, prep=0.005s, ocr=2.898s) total=2.936s angle=0.00°
+08:25:26 [INFO] MSE: 33811.374375
+08:25:26 [INFO] OCR worker: received frame 433
+08:25:26 [INFO] Queued frame 453 for OCR
+08:25:28 [INFO] OCR done frame 433: text=''
+08:25:28 [INFO] timings (deskew=0.016s, prep=0.013s, ocr=1.549s) total=1.592s angle=0.00°
+08:25:28 [INFO] MSE: 28188.3375
+08:25:28 [INFO] OCR worker: received frame 453
+08:25:28 [INFO] OCR done frame 453: text=''
+08:25:28 [INFO] timings (deskew=0.024s, prep=0.008s, ocr=1.549s) total=0.050s angle=0.00°
+08:25:28 [INFO] MSE: 19863.511875
+08:25:28 [INFO] Queued frame 464 for OCR
+08:25:28 [INFO] OCR worker: received frame 464
+08:25:28 [INFO] Queued frame 465 for OCR
+08:25:32 [INFO] OCR done frame 464: text='assed some historica'
+08:25:32 [INFO] Saying with TTS: assed some historica
+08:25:32 [INFO] timings (deskew=0.025s, prep=0.006s, ocr=3.543s) total=3.583s angle=0.00°
+08:25:32 [INFO] MSE: 25330.48875
+08:25:32 [INFO] OCR worker: received frame 465
+08:25:32 [INFO] OCR done frame 465: text='assed some historica'
+08:25:32 [INFO] timings (deskew=0.023s, prep=0.009s, ocr=3.543s) total=0.038s angle=0.00°
+08:25:32 [INFO] MSE: 4896.3825
+08:25:32 [INFO] Queued frame 488 for OCR
+08:25:32 [INFO] OCR worker: received frame 488
+08:25:32 [INFO] Queued frame 489 for OCR
+08:25:35 [INFO] OCR done frame 488: text='torical and shiloso:'
+08:25:35 [INFO] Saying with TTS: torical and shiloso:
+08:25:35 [INFO] timings (deskew=0.031s, prep=0.016s, ocr=3.512s) total=3.577s angle=0.00°
+08:25:35 [INFO] MSE: 38727.264375
+08:25:35 [INFO] OCR worker: received frame 489
+08:25:35 [INFO] Queued frame 512 for OCR
+08:25:39 [INFO] OCR done frame 489: text='torical and philoso'
+08:25:39 [INFO] Saying with TTS: torical and philoso
+08:25:39 [INFO] timings (deskew=0.023s, prep=0.005s, ocr=3.635s) total=3.689s angle=0.00°
+08:25:39 [INFO] MSE: 31811.855625
+08:25:39 [INFO] OCR worker: received frame 512
+08:25:39 [INFO] Queued frame 536 for OCR
+08:25:43 [INFO] OCR done frame 512: text='orical and philosoy'
+08:25:43 [INFO] Saying with TTS: orical and philosoy
+08:25:43 [INFO] timings (deskew=0.026s, prep=0.019s, ocr=3.543s) total=3.612s angle=0.00°
+08:25:43 [INFO] MSE: 36479.025
+08:25:43 [INFO] OCR worker: received frame 536
+08:25:43 [INFO] Queued frame 559 for OCR
+08:25:47 [INFO] OCR done frame 536: text='1 and philosophical'
+08:25:47 [INFO] Saying with TTS: 1 and philosophical
+08:25:47 [INFO] timings (deskew=0.019s, prep=0.004s, ocr=4.052s) total=4.084s angle=0.00°
+08:25:47 [INFO] MSE: 33572.4075
+08:25:47 [INFO] OCR worker: received frame 559
+08:25:47 [INFO] OCR done frame 559: text='1 and philosophical'
+08:25:47 [INFO] timings (deskew=0.022s, prep=0.025s, ocr=4.052s) total=0.056s angle=0.00°
+08:25:47 [INFO] MSE: 16493.59125
+08:25:47 [INFO] Queued frame 587 for OCR
+08:25:47 [INFO] OCR worker: received frame 587
+08:25:47 [INFO] OCR done frame 587: text='1 and philosophical'
+08:25:47 [INFO] timings (deskew=0.046s, prep=0.007s, ocr=4.052s) total=0.071s angle=0.00°
+08:25:47 [INFO] MSE: 8558.915625
+08:25:47 [INFO] Queued frame 588 for OCR
+08:25:47 [INFO] OCR worker: received frame 588
+08:25:47 [INFO] OCR done frame 588: text='1 and philosophical'
+08:25:47 [INFO] timings (deskew=0.028s, prep=0.004s, ocr=4.052s) total=0.047s angle=0.00°
+08:25:47 [INFO] MSE: 6183.8775
+08:25:47 [INFO] Queued frame 589 for OCR
+08:25:47 [INFO] OCR worker: received frame 589
+08:25:47 [INFO] OCR done frame 589: text='1 and philosophical'
+08:25:47 [INFO] timings (deskew=0.018s, prep=0.006s, ocr=4.052s) total=0.033s angle=0.00°
+08:25:47 [INFO] MSE: 14684.270625
+08:25:47 [INFO] Queued frame 590 for OCR
+08:25:47 [INFO] OCR worker: received frame 590
+08:25:47 [INFO] OCR done frame 590: text='1 and philosophical'
+08:25:47 [INFO] timings (deskew=0.017s, prep=0.007s, ocr=4.052s) total=0.037s angle=0.00°
+08:25:47 [INFO] MSE: 12255.586875
+08:25:48 [INFO] Queued frame 591 for OCR
+08:25:48 [INFO] OCR worker: received frame 591
+08:25:48 [INFO] OCR done frame 591: text='1 and philosophical'
+08:25:48 [INFO] timings (deskew=0.018s, prep=0.007s, ocr=4.052s) total=0.032s angle=0.00°
+08:25:48 [INFO] MSE: 10173.16125
+08:25:48 [INFO] Queued frame 592 for OCR
+08:25:48 [INFO] OCR worker: received frame 592
+08:25:48 [INFO] OCR done frame 592: text='1 and philosophical'
+08:25:48 [INFO] timings (deskew=0.021s, prep=0.009s, ocr=4.052s) total=0.039s angle=0.00°
+08:25:48 [INFO] MSE: 16079.056875
+08:25:48 [INFO] Queued frame 593 for OCR
+08:25:48 [INFO] OCR worker: received frame 593
+08:25:48 [INFO] OCR done frame 593: text='1 and philosophical'
+08:25:48 [INFO] timings (deskew=0.019s, prep=0.006s, ocr=4.052s) total=0.036s angle=0.00°
+08:25:48 [INFO] MSE: 6681.31875
+08:25:48 [INFO] Queued frame 594 for OCR
+08:25:48 [INFO] OCR worker: received frame 594
+08:25:48 [INFO] OCR done frame 594: text='1 and philosophical'
+08:25:48 [INFO] timings (deskew=0.026s, prep=0.005s, ocr=4.052s) total=0.044s angle=0.00°
+08:25:48 [INFO] MSE: 4891.505625
+08:25:48 [INFO] Queued frame 595 for OCR
+08:25:48 [INFO] OCR worker: received frame 595
+08:25:48 [INFO] OCR done frame 595: text='1 and philosophical'
+08:25:48 [INFO] timings (deskew=0.019s, prep=0.005s, ocr=4.052s) total=0.033s angle=0.00°
+08:25:48 [INFO] MSE: 2375.038125
+08:25:48 [INFO] Queued frame 596 for OCR
+08:25:48 [INFO] OCR worker: received frame 596
+08:25:48 [INFO] OCR done frame 596: text='1 and philosophical'
+08:25:48 [INFO] timings (deskew=0.051s, prep=0.005s, ocr=4.052s) total=0.065s angle=0.00°
+08:25:48 [INFO] MSE: 6218.015625
+08:25:49 [INFO] Queued frame 597 for OCR
+08:25:49 [INFO] OCR worker: received frame 597
+08:25:49 [INFO] OCR done frame 597: text='1 and philosophical'
+08:25:49 [INFO] timings (deskew=0.013s, prep=0.006s, ocr=4.052s) total=0.028s angle=0.00°
+08:25:49 [INFO] MSE: 5925.403125
+08:25:49 [INFO] Queued frame 598 for OCR
+08:25:49 [INFO] OCR worker: received frame 598
+08:25:49 [INFO] OCR done frame 598: text='1 and philosophical'
+08:25:49 [INFO] timings (deskew=0.020s, prep=0.006s, ocr=4.052s) total=0.034s angle=0.00°
+08:25:49 [INFO] MSE: 5242.640625
+08:25:49 [INFO] Queued frame 599 for OCR
+08:25:49 [INFO] OCR worker: received frame 599
+08:25:49 [INFO] OCR done frame 599: text='1 and philosophical'
+08:25:49 [INFO] timings (deskew=0.022s, prep=0.005s, ocr=4.052s) total=0.036s angle=0.00°
+08:25:49 [INFO] MSE: 8032.213125
+08:25:49 [INFO] Queued frame 600 for OCR
+08:25:49 [INFO] OCR worker: received frame 600
+08:25:49 [INFO] OCR done frame 600: text='1 and philosophical'
+08:25:49 [INFO] timings (deskew=0.032s, prep=0.004s, ocr=4.052s) total=0.046s angle=0.00°
+08:25:49 [INFO] MSE: 7549.4025
+08:25:49 [INFO] Queued frame 601 for OCR
+08:25:49 [INFO] OCR worker: received frame 601
+08:25:49 [INFO] OCR done frame 601: text='1 and philosophical'
+08:25:49 [INFO] timings (deskew=0.032s, prep=0.004s, ocr=4.052s) total=0.043s angle=0.00°
+08:25:49 [INFO] MSE: 6559.396875
+08:25:49 [INFO] Queued frame 602 for OCR
+08:25:49 [INFO] OCR worker: received frame 602
+08:25:49 [INFO] OCR done frame 602: text='1 and philosophical'
+08:25:49 [INFO] timings (deskew=0.014s, prep=0.006s, ocr=4.052s) total=0.043s angle=0.00°
+08:25:49 [INFO] MSE: 10153.65375
+08:25:50 [INFO] Queued frame 603 for OCR
+08:25:50 [INFO] OCR worker: received frame 603
+08:25:50 [INFO] OCR done frame 603: text='1 and philosophical'
+08:25:50 [INFO] timings (deskew=0.018s, prep=0.008s, ocr=4.052s) total=0.039s angle=0.00°
+08:25:50 [INFO] MSE: 18102.96
+08:25:50 [INFO] Queued frame 604 for OCR
+08:25:50 [INFO] OCR worker: received frame 604
+08:25:50 [INFO] OCR done frame 604: text='1 and philosophical'
+08:25:50 [INFO] timings (deskew=0.034s, prep=0.010s, ocr=4.052s) total=0.050s angle=0.00°
+08:25:50 [INFO] MSE: 18098.083125
+08:25:50 [INFO] Queued frame 605 for OCR
+08:25:50 [INFO] OCR worker: received frame 605
+08:25:50 [INFO] OCR done frame 605: text='1 and philosophical'
+08:25:50 [INFO] timings (deskew=0.016s, prep=0.009s, ocr=4.052s) total=0.034s angle=0.00°
+08:25:50 [INFO] MSE: 4311.1575
+08:25:50 [INFO] Queued frame 606 for OCR
+08:25:50 [INFO] OCR worker: received frame 606
+08:25:50 [INFO] OCR done frame 606: text='1 and philosophical'
+08:25:50 [INFO] timings (deskew=0.044s, prep=0.006s, ocr=4.052s) total=0.056s angle=0.00°
+08:25:50 [INFO] MSE: 11324.10375
+08:25:50 [INFO] Queued frame 607 for OCR
+08:25:50 [INFO] OCR worker: received frame 607
+08:25:50 [INFO] OCR done frame 607: text='1 and philosophical'
+08:25:50 [INFO] timings (deskew=0.023s, prep=0.010s, ocr=4.052s) total=0.039s angle=0.00°
+08:25:50 [INFO] MSE: 18063.945
+08:25:50 [INFO] Queued frame 608 for OCR
+08:25:50 [INFO] OCR worker: received frame 608
+08:25:50 [INFO] OCR done frame 608: text='1 and philosophical'
+08:25:50 [INFO] timings (deskew=0.034s, prep=0.007s, ocr=4.052s) total=0.050s angle=0.00°
+08:25:50 [INFO] MSE: 14016.13875
+08:25:50 [INFO] Quit requested
+08:25:50 [INFO] Shutting down: sending None to worker and waiting
+08:25:50 [INFO] OCR worker received shutdown signal
+08:25:50 [INFO] Camera stopped
+08:25:50 [INFO] Exited cleanly
+08:25:51 [INFO] Camera closed successfully.

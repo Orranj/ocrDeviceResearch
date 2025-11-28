@@ -1,0 +1,84 @@
+08:13:14 [INFO] Initialization successful.
+08:13:14 [INFO] Camera now open.
+08:13:14 [INFO] Camera configuration has been adjusted!
+08:13:14 [INFO] Configuration successful!
+08:13:14 [INFO] Camera started
+08:13:14 [INFO] OCR worker started
+08:13:14 [INFO] Starting main loop
+08:13:16 [INFO] Queued frame 0 for OCR
+08:13:16 [INFO] OCR worker: received frame 0
+08:13:16 [INFO] OCR worker exception: cannot access local variable 'text' where it is not associated with a value
+08:13:38 [INFO] Queued frame 1 for OCR
+08:13:38 [INFO] OCR worker: received frame 1
+08:13:38 [INFO] OCR worker exception: cannot access local variable 'text' where it is not associated with a value
+08:13:38 [INFO] Queued frame 2 for OCR
+08:13:38 [INFO] OCR worker: received frame 2
+08:13:38 [INFO] Queued frame 3 for OCR
+08:13:43 [INFO] OCR done frame 2: text=''
+08:13:43 [INFO] timings (deskew=0.024s, prep=0.008s, ocr=4.749s) total=4.794s angle=0.00°
+08:13:43 [INFO] MSE: 7325.06625
+08:13:43 [INFO] OCR worker: received frame 3
+08:13:43 [INFO] Queued frame 42 for OCR
+08:13:43 [INFO] OCR done frame 3: text=''
+08:13:43 [INFO] timings (deskew=0.018s, prep=0.008s, ocr=4.749s) total=0.042s angle=0.00°
+08:13:43 [INFO] MSE: 29830.21875
+08:13:43 [INFO] OCR worker: received frame 42
+08:13:43 [INFO] OCR done frame 42: text=''
+08:13:43 [INFO] timings (deskew=0.022s, prep=0.005s, ocr=4.749s) total=0.037s angle=0.00°
+08:13:43 [INFO] MSE: 38306.2275
+08:13:43 [INFO] Queued frame 43 for OCR
+08:13:43 [INFO] OCR worker: received frame 43
+08:13:43 [INFO] OCR done frame 43: text=''
+08:13:43 [INFO] timings (deskew=0.032s, prep=0.007s, ocr=4.749s) total=0.054s angle=0.00°
+08:13:43 [INFO] MSE: 40198.455
+08:13:43 [INFO] Queued frame 44 for OCR
+08:13:43 [INFO] OCR worker: received frame 44
+08:13:43 [INFO] OCR done frame 44: text=''
+08:13:43 [INFO] timings (deskew=0.030s, prep=0.016s, ocr=4.749s) total=0.064s angle=0.00°
+08:13:43 [INFO] MSE: 31527.37125
+08:13:43 [INFO] Queued frame 45 for OCR
+08:13:43 [INFO] OCR worker: received frame 45
+08:13:43 [INFO] OCR done frame 45: text=''
+08:13:43 [INFO] timings (deskew=0.026s, prep=0.010s, ocr=4.749s) total=0.047s angle=0.00°
+08:13:43 [INFO] MSE: 44857.49625
+08:13:43 [INFO] Queued frame 46 for OCR
+08:13:43 [INFO] OCR worker: received frame 46
+08:13:43 [INFO] OCR done frame 46: text=''
+08:13:43 [INFO] timings (deskew=0.018s, prep=0.017s, ocr=4.749s) total=0.055s angle=0.00°
+08:13:43 [INFO] MSE: 30265.88625
+08:13:43 [INFO] Queued frame 47 for OCR
+08:13:43 [INFO] OCR worker: received frame 47
+08:13:44 [INFO] OCR done frame 47: text=''
+08:13:44 [INFO] timings (deskew=0.048s, prep=0.009s, ocr=4.749s) total=0.068s angle=0.00°
+08:13:44 [INFO] MSE: 33084.72
+08:13:44 [INFO] Queued frame 48 for OCR
+08:13:44 [INFO] OCR worker: received frame 48
+08:13:44 [INFO] OCR done frame 48: text=''
+08:13:44 [INFO] timings (deskew=0.050s, prep=0.008s, ocr=4.749s) total=0.067s angle=0.00°
+08:13:44 [INFO] MSE: 27021.13875
+08:13:44 [INFO] Queued frame 49 for OCR
+08:13:44 [INFO] OCR worker: received frame 49
+08:13:44 [INFO] OCR done frame 49: text=''
+08:13:44 [INFO] timings (deskew=0.033s, prep=0.008s, ocr=4.749s) total=0.054s angle=0.00°
+08:13:44 [INFO] MSE: 33865.02
+08:13:44 [INFO] Queued frame 50 for OCR
+08:13:44 [INFO] OCR worker: received frame 50
+08:13:44 [INFO] OCR done frame 50: text=''
+08:13:44 [INFO] timings (deskew=0.038s, prep=0.006s, ocr=4.749s) total=0.055s angle=0.00°
+08:13:44 [INFO] MSE: 33104.2275
+08:13:44 [INFO] Queued frame 51 for OCR
+08:13:44 [INFO] OCR worker: received frame 51
+08:13:44 [INFO] OCR done frame 51: text=''
+08:13:44 [INFO] timings (deskew=0.034s, prep=0.010s, ocr=4.749s) total=0.057s angle=0.00°
+08:13:44 [INFO] MSE: 26409.90375
+08:13:44 [INFO] Queued frame 52 for OCR
+08:13:44 [INFO] OCR worker: received frame 52
+08:13:44 [INFO] OCR done frame 52: text=''
+08:13:44 [INFO] timings (deskew=0.029s, prep=0.009s, ocr=4.749s) total=0.049s angle=0.00°
+08:13:44 [INFO] MSE: 33045.705
+08:13:44 [INFO] Quit requested
+08:13:44 [INFO] Shutting down: sending None to worker and waiting
+08:13:44 [INFO] OCR worker received shutdown signal
+08:13:44 [INFO] Camera stopped
+08:13:45 [INFO] Exited cleanly
+08:13:45 [INFO] Camera closed successfully.

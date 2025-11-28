@@ -1,0 +1,121 @@
+08:44:33 [INFO] Initialization successful.
+08:44:33 [INFO] Camera now open.
+08:44:33 [INFO] Camera configuration has been adjusted!
+08:44:33 [INFO] Configuration successful!
+08:44:33 [INFO] Camera started
+08:44:33 [INFO] OCR worker started
+08:44:33 [INFO] Starting main loop
+08:44:35 [INFO] Queued frame 0 for OCR
+08:44:35 [INFO] OCR worker: received frame 0
+08:44:36 [INFO] OCR done frame 0: text=''
+08:44:36 [INFO] timings (deskew=0.402s, prep=0.382s, ocr=0.000s) total=0.830s angle=0.00°
+08:44:36 [INFO] MSE: inf
+08:44:55 [INFO] Queued frame 1 for OCR
+08:44:55 [INFO] OCR worker: received frame 1
+08:44:55 [INFO] OCR done frame 1: text=''
+08:44:55 [INFO] timings (deskew=0.019s, prep=0.004s, ocr=0.000s) total=0.023s angle=0.00°
+08:44:55 [INFO] MSE: inf
+08:44:55 [INFO] Queued frame 2 for OCR
+08:44:55 [INFO] OCR worker: received frame 2
+08:44:55 [INFO] Queued frame 3 for OCR
+08:45:01 [INFO] OCR done frame 2: text='Laboratory-b;'
+08:45:01 [INFO] Saying with TTS: Laboratory-b;
+08:45:02 [INFO] timings (deskew=0.019s, prep=0.004s, ocr=6.532s) total=6.569s angle=0.00°
+08:45:02 [INFO] MSE: 4423.325625
+08:45:02 [INFO] OCR worker: received frame 3
+08:45:02 [INFO] Queued frame 44 for OCR
+08:45:05 [INFO] OCR done frame 3: text='Laboratory-b;'
+08:45:05 [INFO] timings (deskew=0.022s, prep=0.012s, ocr=2.973s) total=3.010s angle=0.00°
+08:45:05 [INFO] MSE: 2576.615625
+08:45:05 [INFO] OCR worker: received frame 44
+08:45:05 [INFO] Queued frame 65 for OCR
+08:45:07 [INFO] OCR done frame 44: text='Laboratory-ba'
+08:45:07 [INFO] Saying with TTS: Laboratory-ba
+08:45:09 [INFO] timings (deskew=0.029s, prep=0.007s, ocr=2.412s) total=2.449s angle=0.00°
+08:45:09 [INFO] MSE: 9830.154375
+08:45:09 [INFO] OCR worker: received frame 65
+08:45:10 [INFO] Queued frame 95 for OCR
+08:45:13 [INFO] OCR done frame 65: text='Laboratory-ba'
+08:45:13 [INFO] timings (deskew=0.054s, prep=0.012s, ocr=3.522s) total=3.589s angle=0.00°
+08:45:13 [INFO] MSE: 6853.635
+08:45:13 [INFO] OCR worker: received frame 95
+08:45:13 [INFO] Queued frame 116 for OCR
+08:45:15 [INFO] OCR done frame 95: text='pratory-based exp'
+08:45:15 [INFO] Saying with TTS: pratory-based exp
+08:45:15 [INFO] timings (deskew=0.013s, prep=0.006s, ocr=2.155s) total=2.174s angle=0.00°
+08:45:15 [INFO] MSE: 9397.738125000002
+08:45:15 [INFO] OCR worker: received frame 116
+08:45:15 [INFO] Queued frame 127 for OCR
+08:45:18 [INFO] OCR done frame 116: text='pratory-based exp'
+08:45:18 [INFO] timings (deskew=0.033s, prep=0.014s, ocr=2.742s) total=2.790s angle=0.00°
+08:45:18 [INFO] MSE: 6105.8475
+08:45:18 [INFO] OCR worker: received frame 127
+08:45:18 [INFO] Queued frame 142 for OCR
+08:45:21 [INFO] OCR done frame 127: text='oratory-based exp'
+08:45:21 [INFO] Saying with TTS: oratory-based exp
+08:45:21 [INFO] timings (deskew=0.020s, prep=0.007s, ocr=3.221s) total=3.248s angle=0.00°
+08:45:21 [INFO] MSE: 7648.565625
+08:45:21 [INFO] OCR worker: received frame 142
+08:45:21 [INFO] Queued frame 162 for OCR
+08:45:23 [INFO] OCR done frame 142: text=''
+08:45:23 [INFO] timings (deskew=0.025s, prep=0.010s, ocr=1.877s) total=1.913s angle=0.00°
+08:45:23 [INFO] MSE: 10295.083124999997
+08:45:23 [INFO] OCR worker: received frame 162
+08:45:23 [INFO] Queued frame 171 for OCR
+08:45:26 [INFO] OCR done frame 162: text='Their stat'
+08:45:26 [INFO] Saying with TTS: Their stat
+08:45:26 [INFO] timings (deskew=0.021s, prep=0.004s, ocr=2.331s) total=2.356s angle=0.00°
+08:45:26 [INFO] MSE: 13045.640625
+08:45:26 [INFO] OCR worker: received frame 171
+08:45:26 [INFO] Queued frame 184 for OCR
+08:45:29 [INFO] OCR done frame 171: text='Their statu'
+08:45:29 [INFO] Saying with TTS: Their statu
+08:45:29 [INFO] timings (deskew=0.023s, prep=0.007s, ocr=2.951s) total=2.981s angle=0.00°
+08:45:29 [INFO] MSE: 11584.20375
+08:45:29 [INFO] OCR worker: received frame 184
+08:45:29 [INFO] Queued frame 203 for OCR
+08:45:32 [INFO] OCR done frame 184: text='Their statu:'
+08:45:32 [INFO] Saying with TTS: Their statu:
+08:45:32 [INFO] timings (deskew=0.039s, prep=0.018s, ocr=2.856s) total=2.913s angle=0.00°
+08:45:32 [INFO] MSE: 7198.267499999999
+08:45:32 [INFO] OCR worker: received frame 203
+08:45:32 [INFO] Queued frame 216 for OCR
+08:45:35 [INFO] OCR done frame 203: text='Their status in th'
+08:45:35 [INFO] Saying with TTS: Their status in th
+08:45:35 [INFO] timings (deskew=0.014s, prep=0.011s, ocr=2.844s) total=2.870s angle=0.00°
+08:45:35 [INFO] MSE: 10249.565625000001
+08:45:35 [INFO] OCR worker: received frame 216
+08:45:35 [INFO] Queued frame 231 for OCR
+08:45:39 [INFO] OCR done frame 216: text='rl heir status in th'
+08:45:39 [INFO] Saying with TTS: rl heir status in th
+08:45:39 [INFO] timings (deskew=0.020s, prep=0.007s, ocr=3.958s) total=3.986s angle=0.00°
+08:45:39 [INFO] MSE: 9316.456875
+08:45:39 [INFO] OCR worker: received frame 231
+08:45:39 [INFO] Queued frame 249 for OCR
+08:45:41 [INFO] OCR done frame 231: text='| heir status in th'
+08:45:41 [INFO] Saying with TTS: | heir status in th
+08:45:42 [INFO] timings (deskew=0.032s, prep=0.012s, ocr=2.505s) total=2.549s angle=0.00°
+08:45:42 [INFO] MSE: 6427.721249999999
+08:45:42 [INFO] OCR worker: received frame 249
+08:45:42 [INFO] Queued frame 266 for OCR
+08:45:46 [INFO] OCR done frame 249: text='tus in this respe'
+08:45:46 [INFO] Saying with TTS: tus in this respe
+08:45:46 [INFO] timings (deskew=0.018s, prep=0.006s, ocr=3.615s) total=3.640s angle=0.00°
+08:45:46 [INFO] MSE: 8960.445000000002
+08:45:46 [INFO] OCR worker: received frame 266
+08:45:46 [INFO] Queued frame 281 for OCR
+08:45:49 [INFO] OCR done frame 266: text='atus in this respe'
+08:45:49 [INFO] Saying with TTS: atus in this respe
+08:45:49 [INFO] timings (deskew=0.017s, prep=0.007s, ocr=3.043s) total=3.067s angle=0.00°
+08:45:49 [INFO] MSE: 9617.197499999998
+08:45:49 [INFO] OCR worker: received frame 281
+08:45:49 [INFO] Queued frame 299 for OCR
+08:45:49 [INFO] Quit requested
+08:45:49 [INFO] Shutting down: sending None to worker and waiting
+08:45:50 [INFO] OCR done frame 281: text='atus in this respe'
+08:45:50 [INFO] timings (deskew=0.027s, prep=0.003s, ocr=1.334s) total=1.364s angle=0.00°
+08:45:50 [INFO] MSE: 5975.7975
+08:45:50 [INFO] OCR worker: received frame 299
+08:45:50 [INFO] Camera stopped
+08:45:50 [INFO] Exited cleanly
+08:45:51 [INFO] Camera closed successfully.

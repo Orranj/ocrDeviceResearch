@@ -1,0 +1,18 @@
+08:34:03 [INFO] Initialization successful.
+08:34:03 [INFO] Camera now open.
+08:34:03 [INFO] Camera configuration has been adjusted!
+08:34:03 [INFO] Configuration successful!
+08:34:03 [INFO] Camera started
+08:34:03 [INFO] OCR worker started
+08:34:03 [INFO] Starting main loop
+08:34:06 [INFO] Queued frame 0 for OCR
+08:34:06 [INFO] OCR worker: received frame 0
+08:34:11 [INFO] OCR done frame 0: text='- Itis perk,'
+08:34:11 [INFO] Saying with TTS: - Itis perk,
+08:34:11 [INFO] timings (deskew=0.334s, prep=0.094s, ocr=4.384s) total=4.946s angle=0.00°
+08:34:11 [INFO] MSE: 19341.68625
+08:34:29 [INFO] Shutting down: sending None to worker and waiting
+08:34:29 [INFO] OCR worker received shutdown signal
+08:34:29 [INFO] Camera stopped
+08:34:29 [INFO] Exited cleanly
+08:34:29 [INFO] Camera closed successfully.

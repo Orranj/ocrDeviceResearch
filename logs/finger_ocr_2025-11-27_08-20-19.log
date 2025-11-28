@@ -1,0 +1,268 @@
+08:20:20 [INFO] Initialization successful.
+08:20:20 [INFO] Camera now open.
+08:20:20 [INFO] Camera configuration has been adjusted!
+08:20:20 [INFO] Configuration successful!
+08:20:20 [INFO] Camera started
+08:20:20 [INFO] OCR worker started
+08:20:20 [INFO] Starting main loop
+08:20:21 [INFO] Queued frame 0 for OCR
+08:20:21 [INFO] OCR worker: received frame 0
+08:20:23 [INFO] OCR done frame 0: text=''
+08:20:23 [INFO] timings (deskew=0.079s, prep=0.007s, ocr=2.130s) total=2.282s angle=0.00°
+08:20:23 [INFO] MSE: 9669.2175
+08:20:30 [INFO] Queued frame 1 for OCR
+08:20:30 [INFO] OCR worker: received frame 1
+08:20:31 [INFO] Queued frame 2 for OCR
+08:20:36 [INFO] OCR done frame 1: text='/ The.'
+08:20:36 [INFO] Saying with TTS: / The.
+08:20:36 [INFO] timings (deskew=0.027s, prep=0.008s, ocr=5.200s) total=5.260s angle=0.00°
+08:20:36 [INFO] MSE: 18548.38125
+08:20:36 [INFO] OCR worker: received frame 2
+08:20:36 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (85,600,3) 
+08:20:36 [INFO] Queued frame 29 for OCR
+08:20:36 [INFO] OCR worker: received frame 29
+08:20:36 [INFO] Queued frame 30 for OCR
+08:20:38 [INFO] OCR done frame 29: text=''
+08:20:38 [INFO] timings (deskew=0.048s, prep=0.009s, ocr=2.025s) total=2.098s angle=0.00°
+08:20:38 [INFO] MSE: 15466.19625
+08:20:38 [INFO] OCR worker: received frame 30
+08:20:38 [INFO] Queued frame 44 for OCR
+08:20:40 [INFO] OCR done frame 30: text=''
+08:20:40 [INFO] timings (deskew=0.019s, prep=0.009s, ocr=1.562s) total=1.606s angle=0.00°
+08:20:40 [INFO] MSE: 15050.03625
+08:20:40 [INFO] OCR worker: received frame 44
+08:20:40 [INFO] Queued frame 54 for OCR
+08:20:41 [INFO] OCR done frame 44: text=''
+08:20:41 [INFO] timings (deskew=0.026s, prep=0.007s, ocr=1.450s) total=1.494s angle=0.00°
+08:20:41 [INFO] MSE: 16903.24875
+08:20:41 [INFO] OCR worker: received frame 54
+08:20:41 [INFO] Queued frame 65 for OCR
+08:20:44 [INFO] OCR done frame 54: text='The question i'
+08:20:44 [INFO] Saying with TTS: The question i
+08:20:44 [INFO] timings (deskew=0.015s, prep=0.009s, ocr=2.517s) total=2.559s angle=0.00°
+08:20:44 [INFO] MSE: 16392.8025
+08:20:44 [INFO] OCR worker: received frame 65
+08:20:44 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (93,600,3) 
+08:20:44 [INFO] Queued frame 84 for OCR
+08:20:44 [INFO] OCR worker: received frame 84
+08:20:44 [INFO] OCR done frame 84: text='The question i'
+08:20:44 [INFO] timings (deskew=0.060s, prep=0.013s, ocr=2.517s) total=0.090s angle=0.00°
+08:20:44 [INFO] MSE: 22131.25875
+08:20:44 [INFO] Queued frame 85 for OCR
+08:20:44 [INFO] OCR worker: received frame 85
+08:20:44 [INFO] Queued frame 86 for OCR
+08:20:48 [INFO] OCR done frame 85: text='= 28 Question ig: {'
+08:20:48 [INFO] Saying with TTS: = 28 Question ig: {
+08:20:48 [INFO] timings (deskew=0.060s, prep=0.011s, ocr=4.251s) total=4.338s angle=0.00°
+08:20:48 [INFO] MSE: 17953.4025
+08:20:48 [INFO] OCR worker: received frame 86
+08:20:48 [INFO] Queued frame 115 for OCR
+08:20:54 [INFO] OCR done frame 86: text='The question is: if'
+08:20:54 [INFO] Saying with TTS: The question is: if
+08:20:54 [INFO] timings (deskew=0.042s, prep=0.013s, ocr=5.220s) total=5.325s angle=0.00°
+08:20:54 [INFO] MSE: 17251.1325
+08:20:54 [INFO] OCR worker: received frame 115
+08:20:54 [INFO] OCR done frame 115: text='The question is: if'
+08:20:54 [INFO] timings (deskew=0.031s, prep=0.005s, ocr=5.220s) total=0.053s angle=0.00°
+08:20:54 [INFO] MSE: 25219.94625
+08:20:54 [INFO] Queued frame 148 for OCR
+08:20:54 [INFO] OCR worker: received frame 148
+08:20:54 [INFO] OCR done frame 148: text='The question is: if'
+08:20:54 [INFO] timings (deskew=0.026s, prep=0.022s, ocr=5.220s) total=0.069s angle=0.00°
+08:20:54 [INFO] MSE: 29114.94375
+08:20:54 [INFO] Queued frame 149 for OCR
+08:20:54 [INFO] OCR worker: received frame 149
+08:20:54 [INFO] Queued frame 150 for OCR
+08:20:55 [INFO] OCR done frame 149: text=''
+08:20:55 [INFO] timings (deskew=0.025s, prep=0.019s, ocr=1.412s) total=1.472s angle=0.00°
+08:20:55 [INFO] MSE: 11327.355
+08:20:55 [INFO] OCR worker: received frame 150
+08:20:56 [INFO] Queued frame 160 for OCR
+08:20:58 [INFO] OCR done frame 150: text='The question is: if we h'
+08:20:58 [INFO] Saying with TTS: The question is: if we h
+08:20:58 [INFO] timings (deskew=0.027s, prep=0.014s, ocr=2.156s) total=2.212s angle=0.00°
+08:20:58 [INFO] MSE: 5894.51625
+08:20:58 [INFO] OCR worker: received frame 160
+08:20:58 [INFO] Queued frame 174 for OCR
+08:21:01 [INFO] OCR done frame 160: text='The question is: if we h.'
+08:21:01 [INFO] Saying with TTS: The question is: if we h.
+08:21:01 [INFO] timings (deskew=0.073s, prep=0.016s, ocr=2.941s) total=3.043s angle=0.00°
+08:21:01 [INFO] MSE: 17364.92625
+08:21:01 [INFO] OCR worker: received frame 174
+08:21:01 [INFO] OCR done frame 174: text='The question is: if we h.'
+08:21:01 [INFO] timings (deskew=0.049s, prep=0.036s, ocr=2.941s) total=0.124s angle=0.00°
+08:21:01 [INFO] MSE: 30701.55375
+08:21:01 [INFO] Queued frame 194 for OCR
+08:21:01 [INFO] OCR worker: received frame 194
+08:21:01 [INFO] OCR done frame 194: text='The question is: if we h.'
+08:21:01 [INFO] timings (deskew=0.043s, prep=0.012s, ocr=2.941s) total=0.081s angle=0.00°
+08:21:01 [INFO] MSE: 27440.55
+08:21:01 [INFO] Queued frame 195 for OCR
+08:21:01 [INFO] OCR worker: received frame 195
+08:21:01 [INFO] Queued frame 196 for OCR
+08:21:05 [INFO] OCR done frame 195: text='rion is: if we have been sc'
+08:21:05 [INFO] Saying with TTS: rion is: if we have been sc
+08:21:05 [INFO] timings (deskew=0.042s, prep=0.007s, ocr=3.713s) total=3.782s angle=0.00°
+08:21:05 [INFO] MSE: 14149.44
+08:21:05 [INFO] OCR worker: received frame 196
+08:21:05 [INFO] Queued frame 221 for OCR
+08:21:09 [INFO] OCR done frame 196: text='tion is: if we have been s¢'
+08:21:09 [INFO] Saying with TTS: tion is: if we have been s¢
+08:21:09 [INFO] timings (deskew=0.028s, prep=0.009s, ocr=4.413s) total=4.466s angle=0.00°
+08:21:09 [INFO] MSE: 15391.4175
+08:21:09 [INFO] OCR worker: received frame 221
+08:21:10 [INFO] Queued frame 250 for OCR
+08:21:12 [INFO] OCR done frame 221: text='tion is: if we have been s'
+08:21:12 [INFO] Saying with TTS: tion is: if we have been s
+08:21:13 [INFO] timings (deskew=0.043s, prep=0.009s, ocr=2.882s) total=2.955s angle=0.00°
+08:21:13 [INFO] MSE: 19292.9175
+08:21:13 [INFO] OCR worker: received frame 250
+08:21:13 [INFO] OCR done frame 250: text='tion is: if we have been s'
+08:21:13 [INFO] timings (deskew=0.026s, prep=0.007s, ocr=2.882s) total=0.045s angle=0.00°
+08:21:13 [INFO] MSE: 32584.0275
+08:21:13 [INFO] Queued frame 272 for OCR
+08:21:13 [INFO] OCR worker: received frame 272
+08:21:13 [INFO] Queued frame 273 for OCR
+08:21:17 [INFO] OCR done frame 272: text='fe have been socialized in'
+08:21:17 [INFO] Saying with TTS: fe have been socialized in
+08:21:17 [INFO] timings (deskew=0.054s, prep=0.006s, ocr=3.495s) total=3.590s angle=0.00°
+08:21:17 [INFO] MSE: 21045.34125
+08:21:17 [INFO] OCR worker: received frame 273
+08:21:17 [INFO] Queued frame 295 for OCR
+08:21:19 [INFO] OCR done frame 273: text='fe have been socialized in'
+08:21:19 [INFO] timings (deskew=0.018s, prep=0.008s, ocr=2.503s) total=2.540s angle=0.00°
+08:21:19 [INFO] MSE: 5319.045
+08:21:19 [INFO] OCR worker: received frame 295
+08:21:19 [INFO] Queued frame 311 for OCR
+08:21:22 [INFO] OCR done frame 295: text='e have been socialized in'
+08:21:22 [INFO] Saying with TTS: e have been socialized in
+08:21:22 [INFO] timings (deskew=0.020s, prep=0.005s, ocr=2.972s) total=3.018s angle=0.00°
+08:21:22 [INFO] MSE: 18571.14
+08:21:22 [INFO] OCR worker: received frame 311
+08:21:22 [INFO] OCR done frame 311: text='e have been socialized in'
+08:21:22 [INFO] timings (deskew=0.022s, prep=0.008s, ocr=2.972s) total=0.043s angle=0.00°
+08:21:22 [INFO] MSE: 27908.73
+08:21:22 [INFO] Queued frame 332 for OCR
+08:21:22 [INFO] OCR worker: received frame 332
+08:21:23 [INFO] OCR done frame 332: text='e have been socialized in'
+08:21:23 [INFO] timings (deskew=0.034s, prep=0.017s, ocr=2.972s) total=0.083s angle=0.00°
+08:21:23 [INFO] MSE: 26702.51625
+08:21:23 [INFO] Queued frame 333 for OCR
+08:21:23 [INFO] OCR worker: received frame 333
+08:21:23 [INFO] Queued frame 334 for OCR
+08:21:27 [INFO] OCR done frame 333: text='cialized in a society founc'
+08:21:27 [INFO] Saying with TTS: cialized in a society founc
+08:21:27 [INFO] timings (deskew=0.035s, prep=0.031s, ocr=4.424s) total=4.506s angle=0.00°
+08:21:27 [INFO] MSE: 17963.15625
+08:21:27 [INFO] OCR worker: received frame 334
+08:21:27 [INFO] Queued frame 365 for OCR
+08:21:30 [INFO] OCR done frame 334: text='cialized in a society foun'
+08:21:30 [INFO] Saying with TTS: cialized in a society foun
+08:21:30 [INFO] timings (deskew=0.028s, prep=0.013s, ocr=3.210s) total=3.293s angle=0.00°
+08:21:30 [INFO] MSE: 3426.8175
+08:21:30 [INFO] OCR worker: received frame 365
+08:21:31 [INFO] OCR done frame 365: text='cialized in a society foun'
+08:21:31 [INFO] timings (deskew=0.033s, prep=0.008s, ocr=3.210s) total=0.056s angle=0.00°
+08:21:31 [INFO] MSE: 29970.0225
+08:21:31 [INFO] Queued frame 387 for OCR
+08:21:31 [INFO] OCR worker: received frame 387
+08:21:31 [INFO] OCR done frame 387: text='cialized in a society foun'
+08:21:31 [INFO] timings (deskew=0.025s, prep=0.021s, ocr=3.210s) total=0.082s angle=0.00°
+08:21:31 [INFO] MSE: 32314.17375
+08:21:31 [INFO] Queued frame 388 for OCR
+08:21:31 [INFO] OCR worker: received frame 388
+08:21:31 [INFO] Queued frame 389 for OCR
+08:21:33 [INFO] OCR done frame 388: text='ciety founded on liberalis'
+08:21:33 [INFO] Saying with TTS: ciety founded on liberalis
+08:21:34 [INFO] timings (deskew=0.023s, prep=0.007s, ocr=2.362s) total=2.404s angle=0.00°
+08:21:34 [INFO] MSE: 19221.39
+08:21:34 [INFO] OCR worker: received frame 389
+08:21:34 [INFO] Queued frame 406 for OCR
+08:21:36 [INFO] OCR done frame 389: text='cie founded on iberalis'
+08:21:36 [INFO] Saying with TTS: cie founded on iberalis
+08:21:37 [INFO] timings (deskew=0.026s, prep=0.022s, ocr=2.632s) total=2.749s angle=0.00°
+08:21:37 [INFO] MSE: 8079.35625
+08:21:37 [INFO] OCR worker: received frame 406
+08:21:37 [INFO] Queued frame 424 for OCR
+08:21:37 [INFO] OCR done frame 406: text='cie founded on iberalis'
+08:21:37 [INFO] timings (deskew=0.020s, prep=0.017s, ocr=2.632s) total=0.069s angle=0.00°
+08:21:37 [INFO] MSE: 33400.09125
+08:21:37 [INFO] OCR worker: received frame 424
+08:21:37 [INFO] OCR done frame 424: text='cie founded on iberalis'
+08:21:37 [INFO] timings (deskew=0.049s, prep=0.018s, ocr=2.632s) total=0.111s angle=0.00°
+08:21:37 [INFO] MSE: 22345.84125
+08:21:37 [INFO] Queued frame 425 for OCR
+08:21:37 [INFO] OCR worker: received frame 425
+08:21:37 [INFO] Queued frame 426 for OCR
+08:21:38 [INFO] OCR done frame 425: text=''
+08:21:38 [INFO] timings (deskew=0.035s, prep=0.012s, ocr=1.469s) total=1.535s angle=0.00°
+08:21:38 [INFO] MSE: 3751.9425
+08:21:38 [INFO] OCR worker: received frame 426
+08:21:39 [INFO] Queued frame 436 for OCR
+08:21:40 [INFO] OCR done frame 426: text=''
+08:21:40 [INFO] timings (deskew=0.021s, prep=0.009s, ocr=1.578s) total=1.625s angle=0.00°
+08:21:40 [INFO] MSE: 9874.04625
+08:21:40 [INFO] OCR worker: received frame 436
+08:21:40 [INFO] Queued frame 447 for OCR
+08:21:40 [INFO] OCR done frame 436: text=''
+08:21:40 [INFO] timings (deskew=0.027s, prep=0.006s, ocr=1.578s) total=0.060s angle=0.00°
+08:21:40 [INFO] MSE: 28191.58875
+08:21:40 [INFO] OCR worker: received frame 447
+08:21:40 [INFO] OCR done frame 447: text=''
+08:21:40 [INFO] timings (deskew=0.015s, prep=0.005s, ocr=1.578s) total=0.033s angle=0.00°
+08:21:40 [INFO] MSE: 28516.71375
+08:21:40 [INFO] Queued frame 448 for OCR
+08:21:40 [INFO] OCR worker: received frame 448
+08:21:40 [INFO] Queued frame 449 for OCR
+08:21:43 [INFO] OCR done frame 448: text='| and individus'
+08:21:43 [INFO] Saying with TTS: | and individus
+08:21:43 [INFO] timings (deskew=0.017s, prep=0.009s, ocr=2.933s) total=2.978s angle=0.00°
+08:21:43 [INFO] MSE: 13502.44125
+08:21:43 [INFO] OCR worker: received frame 449
+08:21:43 [INFO] Queued frame 470 for OCR
+08:21:45 [INFO] OCR done frame 449: text=''
+08:21:45 [INFO] timings (deskew=0.020s, prep=0.007s, ocr=1.382s) total=1.423s angle=0.00°
+08:21:45 [INFO] MSE: 8199.6525
+08:21:45 [INFO] OCR worker: received frame 470
+08:21:45 [INFO] Queued frame 480 for OCR
+08:21:48 [INFO] OCR done frame 470: text='and. individuals'
+08:21:48 [INFO] Saying with TTS: and. individuals
+08:21:48 [INFO] timings (deskew=0.016s, prep=0.008s, ocr=3.351s) total=3.390s angle=0.00°
+08:21:48 [INFO] MSE: 19767.6
+08:21:48 [INFO] OCR worker: received frame 480
+08:21:48 [INFO] Queued frame 504 for OCR
+08:21:51 [INFO] OCR done frame 480: text='and individuali'
+08:21:51 [INFO] Saying with TTS: and individuali
+08:21:51 [INFO] timings (deskew=0.040s, prep=0.019s, ocr=3.187s) total=3.263s angle=0.00°
+08:21:51 [INFO] MSE: 6274.9125
+08:21:51 [INFO] OCR worker: received frame 504
+08:21:51 [INFO] OCR done frame 504: text='and individuali'
+08:21:51 [INFO] timings (deskew=0.019s, prep=0.010s, ocr=3.187s) total=0.054s angle=0.00°
+08:21:51 [INFO] MSE: 26952.8625
+08:21:51 [INFO] Queued frame 526 for OCR
+08:21:51 [INFO] OCR worker: received frame 526
+08:21:52 [INFO] Queued frame 527 for OCR
+08:21:55 [INFO] OCR done frame 526: text='and individualism in w'
+08:21:55 [INFO] Saying with TTS: and individualism in w
+08:21:55 [INFO] timings (deskew=0.034s, prep=0.015s, ocr=3.703s) total=3.767s angle=0.00°
+08:21:55 [INFO] MSE: 19982.1825
+08:21:55 [INFO] OCR worker: received frame 527
+08:21:55 [INFO] Queued frame 552 for OCR
+08:21:58 [INFO] OCR done frame 527: text='and individualism in w'
+08:21:58 [INFO] timings (deskew=0.040s, prep=0.012s, ocr=2.751s) total=2.833s angle=0.00°
+08:21:58 [INFO] MSE: 6941.41875
+08:21:58 [INFO] OCR worker: received frame 552
+08:21:58 [INFO] Queued frame 573 for OCR
+08:22:00 [INFO] Quit requested
+08:22:00 [INFO] Shutting down: sending None to worker and waiting
+08:22:01 [INFO] OCR done frame 552: text='and individualism in w'
+08:22:01 [INFO] timings (deskew=0.046s, prep=0.015s, ocr=2.489s) total=2.570s angle=0.00°
+08:22:01 [INFO] MSE: 17176.35375
+08:22:01 [INFO] OCR worker: received frame 573
+08:22:01 [INFO] OCR done frame 573: text='and individualism in w'
+08:22:01 [INFO] timings (deskew=0.016s, prep=0.006s, ocr=2.489s) total=0.034s angle=0.00°
+08:22:01 [INFO] MSE: 25031.37375
+08:22:01 [INFO] OCR worker received shutdown signal
+08:22:01 [INFO] Camera stopped
+08:22:01 [INFO] Exited cleanly
+08:22:01 [INFO] Camera closed successfully.

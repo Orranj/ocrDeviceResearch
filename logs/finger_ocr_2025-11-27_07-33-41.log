@@ -1,0 +1,232 @@
+07:33:41 [INFO] Initialization successful.
+07:33:41 [INFO] Camera now open.
+07:33:41 [INFO] Camera configuration has been adjusted!
+07:33:41 [INFO] Configuration successful!
+07:33:41 [INFO] Camera started
+07:33:41 [INFO] OCR worker started
+07:33:41 [INFO] Starting main loop
+07:33:44 [INFO] Queued frame 0 for OCR
+07:33:44 [INFO] OCR worker: received frame 0
+07:33:49 [INFO] OCR done frame 0: text=''
+07:33:49 [INFO] timings (deskew=0.070s, prep=0.050s, ocr=4.442s) total=4.674s angle=0.00°
+07:33:49 [INFO] MSE: 16394.208445945947
+07:34:32 [INFO] Queued frame 1 for OCR
+07:34:32 [INFO] OCR worker: received frame 1
+07:34:33 [INFO] Queued frame 2 for OCR
+07:34:34 [INFO] OCR done frame 1: text=''
+07:34:34 [INFO] timings (deskew=0.923s, prep=0.166s, ocr=4.442s) total=1.595s angle=0.00°
+07:34:34 [INFO] MSE: 30795.488513513512
+07:34:34 [INFO] OCR worker: received frame 2
+07:34:34 [INFO] Queued frame 6 for OCR
+07:34:34 [INFO] OCR done frame 2: text=''
+07:34:34 [INFO] timings (deskew=0.144s, prep=0.016s, ocr=4.442s) total=0.173s angle=0.00°
+07:34:34 [INFO] MSE: 22367.721283783783
+07:34:34 [INFO] OCR worker: received frame 6
+07:34:34 [INFO] Queued frame 7 for OCR
+07:34:41 [INFO] OCR done frame 6: text=''
+07:34:41 [INFO] timings (deskew=0.035s, prep=0.056s, ocr=6.531s) total=6.789s angle=0.00°
+07:34:41 [INFO] MSE: 11393.434459459459
+07:34:41 [INFO] OCR worker: received frame 7
+07:34:41 [INFO] Queued frame 37 for OCR
+07:34:43 [INFO] OCR done frame 7: text=''
+07:34:43 [INFO] timings (deskew=0.039s, prep=0.010s, ocr=1.534s) total=1.603s angle=0.00°
+07:34:43 [INFO] MSE: 19378.328716216216
+07:34:43 [INFO] OCR worker: received frame 37
+07:34:43 [INFO] Queued frame 48 for OCR
+07:34:43 [INFO] OCR done frame 37: text=''
+07:34:43 [INFO] timings (deskew=0.032s, prep=0.011s, ocr=1.534s) total=0.056s angle=0.00°
+07:34:43 [INFO] MSE: 29814.841216216217
+07:34:43 [INFO] OCR worker: received frame 48
+07:34:43 [INFO] OCR done frame 48: text=''
+07:34:43 [INFO] timings (deskew=0.032s, prep=0.014s, ocr=1.534s) total=0.094s angle=0.00°
+07:34:43 [INFO] MSE: 28106.616891891892
+07:34:43 [INFO] Queued frame 49 for OCR
+07:34:43 [INFO] OCR worker: received frame 49
+07:34:43 [INFO] Queued frame 50 for OCR
+07:34:44 [INFO] OCR done frame 49: text=''
+07:34:44 [INFO] timings (deskew=0.056s, prep=0.010s, ocr=1.472s) total=1.568s angle=0.00°
+07:34:44 [INFO] MSE: 14865.242229729729
+07:34:44 [INFO] OCR worker: received frame 50
+07:34:45 [INFO] Queued frame 65 for OCR
+07:34:46 [INFO] OCR done frame 50: text=''
+07:34:46 [INFO] timings (deskew=0.045s, prep=0.006s, ocr=1.340s) total=1.409s angle=0.00°
+07:34:46 [INFO] MSE: 14385.463175675675
+07:34:46 [INFO] OCR worker: received frame 65
+07:34:46 [INFO] OCR done frame 65: text=''
+07:34:46 [INFO] timings (deskew=0.027s, prep=0.010s, ocr=1.340s) total=0.056s angle=0.00°
+07:34:46 [INFO] MSE: 27719.10304054054
+07:34:46 [INFO] Queued frame 75 for OCR
+07:34:46 [INFO] OCR worker: received frame 75
+07:34:46 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (65,740,3) 
+07:34:46 [INFO] Queued frame 76 for OCR
+07:34:46 [INFO] OCR worker: received frame 76
+07:34:46 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (60,740,3) 
+07:34:46 [INFO] Queued frame 77 for OCR
+07:34:46 [INFO] OCR worker: received frame 77
+07:34:46 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (42,740,3) 
+07:34:46 [INFO] Queued frame 78 for OCR
+07:34:46 [INFO] OCR worker: received frame 78
+07:34:46 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (52,740,3) 
+07:34:47 [INFO] Queued frame 79 for OCR
+07:34:47 [INFO] OCR worker: received frame 79
+07:34:47 [INFO] OCR done frame 79: text=''
+07:34:47 [INFO] timings (deskew=0.044s, prep=0.006s, ocr=1.340s) total=0.063s angle=0.00°
+07:34:47 [INFO] MSE: 21160.365202702702
+07:34:47 [INFO] Queued frame 80 for OCR
+07:34:47 [INFO] OCR worker: received frame 80
+07:34:47 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (31,740,3) 
+07:34:47 [INFO] Queued frame 81 for OCR
+07:34:47 [INFO] OCR worker: received frame 81
+07:34:47 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (54,740,3) 
+07:34:47 [INFO] Queued frame 82 for OCR
+07:34:47 [INFO] OCR worker: received frame 82
+07:34:47 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (51,740,3) 
+07:34:47 [INFO] Queued frame 83 for OCR
+07:34:47 [INFO] OCR worker: received frame 83
+07:34:47 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (52,740,3) 
+07:34:47 [INFO] Queued frame 84 for OCR
+07:34:47 [INFO] OCR worker: received frame 84
+07:34:47 [INFO] Queued frame 85 for OCR
+07:34:49 [INFO] OCR done frame 84: text=''
+07:34:49 [INFO] timings (deskew=0.043s, prep=0.011s, ocr=1.397s) total=1.467s angle=0.00°
+07:34:49 [INFO] MSE: 18924.911148648647
+07:34:49 [INFO] OCR worker: received frame 85
+07:34:49 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (44,740,3) 
+07:34:49 [INFO] Queued frame 96 for OCR
+07:34:49 [INFO] OCR worker: received frame 96
+07:34:49 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (40,740,3) 
+07:34:49 [INFO] Queued frame 97 for OCR
+07:34:49 [INFO] OCR worker: received frame 97
+07:34:49 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (33,740,3) 
+07:34:49 [INFO] Queued frame 98 for OCR
+07:34:49 [INFO] OCR worker: received frame 98
+07:34:49 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (34,740,3) 
+07:34:49 [INFO] Queued frame 99 for OCR
+07:34:49 [INFO] OCR worker: received frame 99
+07:34:49 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (40,740,3) 
+07:34:50 [INFO] Queued frame 101 for OCR
+07:34:50 [INFO] OCR worker: received frame 101
+07:34:50 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (34,740,3) 
+07:34:50 [INFO] Queued frame 102 for OCR
+07:34:50 [INFO] OCR worker: received frame 102
+07:34:50 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (37,740,3) 
+07:34:50 [INFO] Queued frame 103 for OCR
+07:34:50 [INFO] OCR worker: received frame 103
+07:34:50 [INFO] Queued frame 104 for OCR
+07:34:51 [INFO] OCR done frame 103: text=''
+07:34:51 [INFO] timings (deskew=0.038s, prep=0.009s, ocr=1.360s) total=1.419s angle=0.00°
+07:34:51 [INFO] MSE: 19913.46689189189
+07:34:51 [INFO] OCR worker: received frame 104
+07:34:51 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (29,740,3) 
+07:34:51 [INFO] Queued frame 117 for OCR
+07:34:51 [INFO] OCR worker: received frame 117
+07:34:51 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (37,740,3) 
+07:34:51 [INFO] Queued frame 118 for OCR
+07:34:51 [INFO] OCR worker: received frame 118
+07:34:51 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (9,740,3) 
+07:34:52 [INFO] Queued frame 119 for OCR
+07:34:52 [INFO] OCR worker: received frame 119
+07:34:52 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (45,740,3) 
+07:34:52 [INFO] Queued frame 121 for OCR
+07:34:52 [INFO] OCR worker: received frame 121
+07:34:52 [INFO] Queued frame 122 for OCR
+07:34:53 [INFO] OCR done frame 121: text=''
+07:34:53 [INFO] timings (deskew=0.028s, prep=0.022s, ocr=1.429s) total=1.496s angle=0.00°
+07:34:53 [INFO] MSE: 19460.049324324325
+07:34:53 [INFO] OCR worker: received frame 122
+07:34:53 [INFO] Queued frame 134 for OCR
+07:34:55 [INFO] OCR done frame 122: text=''
+07:34:55 [INFO] timings (deskew=0.025s, prep=0.011s, ocr=1.387s) total=1.440s angle=0.00°
+07:34:55 [INFO] MSE: 8939.180067567568
+07:34:55 [INFO] OCR worker: received frame 134
+07:34:55 [INFO] Queued frame 145 for OCR
+07:34:56 [INFO] OCR done frame 134: text=''
+07:34:56 [INFO] timings (deskew=0.029s, prep=0.016s, ocr=1.229s) total=1.286s angle=0.00°
+07:34:56 [INFO] MSE: 19942.464527027027
+07:34:56 [INFO] OCR worker: received frame 145
+07:34:56 [INFO] Queued frame 155 for OCR
+07:34:57 [INFO] OCR done frame 145: text=''
+07:34:57 [INFO] timings (deskew=0.019s, prep=0.015s, ocr=1.354s) total=1.407s angle=0.00°
+07:34:57 [INFO] MSE: 18184.153378378378
+07:34:57 [INFO] OCR worker: received frame 155
+07:34:57 [INFO] Queued frame 166 for OCR
+07:34:59 [INFO] OCR done frame 155: text=''
+07:34:59 [INFO] timings (deskew=0.026s, prep=0.008s, ocr=1.362s) total=1.416s angle=0.00°
+07:34:59 [INFO] MSE: 18956.544932432433
+07:34:59 [INFO] OCR worker: received frame 166
+07:34:59 [INFO] Queued frame 177 for OCR
+07:35:00 [INFO] OCR done frame 166: text=''
+07:35:00 [INFO] timings (deskew=0.021s, prep=0.008s, ocr=1.341s) total=1.396s angle=0.00°
+07:35:00 [INFO] MSE: 16834.44527027027
+07:35:00 [INFO] OCR worker: received frame 177
+07:35:00 [INFO] Queued frame 188 for OCR
+07:35:02 [INFO] OCR done frame 177: text=''
+07:35:02 [INFO] timings (deskew=0.057s, prep=0.010s, ocr=1.382s) total=1.466s angle=0.00°
+07:35:02 [INFO] MSE: 15748.352027027027
+07:35:02 [INFO] OCR worker: received frame 188
+07:35:02 [INFO] Queued frame 200 for OCR
+07:35:08 [INFO] OCR done frame 188: text='ee oe ao'
+07:35:08 [INFO] timings (deskew=0.020s, prep=0.011s, ocr=6.642s) total=6.700s angle=0.00°
+07:35:08 [INFO] MSE: 17704.374324324323
+07:35:08 [INFO] OCR worker: received frame 200
+07:35:09 [INFO] Queued frame 250 for OCR
+07:35:09 [INFO] OCR done frame 200: text='ee oe ao'
+07:35:09 [INFO] timings (deskew=0.027s, prep=0.012s, ocr=6.642s) total=0.062s angle=0.00°
+07:35:09 [INFO] MSE: 26764.81722972973
+07:35:09 [INFO] OCR worker: received frame 250
+07:35:09 [INFO] OCR done frame 250: text='ee oe ao'
+07:35:09 [INFO] timings (deskew=0.027s, prep=0.009s, ocr=6.642s) total=0.095s angle=0.00°
+07:35:09 [INFO] MSE: 30204.991216216215
+07:35:09 [INFO] Queued frame 251 for OCR
+07:35:09 [INFO] OCR worker: received frame 251
+07:35:09 [INFO] Queued frame 252 for OCR
+07:35:13 [INFO] OCR done frame 251: text='Sf ©, DRISONALD P, FEN'
+07:35:13 [INFO] timings (deskew=0.038s, prep=0.013s, ocr=3.935s) total=4.008s angle=0.00°
+07:35:13 [INFO] MSE: 8087.704054054054
+07:35:13 [INFO] OCR worker: received frame 252
+07:35:13 [INFO] Queued frame 281 for OCR
+07:35:17 [INFO] OCR done frame 252: text='Pf © PR-SONALD P. FENE'
+07:35:17 [INFO] timings (deskew=0.050s, prep=0.022s, ocr=1.719s) total=1.824s angle=0.00°
+07:35:17 [INFO] MSE: 5875.975337837838
+07:35:17 [INFO] OCR worker: received frame 281
+07:35:18 [INFO] Queued frame 314 for OCR
+07:35:21 [INFO] OCR done frame 281: text='pf 2 PRJONALD P. FENE'
+07:35:21 [INFO] timings (deskew=0.041s, prep=0.012s, ocr=2.323s) total=2.401s angle=0.00°
+07:35:21 [INFO] MSE: 17053.245608108107
+07:35:21 [INFO] OCR worker: received frame 314
+07:35:22 [INFO] Queued frame 342 for OCR
+07:35:25 [INFO] OCR done frame 314: text='Sof BRAJONALD P. FENE'
+07:35:25 [INFO] timings (deskew=0.047s, prep=0.018s, ocr=2.976s) total=3.130s angle=0.00°
+07:35:25 [INFO] MSE: 17308.952027027026
+07:35:25 [INFO] OCR worker: received frame 342
+07:35:25 [INFO] Queued frame 364 for OCR
+07:35:26 [INFO] OCR done frame 342: text=''
+07:35:26 [INFO] timings (deskew=0.066s, prep=0.015s, ocr=1.480s) total=1.588s angle=0.00°
+07:35:26 [INFO] MSE: 15297.570608108108
+07:35:26 [INFO] OCR worker: received frame 364
+07:35:26 [INFO] OCR done frame 364: text=''
+07:35:26 [INFO] timings (deskew=0.060s, prep=0.015s, ocr=1.480s) total=0.095s angle=0.00°
+07:35:26 [INFO] MSE: 22620.791554054053
+07:35:26 [INFO] Queued frame 375 for OCR
+07:35:26 [INFO] OCR worker: received frame 375
+07:35:26 [INFO] OCR done frame 375: text=''
+07:35:26 [INFO] timings (deskew=0.032s, prep=0.014s, ocr=1.480s) total=0.063s angle=0.00°
+07:35:26 [INFO] MSE: 22051.383445945947
+07:35:27 [INFO] Queued frame 376 for OCR
+07:35:27 [INFO] OCR worker: received frame 376
+07:35:27 [INFO] Queued frame 377 for OCR
+07:35:32 [INFO] OCR done frame 376: text='f DR, JONALD P, FENECES'
+07:35:32 [INFO] timings (deskew=0.033s, prep=0.007s, ocr=5.361s) total=5.419s angle=0.00°
+07:35:32 [INFO] MSE: 4178.295608108108
+07:35:32 [INFO] OCR worker: received frame 377
+07:35:32 [INFO] Queued frame 416 for OCR
+07:35:37 [INFO] OCR done frame 377: text='[© DR, JONALD P. FENECES'
+07:35:37 [INFO] timings (deskew=0.027s, prep=0.026s, ocr=4.829s) total=4.920s angle=0.00°
+07:35:37 [INFO] MSE: 4022.7628378378377
+07:35:37 [INFO] OCR worker: received frame 416
+07:35:38 [INFO] Queued frame 455 for OCR
+07:35:39 [INFO] Quit requested
+07:35:39 [INFO] Shutting down: sending None to worker and waiting
+07:35:40 [INFO] Camera stopped
+07:35:40 [INFO] Exited cleanly
+07:35:41 [INFO] Camera closed successfully.

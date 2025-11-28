@@ -1,0 +1,104 @@
+08:18:08 [INFO] Initialization successful.
+08:18:08 [INFO] Camera now open.
+08:18:08 [INFO] Camera configuration has been adjusted!
+08:18:08 [INFO] Configuration successful!
+08:18:08 [INFO] Camera started
+08:18:08 [INFO] OCR worker started
+08:18:08 [INFO] Starting main loop
+08:18:11 [INFO] Queued frame 0 for OCR
+08:18:11 [INFO] OCR worker: received frame 0
+08:18:19 [INFO] OCR done frame 0: text=''
+08:18:19 [INFO] timings (deskew=0.118s, prep=0.096s, ocr=7.754s) total=8.130s angle=0.00°
+08:18:19 [INFO] MSE: 14513.58
+08:18:40 [INFO] Queued frame 2 for OCR
+08:18:40 [INFO] OCR worker: received frame 2
+08:18:42 [INFO] Queued frame 16 for OCR
+08:18:45 [INFO] OCR done frame 2: text='Which he dese'
+08:18:45 [INFO] Saying with TTS: Which he dese
+08:18:45 [INFO] timings (deskew=0.023s, prep=0.008s, ocr=4.855s) total=4.898s angle=0.00°
+08:18:45 [INFO] MSE: 20778.73875
+08:18:45 [INFO] OCR worker: received frame 16
+08:18:45 [INFO] Queued frame 38 for OCR
+08:18:51 [INFO] OCR done frame 16: text='| NE Reser'
+08:18:51 [INFO] Saying with TTS: | NE Reser
+08:18:51 [INFO] timings (deskew=0.028s, prep=0.013s, ocr=5.753s) total=5.817s angle=0.00°
+08:18:51 [INFO] MSE: 20473.12125
+08:18:51 [INFO] OCR worker: received frame 38
+08:18:51 [INFO] Queued frame 83 for OCR
+08:18:55 [INFO] OCR done frame 38: text='So tales told prima'
+08:18:55 [INFO] Saying with TTS: So tales told prima
+08:18:55 [INFO] timings (deskew=0.039s, prep=0.011s, ocr=3.610s) total=3.698s angle=0.00°
+08:18:55 [INFO] MSE: 19107.59625
+08:18:55 [INFO] OCR worker: received frame 83
+08:18:55 [INFO] Queued frame 112 for OCR
+08:18:58 [INFO] OCR done frame 83: text='tales told primarily fo'
+08:18:58 [INFO] Saying with TTS: tales told primarily fo
+08:18:58 [INFO] timings (deskew=0.021s, prep=0.013s, ocr=3.760s) total=3.813s angle=0.00°
+08:18:58 [INFO] MSE: 16805.71125
+08:18:58 [INFO] OCR worker: received frame 112
+08:19:00 [INFO] OCR done frame 112: text=''
+08:19:00 [INFO] timings (deskew=0.025s, prep=0.010s, ocr=1.666s) total=1.713s angle=0.00°
+08:19:00 [INFO] MSE: 7864.77375
+08:19:03 [INFO] Queued frame 185 for OCR
+08:19:03 [INFO] OCR worker: received frame 185
+08:19:03 [INFO] OCR done frame 185: text=''
+08:19:03 [INFO] timings (deskew=0.026s, prep=0.012s, ocr=1.666s) total=0.053s angle=0.00°
+08:19:03 [INFO] MSE: 24898.0725
+08:19:03 [INFO] Queued frame 191 for OCR
+08:19:03 [INFO] OCR worker: received frame 191
+08:19:03 [INFO] OCR done frame 191: text=''
+08:19:03 [INFO] timings (deskew=0.027s, prep=0.008s, ocr=1.666s) total=0.048s angle=0.00°
+08:19:03 [INFO] MSE: 34661.57625
+08:19:04 [INFO] Queued frame 197 for OCR
+08:19:04 [INFO] OCR worker: received frame 197
+08:19:04 [INFO] OCR done frame 197: text=''
+08:19:04 [INFO] timings (deskew=0.027s, prep=0.007s, ocr=1.666s) total=0.051s angle=0.00°
+08:19:04 [INFO] MSE: 34869.65625
+08:19:04 [INFO] Queued frame 198 for OCR
+08:19:04 [INFO] OCR worker: received frame 198
+08:19:04 [INFO] OCR done frame 198: text=''
+08:19:04 [INFO] timings (deskew=0.031s, prep=0.007s, ocr=1.666s) total=0.051s angle=0.00°
+08:19:04 [INFO] MSE: 30431.7
+08:19:04 [INFO] Queued frame 199 for OCR
+08:19:04 [INFO] OCR worker: received frame 199
+08:19:04 [INFO] OCR done frame 199: text=''
+08:19:04 [INFO] timings (deskew=0.028s, prep=0.009s, ocr=1.666s) total=0.047s angle=0.00°
+08:19:04 [INFO] MSE: 28259.865
+08:19:04 [INFO] Queued frame 200 for OCR
+08:19:04 [INFO] OCR worker: received frame 200
+08:19:04 [INFO] OCR done frame 200: text=''
+08:19:04 [INFO] timings (deskew=0.038s, prep=0.008s, ocr=1.666s) total=0.094s angle=0.00°
+08:19:04 [INFO] MSE: 29391.3
+08:19:05 [INFO] Queued frame 201 for OCR
+08:19:05 [INFO] OCR worker: received frame 201
+08:19:05 [INFO] OCR done frame 201: text=''
+08:19:05 [INFO] timings (deskew=0.019s, prep=0.009s, ocr=1.666s) total=0.048s angle=0.00°
+08:19:05 [INFO] MSE: 27502.32375
+08:19:05 [INFO] Queued frame 202 for OCR
+08:19:05 [INFO] OCR worker: received frame 202
+08:19:05 [INFO] Queued frame 203 for OCR
+08:19:08 [INFO] OCR done frame 202: text='Primarily for the moyal inetmnet.'
+08:19:08 [INFO] Saying with TTS: Primarily for the moyal inetmnet.
+08:19:08 [INFO] timings (deskew=0.042s, prep=0.007s, ocr=3.586s) total=3.651s angle=0.00°
+08:19:08 [INFO] MSE: 19192.12875
+08:19:08 [INFO] OCR worker: received frame 203
+08:19:08 [INFO] Queued frame 230 for OCR
+08:19:12 [INFO] OCR done frame 203: text='Primarily for the moral instructice'
+08:19:12 [INFO] Saying with TTS: Primarily for the moral instructice
+08:19:12 [INFO] timings (deskew=0.027s, prep=0.020s, ocr=3.411s) total=3.482s angle=0.00°
+08:19:12 [INFO] MSE: 15690.5325
+08:19:12 [INFO] OCR worker: received frame 230
+08:19:12 [INFO] Queued frame 252 for OCR
+08:19:12 [INFO] OCR done frame 230: text='Primarily for the moral instructice'
+08:19:12 [INFO] timings (deskew=0.032s, prep=0.022s, ocr=3.411s) total=0.087s angle=0.00°
+08:19:12 [INFO] MSE: 27573.85125
+08:19:12 [INFO] OCR worker: received frame 252
+08:19:12 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (17,600,3) 
+08:19:12 [INFO] Queued frame 254 for OCR
+08:19:12 [INFO] OCR worker: received frame 254
+08:19:12 [INFO] Queued frame 255 for OCR
+08:19:50 [INFO] Quit requested
+08:19:50 [INFO] Shutting down: sending None to worker and waiting
+08:19:51 [INFO] Camera stopped
+08:19:51 [INFO] Exited cleanly
+08:19:52 [INFO] Camera closed successfully.

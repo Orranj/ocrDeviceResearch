@@ -35,17 +35,19 @@ def detect_fingertip_and_crop_line(image):
 
     return crop if crop.size > 0 else None, image
 
+
 # --- OCR ---
 def run_ocr(img):
-    config = r'--oem 3 --psm 7 -l eng+tgl'   # single line mode
+    config = r"--oem 3 --psm 7 -l eng+tgl"  # single line mode
     text = pytesseract.image_to_string(img, config=config).strip()
     return text
+
 
 def main():
     picam2 = Picamera2()
     cam_config = picam2.create_video_configuration(
         main={"size": (800, 600), "format": "RGB888"},
-        controls={"FrameRate": 12}  # Set desired framerate
+        controls={"FrameRate": 12},  # Set desired framerate
     )
     picam2.configure(cam_config)
     picam2.start()
@@ -61,27 +63,35 @@ def main():
             # preprocess for OCR
             gray = cv2.cvtColor(cropped_line, cv2.COLOR_RGB2GRAY)
             gray = cv2.GaussianBlur(gray, (3, 3), 0)
-            gray = cv2.adaptiveThreshold(gray, 255,
-                                         cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
-                                         cv2.THRESH_BINARY, 9, 9)
+            gray = cv2.adaptiveThreshold(
+                gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 9, 9
+            )
             color_img = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)
 
             detected_text = run_ocr(color_img)
             # detected_text = ""
 
         # display text overlay
-        cv2.putText(debug_img, detected_text, (50, 60),
-                    cv2.FONT_HERSHEY_SIMPLEX, 1.5, (255, 0, 0), 3)
+        cv2.putText(
+            debug_img,
+            detected_text,
+            (50, 60),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            1.5,
+            (255, 0, 0),
+            3,
+        )
 
         cv2.imshow("Finger + Text Line", debug_img)
         # if cropped_line is not None:
-            # cv2.imshow("Cropped Line", cropped_line)
+        # cv2.imshow("Cropped Line", cropped_line)
 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        if cv2.waitKey(1) & 0xFF == ord("q"):
             break
 
     picam2.stop()
     cv2.destroyAllWindows()
+
 
 if __name__ == "__main__":
     main()

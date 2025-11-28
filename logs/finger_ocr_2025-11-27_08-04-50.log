@@ -1,0 +1,208 @@
+08:04:50 [INFO] Initialization successful.
+08:04:50 [INFO] Camera now open.
+08:04:50 [INFO] Camera configuration has been adjusted!
+08:04:50 [INFO] Configuration successful!
+08:04:50 [INFO] Camera started
+08:04:50 [INFO] OCR worker started
+08:04:50 [INFO] Starting main loop
+08:04:52 [INFO] Queued frame 0 for OCR
+08:04:52 [INFO] OCR worker: received frame 0
+08:04:52 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (46,700,3) 
+08:05:13 [INFO] Queued frame 1 for OCR
+08:05:13 [INFO] OCR worker: received frame 1
+08:05:13 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:14 [INFO] Queued frame 2 for OCR
+08:05:14 [INFO] OCR worker: received frame 2
+08:05:14 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:14 [INFO] Queued frame 3 for OCR
+08:05:14 [INFO] OCR worker: received frame 3
+08:05:14 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:14 [INFO] Queued frame 4 for OCR
+08:05:14 [INFO] OCR worker: received frame 4
+08:05:14 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:14 [INFO] Queued frame 5 for OCR
+08:05:14 [INFO] OCR worker: received frame 5
+08:05:14 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:14 [INFO] Queued frame 6 for OCR
+08:05:14 [INFO] OCR worker: received frame 6
+08:05:14 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:14 [INFO] Queued frame 7 for OCR
+08:05:14 [INFO] OCR worker: received frame 7
+08:05:14 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:14 [INFO] Queued frame 8 for OCR
+08:05:14 [INFO] OCR worker: received frame 8
+08:05:14 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:15 [INFO] Queued frame 9 for OCR
+08:05:15 [INFO] OCR worker: received frame 9
+08:05:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:15 [INFO] Queued frame 10 for OCR
+08:05:15 [INFO] OCR worker: received frame 10
+08:05:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:15 [INFO] Queued frame 11 for OCR
+08:05:15 [INFO] OCR worker: received frame 11
+08:05:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:15 [INFO] Queued frame 12 for OCR
+08:05:15 [INFO] OCR worker: received frame 12
+08:05:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:15 [INFO] Queued frame 13 for OCR
+08:05:15 [INFO] OCR worker: received frame 13
+08:05:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:15 [INFO] Queued frame 14 for OCR
+08:05:15 [INFO] OCR worker: received frame 14
+08:05:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:15 [INFO] Queued frame 15 for OCR
+08:05:15 [INFO] OCR worker: received frame 15
+08:05:15 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:16 [INFO] Queued frame 16 for OCR
+08:05:16 [INFO] OCR worker: received frame 16
+08:05:16 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:16 [INFO] Queued frame 17 for OCR
+08:05:16 [INFO] OCR worker: received frame 17
+08:05:16 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:16 [INFO] Queued frame 18 for OCR
+08:05:16 [INFO] OCR worker: received frame 18
+08:05:16 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:16 [INFO] Queued frame 19 for OCR
+08:05:16 [INFO] OCR worker: received frame 19
+08:05:16 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:16 [INFO] Queued frame 20 for OCR
+08:05:16 [INFO] OCR worker: received frame 20
+08:05:16 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:16 [INFO] Queued frame 21 for OCR
+08:05:16 [INFO] OCR worker: received frame 21
+08:05:16 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:16 [INFO] Queued frame 22 for OCR
+08:05:16 [INFO] OCR worker: received frame 22
+08:05:16 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:17 [INFO] Queued frame 23 for OCR
+08:05:17 [INFO] OCR worker: received frame 23
+08:05:17 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:17 [INFO] Queued frame 24 for OCR
+08:05:17 [INFO] OCR worker: received frame 24
+08:05:17 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:17 [INFO] Queued frame 25 for OCR
+08:05:17 [INFO] OCR worker: received frame 25
+08:05:17 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:17 [INFO] Queued frame 26 for OCR
+08:05:17 [INFO] OCR worker: received frame 26
+08:05:17 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:17 [INFO] Queued frame 27 for OCR
+08:05:17 [INFO] OCR worker: received frame 27
+08:05:17 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:17 [INFO] Queued frame 28 for OCR
+08:05:17 [INFO] OCR worker: received frame 28
+08:05:17 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:17 [INFO] Queued frame 29 for OCR
+08:05:17 [INFO] OCR worker: received frame 29
+08:05:17 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:17 [INFO] Queued frame 30 for OCR
+08:05:17 [INFO] OCR worker: received frame 30
+08:05:18 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:18 [INFO] Queued frame 31 for OCR
+08:05:18 [INFO] OCR worker: received frame 31
+08:05:18 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:18 [INFO] Queued frame 32 for OCR
+08:05:18 [INFO] OCR worker: received frame 32
+08:05:18 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:18 [INFO] Queued frame 33 for OCR
+08:05:18 [INFO] OCR worker: received frame 33
+08:05:18 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:18 [INFO] Queued frame 34 for OCR
+08:05:18 [INFO] OCR worker: received frame 34
+08:05:18 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:18 [INFO] Queued frame 35 for OCR
+08:05:18 [INFO] OCR worker: received frame 35
+08:05:18 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:18 [INFO] Queued frame 36 for OCR
+08:05:18 [INFO] OCR worker: received frame 36
+08:05:18 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:18 [INFO] Queued frame 37 for OCR
+08:05:18 [INFO] OCR worker: received frame 37
+08:05:18 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:19 [INFO] Queued frame 38 for OCR
+08:05:19 [INFO] OCR worker: received frame 38
+08:05:19 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:19 [INFO] Queued frame 39 for OCR
+08:05:19 [INFO] OCR worker: received frame 39
+08:05:19 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:19 [INFO] Queued frame 40 for OCR
+08:05:19 [INFO] OCR worker: received frame 40
+08:05:19 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:19 [INFO] Queued frame 41 for OCR
+08:05:19 [INFO] OCR worker: received frame 41
+08:05:19 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:19 [INFO] Queued frame 42 for OCR
+08:05:19 [INFO] OCR worker: received frame 42
+08:05:19 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:19 [INFO] Queued frame 43 for OCR
+08:05:19 [INFO] OCR worker: received frame 43
+08:05:19 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:19 [INFO] Queued frame 44 for OCR
+08:05:19 [INFO] OCR worker: received frame 44
+08:05:19 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:20 [INFO] Queued frame 45 for OCR
+08:05:20 [INFO] OCR worker: received frame 45
+08:05:20 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:20 [INFO] Queued frame 46 for OCR
+08:05:20 [INFO] OCR worker: received frame 46
+08:05:20 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:20 [INFO] Queued frame 47 for OCR
+08:05:20 [INFO] OCR worker: received frame 47
+08:05:20 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:20 [INFO] Queued frame 48 for OCR
+08:05:20 [INFO] OCR worker: received frame 48
+08:05:20 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:20 [INFO] Queued frame 49 for OCR
+08:05:20 [INFO] OCR worker: received frame 49
+08:05:20 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:20 [INFO] Queued frame 50 for OCR
+08:05:20 [INFO] OCR worker: received frame 50
+08:05:20 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:20 [INFO] Queued frame 51 for OCR
+08:05:20 [INFO] OCR worker: received frame 51
+08:05:20 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:20 [INFO] Queued frame 52 for OCR
+08:05:20 [INFO] OCR worker: received frame 52
+08:05:21 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:21 [INFO] Queued frame 53 for OCR
+08:05:21 [INFO] OCR worker: received frame 53
+08:05:21 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:21 [INFO] Queued frame 54 for OCR
+08:05:21 [INFO] OCR worker: received frame 54
+08:05:21 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:21 [INFO] Queued frame 55 for OCR
+08:05:21 [INFO] OCR worker: received frame 55
+08:05:21 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:21 [INFO] Queued frame 56 for OCR
+08:05:21 [INFO] OCR worker: received frame 56
+08:05:21 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (72,700,3) 
+08:05:21 [INFO] Queued frame 57 for OCR
+08:05:21 [INFO] OCR worker: received frame 57
+08:05:21 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:21 [INFO] Queued frame 58 for OCR
+08:05:21 [INFO] OCR worker: received frame 58
+08:05:21 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:21 [INFO] Queued frame 59 for OCR
+08:05:21 [INFO] OCR worker: received frame 59
+08:05:22 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:22 [INFO] Queued frame 60 for OCR
+08:05:22 [INFO] OCR worker: received frame 60
+08:05:22 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:22 [INFO] Queued frame 61 for OCR
+08:05:22 [INFO] OCR worker: received frame 61
+08:05:22 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:22 [INFO] Queued frame 62 for OCR
+08:05:22 [INFO] OCR worker: received frame 62
+08:05:22 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:22 [INFO] Queued frame 63 for OCR
+08:05:22 [INFO] OCR worker: received frame 63
+08:05:22 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:22 [INFO] Queued frame 64 for OCR
+08:05:22 [INFO] OCR worker: received frame 64
+08:05:22 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,740,3) (100,700,3) 
+08:05:22 [INFO] Quit requested
+08:05:22 [INFO] Shutting down: sending None to worker and waiting
+08:05:22 [INFO] OCR worker received shutdown signal
+08:05:22 [INFO] Camera stopped
+08:05:23 [INFO] Exited cleanly
+08:05:23 [INFO] Camera closed successfully.

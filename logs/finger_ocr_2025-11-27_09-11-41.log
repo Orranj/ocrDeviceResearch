@@ -1,0 +1,176 @@
+09:11:41.684 [INFO] Initialization successful.
+09:11:41.685 [INFO] Camera now open.
+09:11:41.697 [INFO] Camera configuration has been adjusted!
+09:11:41.712 [INFO] Configuration successful!
+09:11:41.818 [INFO] Camera started
+09:11:41.820 [INFO] OCR worker started
+09:11:41.820 [INFO] Starting main loop
+09:11:43.366 [INFO] Queued frame 0 for OCR
+09:11:43.367 [INFO] OCR worker: received frame 0
+09:11:43.548 [INFO] OCR done frame 0: text=''
+09:11:43.548 [INFO] timings (prep=0.093s, ocr=0.000s) total=0.122s Error: 25727.212732824362
+09:12:10.532 [INFO] Queued frame 2 for OCR
+09:12:10.532 [INFO] OCR worker: received frame 2
+09:12:10.546 [INFO] OCR done frame 2: text=''
+09:12:10.552 [INFO] timings (prep=0.005s, ocr=0.000s) total=0.006s Error: 31628.224736775854
+09:12:11.341 [INFO] Queued frame 4 for OCR
+09:12:11.342 [INFO] OCR worker: received frame 4
+09:12:14.284 [INFO] Queued frame 6 for OCR
+09:12:18.079 [INFO] OCR done frame 4: text=''
+09:12:18.080 [INFO] timings (prep=0.007s, ocr=6.729s) total=6.736s Error: 19322.876338682086
+09:12:18.085 [INFO] OCR worker: received frame 6
+09:12:18.351 [INFO] Queued frame 36 for OCR
+09:12:19.631 [INFO] OCR done frame 6: text=''
+09:12:19.631 [INFO] timings (prep=0.012s, ocr=1.533s) total=1.545s Error: 14615.304478525242
+09:12:19.631 [INFO] OCR worker: received frame 36
+09:12:19.715 [INFO] Queued frame 46 for OCR
+09:12:21.494 [INFO] OCR done frame 36: text='"The year 201'
+09:12:21.500 [INFO] Saying with TTS: "The year 201
+09:12:21.529 [INFO] timings (prep=0.008s, ocr=1.853s) total=1.862s Error: 19012.468934885863
+09:12:21.536 [INFO] OCR worker: received frame 46
+09:12:21.550 [INFO] OCR done frame 46: text='"The year 201'
+09:12:21.555 [INFO] timings (prep=0.008s, ocr=1.853s) total=0.009s Error: 33322.16829679605
+09:12:21.701 [INFO] Queued frame 60 for OCR
+09:12:21.702 [INFO] OCR worker: received frame 60
+09:12:21.724 [INFO] OCR done frame 60: text='"The year 201'
+09:12:21.725 [INFO] timings (prep=0.017s, ocr=1.853s) total=0.018s Error: 31249.727198809273
+09:12:21.939 [INFO] Queued frame 62 for OCR
+09:12:21.949 [INFO] OCR worker: received frame 62
+09:12:21.972 [INFO] OCR done frame 62: text='"The year 201'
+09:12:21.973 [INFO] timings (prep=0.008s, ocr=1.853s) total=0.009s Error: 25202.464165235906
+09:12:22.214 [INFO] Queued frame 64 for OCR
+09:12:22.215 [INFO] OCR worker: received frame 64
+09:12:22.233 [INFO] OCR done frame 64: text='"The year 201'
+09:12:22.235 [INFO] timings (prep=0.014s, ocr=1.853s) total=0.015s Error: 23030.608437468603
+09:12:22.513 [INFO] Queued frame 66 for OCR
+09:12:22.514 [INFO] OCR worker: received frame 66
+09:12:22.546 [INFO] OCR done frame 66: text='"The year 201'
+09:12:22.549 [INFO] timings (prep=0.025s, ocr=1.853s) total=0.028s Error: 23077.147787367485
+09:12:22.823 [INFO] Queued frame 68 for OCR
+09:12:22.824 [INFO] OCR worker: received frame 68
+09:12:23.221 [INFO] Queued frame 70 for OCR
+09:12:25.492 [INFO] OCR done frame 68: text='__ The year 2016 s'
+09:12:25.493 [INFO] Saying with TTS: __ The year 2016 s
+09:12:31.515 [INFO] timings (prep=0.007s, ocr=2.655s) total=2.666s Error: 16537.68877443278
+09:12:31.521 [INFO] OCR worker: received frame 70
+09:12:31.530 [INFO] OCR done frame 70: text='__ The year 2016 s'
+09:12:31.532 [INFO] timings (prep=0.007s, ocr=2.655s) total=0.008s Error: 27194.28846283719
+09:12:31.753 [INFO] Queued frame 128 for OCR
+09:12:31.755 [INFO] OCR worker: received frame 128
+09:12:31.766 [INFO] OCR done frame 128: text='__ The year 2016 s'
+09:12:31.767 [INFO] timings (prep=0.005s, ocr=2.655s) total=0.009s Error: 32782.13194714462
+09:12:32.093 [INFO] Queued frame 130 for OCR
+09:12:32.098 [INFO] OCR worker: received frame 130
+09:12:32.123 [INFO] OCR done frame 130: text='__ The year 2016 s'
+09:12:32.124 [INFO] timings (prep=0.021s, ocr=2.655s) total=0.022s Error: 24690.26883207228
+09:12:32.432 [INFO] Queued frame 132 for OCR
+09:12:32.432 [INFO] OCR worker: received frame 132
+09:12:32.451 [INFO] OCR done frame 132: text='__ The year 2016 s'
+09:12:32.456 [INFO] timings (prep=0.012s, ocr=2.655s) total=0.012s Error: 20012.220641398097
+09:12:32.718 [INFO] Queued frame 134 for OCR
+09:12:32.720 [INFO] OCR worker: received frame 134
+09:12:32.731 [INFO] OCR done frame 134: text='__ The year 2016 s'
+09:12:32.732 [INFO] timings (prep=0.010s, ocr=2.655s) total=0.011s Error: 23854.428834076072
+09:12:32.981 [INFO] Queued frame 136 for OCR
+09:12:32.982 [INFO] OCR worker: received frame 136
+09:12:32.991 [INFO] OCR done frame 136: text='__ The year 2016 s'
+09:12:32.992 [INFO] timings (prep=0.008s, ocr=2.655s) total=0.009s Error: 22817.869642015226
+09:12:33.277 [INFO] Queued frame 138 for OCR
+09:12:33.278 [INFO] OCR worker: received frame 138
+09:12:33.296 [INFO] OCR done frame 138: text='__ The year 2016 s'
+09:12:33.300 [INFO] timings (prep=0.012s, ocr=2.655s) total=0.013s Error: 22451.58791711624
+09:12:33.610 [INFO] Queued frame 140 for OCR
+09:12:33.610 [INFO] OCR worker: received frame 140
+09:12:33.626 [INFO] OCR done frame 140: text='__ The year 2016 s'
+09:12:33.627 [INFO] timings (prep=0.013s, ocr=2.655s) total=0.013s Error: 24650.73274772983
+09:12:33.917 [INFO] Queued frame 142 for OCR
+09:12:33.917 [INFO] OCR worker: received frame 142
+09:12:33.926 [INFO] OCR done frame 142: text='__ The year 2016 s'
+09:12:33.927 [INFO] timings (prep=0.006s, ocr=2.655s) total=0.007s Error: 26489.3332305666
+09:12:34.248 [INFO] Queued frame 144 for OCR
+09:12:34.250 [INFO] OCR worker: received frame 144
+09:12:34.274 [INFO] OCR done frame 144: text='__ The year 2016 s'
+09:12:34.276 [INFO] timings (prep=0.013s, ocr=2.655s) total=0.014s Error: 35512.81282861159
+09:12:34.550 [INFO] Queued frame 146 for OCR
+09:12:34.551 [INFO] OCR worker: received frame 146
+09:12:34.578 [INFO] OCR done frame 146: text='__ The year 2016 s'
+09:12:34.579 [INFO] timings (prep=0.021s, ocr=2.655s) total=0.023s Error: 45283.86467606315
+09:12:34.860 [INFO] Queued frame 148 for OCR
+09:12:34.860 [INFO] OCR worker: received frame 148
+09:12:34.876 [INFO] OCR done frame 148: text='__ The year 2016 s'
+09:12:34.876 [INFO] timings (prep=0.013s, ocr=2.655s) total=0.014s Error: 46514.264747494395
+09:12:35.294 [INFO] Queued frame 150 for OCR
+09:12:35.296 [INFO] OCR worker: received frame 150
+09:12:35.318 [INFO] OCR done frame 150: text='__ The year 2016 s'
+09:12:35.319 [INFO] timings (prep=0.014s, ocr=2.655s) total=0.015s Error: 39254.266328642545
+09:12:35.584 [INFO] Queued frame 152 for OCR
+09:12:35.585 [INFO] OCR worker: received frame 152
+09:12:35.600 [INFO] OCR done frame 152: text='__ The year 2016 s'
+09:12:35.603 [INFO] timings (prep=0.013s, ocr=2.655s) total=0.013s Error: 28979.26629505999
+09:12:35.905 [INFO] Queued frame 154 for OCR
+09:12:35.906 [INFO] OCR worker: received frame 154
+09:12:35.922 [INFO] OCR done frame 154: text='__ The year 2016 s'
+09:12:35.922 [INFO] timings (prep=0.012s, ocr=2.655s) total=0.012s Error: 40920.94573687172
+09:12:36.188 [INFO] Queued frame 156 for OCR
+09:12:36.189 [INFO] OCR worker: received frame 156
+09:12:36.203 [INFO] OCR done frame 156: text='__ The year 2016 s'
+09:12:36.204 [INFO] timings (prep=0.013s, ocr=2.655s) total=0.014s Error: 32668.873947536056
+09:12:36.499 [INFO] Queued frame 158 for OCR
+09:12:36.500 [INFO] OCR worker: received frame 158
+09:12:36.532 [INFO] OCR done frame 158: text='__ The year 2016 s'
+09:12:36.533 [INFO] timings (prep=0.025s, ocr=2.655s) total=0.028s Error: 36640.225845373825
+09:12:36.780 [INFO] Queued frame 160 for OCR
+09:12:36.782 [INFO] OCR worker: received frame 160
+09:12:36.805 [INFO] OCR done frame 160: text='__ The year 2016 s'
+09:12:36.806 [INFO] timings (prep=0.018s, ocr=2.655s) total=0.018s Error: 30768.473719052105
+09:12:37.155 [INFO] Queued frame 162 for OCR
+09:12:37.159 [INFO] OCR worker: received frame 162
+09:12:37.167 [INFO] OCR done frame 162: text='__ The year 2016 s'
+09:12:37.168 [INFO] timings (prep=0.007s, ocr=2.655s) total=0.008s Error: 39684.25978898939
+09:12:37.487 [INFO] Queued frame 164 for OCR
+09:12:37.488 [INFO] OCR worker: received frame 164
+09:12:37.507 [INFO] OCR done frame 164: text='__ The year 2016 s'
+09:12:37.507 [INFO] timings (prep=0.015s, ocr=2.655s) total=0.016s Error: 37145.19450749989
+09:12:37.709 [INFO] Queued frame 166 for OCR
+09:12:37.710 [INFO] OCR worker: received frame 166
+09:12:38.123 [INFO] Queued frame 168 for OCR
+09:12:40.086 [INFO] OCR done frame 166: text=''
+09:12:40.086 [INFO] timings (prep=0.009s, ocr=2.365s) total=2.374s Error: 18140.87994006906
+09:12:40.087 [INFO] OCR worker: received frame 168
+09:12:40.103 [INFO] OCR done frame 168: text=''
+09:12:40.103 [INFO] timings (prep=0.016s, ocr=2.365s) total=0.016s Error: 28972.53397616439
+09:12:40.319 [INFO] Queued frame 180 for OCR
+09:12:40.319 [INFO] OCR worker: received frame 180
+09:12:40.327 [INFO] OCR done frame 180: text=''
+09:12:40.327 [INFO] timings (prep=0.005s, ocr=2.365s) total=0.007s Error: 27511.652076892802
+09:12:40.566 [INFO] Queued frame 182 for OCR
+09:12:40.566 [INFO] OCR worker: received frame 182
+09:12:40.575 [INFO] OCR done frame 182: text=''
+09:12:40.576 [INFO] timings (prep=0.003s, ocr=2.365s) total=0.004s Error: 21121.944157676397
+09:12:40.793 [INFO] Queued frame 184 for OCR
+09:12:40.795 [INFO] OCR worker: received frame 184
+09:12:41.053 [INFO] Queued frame 186 for OCR
+09:12:42.774 [INFO] OCR done frame 184: text='12016 seemed to brin'
+09:12:42.784 [INFO] Saying with TTS: 12016 seemed to brin
+09:12:42.794 [INFO] timings (prep=0.003s, ocr=1.974s) total=1.978s Error: 14919.134525836276
+09:12:42.797 [INFO] OCR worker: received frame 186
+09:12:42.814 [INFO] OCR done frame 186: text='12016 seemed to brin'
+09:12:42.824 [INFO] timings (prep=0.015s, ocr=1.974s) total=0.016s Error: 20046.30888717422
+09:12:43.130 [INFO] Queued frame 202 for OCR
+09:12:43.131 [INFO] OCR worker: received frame 202
+09:12:43.457 [INFO] Queued frame 204 for OCR
+09:12:44.941 [INFO] OCR done frame 202: text='12016 seemed to brin'
+09:12:44.942 [INFO] timings (prep=0.006s, ocr=1.802s) total=1.809s Error: 19771.95741447973
+09:12:44.942 [INFO] OCR worker: received frame 204
+09:12:45.179 [INFO] Queued frame 216 for OCR
+09:12:47.404 [INFO] OCR done frame 204: text='12016 seemed to brin'
+09:12:47.408 [INFO] timings (prep=0.016s, ocr=2.446s) total=2.462s Error: 18049.245136570116
+09:12:47.413 [INFO] OCR worker: received frame 216
+09:12:47.424 [INFO] OCR done frame 216: text='12016 seemed to brin'
+09:12:47.425 [INFO] timings (prep=0.010s, ocr=2.446s) total=0.010s Error: 21401.777963524433
+09:12:47.452 [INFO] Quit requested
+09:12:47.452 [INFO] Shutting down: sending None to worker and waiting
+09:12:47.454 [INFO] OCR worker received shutdown signal
+09:12:47.470 [INFO] Camera stopped
+09:12:47.484 [INFO] Exited cleanly
+09:12:47.925 [INFO] Camera closed successfully.

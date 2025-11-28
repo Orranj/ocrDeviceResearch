@@ -1,0 +1,542 @@
+08:56:43.%f [INFO] Initialization successful.
+08:56:43.%f [INFO] Camera now open.
+08:56:43.%f [INFO] Camera configuration has been adjusted!
+08:56:43.%f [INFO] Configuration successful!
+08:56:43.%f [INFO] Camera started
+08:56:43.%f [INFO] OCR worker started
+08:56:43.%f [INFO] Starting main loop
+08:56:45.%f [INFO] Queued frame 0 for OCR
+08:56:45.%f [INFO] OCR worker: received frame 0
+08:56:45.%f [INFO] OCR done frame 0: text=''
+08:56:45.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:01.%f [INFO] Queued frame 2 for OCR
+08:57:01.%f [INFO] OCR worker: received frame 2
+08:57:01.%f [INFO] OCR done frame 2: text=''
+08:57:01.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:02.%f [INFO] Queued frame 4 for OCR
+08:57:02.%f [INFO] OCR worker: received frame 4
+08:57:02.%f [INFO] OCR done frame 4: text=''
+08:57:02.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:03.%f [INFO] Queued frame 6 for OCR
+08:57:03.%f [INFO] OCR worker: received frame 6
+08:57:03.%f [INFO] OCR done frame 6: text=''
+08:57:03.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:03.%f [INFO] Queued frame 8 for OCR
+08:57:03.%f [INFO] OCR worker: received frame 8
+08:57:03.%f [INFO] OCR done frame 8: text=''
+08:57:03.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:03.%f [INFO] Queued frame 10 for OCR
+08:57:03.%f [INFO] OCR worker: received frame 10
+08:57:03.%f [INFO] OCR done frame 10: text=''
+08:57:03.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:03.%f [INFO] Queued frame 12 for OCR
+08:57:03.%f [INFO] OCR worker: received frame 12
+08:57:03.%f [INFO] OCR done frame 12: text=''
+08:57:03.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:03.%f [INFO] Queued frame 14 for OCR
+08:57:03.%f [INFO] OCR worker: received frame 14
+08:57:03.%f [INFO] OCR done frame 14: text=''
+08:57:03.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:04.%f [INFO] Queued frame 16 for OCR
+08:57:04.%f [INFO] OCR worker: received frame 16
+08:57:04.%f [INFO] OCR done frame 16: text=''
+08:57:04.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:04.%f [INFO] Queued frame 18 for OCR
+08:57:04.%f [INFO] OCR worker: received frame 18
+08:57:04.%f [INFO] OCR done frame 18: text=''
+08:57:04.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:04.%f [INFO] Queued frame 20 for OCR
+08:57:04.%f [INFO] OCR worker: received frame 20
+08:57:04.%f [INFO] Queued frame 22 for OCR
+08:57:09.%f [INFO] OCR done frame 20: text='Be Affirtn'
+08:57:09.%f [INFO] Saying with TTS: Be Affirtn
+08:57:09.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:09.%f [INFO] OCR worker: received frame 22
+08:57:09.%f [INFO] OCR done frame 22: text='Be Affirtn'
+08:57:09.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:09.%f [INFO] Queued frame 66 for OCR
+08:57:09.%f [INFO] OCR worker: received frame 66
+08:57:09.%f [INFO] OCR done frame 66: text='Be Affirtn'
+08:57:09.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:10.%f [INFO] Queued frame 68 for OCR
+08:57:10.%f [INFO] OCR worker: received frame 68
+08:57:10.%f [INFO] OCR done frame 68: text='Be Affirtn'
+08:57:10.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:10.%f [INFO] Queued frame 70 for OCR
+08:57:10.%f [INFO] OCR worker: received frame 70
+08:57:10.%f [INFO] OCR done frame 70: text='Be Affirtn'
+08:57:10.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:10.%f [INFO] Queued frame 72 for OCR
+08:57:10.%f [INFO] OCR worker: received frame 72
+08:57:10.%f [INFO] OCR done frame 72: text='Be Affirtn'
+08:57:10.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:10.%f [INFO] Queued frame 74 for OCR
+08:57:10.%f [INFO] OCR worker: received frame 74
+08:57:10.%f [INFO] OCR done frame 74: text='Be Affirtn'
+08:57:10.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:11.%f [INFO] Queued frame 76 for OCR
+08:57:11.%f [INFO] OCR worker: received frame 76
+08:57:11.%f [INFO] OCR done frame 76: text='Be Affirtn'
+08:57:11.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:11.%f [INFO] Queued frame 78 for OCR
+08:57:11.%f [INFO] OCR worker: received frame 78
+08:57:11.%f [INFO] OCR done frame 78: text='Be Affirtn'
+08:57:11.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:11.%f [INFO] Queued frame 80 for OCR
+08:57:11.%f [INFO] OCR worker: received frame 80
+08:57:11.%f [INFO] OCR done frame 80: text='Be Affirtn'
+08:57:11.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:11.%f [INFO] Queued frame 82 for OCR
+08:57:11.%f [INFO] OCR worker: received frame 82
+08:57:11.%f [INFO] OCR done frame 82: text='Be Affirtn'
+08:57:11.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:12.%f [INFO] Queued frame 84 for OCR
+08:57:12.%f [INFO] OCR worker: received frame 84
+08:57:12.%f [INFO] OCR done frame 84: text='Be Affirtn'
+08:57:12.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:12.%f [INFO] Queued frame 86 for OCR
+08:57:12.%f [INFO] OCR worker: received frame 86
+08:57:12.%f [INFO] OCR done frame 86: text='Be Affirtn'
+08:57:12.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:12.%f [INFO] Queued frame 88 for OCR
+08:57:12.%f [INFO] OCR worker: received frame 88
+08:57:13.%f [INFO] Queued frame 90 for OCR
+08:57:14.%f [INFO] OCR done frame 88: text='| convergence,'
+08:57:14.%f [INFO] Saying with TTS: | convergence,
+08:57:15.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:15.%f [INFO] OCR worker: received frame 90
+08:57:15.%f [INFO] OCR done frame 90: text='| convergence,'
+08:57:15.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:15.%f [INFO] Queued frame 106 for OCR
+08:57:15.%f [INFO] OCR worker: received frame 106
+08:57:15.%f [INFO] OCR done frame 106: text='| convergence,'
+08:57:15.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:16.%f [INFO] Queued frame 108 for OCR
+08:57:16.%f [INFO] OCR worker: received frame 108
+08:57:16.%f [INFO] OCR done frame 108: text='| convergence,'
+08:57:16.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:16.%f [INFO] Queued frame 110 for OCR
+08:57:16.%f [INFO] OCR worker: received frame 110
+08:57:16.%f [INFO] OCR done frame 110: text='| convergence,'
+08:57:16.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:16.%f [INFO] Queued frame 112 for OCR
+08:57:16.%f [INFO] OCR worker: received frame 112
+08:57:16.%f [INFO] Queued frame 114 for OCR
+08:57:19.%f [INFO] OCR done frame 112: text='—  CORVETEENCE;'
+08:57:19.%f [INFO] Saying with TTS: —  CORVETEENCE;
+08:57:19.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:19.%f [INFO] OCR worker: received frame 114
+08:57:20.%f [INFO] Queued frame 134 for OCR
+08:57:23.%f [INFO] OCR done frame 114: text='— CORVETEENICE,'
+08:57:23.%f [INFO] Saying with TTS: — CORVETEENICE,
+08:57:23.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:23.%f [INFO] OCR worker: received frame 134
+08:57:23.%f [INFO] OCR done frame 134: text='— CORVETEENICE,'
+08:57:23.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:24.%f [INFO] Queued frame 156 for OCR
+08:57:24.%f [INFO] OCR worker: received frame 156
+08:57:24.%f [INFO] OCR done frame 156: text='— CORVETEENICE,'
+08:57:24.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:24.%f [INFO] Queued frame 158 for OCR
+08:57:24.%f [INFO] OCR worker: received frame 158
+08:57:24.%f [INFO] OCR done frame 158: text='— CORVETEENICE,'
+08:57:24.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:25.%f [INFO] Queued frame 160 for OCR
+08:57:25.%f [INFO] OCR worker: received frame 160
+08:57:25.%f [INFO] Queued frame 162 for OCR
+08:57:28.%f [INFO] OCR done frame 160: text='argence, it’s importar'
+08:57:28.%f [INFO] Saying with TTS: argence, it’s importar
+08:57:28.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:28.%f [INFO] OCR worker: received frame 162
+08:57:28.%f [INFO] Queued frame 178 for OCR
+08:57:30.%f [INFO] OCR done frame 162: text='argence, it's importar'
+08:57:30.%f [INFO] Saying with TTS: argence, it's importar
+08:57:31.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:31.%f [INFO] OCR worker: received frame 178
+08:57:31.%f [INFO] OCR done frame 178: text='argence, it's importar'
+08:57:31.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:31.%f [INFO] Queued frame 194 for OCR
+08:57:31.%f [INFO] OCR worker: received frame 194
+08:57:31.%f [INFO] OCR done frame 194: text='argence, it's importar'
+08:57:31.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:31.%f [INFO] Queued frame 196 for OCR
+08:57:31.%f [INFO] OCR worker: received frame 196
+08:57:31.%f [INFO] OCR done frame 196: text='argence, it's importar'
+08:57:31.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:32.%f [INFO] Queued frame 198 for OCR
+08:57:32.%f [INFO] OCR worker: received frame 198
+08:57:32.%f [INFO] OCR done frame 198: text='argence, it's importar'
+08:57:32.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:32.%f [INFO] Queued frame 200 for OCR
+08:57:32.%f [INFO] OCR worker: received frame 200
+08:57:32.%f [INFO] OCR done frame 200: text='argence, it's importar'
+08:57:32.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:32.%f [INFO] Queued frame 202 for OCR
+08:57:32.%f [INFO] OCR worker: received frame 202
+08:57:32.%f [INFO] OCR done frame 202: text='argence, it's importar'
+08:57:32.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:32.%f [INFO] Queued frame 204 for OCR
+08:57:32.%f [INFO] OCR worker: received frame 204
+08:57:32.%f [INFO] OCR done frame 204: text='argence, it's importar'
+08:57:32.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:33.%f [INFO] Queued frame 206 for OCR
+08:57:33.%f [INFO] OCR worker: received frame 206
+08:57:33.%f [INFO] OCR done frame 206: text='argence, it's importar'
+08:57:33.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:33.%f [INFO] Queued frame 208 for OCR
+08:57:33.%f [INFO] OCR worker: received frame 208
+08:57:33.%f [INFO] OCR done frame 208: text='argence, it's importar'
+08:57:33.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:34.%f [INFO] Queued frame 210 for OCR
+08:57:34.%f [INFO] OCR worker: received frame 210
+08:57:34.%f [INFO] Queued frame 212 for OCR
+08:57:35.%f [INFO] OCR done frame 210: text=''
+08:57:35.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:35.%f [INFO] OCR worker: received frame 212
+08:57:35.%f [INFO] OCR done frame 212: text=''
+08:57:35.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:36.%f [INFO] Queued frame 218 for OCR
+08:57:36.%f [INFO] OCR worker: received frame 218
+08:57:36.%f [INFO] OCR done frame 218: text=''
+08:57:36.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:36.%f [INFO] Queued frame 220 for OCR
+08:57:36.%f [INFO] OCR worker: received frame 220
+08:57:36.%f [INFO] OCR done frame 220: text=''
+08:57:36.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:36.%f [INFO] Queued frame 222 for OCR
+08:57:36.%f [INFO] OCR worker: received frame 222
+08:57:36.%f [INFO] OCR done frame 222: text=''
+08:57:36.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:36.%f [INFO] Queued frame 224 for OCR
+08:57:36.%f [INFO] OCR worker: received frame 224
+08:57:37.%f [INFO] Queued frame 226 for OCR
+08:57:38.%f [INFO] OCR done frame 224: text='consider wh'
+08:57:38.%f [INFO] Saying with TTS: consider wh
+08:57:38.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:38.%f [INFO] OCR worker: received frame 226
+08:57:38.%f [INFO] OCR done frame 226: text='consider wh'
+08:57:38.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:39.%f [INFO] Queued frame 240 for OCR
+08:57:39.%f [INFO] OCR worker: received frame 240
+08:57:39.%f [INFO] OCR done frame 240: text='consider wh'
+08:57:39.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:39.%f [INFO] Queued frame 242 for OCR
+08:57:39.%f [INFO] OCR worker: received frame 242
+08:57:39.%f [INFO] Queued frame 244 for OCR
+08:57:41.%f [INFO] OCR done frame 242: text='consider wh'
+08:57:41.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:41.%f [INFO] OCR worker: received frame 244
+08:57:41.%f [INFO] Queued frame 258 for OCR
+08:57:44.%f [INFO] OCR done frame 244: text='consider wh'
+08:57:44.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:44.%f [INFO] OCR worker: received frame 258
+08:57:44.%f [INFO] OCR done frame 258: text='consider wh'
+08:57:44.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:44.%f [INFO] Queued frame 278 for OCR
+08:57:44.%f [INFO] OCR worker: received frame 278
+08:57:44.%f [INFO] OCR done frame 278: text='consider wh'
+08:57:44.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:44.%f [INFO] Queued frame 280 for OCR
+08:57:44.%f [INFO] OCR worker: received frame 280
+08:57:44.%f [INFO] Queued frame 282 for OCR
+08:57:45.%f [INFO] OCR done frame 280: text=''
+08:57:45.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:45.%f [INFO] OCR worker: received frame 282
+08:57:45.%f [INFO] Queued frame 292 for OCR
+08:57:47.%f [INFO] OCR done frame 282: text=''
+08:57:47.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:47.%f [INFO] OCR worker: received frame 292
+08:57:47.%f [INFO] Queued frame 302 for OCR
+08:57:48.%f [INFO] OCR done frame 292: text=''
+08:57:48.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:48.%f [INFO] OCR worker: received frame 302
+08:57:48.%f [INFO] OCR done frame 302: text=''
+08:57:48.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:48.%f [INFO] Queued frame 314 for OCR
+08:57:48.%f [INFO] OCR worker: received frame 314
+08:57:48.%f [INFO] OCR done frame 314: text=''
+08:57:48.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:48.%f [INFO] Queued frame 316 for OCR
+08:57:48.%f [INFO] OCR worker: received frame 316
+08:57:49.%f [INFO] Queued frame 318 for OCR
+08:57:50.%f [INFO] OCR done frame 316: text=''
+08:57:50.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:50.%f [INFO] OCR worker: received frame 318
+08:57:50.%f [INFO] Queued frame 328 for OCR
+08:57:51.%f [INFO] OCR done frame 318: text=''
+08:57:51.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:51.%f [INFO] OCR worker: received frame 328
+08:57:51.%f [INFO] OCR done frame 328: text=''
+08:57:51.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:51.%f [INFO] Queued frame 340 for OCR
+08:57:51.%f [INFO] OCR worker: received frame 340
+08:57:51.%f [INFO] OCR done frame 340: text=''
+08:57:51.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:51.%f [INFO] Queued frame 342 for OCR
+08:57:51.%f [INFO] OCR worker: received frame 342
+08:57:51.%f [INFO] OCR done frame 342: text=''
+08:57:51.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:52.%f [INFO] Queued frame 344 for OCR
+08:57:52.%f [INFO] OCR worker: received frame 344
+08:57:52.%f [INFO] OCR done frame 344: text=''
+08:57:52.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:52.%f [INFO] Queued frame 346 for OCR
+08:57:52.%f [INFO] OCR worker: received frame 346
+08:57:52.%f [INFO] OCR done frame 346: text=''
+08:57:52.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:52.%f [INFO] Queued frame 348 for OCR
+08:57:52.%f [INFO] OCR worker: received frame 348
+08:57:52.%f [INFO] OCR done frame 348: text=''
+08:57:52.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:52.%f [INFO] Queued frame 350 for OCR
+08:57:52.%f [INFO] OCR worker: received frame 350
+08:57:52.%f [INFO] OCR done frame 350: text=''
+08:57:52.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:53.%f [INFO] Queued frame 352 for OCR
+08:57:53.%f [INFO] OCR worker: received frame 352
+08:57:53.%f [INFO] OCR done frame 352: text=''
+08:57:53.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:53.%f [INFO] Queued frame 354 for OCR
+08:57:53.%f [INFO] OCR worker: received frame 354
+08:57:53.%f [INFO] OCR done frame 354: text=''
+08:57:53.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:53.%f [INFO] Queued frame 356 for OCR
+08:57:53.%f [INFO] OCR worker: received frame 356
+08:57:53.%f [INFO] Queued frame 358 for OCR
+08:57:54.%f [INFO] OCR done frame 356: text=''
+08:57:54.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:54.%f [INFO] OCR worker: received frame 358
+08:57:54.%f [INFO] OCR done frame 358: text=''
+08:57:54.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:55.%f [INFO] Queued frame 368 for OCR
+08:57:55.%f [INFO] OCR worker: received frame 368
+08:57:55.%f [INFO] OCR done frame 368: text=''
+08:57:55.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:55.%f [INFO] Queued frame 370 for OCR
+08:57:55.%f [INFO] OCR worker: received frame 370
+08:57:55.%f [INFO] OCR done frame 370: text=''
+08:57:55.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:55.%f [INFO] Queued frame 372 for OCR
+08:57:55.%f [INFO] OCR worker: received frame 372
+08:57:55.%f [INFO] OCR done frame 372: text=''
+08:57:55.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:55.%f [INFO] Queued frame 374 for OCR
+08:57:55.%f [INFO] OCR worker: received frame 374
+08:57:55.%f [INFO] OCR done frame 374: text=''
+08:57:55.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:55.%f [INFO] Queued frame 376 for OCR
+08:57:55.%f [INFO] OCR worker: received frame 376
+08:57:55.%f [INFO] OCR done frame 376: text=''
+08:57:55.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:56.%f [INFO] Queued frame 378 for OCR
+08:57:56.%f [INFO] OCR worker: received frame 378
+08:57:56.%f [INFO] OCR done frame 378: text=''
+08:57:56.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:56.%f [INFO] Queued frame 380 for OCR
+08:57:56.%f [INFO] OCR worker: received frame 380
+08:57:56.%f [INFO] OCR done frame 380: text=''
+08:57:56.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:56.%f [INFO] Queued frame 382 for OCR
+08:57:56.%f [INFO] OCR worker: received frame 382
+08:57:56.%f [INFO] OCR done frame 382: text=''
+08:57:56.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:56.%f [INFO] Queued frame 384 for OCR
+08:57:56.%f [INFO] OCR worker: received frame 384
+08:57:56.%f [INFO] OCR done frame 384: text=''
+08:57:56.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:57.%f [INFO] Queued frame 386 for OCR
+08:57:57.%f [INFO] OCR worker: received frame 386
+08:57:57.%f [INFO] OCR done frame 386: text=''
+08:57:57.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:57.%f [INFO] Queued frame 388 for OCR
+08:57:57.%f [INFO] OCR worker: received frame 388
+08:57:57.%f [INFO] OCR done frame 388: text=''
+08:57:57.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:57.%f [INFO] Queued frame 390 for OCR
+08:57:57.%f [INFO] OCR worker: received frame 390
+08:57:57.%f [INFO] OCR done frame 390: text=''
+08:57:57.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:57.%f [INFO] Queued frame 392 for OCR
+08:57:57.%f [INFO] OCR worker: received frame 392
+08:57:57.%f [INFO] OCR done frame 392: text=''
+08:57:57.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:57.%f [INFO] Queued frame 394 for OCR
+08:57:57.%f [INFO] OCR worker: received frame 394
+08:57:58.%f [INFO] OCR done frame 394: text=''
+08:57:58.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:58.%f [INFO] Queued frame 396 for OCR
+08:57:58.%f [INFO] OCR worker: received frame 396
+08:57:58.%f [INFO] OCR done frame 396: text=''
+08:57:58.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:58.%f [INFO] Queued frame 398 for OCR
+08:57:58.%f [INFO] OCR worker: received frame 398
+08:57:58.%f [INFO] OCR done frame 398: text=''
+08:57:58.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:58.%f [INFO] Queued frame 400 for OCR
+08:57:58.%f [INFO] OCR worker: received frame 400
+08:57:58.%f [INFO] OCR done frame 400: text=''
+08:57:58.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:58.%f [INFO] Queued frame 402 for OCR
+08:57:58.%f [INFO] OCR worker: received frame 402
+08:57:58.%f [INFO] OCR done frame 402: text=''
+08:57:58.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:59.%f [INFO] Queued frame 404 for OCR
+08:57:59.%f [INFO] OCR worker: received frame 404
+08:57:59.%f [INFO] OCR done frame 404: text=''
+08:57:59.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:59.%f [INFO] Queued frame 406 for OCR
+08:57:59.%f [INFO] OCR worker: received frame 406
+08:57:59.%f [INFO] OCR done frame 406: text=''
+08:57:59.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:59.%f [INFO] Queued frame 408 for OCR
+08:57:59.%f [INFO] OCR worker: received frame 408
+08:57:59.%f [INFO] OCR done frame 408: text=''
+08:57:59.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:57:59.%f [INFO] Queued frame 410 for OCR
+08:57:59.%f [INFO] OCR worker: received frame 410
+08:57:59.%f [INFO] OCR done frame 410: text=''
+08:57:59.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:00.%f [INFO] Queued frame 412 for OCR
+08:58:00.%f [INFO] OCR worker: received frame 412
+08:58:00.%f [INFO] OCR done frame 412: text=''
+08:58:00.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:00.%f [INFO] Queued frame 414 for OCR
+08:58:00.%f [INFO] OCR worker: received frame 414
+08:58:00.%f [INFO] OCR done frame 414: text=''
+08:58:00.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:00.%f [INFO] Queued frame 416 for OCR
+08:58:00.%f [INFO] OCR worker: received frame 416
+08:58:00.%f [INFO] OCR done frame 416: text=''
+08:58:00.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:00.%f [INFO] Queued frame 418 for OCR
+08:58:00.%f [INFO] OCR worker: received frame 418
+08:58:00.%f [INFO] OCR done frame 418: text=''
+08:58:00.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:00.%f [INFO] Queued frame 420 for OCR
+08:58:00.%f [INFO] OCR worker: received frame 420
+08:58:00.%f [INFO] OCR done frame 420: text=''
+08:58:00.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:01.%f [INFO] Queued frame 422 for OCR
+08:58:01.%f [INFO] OCR worker: received frame 422
+08:58:01.%f [INFO] OCR done frame 422: text=''
+08:58:01.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:01.%f [INFO] Queued frame 424 for OCR
+08:58:01.%f [INFO] OCR worker: received frame 424
+08:58:01.%f [INFO] OCR done frame 424: text=''
+08:58:01.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:01.%f [INFO] Queued frame 426 for OCR
+08:58:01.%f [INFO] OCR worker: received frame 426
+08:58:01.%f [INFO] OCR done frame 426: text=''
+08:58:01.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:01.%f [INFO] Queued frame 428 for OCR
+08:58:01.%f [INFO] OCR worker: received frame 428
+08:58:01.%f [INFO] OCR done frame 428: text=''
+08:58:01.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:02.%f [INFO] Queued frame 430 for OCR
+08:58:02.%f [INFO] OCR worker: received frame 430
+08:58:02.%f [INFO] OCR done frame 430: text=''
+08:58:02.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:02.%f [INFO] Queued frame 432 for OCR
+08:58:02.%f [INFO] OCR worker: received frame 432
+08:58:02.%f [INFO] OCR done frame 432: text=''
+08:58:02.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:02.%f [INFO] Queued frame 434 for OCR
+08:58:02.%f [INFO] OCR worker: received frame 434
+08:58:02.%f [INFO] OCR done frame 434: text=''
+08:58:02.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:02.%f [INFO] Queued frame 436 for OCR
+08:58:02.%f [INFO] OCR worker: received frame 436
+08:58:02.%f [INFO] OCR done frame 436: text=''
+08:58:02.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:02.%f [INFO] Queued frame 438 for OCR
+08:58:02.%f [INFO] OCR worker: received frame 438
+08:58:02.%f [INFO] OCR done frame 438: text=''
+08:58:02.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:03.%f [INFO] Queued frame 440 for OCR
+08:58:03.%f [INFO] OCR worker: received frame 440
+08:58:03.%f [INFO] OCR done frame 440: text=''
+08:58:03.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:03.%f [INFO] Queued frame 442 for OCR
+08:58:03.%f [INFO] OCR worker: received frame 442
+08:58:03.%f [INFO] OCR done frame 442: text=''
+08:58:03.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:03.%f [INFO] Queued frame 444 for OCR
+08:58:03.%f [INFO] OCR worker: received frame 444
+08:58:03.%f [INFO] OCR done frame 444: text=''
+08:58:03.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:03.%f [INFO] Queued frame 446 for OCR
+08:58:03.%f [INFO] OCR worker: received frame 446
+08:58:04.%f [INFO] Queued frame 448 for OCR
+08:58:06.%f [INFO] OCR done frame 446: text='sider what's good al'
+08:58:06.%f [INFO] Saying with TTS: sider what's good al
+08:58:06.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:06.%f [INFO] OCR worker: received frame 448
+08:58:07.%f [INFO] Queued frame 472 for OCR
+08:58:08.%f [INFO] OCR done frame 448: text=''
+08:58:08.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:08.%f [INFO] OCR worker: received frame 472
+08:58:08.%f [INFO] OCR done frame 472: text=''
+08:58:08.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:08.%f [INFO] Queued frame 482 for OCR
+08:58:08.%f [INFO] OCR worker: received frame 482
+08:58:08.%f [INFO] OCR done frame 482: text=''
+08:58:08.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:08.%f [INFO] Queued frame 484 for OCR
+08:58:08.%f [INFO] OCR worker: received frame 484
+08:58:08.%f [INFO] OCR done frame 484: text=''
+08:58:08.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:08.%f [INFO] Queued frame 486 for OCR
+08:58:08.%f [INFO] OCR worker: received frame 486
+08:58:08.%f [INFO] OCR done frame 486: text=''
+08:58:08.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:09.%f [INFO] Queued frame 488 for OCR
+08:58:09.%f [INFO] OCR worker: received frame 488
+08:58:09.%f [INFO] OCR done frame 488: text=''
+08:58:09.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:09.%f [INFO] Queued frame 490 for OCR
+08:58:09.%f [INFO] OCR worker: received frame 490
+08:58:09.%f [INFO] OCR done frame 490: text=''
+08:58:09.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:09.%f [INFO] Queued frame 492 for OCR
+08:58:09.%f [INFO] OCR worker: received frame 492
+08:58:09.%f [INFO] OCR done frame 492: text=''
+08:58:09.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:09.%f [INFO] Queued frame 494 for OCR
+08:58:09.%f [INFO] OCR worker: received frame 494
+08:58:09.%f [INFO] OCR done frame 494: text=''
+08:58:09.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:09.%f [INFO] Queued frame 496 for OCR
+08:58:09.%f [INFO] OCR worker: received frame 496
+08:58:09.%f [INFO] OCR done frame 496: text=''
+08:58:09.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:10.%f [INFO] Queued frame 498 for OCR
+08:58:10.%f [INFO] OCR worker: received frame 498
+08:58:10.%f [INFO] OCR done frame 498: text=''
+08:58:10.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:10.%f [INFO] Queued frame 500 for OCR
+08:58:10.%f [INFO] OCR worker: received frame 500
+08:58:10.%f [INFO] OCR done frame 500: text=''
+08:58:10.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:10.%f [INFO] Queued frame 502 for OCR
+08:58:10.%f [INFO] OCR worker: received frame 502
+08:58:10.%f [INFO] OCR done frame 502: text=''
+08:58:10.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:10.%f [INFO] Queued frame 504 for OCR
+08:58:10.%f [INFO] OCR worker: received frame 504
+08:58:11.%f [INFO] Queued frame 506 for OCR
+08:58:13.%f [INFO] OCR done frame 504: text='good about an'
+08:58:13.%f [INFO] Saying with TTS: good about an
+08:58:13.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:13.%f [INFO] OCR worker: received frame 506
+08:58:13.%f [INFO] Queued frame 526 for OCR
+08:58:16.%f [INFO] Quit requested
+08:58:16.%f [INFO] Shutting down: sending None to worker and waiting
+08:58:16.%f [INFO] OCR done frame 506: text='sgood about an'
+08:58:16.%f [INFO] Saying with TTS: sgood about an
+08:58:16.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:16.%f [INFO] OCR worker: received frame 526
+08:58:16.%f [INFO] OCR done frame 526: text='sgood about an'
+08:58:16.%f [INFO] OCR worker exception: name 't_deskew' is not defined
+08:58:17.%f [INFO] Camera stopped
+08:58:17.%f [INFO] Exited cleanly
+08:58:17.%f [INFO] Camera closed successfully.

@@ -1,0 +1,337 @@
+08:14:39 [INFO] Initialization successful.
+08:14:39 [INFO] Camera now open.
+08:14:39 [INFO] Camera configuration has been adjusted!
+08:14:39 [INFO] Configuration successful!
+08:14:39 [INFO] Camera started
+08:14:39 [INFO] OCR worker started
+08:14:39 [INFO] Starting main loop
+08:14:57 [INFO] Queued frame 1 for OCR
+08:14:57 [INFO] OCR worker: received frame 1
+08:14:58 [INFO] OCR worker exception: cannot access local variable 'err' where it is not associated with a value
+08:14:58 [INFO] Queued frame 2 for OCR
+08:14:58 [INFO] OCR worker: received frame 2
+08:14:58 [INFO] OCR worker exception: cannot access local variable 'err' where it is not associated with a value
+08:14:58 [INFO] Queued frame 3 for OCR
+08:14:58 [INFO] OCR worker: received frame 3
+08:14:58 [INFO] OCR worker exception: cannot access local variable 'err' where it is not associated with a value
+08:14:58 [INFO] Queued frame 4 for OCR
+08:14:58 [INFO] OCR worker: received frame 4
+08:14:58 [INFO] Queued frame 5 for OCR
+08:15:08 [INFO] OCR done frame 4: text=''
+08:15:08 [INFO] timings (deskew=0.029s, prep=0.005s, ocr=10.148s) total=10.193s angle=0.00°
+08:15:08 [INFO] MSE: 15830.33625
+08:15:08 [INFO] OCR worker: received frame 5
+08:15:08 [INFO] Queued frame 84 for OCR
+08:15:15 [INFO] OCR done frame 5: text='Fo en Conatitnes toe cen'
+08:15:15 [INFO] Saying with TTS: Fo en Conatitnes toe cen
+08:15:15 [INFO] timings (deskew=0.020s, prep=0.012s, ocr=6.266s) total=6.313s angle=0.00°
+08:15:15 [INFO] MSE: 20343.07125
+08:15:15 [INFO] OCR worker: received frame 84
+08:15:15 [INFO] OCR done frame 84: text='Fo en Conatitnes toe cen'
+08:15:15 [INFO] timings (deskew=0.025s, prep=0.008s, ocr=6.266s) total=0.049s angle=0.00°
+08:15:15 [INFO] MSE: 46275.04125
+08:15:15 [INFO] Queued frame 131 for OCR
+08:15:15 [INFO] OCR worker: received frame 131
+08:15:15 [INFO] OCR done frame 131: text='Fo en Conatitnes toe cen'
+08:15:15 [INFO] timings (deskew=0.043s, prep=0.008s, ocr=6.266s) total=0.065s angle=0.00°
+08:15:15 [INFO] MSE: 41980.14
+08:15:15 [INFO] Queued frame 132 for OCR
+08:15:15 [INFO] OCR worker: received frame 132
+08:15:15 [INFO] Queued frame 133 for OCR
+08:15:18 [INFO] OCR done frame 132: text='nds of verbal fallin wes he'
+08:15:18 [INFO] Saying with TTS: nds of verbal fallin wes he
+08:15:21 [INFO] timings (deskew=0.029s, prep=0.010s, ocr=2.470s) total=2.526s angle=0.00°
+08:15:21 [INFO] MSE: 8176.89375
+08:15:21 [INFO] OCR worker: received frame 133
+08:15:21 [INFO] Queued frame 181 for OCR
+08:15:24 [INFO] OCR done frame 133: text='ids of verbal fk ee'
+08:15:24 [INFO] Saying with TTS: ids of verbal fk ee
+08:15:25 [INFO] timings (deskew=0.029s, prep=0.013s, ocr=3.119s) total=3.175s angle=0.00°
+08:15:25 [INFO] MSE: 15827.085
+08:15:25 [INFO] OCR worker: received frame 181
+08:15:25 [INFO] OCR done frame 181: text='ids of verbal fk ee'
+08:15:25 [INFO] timings (deskew=0.064s, prep=0.021s, ocr=3.119s) total=0.185s angle=0.00°
+08:15:25 [INFO] MSE: 43517.98125
+08:15:26 [INFO] Queued frame 212 for OCR
+08:15:26 [INFO] OCR worker: received frame 212
+08:15:26 [INFO] OCR done frame 212: text='ids of verbal fk ee'
+08:15:26 [INFO] timings (deskew=0.030s, prep=0.013s, ocr=3.119s) total=0.066s angle=0.00°
+08:15:26 [INFO] MSE: 31748.45625
+08:15:26 [INFO] Queued frame 215 for OCR
+08:15:26 [INFO] OCR worker: received frame 215
+08:15:26 [INFO] OCR done frame 215: text='ids of verbal fk ee'
+08:15:26 [INFO] timings (deskew=0.037s, prep=0.013s, ocr=3.119s) total=0.074s angle=0.00°
+08:15:26 [INFO] MSE: 29508.345
+08:15:27 [INFO] Queued frame 216 for OCR
+08:15:27 [INFO] OCR worker: received frame 216
+08:15:27 [INFO] Queued frame 217 for OCR
+08:15:29 [INFO] OCR done frame 216: text=''
+08:15:29 [INFO] timings (deskew=0.035s, prep=0.012s, ocr=2.228s) total=2.294s angle=0.00°
+08:15:29 [INFO] MSE: 12224.7
+08:15:29 [INFO] OCR worker: received frame 217
+08:15:29 [INFO] Queued frame 231 for OCR
+08:15:31 [INFO] OCR done frame 217: text=''
+08:15:31 [INFO] timings (deskew=0.027s, prep=0.020s, ocr=1.869s) total=1.944s angle=0.00°
+08:15:31 [INFO] MSE: 12107.655
+08:15:31 [INFO] OCR worker: received frame 231
+08:15:31 [INFO] Queued frame 243 for OCR
+08:15:31 [INFO] OCR done frame 231: text=''
+08:15:31 [INFO] timings (deskew=0.017s, prep=0.007s, ocr=1.869s) total=0.044s angle=0.00°
+08:15:31 [INFO] MSE: 39008.4975
+08:15:31 [INFO] OCR worker: received frame 243
+08:15:31 [INFO] OCR done frame 243: text=''
+08:15:31 [INFO] timings (deskew=0.019s, prep=0.009s, ocr=1.869s) total=0.045s angle=0.00°
+08:15:31 [INFO] MSE: 34008.075
+08:15:31 [INFO] Queued frame 244 for OCR
+08:15:31 [INFO] OCR worker: received frame 244
+08:15:31 [INFO] Queued frame 245 for OCR
+08:15:33 [INFO] OCR done frame 244: text=''
+08:15:33 [INFO] timings (deskew=0.027s, prep=0.013s, ocr=1.976s) total=2.032s angle=0.00°
+08:15:33 [INFO] MSE: 4340.41875
+08:15:33 [INFO] OCR worker: received frame 245
+08:15:33 [INFO] Queued frame 259 for OCR
+08:15:35 [INFO] OCR done frame 245: text=''
+08:15:35 [INFO] timings (deskew=0.027s, prep=0.025s, ocr=1.836s) total=1.916s angle=0.00°
+08:15:35 [INFO] MSE: 2861.1
+08:15:35 [INFO] OCR worker: received frame 259
+08:15:35 [INFO] Queued frame 272 for OCR
+08:15:37 [INFO] OCR done frame 259: text='but even professional folklorist'
+08:15:37 [INFO] Saying with TTS: but even professional folklorist
+08:15:37 [INFO] timings (deskew=0.042s, prep=0.013s, ocr=2.278s) total=2.347s angle=0.00°
+08:15:37 [INFO] MSE: 11242.8225
+08:15:37 [INFO] OCR worker: received frame 272
+08:15:37 [INFO] Queued frame 286 for OCR
+08:15:39 [INFO] OCR done frame 272: text=''
+08:15:39 [INFO] timings (deskew=0.020s, prep=0.006s, ocr=1.878s) total=1.928s angle=0.00°
+08:15:39 [INFO] MSE: 15544.22625
+08:15:39 [INFO] OCR worker: received frame 286
+08:15:39 [INFO] Queued frame 299 for OCR
+08:15:41 [INFO] OCR done frame 286: text=''
+08:15:41 [INFO] timings (deskew=0.019s, prep=0.006s, ocr=1.836s) total=1.880s angle=0.00°
+08:15:41 [INFO] MSE: 12010.1175
+08:15:41 [INFO] OCR worker: received frame 299
+08:15:41 [INFO] Queued frame 309 for OCR
+08:15:43 [INFO] OCR done frame 299: text=''
+08:15:43 [INFO] timings (deskew=0.021s, prep=0.007s, ocr=1.582s) total=1.629s angle=0.00°
+08:15:43 [INFO] MSE: 8007.82875
+08:15:43 [INFO] OCR worker: received frame 309
+08:15:43 [INFO] Queued frame 318 for OCR
+08:15:45 [INFO] OCR done frame 309: text=''
+08:15:45 [INFO] timings (deskew=0.041s, prep=0.012s, ocr=2.016s) total=2.101s angle=0.00°
+08:15:45 [INFO] MSE: 19019.8125
+08:15:45 [INFO] OCR worker: received frame 318
+08:15:45 [INFO] OCR done frame 318: text=''
+08:15:45 [INFO] timings (deskew=0.038s, prep=0.010s, ocr=2.016s) total=0.073s angle=0.00°
+08:15:45 [INFO] MSE: 26575.7175
+08:15:45 [INFO] Queued frame 331 for OCR
+08:15:45 [INFO] OCR worker: received frame 331
+08:15:45 [INFO] OCR done frame 331: text=''
+08:15:45 [INFO] timings (deskew=0.034s, prep=0.016s, ocr=2.016s) total=0.071s angle=0.00°
+08:15:45 [INFO] MSE: 25792.16625
+08:15:45 [INFO] Queued frame 332 for OCR
+08:15:45 [INFO] OCR worker: received frame 332
+08:15:45 [INFO] Queued frame 333 for OCR
+08:15:50 [INFO] OCR done frame 332: text='hal folklorists cannot seem wo agy'
+08:15:50 [INFO] Saying with TTS: hal folklorists cannot seem wo agy
+08:15:50 [INFO] timings (deskew=0.031s, prep=0.006s, ocr=4.982s) total=5.037s angle=0.00°
+08:15:50 [INFO] MSE: 8619.06375
+08:15:50 [INFO] OCR worker: received frame 333
+08:15:50 [INFO] Queued frame 368 for OCR
+08:15:54 [INFO] OCR done frame 333: text='pal folKlorists cannot seem to gs'
+08:15:54 [INFO] Saying with TTS: pal folKlorists cannot seem to gs
+08:15:54 [INFO] timings (deskew=0.021s, prep=0.013s, ocr=3.385s) total=3.441s angle=0.00°
+08:15:54 [INFO] MSE: 14767.1775
+08:15:54 [INFO] OCR worker: received frame 368
+08:15:55 [INFO] Queued frame 400 for OCR
+08:15:58 [INFO] OCR done frame 368: text='pal folklorists cannot seem to age'
+08:15:58 [INFO] Saying with TTS: pal folklorists cannot seem to age
+08:15:58 [INFO] timings (deskew=0.032s, prep=0.010s, ocr=3.248s) total=3.318s angle=0.00°
+08:15:58 [INFO] MSE: 20505.63375
+08:15:58 [INFO] OCR worker: received frame 400
+08:15:58 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (6,600,3) 
+08:15:58 [INFO] Queued frame 428 for OCR
+08:15:58 [INFO] OCR worker: received frame 428
+08:15:58 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (11,600,3) 
+08:15:59 [INFO] Queued frame 429 for OCR
+08:15:59 [INFO] OCR worker: received frame 429
+08:15:59 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (9,600,3) 
+08:15:59 [INFO] Queued frame 430 for OCR
+08:15:59 [INFO] OCR worker: received frame 430
+08:15:59 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (7,600,3) 
+08:15:59 [INFO] Queued frame 431 for OCR
+08:15:59 [INFO] OCR worker: received frame 431
+08:15:59 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (6,600,3) 
+08:15:59 [INFO] Queued frame 432 for OCR
+08:15:59 [INFO] OCR worker: received frame 432
+08:15:59 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (8,600,3) 
+08:15:59 [INFO] Queued frame 435 for OCR
+08:15:59 [INFO] OCR worker: received frame 435
+08:15:59 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (21,600,3) 
+08:16:00 [INFO] Queued frame 436 for OCR
+08:16:00 [INFO] OCR worker: received frame 436
+08:16:00 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (17,600,3) 
+08:16:00 [INFO] Queued frame 437 for OCR
+08:16:00 [INFO] OCR worker: received frame 437
+08:16:00 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (23,600,3) 
+08:16:00 [INFO] Queued frame 438 for OCR
+08:16:00 [INFO] OCR worker: received frame 438
+08:16:00 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (16,600,3) 
+08:16:00 [INFO] Queued frame 439 for OCR
+08:16:00 [INFO] OCR worker: received frame 439
+08:16:00 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (21,600,3) 
+08:16:00 [INFO] Queued frame 440 for OCR
+08:16:00 [INFO] OCR worker: received frame 440
+08:16:00 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (3,600,3) 
+08:16:00 [INFO] Queued frame 441 for OCR
+08:16:00 [INFO] OCR worker: received frame 441
+08:16:00 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (19,600,3) 
+08:16:00 [INFO] Queued frame 442 for OCR
+08:16:00 [INFO] OCR worker: received frame 442
+08:16:00 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (18,600,3) 
+08:16:01 [INFO] Queued frame 443 for OCR
+08:16:01 [INFO] OCR worker: received frame 443
+08:16:01 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (9,600,3) 
+08:16:01 [INFO] Queued frame 445 for OCR
+08:16:01 [INFO] OCR worker: received frame 445
+08:16:01 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (9,600,3) 
+08:16:02 [INFO] Queued frame 457 for OCR
+08:16:02 [INFO] OCR worker: received frame 457
+08:16:02 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (47,600,3) 
+08:16:03 [INFO] Queued frame 466 for OCR
+08:16:03 [INFO] OCR worker: received frame 466
+08:16:03 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (55,600,3) 
+08:16:03 [INFO] Queued frame 467 for OCR
+08:16:03 [INFO] OCR worker: received frame 467
+08:16:03 [INFO] OCR worker exception: operands could not be broadcast together with shapes (100,600,3) (54,600,3) 
+08:16:03 [INFO] Queued frame 468 for OCR
+08:16:03 [INFO] OCR worker: received frame 468
+08:16:03 [INFO] OCR done frame 468: text='pal folklorists cannot seem to age'
+08:16:03 [INFO] timings (deskew=0.033s, prep=0.008s, ocr=3.248s) total=0.075s angle=0.00°
+08:16:03 [INFO] MSE: 37929.0825
+08:16:03 [INFO] Queued frame 469 for OCR
+08:16:03 [INFO] OCR worker: received frame 469
+08:16:03 [INFO] OCR done frame 469: text='pal folklorists cannot seem to age'
+08:16:03 [INFO] timings (deskew=0.024s, prep=0.006s, ocr=3.248s) total=0.046s angle=0.00°
+08:16:03 [INFO] MSE: 31927.275
+08:16:03 [INFO] Queued frame 470 for OCR
+08:16:03 [INFO] OCR worker: received frame 470
+08:16:03 [INFO] OCR done frame 470: text='pal folklorists cannot seem to age'
+08:16:03 [INFO] timings (deskew=0.024s, prep=0.005s, ocr=3.248s) total=0.043s angle=0.00°
+08:16:03 [INFO] MSE: 30906.3825
+08:16:04 [INFO] Queued frame 471 for OCR
+08:16:04 [INFO] OCR worker: received frame 471
+08:16:04 [INFO] OCR done frame 471: text='pal folklorists cannot seem to age'
+08:16:04 [INFO] timings (deskew=0.031s, prep=0.007s, ocr=3.248s) total=0.055s angle=0.00°
+08:16:04 [INFO] MSE: 28958.88375
+08:16:04 [INFO] Queued frame 472 for OCR
+08:16:04 [INFO] OCR worker: received frame 472
+08:16:04 [INFO] OCR done frame 472: text='pal folklorists cannot seem to age'
+08:16:04 [INFO] timings (deskew=0.023s, prep=0.005s, ocr=3.248s) total=0.042s angle=0.00°
+08:16:04 [INFO] MSE: 33237.52875
+08:16:04 [INFO] Queued frame 473 for OCR
+08:16:04 [INFO] OCR worker: received frame 473
+08:16:04 [INFO] OCR done frame 473: text='pal folklorists cannot seem to age'
+08:16:04 [INFO] timings (deskew=0.039s, prep=0.009s, ocr=3.248s) total=0.063s angle=0.00°
+08:16:04 [INFO] MSE: 29157.21
+08:16:04 [INFO] Queued frame 476 for OCR
+08:16:04 [INFO] OCR worker: received frame 476
+08:16:04 [INFO] OCR done frame 476: text='pal folklorists cannot seem to age'
+08:16:04 [INFO] timings (deskew=0.049s, prep=0.005s, ocr=3.248s) total=0.076s angle=0.00°
+08:16:04 [INFO] MSE: 26887.8375
+08:16:04 [INFO] Queued frame 477 for OCR
+08:16:04 [INFO] OCR worker: received frame 477
+08:16:04 [INFO] OCR done frame 477: text='pal folklorists cannot seem to age'
+08:16:04 [INFO] timings (deskew=0.036s, prep=0.010s, ocr=3.248s) total=0.059s angle=0.00°
+08:16:04 [INFO] MSE: 32418.21375
+08:16:04 [INFO] Queued frame 478 for OCR
+08:16:04 [INFO] OCR worker: received frame 478
+08:16:04 [INFO] OCR done frame 478: text='pal folklorists cannot seem to age'
+08:16:04 [INFO] timings (deskew=0.038s, prep=0.009s, ocr=3.248s) total=0.062s angle=0.00°
+08:16:04 [INFO] MSE: 39701.01375
+08:16:05 [INFO] Queued frame 479 for OCR
+08:16:05 [INFO] OCR worker: received frame 479
+08:16:05 [INFO] OCR done frame 479: text='pal folklorists cannot seem to age'
+08:16:05 [INFO] timings (deskew=0.048s, prep=0.015s, ocr=3.248s) total=0.086s angle=0.00°
+08:16:05 [INFO] MSE: 28529.71875
+08:16:05 [INFO] Queued frame 480 for OCR
+08:16:05 [INFO] OCR worker: received frame 480
+08:16:05 [INFO] OCR done frame 480: text='pal folklorists cannot seem to age'
+08:16:05 [INFO] timings (deskew=0.026s, prep=0.009s, ocr=3.248s) total=0.048s angle=0.00°
+08:16:05 [INFO] MSE: 39561.21
+08:16:05 [INFO] Queued frame 481 for OCR
+08:16:05 [INFO] OCR worker: received frame 481
+08:16:05 [INFO] OCR done frame 481: text='pal folklorists cannot seem to age'
+08:16:05 [INFO] timings (deskew=0.020s, prep=0.006s, ocr=3.248s) total=0.040s angle=0.00°
+08:16:05 [INFO] MSE: 23327.71875
+08:16:05 [INFO] Queued frame 482 for OCR
+08:16:05 [INFO] OCR worker: received frame 482
+08:16:05 [INFO] OCR done frame 482: text='pal folklorists cannot seem to age'
+08:16:05 [INFO] timings (deskew=0.024s, prep=0.006s, ocr=3.248s) total=0.044s angle=0.00°
+08:16:05 [INFO] MSE: 38998.74375
+08:16:05 [INFO] Queued frame 483 for OCR
+08:16:05 [INFO] OCR worker: received frame 483
+08:16:05 [INFO] Queued frame 484 for OCR
+08:16:07 [INFO] OCR done frame 483: text=''
+08:16:07 [INFO] timings (deskew=0.032s, prep=0.006s, ocr=1.497s) total=1.549s angle=0.00°
+08:16:07 [INFO] MSE: 19969.1775
+08:16:07 [INFO] OCR worker: received frame 484
+08:16:07 [INFO] OCR done frame 484: text=''
+08:16:07 [INFO] timings (deskew=0.020s, prep=0.006s, ocr=1.497s) total=0.045s angle=0.00°
+08:16:07 [INFO] MSE: 39570.96375
+08:16:07 [INFO] Queued frame 496 for OCR
+08:16:07 [INFO] OCR worker: received frame 496
+08:16:07 [INFO] OCR done frame 496: text=''
+08:16:07 [INFO] timings (deskew=0.028s, prep=0.011s, ocr=1.497s) total=0.056s angle=0.00°
+08:16:07 [INFO] MSE: 33783.73875
+08:16:07 [INFO] Queued frame 497 for OCR
+08:16:07 [INFO] OCR worker: received frame 497
+08:16:07 [INFO] Queued frame 498 for OCR
+08:16:08 [INFO] OCR done frame 497: text=''
+08:16:08 [INFO] timings (deskew=0.029s, prep=0.007s, ocr=1.336s) total=1.387s angle=0.00°
+08:16:08 [INFO] MSE: 5793.7275
+08:16:08 [INFO] OCR worker: received frame 498
+08:16:08 [INFO] Queued frame 509 for OCR
+08:16:10 [INFO] OCR done frame 498: text=''
+08:16:10 [INFO] timings (deskew=0.022s, prep=0.009s, ocr=1.376s) total=1.429s angle=0.00°
+08:16:10 [INFO] MSE: 14178.70125
+08:16:10 [INFO] OCR worker: received frame 509
+08:16:10 [INFO] Queued frame 521 for OCR
+08:16:11 [INFO] OCR done frame 509: text=''
+08:16:11 [INFO] timings (deskew=0.020s, prep=0.020s, ocr=1.265s) total=1.321s angle=0.00°
+08:16:11 [INFO] MSE: 14728.1625
+08:16:11 [INFO] OCR worker: received frame 521
+08:16:11 [INFO] OCR done frame 521: text=''
+08:16:11 [INFO] timings (deskew=0.021s, prep=0.013s, ocr=1.265s) total=0.048s angle=0.00°
+08:16:11 [INFO] MSE: 26819.56125
+08:16:11 [INFO] Queued frame 532 for OCR
+08:16:11 [INFO] OCR worker: received frame 532
+08:16:11 [INFO] OCR done frame 532: text=''
+08:16:11 [INFO] timings (deskew=0.033s, prep=0.007s, ocr=1.265s) total=0.059s angle=0.00°
+08:16:11 [INFO] MSE: 28776.81375
+08:16:11 [INFO] Queued frame 533 for OCR
+08:16:11 [INFO] OCR worker: received frame 533
+08:16:11 [INFO] Queued frame 534 for OCR
+08:16:13 [INFO] OCR done frame 533: text=''
+08:16:13 [INFO] timings (deskew=0.029s, prep=0.009s, ocr=1.290s) total=1.342s angle=0.00°
+08:16:13 [INFO] MSE: 12276.72
+08:16:13 [INFO] OCR worker: received frame 534
+08:16:13 [INFO] Queued frame 544 for OCR
+08:16:14 [INFO] OCR done frame 534: text=''
+08:16:14 [INFO] timings (deskew=0.022s, prep=0.007s, ocr=1.341s) total=1.384s angle=0.00°
+08:16:14 [INFO] MSE: 13596.7275
+08:16:14 [INFO] OCR worker: received frame 544
+08:16:14 [INFO] Queued frame 556 for OCR
+08:16:16 [INFO] Quit requested
+08:16:16 [INFO] Shutting down: sending None to worker and waiting
+08:16:16 [INFO] OCR done frame 544: text='sys cannot seem to agree on ov'
+08:16:16 [INFO] Saying with TTS: sys cannot seem to agree on ov
+08:16:16 [INFO] timings (deskew=0.021s, prep=0.006s, ocr=2.346s) total=2.396s angle=0.00°
+08:16:16 [INFO] MSE: 18148.4775
+08:16:16 [INFO] OCR worker: received frame 556
+08:16:16 [INFO] OCR done frame 556: text='sys cannot seem to agree on ov'
+08:16:16 [INFO] timings (deskew=0.017s, prep=0.005s, ocr=2.346s) total=0.039s angle=0.00°
+08:16:16 [INFO] MSE: 36254.68875
+08:16:16 [INFO] OCR worker received shutdown signal
+08:16:16 [INFO] Camera stopped
+08:16:16 [INFO] Exited cleanly
+08:16:17 [INFO] Camera closed successfully.
