@@ -32,7 +32,7 @@ BOX_WIDTH = 400
 SHOW_ROI = False
 SHOW_PROCESSED = True
 LANG = "eng+tgl"
-MSE_CUTOFF = 20000
+MSE_CUTOFF = 30000
 # ----------------------------
 
 ocr_result = {
@@ -132,6 +132,8 @@ def preprocess_for_ocr(image, fast=False):
         binarized = cv2.adaptiveThreshold(
             gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 9, 9
         )
+        kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 2))
+        binarized = cv2.morphologyEx(binarized, cv2.MORPH_OPEN, kernel)
     proc = cv2.cvtColor(binarized, cv2.COLOR_GRAY2BGR)
 
     global preprocessed_img
@@ -139,31 +141,40 @@ def preprocess_for_ocr(image, fast=False):
     return proc, time.time() - t0
 
 
-def run_ocr(img, to_data=False):
+def run_ocr_middle_word(img):
     t0 = time.time()
     config = r"--oem 3 --psm 7 -l " + LANG
+
     try:
-        if to_data:
-            data = pytesseract.image_to_data(
-                img, config=config, output_type=pytesseract.Output.DICT
-            )
-
-            for i in range(len(data["text"])):
-                x, y, w, h = (
-                    data["left"][i],
-                    data["top"][i],
-                    data["width"][i],
-                    data["height"][i],
-                )
-                cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), 2)
-
-                text = ""
-        else:
-            text = pytesseract.image_to_string(img, config=config).strip()
+        data = pytesseract.image_to_data(
+            img,
+            config=config,
+            output_type=pytesseract.Output.DICT,
+        )
         err = None
     except Exception as e:
-        text, err = "", str(e)
-    return text, err, time.time() - t0
+        return "", str(e), time.time() - t0
+
+    img_center_x = img.shape[1] // 2
+
+    selected_word = ""
+    min_dist = float("inf")
+
+    for i in range(len(data["text"])):
+        word = data["text"][i].strip()
+        if not word:
+            continue
+
+        x = data["left"][i]
+        w = data["width"][i]
+        word_center_x = x + w // 2
+
+        dist = abs(word_center_x - img_center_x)
+        if dist < min_dist:
+            min_dist = dist
+            selected_word = word
+
+    return selected_word, err, time.time() - t0
 
 
 def ocr_worker():
@@ -186,7 +197,7 @@ def ocr_worker():
 
             mse = ultra_fast_diff(prev_frame, preprocessed_img)
             if mse <= MSE_CUTOFF:
-                text, err, t_ocr = run_ocr(processed)
+                text, err, t_ocr = run_ocr_middle_word(processed)
             prev_frame = processed
 
             logger.info(f"OCR done frame {frame_id}: text='{text}'")

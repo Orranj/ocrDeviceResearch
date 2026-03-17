@@ -1,0 +1,144 @@
+04:29:52.355 [INFO] Initialization successful.
+04:29:52.356 [INFO] Camera now open.
+04:29:52.374 [INFO] Camera configuration has been adjusted!
+04:29:52.382 [INFO] Configuration successful!
+04:29:52.446 [INFO] Camera started
+04:29:52.448 [INFO] OCR worker started
+04:29:52.449 [INFO] Starting main loop
+04:29:54.602 [INFO] Queued frame 8 for OCR
+04:29:54.604 [INFO] OCR worker: received frame 8
+04:29:56.514 [INFO] Queued frame 26 for OCR
+04:29:59.595 [INFO] OCR done frame 8: text='Bn'
+04:29:59.595 [INFO] Saying with TTS: Bn
+04:29:59.600 [INFO] timings (prep=0.006s, ocr=4.984s) total=4.990s Error: 17338.124898615766
+04:29:59.601 [INFO] OCR worker: received frame 26
+04:29:59.752 [INFO] Queued frame 46 for OCR
+04:30:02.539 [INFO] OCR done frame 26: text='UHC,'
+04:30:02.541 [INFO] Saying with TTS: UHC,
+04:30:02.543 [INFO] timings (prep=0.009s, ocr=2.929s) total=2.938s Error: 18602.769955036267
+04:30:02.544 [INFO] OCR worker: received frame 46
+04:30:02.558 [INFO] OCR done frame 46: text='UHC,'
+04:30:02.559 [INFO] timings (prep=0.013s, ocr=2.929s) total=2.942s Error: 30004.518409732893
+04:30:02.647 [INFO] Queued frame 62 for OCR
+04:30:02.648 [INFO] OCR worker: received frame 62
+04:30:02.665 [INFO] OCR done frame 62: text='UHC,'
+04:30:02.672 [INFO] timings (prep=0.015s, ocr=2.929s) total=2.944s Error: 31470.554094264055
+04:30:03.017 [INFO] Queued frame 64 for OCR
+04:30:03.019 [INFO] OCR worker: received frame 64
+04:30:03.032 [INFO] OCR done frame 64: text='UHC,'
+04:30:03.033 [INFO] timings (prep=0.012s, ocr=2.929s) total=2.941s Error: 20021.966062302672
+04:30:03.287 [INFO] Queued frame 66 for OCR
+04:30:03.288 [INFO] OCR worker: received frame 66
+04:30:03.297 [INFO] OCR done frame 66: text='UHC,'
+04:30:03.297 [INFO] timings (prep=0.008s, ocr=2.929s) total=2.937s Error: 30376.055537215492
+04:30:03.528 [INFO] Queued frame 68 for OCR
+04:30:03.528 [INFO] OCR worker: received frame 68
+04:30:03.537 [INFO] OCR done frame 68: text='UHC,'
+04:30:03.538 [INFO] timings (prep=0.007s, ocr=2.929s) total=2.936s Error: 23988.981845839142
+04:30:03.863 [INFO] Queued frame 70 for OCR
+04:30:03.864 [INFO] OCR worker: received frame 70
+04:30:03.873 [INFO] OCR done frame 70: text='UHC,'
+04:30:03.874 [INFO] timings (prep=0.007s, ocr=2.929s) total=2.936s Error: 21547.12277776316
+04:30:04.109 [INFO] Queued frame 72 for OCR
+04:30:04.109 [INFO] OCR worker: received frame 72
+04:30:04.116 [INFO] OCR done frame 72: text='UHC,'
+04:30:04.117 [INFO] timings (prep=0.005s, ocr=2.929s) total=2.934s Error: 22180.603012542288
+04:30:04.366 [INFO] Queued frame 74 for OCR
+04:30:04.368 [INFO] OCR worker: received frame 74
+04:30:04.396 [INFO] OCR done frame 74: text='UHC,'
+04:30:04.397 [INFO] timings (prep=0.028s, ocr=2.929s) total=2.957s Error: 21094.218994786224
+04:30:04.608 [INFO] Queued frame 76 for OCR
+04:30:04.609 [INFO] OCR worker: received frame 76
+04:30:04.974 [INFO] Queued frame 78 for OCR
+04:30:07.220 [INFO] OCR done frame 76: text='choice.'
+04:30:07.220 [INFO] Saying with TTS: choice.
+04:30:07.223 [INFO] timings (prep=0.011s, ocr=2.600s) total=2.611s Error: 11050.65382681043
+04:30:07.223 [INFO] OCR worker: received frame 78
+04:30:07.544 [INFO] Queued frame 96 for OCR
+04:30:09.425 [INFO] OCR done frame 78: text='choice.'
+04:30:09.426 [INFO] timings (prep=0.010s, ocr=2.190s) total=2.201s Error: 10517.011219923654
+04:30:09.426 [INFO] OCR worker: received frame 96
+04:30:09.431 [INFO] OCR done frame 96: text='choice.'
+04:30:09.432 [INFO] timings (prep=0.004s, ocr=2.190s) total=2.195s Error: 29893.78823434728
+04:30:09.496 [INFO] Queued frame 108 for OCR
+04:30:09.497 [INFO] OCR worker: received frame 108
+04:30:09.510 [INFO] OCR done frame 108: text='choice.'
+04:30:09.511 [INFO] timings (prep=0.011s, ocr=2.190s) total=2.201s Error: 31430.23703378643
+04:30:09.705 [INFO] Queued frame 110 for OCR
+04:30:09.708 [INFO] OCR worker: received frame 110
+04:30:09.730 [INFO] OCR done frame 110: text='choice.'
+04:30:09.731 [INFO] timings (prep=0.020s, ocr=2.190s) total=2.211s Error: 22499.324989874694
+04:30:09.953 [INFO] Queued frame 112 for OCR
+04:30:09.953 [INFO] OCR worker: received frame 112
+04:30:10.275 [INFO] Queued frame 114 for OCR
+04:30:12.265 [INFO] OCR done frame 112: text='choice.'
+04:30:12.268 [INFO] timings (prep=0.023s, ocr=2.288s) total=2.310s Error: 14521.572745401925
+04:30:12.271 [INFO] OCR worker: received frame 114
+04:30:12.491 [INFO] Queued frame 130 for OCR
+04:30:14.493 [INFO] OCR done frame 114: text='choice.'
+04:30:14.493 [INFO] timings (prep=0.010s, ocr=2.211s) total=2.221s Error: 11584.973025432559
+04:30:14.493 [INFO] OCR worker: received frame 130
+04:30:14.499 [INFO] OCR done frame 130: text='choice.'
+04:30:14.501 [INFO] timings (prep=0.005s, ocr=2.211s) total=2.216s Error: 31099.54742435973
+04:30:14.581 [INFO] Queued frame 144 for OCR
+04:30:14.581 [INFO] OCR worker: received frame 144
+04:30:14.588 [INFO] OCR done frame 144: text='choice.'
+04:30:14.588 [INFO] timings (prep=0.005s, ocr=2.211s) total=2.216s Error: 31748.268062998333
+04:30:14.815 [INFO] Queued frame 146 for OCR
+04:30:14.822 [INFO] OCR worker: received frame 146
+04:30:15.135 [INFO] Queued frame 148 for OCR
+04:30:17.046 [INFO] OCR done frame 146: text='choice.'
+04:30:17.047 [INFO] timings (prep=0.005s, ocr=2.219s) total=2.224s Error: 17506.0796582216
+04:30:17.047 [INFO] OCR worker: received frame 148
+04:30:17.166 [INFO] Queued frame 162 for OCR
+04:30:19.113 [INFO] OCR done frame 148: text='choice.'
+04:30:19.114 [INFO] timings (prep=0.004s, ocr=2.061s) total=2.065s Error: 17755.033089239794
+04:30:19.114 [INFO] OCR worker: received frame 162
+04:30:19.122 [INFO] OCR done frame 162: text='choice.'
+04:30:19.125 [INFO] timings (prep=0.007s, ocr=2.061s) total=2.068s Error: 31864.79836747755
+04:30:19.158 [INFO] Queued frame 176 for OCR
+04:30:19.159 [INFO] OCR worker: received frame 176
+04:30:19.167 [INFO] OCR done frame 176: text='choice.'
+04:30:19.168 [INFO] timings (prep=0.007s, ocr=2.061s) total=2.068s Error: 31797.385505729868
+04:30:19.384 [INFO] Queued frame 178 for OCR
+04:30:19.388 [INFO] OCR worker: received frame 178
+04:30:19.395 [INFO] OCR done frame 178: text='choice.'
+04:30:19.395 [INFO] timings (prep=0.006s, ocr=2.061s) total=2.066s Error: 29971.99317696439
+04:30:19.632 [INFO] Queued frame 180 for OCR
+04:30:19.632 [INFO] OCR worker: received frame 180
+04:30:19.951 [INFO] Queued frame 182 for OCR
+04:30:22.045 [INFO] OCR done frame 180: text='choice.'
+04:30:22.045 [INFO] timings (prep=0.005s, ocr=2.407s) total=2.412s Error: 9232.972165018153
+04:30:22.045 [INFO] OCR worker: received frame 182
+04:30:22.050 [INFO] OCR done frame 182: text='choice.'
+04:30:22.050 [INFO] timings (prep=0.004s, ocr=2.407s) total=2.411s Error: 24784.898123655865
+04:30:22.241 [INFO] Queued frame 198 for OCR
+04:30:22.245 [INFO] OCR worker: received frame 198
+04:30:22.261 [INFO] OCR done frame 198: text='choice.'
+04:30:22.261 [INFO] timings (prep=0.014s, ocr=2.407s) total=2.421s Error: 32011.388207948745
+04:30:22.491 [INFO] Queued frame 200 for OCR
+04:30:22.491 [INFO] OCR worker: received frame 200
+04:30:22.502 [INFO] OCR done frame 200: text='choice.'
+04:30:22.503 [INFO] timings (prep=0.010s, ocr=2.407s) total=2.417s Error: 23549.90923549388
+04:30:22.744 [INFO] Queued frame 202 for OCR
+04:30:22.745 [INFO] OCR worker: received frame 202
+04:30:22.751 [INFO] OCR done frame 202: text='choice.'
+04:30:22.752 [INFO] timings (prep=0.006s, ocr=2.407s) total=2.413s Error: 30092.16093935429
+04:30:22.968 [INFO] Queued frame 204 for OCR
+04:30:22.968 [INFO] OCR worker: received frame 204
+04:30:22.986 [INFO] OCR done frame 204: text='choice.'
+04:30:22.986 [INFO] timings (prep=0.014s, ocr=2.407s) total=2.421s Error: 31099.54742435973
+04:30:23.201 [INFO] Queued frame 206 for OCR
+04:30:23.202 [INFO] OCR worker: received frame 206
+04:30:23.485 [INFO] Queued frame 208 for OCR
+04:30:24.685 [INFO] OCR done frame 206: text='choice.'
+04:30:24.686 [INFO] timings (prep=0.010s, ocr=1.469s) total=1.479s Error: 10854.73629343431
+04:30:24.687 [INFO] OCR worker: received frame 208
+04:30:24.693 [INFO] OCR done frame 208: text='choice.'
+04:30:24.694 [INFO] timings (prep=0.005s, ocr=1.469s) total=1.475s Error: 26374.93981035786
+04:30:30.162 [INFO] Quit requested
+04:30:30.168 [INFO] Shutting down: sending None to worker and waiting
+04:30:30.172 [INFO] OCR worker received shutdown signal
+04:30:30.192 [INFO] Camera stopped
+04:30:30.207 [INFO] Exited cleanly
+04:30:30.603 [INFO] Camera closed successfully.

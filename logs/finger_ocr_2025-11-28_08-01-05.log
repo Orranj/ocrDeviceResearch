@@ -1,0 +1,12 @@
+08:01:05.643 [INFO] Initialization successful.
+08:01:05.644 [INFO] Camera now open.
+08:01:05.655 [INFO] Camera configuration has been adjusted!
+08:01:05.664 [INFO] Configuration successful!
+08:01:05.726 [INFO] Camera started
+08:01:05.728 [INFO] OCR worker started
+08:01:05.729 [INFO] Starting main loop
+08:01:07.228 [INFO] Shutting down: sending None to worker and waiting
+08:01:07.229 [INFO] OCR worker received shutdown signal
+08:01:07.242 [INFO] Camera stopped
+08:01:07.245 [INFO] Exited cleanly
+08:01:07.668 [INFO] Camera closed successfully.

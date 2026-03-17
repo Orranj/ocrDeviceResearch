@@ -1,0 +1,16 @@
+06:47:13.383 [INFO] Initialization successful.
+06:47:13.384 [INFO] Camera now open.
+06:47:13.413 [INFO] Camera configuration has been adjusted!
+06:47:13.424 [INFO] Configuration successful!
+06:47:14.218 [INFO] Camera started
+06:47:14.278 [INFO] OCR worker started
+06:47:14.278 [INFO] Starting main loop
+06:47:16.770 [INFO] Queued frame 0 for OCR
+06:47:16.771 [INFO] OCR worker: received frame 0
+06:47:23.416 [INFO] OCR done frame 0: text='—'
+06:47:23.417 [INFO] Saying with TTS: —
+06:47:23.422 [INFO] timings (prep=0.015s, ocr=6.628s) total=6.644s Error: 16484.522286071864
+06:47:54.480 [INFO] Shutting down: sending None to worker and waiting
+06:47:54.481 [INFO] OCR worker received shutdown signal
+06:47:57.548 [INFO] Camera stopped
+06:47:57.773 [INFO] Camera closed successfully.

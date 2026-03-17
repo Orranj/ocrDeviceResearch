@@ -1,0 +1,1878 @@
+07:42:26.640 [INFO] Initialization successful.
+07:42:26.641 [INFO] Camera now open.
+07:42:26.660 [INFO] Camera configuration has been adjusted!
+07:42:26.666 [INFO] Configuration successful!
+07:42:26.733 [INFO] Camera started
+07:42:26.736 [INFO] OCR worker started
+07:42:26.736 [INFO] Starting main loop
+07:42:27.588 [INFO] Queued frame 0 for OCR
+07:42:27.588 [INFO] OCR worker: received frame 0
+07:42:27.595 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:42:28.737 [INFO] Queued frame 2 for OCR
+07:42:28.742 [INFO] OCR worker: received frame 2
+07:42:28.753 [INFO] OCR done frame 2: text=''
+07:42:28.757 [INFO] timings (prep=0.008s, ocr=0.000s) total=0.008s Error: 25964.961005170026
+07:42:28.985 [INFO] Queued frame 4 for OCR
+07:42:28.985 [INFO] OCR worker: received frame 4
+07:42:28.994 [INFO] OCR done frame 4: text=''
+07:42:28.995 [INFO] timings (prep=0.007s, ocr=0.000s) total=0.007s Error: 25159.85641850923
+07:42:29.200 [INFO] Queued frame 6 for OCR
+07:42:29.200 [INFO] OCR worker: received frame 6
+07:42:29.214 [INFO] OCR done frame 6: text=''
+07:42:29.214 [INFO] timings (prep=0.011s, ocr=0.000s) total=0.011s Error: 21932.96491585212
+07:42:29.415 [INFO] Queued frame 8 for OCR
+07:42:29.415 [INFO] OCR worker: received frame 8
+07:42:29.424 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:42:30.100 [INFO] Queued frame 14 for OCR
+07:42:30.100 [INFO] OCR worker: received frame 14
+07:42:30.391 [INFO] Queued frame 16 for OCR
+07:42:35.353 [INFO] OCR done frame 14: text='PO'
+07:42:35.357 [INFO] Saying with TTS: PO
+07:42:35.362 [INFO] timings (prep=0.008s, ocr=5.244s) total=5.252s Error: 17589.455648200146
+07:42:35.363 [INFO] OCR worker: received frame 16
+07:42:35.375 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:42:38.378 [INFO] Queued frame 76 for OCR
+07:42:38.379 [INFO] OCR worker: received frame 76
+07:42:38.385 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:42:38.624 [INFO] Queued frame 78 for OCR
+07:42:38.625 [INFO] OCR worker: received frame 78
+07:42:38.906 [INFO] Queued frame 80 for OCR
+07:42:41.697 [INFO] OCR done frame 78: text='po'
+07:42:41.697 [INFO] Saying with TTS: po
+07:42:41.702 [INFO] timings (prep=0.008s, ocr=3.061s) total=3.069s Error: 11785.30440845717
+07:42:41.703 [INFO] OCR worker: received frame 80
+07:42:41.807 [INFO] Queued frame 100 for OCR
+07:42:44.129 [INFO] OCR done frame 80: text='a'
+07:42:44.130 [INFO] Saying with TTS: a
+07:42:44.140 [INFO] timings (prep=0.009s, ocr=2.417s) total=2.425s Error: 13161.557658575219
+07:42:44.140 [INFO] OCR worker: received frame 100
+07:42:44.150 [INFO] OCR done frame 100: text='a'
+07:42:44.150 [INFO] timings (prep=0.008s, ocr=2.417s) total=2.425s Error: 34017.420537130674
+07:42:44.224 [INFO] Queued frame 114 for OCR
+07:42:44.226 [INFO] OCR worker: received frame 114
+07:42:44.236 [INFO] OCR done frame 114: text='a'
+07:42:44.237 [INFO] timings (prep=0.009s, ocr=2.417s) total=2.426s Error: 41646.270241163256
+07:42:44.550 [INFO] Queued frame 116 for OCR
+07:42:44.551 [INFO] OCR worker: received frame 116
+07:42:44.559 [INFO] OCR done frame 116: text='a'
+07:42:44.560 [INFO] timings (prep=0.008s, ocr=2.417s) total=2.425s Error: 35917.00119720465
+07:42:44.806 [INFO] Queued frame 118 for OCR
+07:42:44.806 [INFO] OCR worker: received frame 118
+07:42:44.812 [INFO] OCR done frame 118: text='a'
+07:42:44.813 [INFO] timings (prep=0.005s, ocr=2.417s) total=2.422s Error: 37581.1521909587
+07:42:45.054 [INFO] Queued frame 120 for OCR
+07:42:45.058 [INFO] OCR worker: received frame 120
+07:42:45.069 [INFO] OCR done frame 120: text='a'
+07:42:45.069 [INFO] timings (prep=0.009s, ocr=2.417s) total=2.426s Error: 39221.95112433852
+07:42:45.293 [INFO] Queued frame 122 for OCR
+07:42:45.300 [INFO] OCR worker: received frame 122
+07:42:45.309 [INFO] OCR done frame 122: text='a'
+07:42:45.309 [INFO] timings (prep=0.007s, ocr=2.417s) total=2.424s Error: 42308.48850999052
+07:42:45.678 [INFO] Queued frame 124 for OCR
+07:42:45.679 [INFO] OCR worker: received frame 124
+07:42:45.687 [INFO] OCR done frame 124: text='a'
+07:42:45.689 [INFO] timings (prep=0.007s, ocr=2.417s) total=2.424s Error: 48790.370207654705
+07:42:45.890 [INFO] Queued frame 126 for OCR
+07:42:45.890 [INFO] OCR worker: received frame 126
+07:42:45.903 [INFO] OCR done frame 126: text='a'
+07:42:45.903 [INFO] timings (prep=0.008s, ocr=2.417s) total=2.425s Error: 50286.74999440707
+07:42:46.140 [INFO] Queued frame 128 for OCR
+07:42:46.141 [INFO] OCR worker: received frame 128
+07:42:46.155 [INFO] OCR done frame 128: text='a'
+07:42:46.156 [INFO] timings (prep=0.013s, ocr=2.417s) total=2.429s Error: 42789.88139735842
+07:42:46.405 [INFO] Queued frame 130 for OCR
+07:42:46.406 [INFO] OCR worker: received frame 130
+07:42:46.415 [INFO] OCR done frame 130: text='a'
+07:42:46.416 [INFO] timings (prep=0.008s, ocr=2.417s) total=2.425s Error: 42162.99888527855
+07:42:46.682 [INFO] Queued frame 132 for OCR
+07:42:46.683 [INFO] OCR worker: received frame 132
+07:42:46.692 [INFO] OCR done frame 132: text='a'
+07:42:46.694 [INFO] timings (prep=0.009s, ocr=2.417s) total=2.425s Error: 38849.64961231954
+07:42:46.915 [INFO] Queued frame 134 for OCR
+07:42:46.917 [INFO] OCR worker: received frame 134
+07:42:46.922 [INFO] OCR done frame 134: text='a'
+07:42:46.925 [INFO] timings (prep=0.004s, ocr=2.417s) total=2.421s Error: 48463.41919427477
+07:42:47.141 [INFO] Queued frame 136 for OCR
+07:42:47.150 [INFO] OCR worker: received frame 136
+07:42:47.170 [INFO] OCR done frame 136: text='a'
+07:42:47.171 [INFO] timings (prep=0.020s, ocr=2.417s) total=2.436s Error: 43173.39024213873
+07:42:47.405 [INFO] Queued frame 138 for OCR
+07:42:47.406 [INFO] OCR worker: received frame 138
+07:42:47.413 [INFO] OCR done frame 138: text='a'
+07:42:47.414 [INFO] timings (prep=0.007s, ocr=2.417s) total=2.423s Error: 41856.52368508402
+07:42:47.650 [INFO] Queued frame 140 for OCR
+07:42:47.651 [INFO] OCR worker: received frame 140
+07:42:47.661 [INFO] OCR done frame 140: text='a'
+07:42:47.662 [INFO] timings (prep=0.010s, ocr=2.417s) total=2.426s Error: 43441.40363754376
+07:42:47.888 [INFO] Queued frame 142 for OCR
+07:42:47.890 [INFO] OCR worker: received frame 142
+07:42:47.901 [INFO] OCR done frame 142: text='a'
+07:42:47.903 [INFO] timings (prep=0.010s, ocr=2.417s) total=2.427s Error: 26367.54254760955
+07:42:48.163 [INFO] Queued frame 144 for OCR
+07:42:48.163 [INFO] OCR worker: received frame 144
+07:42:48.169 [INFO] OCR done frame 144: text='a'
+07:42:48.170 [INFO] timings (prep=0.004s, ocr=2.417s) total=2.420s Error: 36958.289327294355
+07:42:48.401 [INFO] Queued frame 146 for OCR
+07:42:48.402 [INFO] OCR worker: received frame 146
+07:42:48.737 [INFO] Queued frame 148 for OCR
+07:42:50.147 [INFO] OCR done frame 146: text='"During'
+07:42:50.148 [INFO] Saying with TTS: "During
+07:42:50.155 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 19992.715548419128
+07:42:50.156 [INFO] OCR worker: received frame 148
+07:42:50.161 [INFO] OCR done frame 148: text='"During'
+07:42:50.166 [INFO] timings (prep=0.005s, ocr=1.736s) total=1.741s Error: 44081.08522938155
+07:42:50.335 [INFO] Queued frame 160 for OCR
+07:42:50.339 [INFO] OCR worker: received frame 160
+07:42:50.359 [INFO] OCR done frame 160: text='"During'
+07:42:50.360 [INFO] timings (prep=0.019s, ocr=1.736s) total=1.755s Error: 37276.25551205486
+07:42:50.652 [INFO] Queued frame 162 for OCR
+07:42:50.658 [INFO] OCR worker: received frame 162
+07:42:50.685 [INFO] OCR done frame 162: text='"During'
+07:42:50.686 [INFO] timings (prep=0.027s, ocr=1.736s) total=1.763s Error: 37179.31481348197
+07:42:50.920 [INFO] Queued frame 164 for OCR
+07:42:50.921 [INFO] OCR worker: received frame 164
+07:42:50.932 [INFO] OCR done frame 164: text='"During'
+07:42:50.933 [INFO] timings (prep=0.010s, ocr=1.736s) total=1.746s Error: 36804.90184744418
+07:42:51.171 [INFO] Queued frame 166 for OCR
+07:42:51.172 [INFO] OCR worker: received frame 166
+07:42:51.195 [INFO] OCR done frame 166: text='"During'
+07:42:51.195 [INFO] timings (prep=0.021s, ocr=1.736s) total=1.757s Error: 37718.45668900041
+07:42:51.435 [INFO] Queued frame 168 for OCR
+07:42:51.435 [INFO] OCR worker: received frame 168
+07:42:51.447 [INFO] OCR done frame 168: text='"During'
+07:42:51.448 [INFO] timings (prep=0.011s, ocr=1.736s) total=1.747s Error: 24619.058166388088
+07:42:51.688 [INFO] Queued frame 170 for OCR
+07:42:51.688 [INFO] OCR worker: received frame 170
+07:42:51.711 [INFO] OCR done frame 170: text='"During'
+07:42:51.712 [INFO] timings (prep=0.019s, ocr=1.736s) total=1.755s Error: 25636.062002577542
+07:42:51.988 [INFO] Queued frame 172 for OCR
+07:42:51.989 [INFO] OCR worker: received frame 172
+07:42:51.997 [INFO] OCR done frame 172: text='"During'
+07:42:51.999 [INFO] timings (prep=0.008s, ocr=1.736s) total=1.744s Error: 41786.55674974908
+07:42:52.230 [INFO] Queued frame 174 for OCR
+07:42:52.234 [INFO] OCR worker: received frame 174
+07:42:52.244 [INFO] OCR done frame 174: text='"During'
+07:42:52.245 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 40987.63106108964
+07:42:52.472 [INFO] Queued frame 176 for OCR
+07:42:52.472 [INFO] OCR worker: received frame 176
+07:42:52.477 [INFO] OCR done frame 176: text='"During'
+07:42:52.477 [INFO] timings (prep=0.003s, ocr=1.736s) total=1.739s Error: 25376.023624673744
+07:42:52.739 [INFO] Queued frame 178 for OCR
+07:42:52.740 [INFO] OCR worker: received frame 178
+07:42:52.751 [INFO] OCR done frame 178: text='"During'
+07:42:52.752 [INFO] timings (prep=0.010s, ocr=1.736s) total=1.746s Error: 37365.11441170761
+07:42:52.979 [INFO] Queued frame 180 for OCR
+07:42:52.980 [INFO] OCR worker: received frame 180
+07:42:52.984 [INFO] OCR done frame 180: text='"During'
+07:42:52.985 [INFO] timings (prep=0.004s, ocr=1.736s) total=1.740s Error: 38623.031017774876
+07:42:53.220 [INFO] Queued frame 182 for OCR
+07:42:53.220 [INFO] OCR worker: received frame 182
+07:42:53.229 [INFO] OCR done frame 182: text='"During'
+07:42:53.231 [INFO] timings (prep=0.007s, ocr=1.736s) total=1.743s Error: 44556.461652604325
+07:42:53.453 [INFO] Queued frame 184 for OCR
+07:42:53.454 [INFO] OCR worker: received frame 184
+07:42:53.462 [INFO] OCR done frame 184: text='"During'
+07:42:53.463 [INFO] timings (prep=0.008s, ocr=1.736s) total=1.744s Error: 45923.36905106157
+07:42:53.699 [INFO] Queued frame 186 for OCR
+07:42:53.700 [INFO] OCR worker: received frame 186
+07:42:53.709 [INFO] OCR done frame 186: text='"During'
+07:42:53.713 [INFO] timings (prep=0.008s, ocr=1.736s) total=1.744s Error: 47495.76086347075
+07:42:53.944 [INFO] Queued frame 188 for OCR
+07:42:53.947 [INFO] OCR worker: received frame 188
+07:42:53.958 [INFO] OCR done frame 188: text='"During'
+07:42:53.959 [INFO] timings (prep=0.008s, ocr=1.736s) total=1.744s Error: 49402.2603227828
+07:42:54.183 [INFO] Queued frame 190 for OCR
+07:42:54.184 [INFO] OCR worker: received frame 190
+07:42:54.205 [INFO] OCR done frame 190: text='"During'
+07:42:54.206 [INFO] timings (prep=0.018s, ocr=1.736s) total=1.754s Error: 47155.6987542333
+07:42:54.414 [INFO] Queued frame 192 for OCR
+07:42:54.414 [INFO] OCR worker: received frame 192
+07:42:54.427 [INFO] OCR done frame 192: text='"During'
+07:42:54.428 [INFO] timings (prep=0.008s, ocr=1.736s) total=1.744s Error: 29026.34880586947
+07:42:54.671 [INFO] Queued frame 194 for OCR
+07:42:54.674 [INFO] OCR worker: received frame 194
+07:42:54.688 [INFO] OCR done frame 194: text='"During'
+07:42:54.689 [INFO] timings (prep=0.011s, ocr=1.736s) total=1.747s Error: 49168.73473051752
+07:42:54.917 [INFO] Queued frame 196 for OCR
+07:42:54.918 [INFO] OCR worker: received frame 196
+07:42:54.942 [INFO] OCR done frame 196: text='"During'
+07:42:54.943 [INFO] timings (prep=0.021s, ocr=1.736s) total=1.757s Error: 45009.48650007018
+07:42:55.184 [INFO] Queued frame 198 for OCR
+07:42:55.184 [INFO] OCR worker: received frame 198
+07:42:55.192 [INFO] OCR done frame 198: text='"During'
+07:42:55.193 [INFO] timings (prep=0.007s, ocr=1.736s) total=1.743s Error: 27461.97279876302
+07:42:55.402 [INFO] Queued frame 200 for OCR
+07:42:55.402 [INFO] OCR worker: received frame 200
+07:42:55.409 [INFO] OCR done frame 200: text='"During'
+07:42:55.410 [INFO] timings (prep=0.006s, ocr=1.736s) total=1.741s Error: 23500.155850547035
+07:42:55.640 [INFO] Queued frame 202 for OCR
+07:42:55.641 [INFO] OCR worker: received frame 202
+07:42:55.654 [INFO] OCR done frame 202: text='"During'
+07:42:55.654 [INFO] timings (prep=0.012s, ocr=1.736s) total=1.748s Error: 48300.12344704721
+07:42:55.883 [INFO] Queued frame 204 for OCR
+07:42:55.884 [INFO] OCR worker: received frame 204
+07:42:55.913 [INFO] OCR done frame 204: text='"During'
+07:42:55.914 [INFO] timings (prep=0.026s, ocr=1.736s) total=1.762s Error: 48423.15045512838
+07:42:56.122 [INFO] Queued frame 206 for OCR
+07:42:56.123 [INFO] OCR worker: received frame 206
+07:42:56.133 [INFO] OCR done frame 206: text='"During'
+07:42:56.134 [INFO] timings (prep=0.008s, ocr=1.736s) total=1.744s Error: 28996.090253687653
+07:42:56.348 [INFO] Queued frame 208 for OCR
+07:42:56.348 [INFO] OCR worker: received frame 208
+07:42:56.361 [INFO] OCR done frame 208: text='"During'
+07:42:56.388 [INFO] timings (prep=0.011s, ocr=1.736s) total=1.747s Error: 45505.176903293104
+07:42:56.603 [INFO] Queued frame 210 for OCR
+07:42:56.604 [INFO] OCR worker: received frame 210
+07:42:56.612 [INFO] OCR done frame 210: text='"During'
+07:42:56.615 [INFO] timings (prep=0.007s, ocr=1.736s) total=1.743s Error: 47735.427881186944
+07:42:56.851 [INFO] Queued frame 212 for OCR
+07:42:56.852 [INFO] OCR worker: received frame 212
+07:42:56.862 [INFO] OCR done frame 212: text='"During'
+07:42:56.863 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 41411.40332082457
+07:42:57.092 [INFO] Queued frame 214 for OCR
+07:42:57.093 [INFO] OCR worker: received frame 214
+07:42:57.118 [INFO] OCR done frame 214: text='"During'
+07:42:57.119 [INFO] timings (prep=0.012s, ocr=1.736s) total=1.748s Error: 47070.81739252039
+07:42:57.336 [INFO] Queued frame 216 for OCR
+07:42:57.337 [INFO] OCR worker: received frame 216
+07:42:57.350 [INFO] OCR done frame 216: text='"During'
+07:42:57.350 [INFO] timings (prep=0.004s, ocr=1.736s) total=1.740s Error: 43923.703737276075
+07:42:57.594 [INFO] Queued frame 218 for OCR
+07:42:57.594 [INFO] OCR worker: received frame 218
+07:42:57.606 [INFO] OCR done frame 218: text='"During'
+07:42:57.608 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 44944.428186372556
+07:42:57.866 [INFO] Queued frame 220 for OCR
+07:42:57.866 [INFO] OCR worker: received frame 220
+07:42:57.881 [INFO] OCR done frame 220: text='"During'
+07:42:57.882 [INFO] timings (prep=0.011s, ocr=1.736s) total=1.747s Error: 43772.4416728151
+07:42:58.094 [INFO] Queued frame 222 for OCR
+07:42:58.095 [INFO] OCR worker: received frame 222
+07:42:58.126 [INFO] OCR done frame 222: text='"During'
+07:42:58.127 [INFO] timings (prep=0.026s, ocr=1.736s) total=1.762s Error: 45232.14122722912
+07:42:58.344 [INFO] Queued frame 224 for OCR
+07:42:58.345 [INFO] OCR worker: received frame 224
+07:42:58.353 [INFO] OCR done frame 224: text='"During'
+07:42:58.353 [INFO] timings (prep=0.007s, ocr=1.736s) total=1.743s Error: 31563.39691794912
+07:42:58.579 [INFO] Queued frame 226 for OCR
+07:42:58.580 [INFO] OCR worker: received frame 226
+07:42:58.590 [INFO] OCR done frame 226: text='"During'
+07:42:58.591 [INFO] timings (prep=0.008s, ocr=1.736s) total=1.744s Error: 46547.80365387823
+07:42:58.830 [INFO] Queued frame 228 for OCR
+07:42:58.834 [INFO] OCR worker: received frame 228
+07:42:58.843 [INFO] OCR done frame 228: text='"During'
+07:42:58.843 [INFO] timings (prep=0.008s, ocr=1.736s) total=1.744s Error: 43123.65910958855
+07:42:59.087 [INFO] Queued frame 230 for OCR
+07:42:59.087 [INFO] OCR worker: received frame 230
+07:42:59.096 [INFO] OCR done frame 230: text='"During'
+07:42:59.097 [INFO] timings (prep=0.008s, ocr=1.736s) total=1.744s Error: 41938.004244360505
+07:42:59.320 [INFO] Queued frame 232 for OCR
+07:42:59.321 [INFO] OCR worker: received frame 232
+07:42:59.328 [INFO] OCR done frame 232: text='"During'
+07:42:59.329 [INFO] timings (prep=0.007s, ocr=1.736s) total=1.743s Error: 43490.7714348688
+07:42:59.571 [INFO] Queued frame 234 for OCR
+07:42:59.574 [INFO] OCR worker: received frame 234
+07:42:59.580 [INFO] OCR done frame 234: text='"During'
+07:42:59.580 [INFO] timings (prep=0.003s, ocr=1.736s) total=1.739s Error: 44193.78802501546
+07:42:59.789 [INFO] Queued frame 236 for OCR
+07:42:59.799 [INFO] OCR worker: received frame 236
+07:42:59.805 [INFO] OCR done frame 236: text='"During'
+07:42:59.806 [INFO] timings (prep=0.005s, ocr=1.736s) total=1.741s Error: 46898.51410226128
+07:43:00.027 [INFO] Queued frame 238 for OCR
+07:43:00.027 [INFO] OCR worker: received frame 238
+07:43:00.032 [INFO] OCR done frame 238: text='"During'
+07:43:00.038 [INFO] timings (prep=0.004s, ocr=1.736s) total=1.740s Error: 36066.051904803775
+07:43:00.307 [INFO] Queued frame 240 for OCR
+07:43:00.308 [INFO] OCR worker: received frame 240
+07:43:00.317 [INFO] OCR done frame 240: text='"During'
+07:43:00.319 [INFO] timings (prep=0.008s, ocr=1.736s) total=1.744s Error: 48882.2429415836
+07:43:00.520 [INFO] Queued frame 242 for OCR
+07:43:00.521 [INFO] OCR worker: received frame 242
+07:43:00.536 [INFO] OCR done frame 242: text='"During'
+07:43:00.537 [INFO] timings (prep=0.014s, ocr=1.736s) total=1.750s Error: 36030.87738315569
+07:43:00.760 [INFO] Queued frame 244 for OCR
+07:43:00.760 [INFO] OCR worker: received frame 244
+07:43:00.775 [INFO] OCR done frame 244: text='"During'
+07:43:00.776 [INFO] timings (prep=0.014s, ocr=1.736s) total=1.750s Error: 45425.80048826878
+07:43:00.983 [INFO] Queued frame 246 for OCR
+07:43:00.984 [INFO] OCR worker: received frame 246
+07:43:00.995 [INFO] OCR done frame 246: text='"During'
+07:43:00.995 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 46503.778878710495
+07:43:01.236 [INFO] Queued frame 248 for OCR
+07:43:01.237 [INFO] OCR worker: received frame 248
+07:43:01.247 [INFO] OCR done frame 248: text='"During'
+07:43:01.247 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 46114.125547385156
+07:43:01.481 [INFO] Queued frame 250 for OCR
+07:43:01.481 [INFO] OCR worker: received frame 250
+07:43:01.489 [INFO] OCR done frame 250: text='"During'
+07:43:01.491 [INFO] timings (prep=0.007s, ocr=1.736s) total=1.743s Error: 44156.252388534966
+07:43:01.726 [INFO] Queued frame 252 for OCR
+07:43:01.726 [INFO] OCR worker: received frame 252
+07:43:01.740 [INFO] OCR done frame 252: text='"During'
+07:43:01.742 [INFO] timings (prep=0.011s, ocr=1.736s) total=1.747s Error: 42853.65853693241
+07:43:01.952 [INFO] Queued frame 254 for OCR
+07:43:01.952 [INFO] OCR worker: received frame 254
+07:43:01.963 [INFO] OCR done frame 254: text='"During'
+07:43:01.964 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 45331.22599268632
+07:43:02.186 [INFO] Queued frame 256 for OCR
+07:43:02.186 [INFO] OCR worker: received frame 256
+07:43:02.219 [INFO] OCR done frame 256: text='"During'
+07:43:02.221 [INFO] timings (prep=0.023s, ocr=1.736s) total=1.759s Error: 34103.33048252032
+07:43:02.444 [INFO] Queued frame 258 for OCR
+07:43:02.444 [INFO] OCR worker: received frame 258
+07:43:02.463 [INFO] OCR done frame 258: text='"During'
+07:43:02.464 [INFO] timings (prep=0.018s, ocr=1.736s) total=1.754s Error: 43883.714519169866
+07:43:02.686 [INFO] Queued frame 260 for OCR
+07:43:02.694 [INFO] OCR worker: received frame 260
+07:43:02.711 [INFO] OCR done frame 260: text='"During'
+07:43:02.712 [INFO] timings (prep=0.016s, ocr=1.736s) total=1.752s Error: 27804.35622344096
+07:43:02.948 [INFO] Queued frame 262 for OCR
+07:43:02.949 [INFO] OCR worker: received frame 262
+07:43:02.960 [INFO] OCR done frame 262: text='"During'
+07:43:02.960 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 45393.581319389195
+07:43:03.185 [INFO] Queued frame 264 for OCR
+07:43:03.185 [INFO] OCR worker: received frame 264
+07:43:03.223 [INFO] OCR done frame 264: text='"During'
+07:43:03.224 [INFO] timings (prep=0.033s, ocr=1.736s) total=1.769s Error: 43238.85752422235
+07:43:03.467 [INFO] Queued frame 266 for OCR
+07:43:03.468 [INFO] OCR worker: received frame 266
+07:43:03.476 [INFO] OCR done frame 266: text='"During'
+07:43:03.476 [INFO] timings (prep=0.007s, ocr=1.736s) total=1.743s Error: 46196.54207838504
+07:43:03.713 [INFO] Queued frame 268 for OCR
+07:43:03.714 [INFO] OCR worker: received frame 268
+07:43:03.729 [INFO] OCR done frame 268: text='"During'
+07:43:03.730 [INFO] timings (prep=0.014s, ocr=1.736s) total=1.750s Error: 27014.35868200465
+07:43:03.963 [INFO] Queued frame 270 for OCR
+07:43:03.964 [INFO] OCR worker: received frame 270
+07:43:03.991 [INFO] OCR done frame 270: text='"During'
+07:43:03.992 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 44209.2346122391
+07:43:04.205 [INFO] Queued frame 272 for OCR
+07:43:04.205 [INFO] OCR worker: received frame 272
+07:43:04.213 [INFO] OCR done frame 272: text='"During'
+07:43:04.215 [INFO] timings (prep=0.007s, ocr=1.736s) total=1.743s Error: 43180.16732251046
+07:43:04.450 [INFO] Queued frame 274 for OCR
+07:43:04.450 [INFO] OCR worker: received frame 274
+07:43:04.462 [INFO] OCR done frame 274: text='"During'
+07:43:04.463 [INFO] timings (prep=0.010s, ocr=1.736s) total=1.746s Error: 39353.531290088824
+07:43:04.692 [INFO] Queued frame 276 for OCR
+07:43:04.692 [INFO] OCR worker: received frame 276
+07:43:04.703 [INFO] OCR done frame 276: text='"During'
+07:43:04.703 [INFO] timings (prep=0.004s, ocr=1.736s) total=1.740s Error: 40882.791000615405
+07:43:04.956 [INFO] Queued frame 278 for OCR
+07:43:04.958 [INFO] OCR worker: received frame 278
+07:43:04.964 [INFO] OCR done frame 278: text='"During'
+07:43:04.965 [INFO] timings (prep=0.004s, ocr=1.736s) total=1.739s Error: 42513.172958507814
+07:43:05.202 [INFO] Queued frame 280 for OCR
+07:43:05.203 [INFO] OCR worker: received frame 280
+07:43:05.213 [INFO] OCR done frame 280: text='"During'
+07:43:05.213 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 36501.53763884475
+07:43:05.438 [INFO] Queued frame 282 for OCR
+07:43:05.441 [INFO] OCR worker: received frame 282
+07:43:05.454 [INFO] OCR done frame 282: text='"During'
+07:43:05.454 [INFO] timings (prep=0.011s, ocr=1.736s) total=1.747s Error: 42310.79383561599
+07:43:05.693 [INFO] Queued frame 284 for OCR
+07:43:05.694 [INFO] OCR worker: received frame 284
+07:43:05.712 [INFO] OCR done frame 284: text='"During'
+07:43:05.712 [INFO] timings (prep=0.016s, ocr=1.736s) total=1.752s Error: 41868.17347341534
+07:43:05.924 [INFO] Queued frame 286 for OCR
+07:43:05.925 [INFO] OCR worker: received frame 286
+07:43:05.942 [INFO] OCR done frame 286: text='"During'
+07:43:05.942 [INFO] timings (prep=0.015s, ocr=1.736s) total=1.751s Error: 46967.0959289586
+07:43:06.174 [INFO] Queued frame 288 for OCR
+07:43:06.175 [INFO] OCR worker: received frame 288
+07:43:06.186 [INFO] OCR done frame 288: text='"During'
+07:43:06.187 [INFO] timings (prep=0.010s, ocr=1.736s) total=1.746s Error: 43872.599934355385
+07:43:06.426 [INFO] Queued frame 290 for OCR
+07:43:06.428 [INFO] OCR worker: received frame 290
+07:43:06.441 [INFO] OCR done frame 290: text='"During'
+07:43:06.442 [INFO] timings (prep=0.012s, ocr=1.736s) total=1.748s Error: 43707.773622091525
+07:43:06.696 [INFO] Queued frame 292 for OCR
+07:43:06.697 [INFO] OCR worker: received frame 292
+07:43:06.709 [INFO] OCR done frame 292: text='"During'
+07:43:06.710 [INFO] timings (prep=0.011s, ocr=1.736s) total=1.747s Error: 39568.57275667143
+07:43:06.965 [INFO] Queued frame 294 for OCR
+07:43:06.966 [INFO] OCR worker: received frame 294
+07:43:06.984 [INFO] OCR done frame 294: text='"During'
+07:43:06.985 [INFO] timings (prep=0.018s, ocr=1.736s) total=1.754s Error: 46215.540405798565
+07:43:07.214 [INFO] Queued frame 296 for OCR
+07:43:07.214 [INFO] OCR worker: received frame 296
+07:43:07.224 [INFO] OCR done frame 296: text='"During'
+07:43:07.227 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 23081.373984232396
+07:43:07.458 [INFO] Queued frame 298 for OCR
+07:43:07.462 [INFO] OCR worker: received frame 298
+07:43:07.472 [INFO] OCR done frame 298: text='"During'
+07:43:07.473 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 40916.17834060263
+07:43:07.700 [INFO] Queued frame 300 for OCR
+07:43:07.700 [INFO] OCR worker: received frame 300
+07:43:07.713 [INFO] OCR done frame 300: text='"During'
+07:43:07.714 [INFO] timings (prep=0.012s, ocr=1.736s) total=1.748s Error: 40479.99505928824
+07:43:07.934 [INFO] Queued frame 302 for OCR
+07:43:07.934 [INFO] OCR worker: received frame 302
+07:43:07.940 [INFO] OCR done frame 302: text='"During'
+07:43:07.940 [INFO] timings (prep=0.005s, ocr=1.736s) total=1.741s Error: 38488.95361009442
+07:43:08.195 [INFO] Queued frame 304 for OCR
+07:43:08.195 [INFO] OCR worker: received frame 304
+07:43:08.209 [INFO] OCR done frame 304: text='"During'
+07:43:08.210 [INFO] timings (prep=0.012s, ocr=1.736s) total=1.748s Error: 46029.44247978678
+07:43:08.404 [INFO] Queued frame 306 for OCR
+07:43:08.405 [INFO] OCR worker: received frame 306
+07:43:08.413 [INFO] OCR done frame 306: text='"During'
+07:43:08.418 [INFO] timings (prep=0.007s, ocr=1.736s) total=1.743s Error: 30631.85841570831
+07:43:08.640 [INFO] Queued frame 308 for OCR
+07:43:08.640 [INFO] OCR worker: received frame 308
+07:43:08.664 [INFO] OCR done frame 308: text='"During'
+07:43:08.667 [INFO] timings (prep=0.017s, ocr=1.736s) total=1.753s Error: 46495.3884810096
+07:43:08.885 [INFO] Queued frame 310 for OCR
+07:43:08.885 [INFO] OCR worker: received frame 310
+07:43:08.903 [INFO] OCR done frame 310: text='"During'
+07:43:08.903 [INFO] timings (prep=0.016s, ocr=1.736s) total=1.752s Error: 51884.8243709083
+07:43:09.125 [INFO] Queued frame 312 for OCR
+07:43:09.125 [INFO] OCR worker: received frame 312
+07:43:09.140 [INFO] OCR done frame 312: text='"During'
+07:43:09.142 [INFO] timings (prep=0.013s, ocr=1.736s) total=1.749s Error: 48192.976147982394
+07:43:09.371 [INFO] Queued frame 314 for OCR
+07:43:09.372 [INFO] OCR worker: received frame 314
+07:43:09.381 [INFO] OCR done frame 314: text='"During'
+07:43:09.384 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 29502.960020987724
+07:43:09.616 [INFO] Queued frame 316 for OCR
+07:43:09.616 [INFO] OCR worker: received frame 316
+07:43:09.631 [INFO] OCR done frame 316: text='"During'
+07:43:09.632 [INFO] timings (prep=0.012s, ocr=1.736s) total=1.748s Error: 41073.21024706981
+07:43:09.846 [INFO] Queued frame 318 for OCR
+07:43:09.847 [INFO] OCR worker: received frame 318
+07:43:09.851 [INFO] OCR done frame 318: text='"During'
+07:43:09.852 [INFO] timings (prep=0.004s, ocr=1.736s) total=1.740s Error: 48778.37405039246
+07:43:10.105 [INFO] Queued frame 320 for OCR
+07:43:10.107 [INFO] OCR worker: received frame 320
+07:43:10.114 [INFO] OCR done frame 320: text='"During'
+07:43:10.115 [INFO] timings (prep=0.005s, ocr=1.736s) total=1.741s Error: 34373.96216615129
+07:43:10.344 [INFO] Queued frame 322 for OCR
+07:43:10.345 [INFO] OCR worker: received frame 322
+07:43:10.362 [INFO] OCR done frame 322: text='"During'
+07:43:10.363 [INFO] timings (prep=0.014s, ocr=1.736s) total=1.750s Error: 46931.77841292614
+07:43:10.593 [INFO] Queued frame 324 for OCR
+07:43:10.595 [INFO] OCR worker: received frame 324
+07:43:10.609 [INFO] OCR done frame 324: text='"During'
+07:43:10.609 [INFO] timings (prep=0.011s, ocr=1.736s) total=1.747s Error: 50288.68958324526
+07:43:10.833 [INFO] Queued frame 326 for OCR
+07:43:10.834 [INFO] OCR worker: received frame 326
+07:43:10.845 [INFO] OCR done frame 326: text='"During'
+07:43:10.850 [INFO] timings (prep=0.011s, ocr=1.736s) total=1.747s Error: 38673.505465628536
+07:43:11.089 [INFO] Queued frame 328 for OCR
+07:43:11.089 [INFO] OCR worker: received frame 328
+07:43:11.097 [INFO] OCR done frame 328: text='"During'
+07:43:11.101 [INFO] timings (prep=0.007s, ocr=1.736s) total=1.743s Error: 44301.80103562382
+07:43:11.328 [INFO] Queued frame 330 for OCR
+07:43:11.330 [INFO] OCR worker: received frame 330
+07:43:11.351 [INFO] OCR done frame 330: text='"During'
+07:43:11.351 [INFO] timings (prep=0.020s, ocr=1.736s) total=1.756s Error: 43985.83692508306
+07:43:11.568 [INFO] Queued frame 332 for OCR
+07:43:11.569 [INFO] OCR worker: received frame 332
+07:43:11.579 [INFO] OCR done frame 332: text='"During'
+07:43:11.580 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 42712.30970106861
+07:43:11.797 [INFO] Queued frame 334 for OCR
+07:43:11.798 [INFO] OCR worker: received frame 334
+07:43:11.813 [INFO] OCR done frame 334: text='"During'
+07:43:11.814 [INFO] timings (prep=0.014s, ocr=1.736s) total=1.750s Error: 43346.999896186586
+07:43:12.030 [INFO] Queued frame 336 for OCR
+07:43:12.030 [INFO] OCR worker: received frame 336
+07:43:12.044 [INFO] OCR done frame 336: text='"During'
+07:43:12.045 [INFO] timings (prep=0.012s, ocr=1.736s) total=1.748s Error: 46888.114165532395
+07:43:12.289 [INFO] Queued frame 338 for OCR
+07:43:12.290 [INFO] OCR worker: received frame 338
+07:43:12.301 [INFO] OCR done frame 338: text='"During'
+07:43:12.302 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 45037.64925037718
+07:43:12.520 [INFO] Queued frame 340 for OCR
+07:43:12.520 [INFO] OCR worker: received frame 340
+07:43:12.529 [INFO] OCR done frame 340: text='"During'
+07:43:12.533 [INFO] timings (prep=0.008s, ocr=1.736s) total=1.744s Error: 44486.35605441291
+07:43:12.791 [INFO] Queued frame 342 for OCR
+07:43:12.792 [INFO] OCR worker: received frame 342
+07:43:12.807 [INFO] OCR done frame 342: text='"During'
+07:43:12.807 [INFO] timings (prep=0.014s, ocr=1.736s) total=1.750s Error: 46975.40207385137
+07:43:13.031 [INFO] Queued frame 344 for OCR
+07:43:13.034 [INFO] OCR worker: received frame 344
+07:43:13.048 [INFO] OCR done frame 344: text='"During'
+07:43:13.049 [INFO] timings (prep=0.012s, ocr=1.736s) total=1.748s Error: 46069.68634579576
+07:43:13.287 [INFO] Queued frame 346 for OCR
+07:43:13.288 [INFO] OCR worker: received frame 346
+07:43:13.302 [INFO] OCR done frame 346: text='"During'
+07:43:13.302 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 34521.19892182194
+07:43:13.530 [INFO] Queued frame 348 for OCR
+07:43:13.531 [INFO] OCR worker: received frame 348
+07:43:13.545 [INFO] OCR done frame 348: text='"During'
+07:43:13.546 [INFO] timings (prep=0.011s, ocr=1.736s) total=1.747s Error: 31828.045415953522
+07:43:13.768 [INFO] Queued frame 350 for OCR
+07:43:13.769 [INFO] OCR worker: received frame 350
+07:43:13.779 [INFO] OCR done frame 350: text='"During'
+07:43:13.780 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 47427.94350380375
+07:43:13.982 [INFO] Queued frame 352 for OCR
+07:43:13.983 [INFO] OCR worker: received frame 352
+07:43:13.989 [INFO] OCR done frame 352: text='"During'
+07:43:13.990 [INFO] timings (prep=0.005s, ocr=1.736s) total=1.741s Error: 38445.848605538675
+07:43:14.212 [INFO] Queued frame 354 for OCR
+07:43:14.212 [INFO] OCR worker: received frame 354
+07:43:14.220 [INFO] OCR done frame 354: text='"During'
+07:43:14.221 [INFO] timings (prep=0.007s, ocr=1.736s) total=1.743s Error: 28332.554155952832
+07:43:14.435 [INFO] Queued frame 356 for OCR
+07:43:14.438 [INFO] OCR worker: received frame 356
+07:43:14.472 [INFO] OCR done frame 356: text='"During'
+07:43:14.473 [INFO] timings (prep=0.033s, ocr=1.736s) total=1.769s Error: 43468.338477563186
+07:43:14.689 [INFO] Queued frame 358 for OCR
+07:43:14.689 [INFO] OCR worker: received frame 358
+07:43:14.705 [INFO] OCR done frame 358: text='"During'
+07:43:14.706 [INFO] timings (prep=0.014s, ocr=1.736s) total=1.750s Error: 43667.58666333646
+07:43:14.915 [INFO] Queued frame 360 for OCR
+07:43:14.916 [INFO] OCR worker: received frame 360
+07:43:14.926 [INFO] OCR done frame 360: text='"During'
+07:43:14.926 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.744s Error: 43754.61175693369
+07:43:15.156 [INFO] Queued frame 362 for OCR
+07:43:15.157 [INFO] OCR worker: received frame 362
+07:43:15.171 [INFO] OCR done frame 362: text='"During'
+07:43:15.172 [INFO] timings (prep=0.013s, ocr=1.736s) total=1.749s Error: 43243.36885581418
+07:43:15.390 [INFO] Queued frame 364 for OCR
+07:43:15.394 [INFO] OCR worker: received frame 364
+07:43:15.404 [INFO] OCR done frame 364: text='"During'
+07:43:15.404 [INFO] timings (prep=0.009s, ocr=1.736s) total=1.745s Error: 41432.5958636434
+07:43:15.637 [INFO] Queued frame 366 for OCR
+07:43:15.637 [INFO] OCR worker: received frame 366
+07:43:15.647 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:17.509 [INFO] Queued frame 382 for OCR
+07:43:17.510 [INFO] OCR worker: received frame 382
+07:43:17.525 [INFO] OCR done frame 382: text='"During'
+07:43:17.525 [INFO] timings (prep=0.014s, ocr=1.736s) total=1.750s Error: 31828.045415953522
+07:43:17.754 [INFO] Queued frame 384 for OCR
+07:43:17.756 [INFO] OCR worker: received frame 384
+07:43:18.072 [INFO] Queued frame 386 for OCR
+07:43:19.140 [INFO] OCR done frame 384: text=''
+07:43:19.141 [INFO] timings (prep=0.005s, ocr=1.377s) total=1.382s Error: 19032.978616075834
+07:43:19.141 [INFO] OCR worker: received frame 386
+07:43:19.146 [INFO] OCR done frame 386: text=''
+07:43:19.147 [INFO] timings (prep=0.005s, ocr=1.377s) total=1.381s Error: 32653.942334731957
+07:43:19.339 [INFO] Queued frame 396 for OCR
+07:43:19.340 [INFO] OCR worker: received frame 396
+07:43:19.348 [INFO] OCR done frame 396: text=''
+07:43:19.348 [INFO] timings (prep=0.006s, ocr=1.377s) total=1.383s Error: 41793.55871423251
+07:43:19.586 [INFO] Queued frame 398 for OCR
+07:43:19.589 [INFO] OCR worker: received frame 398
+07:43:19.600 [INFO] OCR done frame 398: text=''
+07:43:19.600 [INFO] timings (prep=0.009s, ocr=1.377s) total=1.386s Error: 37445.949046592475
+07:43:19.847 [INFO] Queued frame 400 for OCR
+07:43:19.847 [INFO] OCR worker: received frame 400
+07:43:19.853 [INFO] OCR done frame 400: text=''
+07:43:19.853 [INFO] timings (prep=0.005s, ocr=1.377s) total=1.382s Error: 38265.29694122339
+07:43:20.110 [INFO] Queued frame 402 for OCR
+07:43:20.114 [INFO] OCR worker: received frame 402
+07:43:20.131 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:20.382 [INFO] Queued frame 404 for OCR
+07:43:20.382 [INFO] OCR worker: received frame 404
+07:43:20.400 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:20.613 [INFO] Queued frame 406 for OCR
+07:43:20.613 [INFO] OCR worker: received frame 406
+07:43:20.621 [INFO] OCR done frame 406: text=''
+07:43:20.622 [INFO] timings (prep=0.007s, ocr=1.377s) total=1.384s Error: 46944.24645257393
+07:43:20.854 [INFO] Queued frame 408 for OCR
+07:43:20.854 [INFO] OCR worker: received frame 408
+07:43:20.863 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:21.136 [INFO] Queued frame 410 for OCR
+07:43:21.137 [INFO] OCR worker: received frame 410
+07:43:21.154 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:21.365 [INFO] Queued frame 412 for OCR
+07:43:21.368 [INFO] OCR worker: received frame 412
+07:43:21.389 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:21.630 [INFO] Queued frame 414 for OCR
+07:43:21.630 [INFO] OCR worker: received frame 414
+07:43:21.647 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:21.882 [INFO] Queued frame 416 for OCR
+07:43:21.882 [INFO] OCR worker: received frame 416
+07:43:21.897 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:22.148 [INFO] Queued frame 418 for OCR
+07:43:22.149 [INFO] OCR worker: received frame 418
+07:43:22.157 [INFO] OCR done frame 418: text=''
+07:43:22.157 [INFO] timings (prep=0.007s, ocr=1.377s) total=1.384s Error: 44937.9171746978
+07:43:22.404 [INFO] Queued frame 420 for OCR
+07:43:22.405 [INFO] OCR worker: received frame 420
+07:43:22.416 [INFO] OCR done frame 420: text=''
+07:43:22.417 [INFO] timings (prep=0.010s, ocr=1.377s) total=1.387s Error: 52694.37873246064
+07:43:22.659 [INFO] Queued frame 422 for OCR
+07:43:22.660 [INFO] OCR worker: received frame 422
+07:43:22.669 [INFO] OCR done frame 422: text=''
+07:43:22.671 [INFO] timings (prep=0.007s, ocr=1.377s) total=1.384s Error: 42687.18279530754
+07:43:22.891 [INFO] Queued frame 424 for OCR
+07:43:22.891 [INFO] OCR worker: received frame 424
+07:43:22.903 [INFO] OCR done frame 424: text=''
+07:43:22.904 [INFO] timings (prep=0.011s, ocr=1.377s) total=1.387s Error: 37176.691286342306
+07:43:23.128 [INFO] Queued frame 426 for OCR
+07:43:23.129 [INFO] OCR worker: received frame 426
+07:43:23.142 [INFO] OCR done frame 426: text=''
+07:43:23.145 [INFO] timings (prep=0.012s, ocr=1.377s) total=1.389s Error: 42575.073693418315
+07:43:23.335 [INFO] Queued frame 428 for OCR
+07:43:23.336 [INFO] OCR worker: received frame 428
+07:43:23.344 [INFO] OCR done frame 428: text=''
+07:43:23.345 [INFO] timings (prep=0.008s, ocr=1.377s) total=1.385s Error: 42712.30970106861
+07:43:23.560 [INFO] Queued frame 430 for OCR
+07:43:23.562 [INFO] OCR worker: received frame 430
+07:43:23.568 [INFO] OCR done frame 430: text=''
+07:43:23.569 [INFO] timings (prep=0.003s, ocr=1.377s) total=1.380s Error: 43229.83344867292
+07:43:23.810 [INFO] Queued frame 432 for OCR
+07:43:23.814 [INFO] OCR worker: received frame 432
+07:43:23.822 [INFO] OCR done frame 432: text=''
+07:43:23.823 [INFO] timings (prep=0.007s, ocr=1.377s) total=1.383s Error: 45305.398684924956
+07:43:24.065 [INFO] Queued frame 434 for OCR
+07:43:24.065 [INFO] OCR worker: received frame 434
+07:43:24.071 [INFO] OCR done frame 434: text=''
+07:43:24.072 [INFO] timings (prep=0.005s, ocr=1.377s) total=1.382s Error: 32096.589772123767
+07:43:24.302 [INFO] Queued frame 436 for OCR
+07:43:24.302 [INFO] OCR worker: received frame 436
+07:43:24.314 [INFO] OCR done frame 436: text=''
+07:43:24.315 [INFO] timings (prep=0.011s, ocr=1.377s) total=1.387s Error: 45033.31766592375
+07:43:24.557 [INFO] Queued frame 438 for OCR
+07:43:24.557 [INFO] OCR worker: received frame 438
+07:43:24.571 [INFO] OCR done frame 438: text=''
+07:43:24.572 [INFO] timings (prep=0.013s, ocr=1.377s) total=1.389s Error: 52930.77696387991
+07:43:24.786 [INFO] Queued frame 440 for OCR
+07:43:24.787 [INFO] OCR worker: received frame 440
+07:43:24.797 [INFO] OCR done frame 440: text=''
+07:43:24.798 [INFO] timings (prep=0.010s, ocr=1.377s) total=1.386s Error: 27734.107611387102
+07:43:25.038 [INFO] Queued frame 442 for OCR
+07:43:25.039 [INFO] OCR worker: received frame 442
+07:43:25.050 [INFO] OCR done frame 442: text=''
+07:43:25.051 [INFO] timings (prep=0.010s, ocr=1.377s) total=1.387s Error: 28925.363869794273
+07:43:25.292 [INFO] Queued frame 444 for OCR
+07:43:25.294 [INFO] OCR worker: received frame 444
+07:43:25.314 [INFO] OCR done frame 444: text=''
+07:43:25.315 [INFO] timings (prep=0.020s, ocr=1.377s) total=1.397s Error: 49587.502205696954
+07:43:25.552 [INFO] Queued frame 446 for OCR
+07:43:25.552 [INFO] OCR worker: received frame 446
+07:43:25.556 [INFO] OCR done frame 446: text=''
+07:43:25.557 [INFO] timings (prep=0.004s, ocr=1.377s) total=1.381s Error: 45659.24358768989
+07:43:25.788 [INFO] Queued frame 448 for OCR
+07:43:25.788 [INFO] OCR worker: received frame 448
+07:43:25.804 [INFO] OCR done frame 448: text=''
+07:43:25.805 [INFO] timings (prep=0.015s, ocr=1.377s) total=1.392s Error: 50315.835976360366
+07:43:26.044 [INFO] Queued frame 450 for OCR
+07:43:26.050 [INFO] OCR worker: received frame 450
+07:43:26.058 [INFO] OCR done frame 450: text=''
+07:43:26.059 [INFO] timings (prep=0.006s, ocr=1.377s) total=1.382s Error: 28480.201017549018
+07:43:26.297 [INFO] Queued frame 452 for OCR
+07:43:26.297 [INFO] OCR worker: received frame 452
+07:43:26.305 [INFO] OCR done frame 452: text=''
+07:43:26.307 [INFO] timings (prep=0.007s, ocr=1.377s) total=1.384s Error: 48144.37817648079
+07:43:26.523 [INFO] Queued frame 454 for OCR
+07:43:26.524 [INFO] OCR worker: received frame 454
+07:43:26.541 [INFO] OCR done frame 454: text=''
+07:43:26.547 [INFO] timings (prep=0.014s, ocr=1.377s) total=1.390s Error: 47106.03066487348
+07:43:26.754 [INFO] Queued frame 456 for OCR
+07:43:26.754 [INFO] OCR worker: received frame 456
+07:43:26.765 [INFO] OCR done frame 456: text=''
+07:43:26.765 [INFO] timings (prep=0.009s, ocr=1.377s) total=1.386s Error: 47563.48152732304
+07:43:27.012 [INFO] Queued frame 458 for OCR
+07:43:27.013 [INFO] OCR worker: received frame 458
+07:43:27.023 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:27.294 [INFO] Queued frame 460 for OCR
+07:43:27.295 [INFO] OCR worker: received frame 460
+07:43:27.313 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:27.569 [INFO] Queued frame 462 for OCR
+07:43:27.570 [INFO] OCR worker: received frame 462
+07:43:27.592 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:27.844 [INFO] Queued frame 464 for OCR
+07:43:27.844 [INFO] OCR worker: received frame 464
+07:43:27.863 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:28.129 [INFO] Queued frame 466 for OCR
+07:43:28.130 [INFO] OCR worker: received frame 466
+07:43:28.154 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:28.378 [INFO] Queued frame 468 for OCR
+07:43:28.382 [INFO] OCR worker: received frame 468
+07:43:28.389 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:28.648 [INFO] Queued frame 470 for OCR
+07:43:28.649 [INFO] OCR worker: received frame 470
+07:43:28.663 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:28.903 [INFO] Queued frame 472 for OCR
+07:43:28.903 [INFO] OCR worker: received frame 472
+07:43:28.929 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:29.173 [INFO] Queued frame 474 for OCR
+07:43:29.174 [INFO] OCR worker: received frame 474
+07:43:29.190 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:29.447 [INFO] Queued frame 476 for OCR
+07:43:29.447 [INFO] OCR worker: received frame 476
+07:43:29.457 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:29.688 [INFO] Queued frame 478 for OCR
+07:43:29.688 [INFO] OCR worker: received frame 478
+07:43:29.705 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:29.951 [INFO] Queued frame 480 for OCR
+07:43:29.955 [INFO] OCR worker: received frame 480
+07:43:29.968 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:30.239 [INFO] Queued frame 482 for OCR
+07:43:30.240 [INFO] OCR worker: received frame 482
+07:43:30.256 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:30.513 [INFO] Queued frame 484 for OCR
+07:43:30.513 [INFO] OCR worker: received frame 484
+07:43:30.534 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:30.804 [INFO] Queued frame 486 for OCR
+07:43:30.804 [INFO] OCR worker: received frame 486
+07:43:30.819 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:31.068 [INFO] Queued frame 488 for OCR
+07:43:31.068 [INFO] OCR worker: received frame 488
+07:43:31.084 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:43:31.326 [INFO] Queued frame 490 for OCR
+07:43:31.327 [INFO] OCR worker: received frame 490
+07:43:31.340 [INFO] OCR done frame 490: text=''
+07:43:31.341 [INFO] timings (prep=0.009s, ocr=1.377s) total=1.386s Error: 40792.03047164973
+07:43:31.586 [INFO] Queued frame 492 for OCR
+07:43:31.590 [INFO] OCR worker: received frame 492
+07:43:31.598 [INFO] OCR done frame 492: text=''
+07:43:31.600 [INFO] timings (prep=0.007s, ocr=1.377s) total=1.383s Error: 25620.838686506733
+07:43:31.827 [INFO] Queued frame 494 for OCR
+07:43:31.828 [INFO] OCR worker: received frame 494
+07:43:31.864 [INFO] OCR done frame 494: text=''
+07:43:31.864 [INFO] timings (prep=0.033s, ocr=1.377s) total=1.410s Error: 43879.26902308196
+07:43:32.042 [INFO] Queued frame 496 for OCR
+07:43:32.058 [INFO] OCR worker: received frame 496
+07:43:32.068 [INFO] OCR done frame 496: text=''
+07:43:32.069 [INFO] timings (prep=0.009s, ocr=1.377s) total=1.385s Error: 41013.799202219736
+07:43:32.269 [INFO] Queued frame 498 for OCR
+07:43:32.271 [INFO] OCR worker: received frame 498
+07:43:32.283 [INFO] OCR done frame 498: text=''
+07:43:32.285 [INFO] timings (prep=0.012s, ocr=1.377s) total=1.388s Error: 46211.3192302492
+07:43:32.514 [INFO] Queued frame 500 for OCR
+07:43:32.518 [INFO] OCR worker: received frame 500
+07:43:32.529 [INFO] OCR done frame 500: text=''
+07:43:32.529 [INFO] timings (prep=0.009s, ocr=1.377s) total=1.386s Error: 44729.064376532624
+07:43:32.747 [INFO] Queued frame 502 for OCR
+07:43:32.747 [INFO] OCR worker: received frame 502
+07:43:32.760 [INFO] OCR done frame 502: text=''
+07:43:32.761 [INFO] timings (prep=0.012s, ocr=1.377s) total=1.388s Error: 42333.84018725445
+07:43:32.997 [INFO] Queued frame 504 for OCR
+07:43:32.998 [INFO] OCR worker: received frame 504
+07:43:33.011 [INFO] OCR done frame 504: text=''
+07:43:33.012 [INFO] timings (prep=0.011s, ocr=1.377s) total=1.388s Error: 42917.34090085265
+07:43:33.249 [INFO] Queued frame 506 for OCR
+07:43:33.250 [INFO] OCR worker: received frame 506
+07:43:33.258 [INFO] OCR done frame 506: text=''
+07:43:33.259 [INFO] timings (prep=0.007s, ocr=1.377s) total=1.383s Error: 34897.753867548556
+07:43:33.473 [INFO] Queued frame 508 for OCR
+07:43:33.473 [INFO] OCR worker: received frame 508
+07:43:33.488 [INFO] OCR done frame 508: text=''
+07:43:33.488 [INFO] timings (prep=0.013s, ocr=1.377s) total=1.390s Error: 43799.17293739689
+07:43:33.738 [INFO] Queued frame 510 for OCR
+07:43:33.743 [INFO] OCR worker: received frame 510
+07:43:33.754 [INFO] OCR done frame 510: text=''
+07:43:33.755 [INFO] timings (prep=0.010s, ocr=1.377s) total=1.387s Error: 43558.00098718948
+07:43:33.983 [INFO] Queued frame 512 for OCR
+07:43:33.987 [INFO] OCR worker: received frame 512
+07:43:33.994 [INFO] OCR done frame 512: text=''
+07:43:33.996 [INFO] timings (prep=0.006s, ocr=1.377s) total=1.383s Error: 46815.24991923038
+07:43:34.222 [INFO] Queued frame 514 for OCR
+07:43:34.222 [INFO] OCR worker: received frame 514
+07:43:34.240 [INFO] OCR done frame 514: text=''
+07:43:34.241 [INFO] timings (prep=0.016s, ocr=1.377s) total=1.393s Error: 43759.06991698978
+07:43:34.462 [INFO] Queued frame 516 for OCR
+07:43:34.481 [INFO] OCR worker: received frame 516
+07:43:34.489 [INFO] OCR done frame 516: text=''
+07:43:34.489 [INFO] timings (prep=0.006s, ocr=1.377s) total=1.383s Error: 46228.20161979049
+07:43:34.697 [INFO] Queued frame 518 for OCR
+07:43:34.697 [INFO] OCR worker: received frame 518
+07:43:34.708 [INFO] OCR done frame 518: text=''
+07:43:34.709 [INFO] timings (prep=0.010s, ocr=1.377s) total=1.386s Error: 45793.626739973326
+07:43:34.948 [INFO] Queued frame 520 for OCR
+07:43:34.951 [INFO] OCR worker: received frame 520
+07:43:34.961 [INFO] OCR done frame 520: text=''
+07:43:34.961 [INFO] timings (prep=0.009s, ocr=1.377s) total=1.386s Error: 42529.22994835435
+07:43:35.196 [INFO] Queued frame 522 for OCR
+07:43:35.196 [INFO] OCR worker: received frame 522
+07:43:35.220 [INFO] OCR done frame 522: text=''
+07:43:35.220 [INFO] timings (prep=0.023s, ocr=1.377s) total=1.399s Error: 40255.28567778398
+07:43:35.437 [INFO] Queued frame 524 for OCR
+07:43:35.437 [INFO] OCR worker: received frame 524
+07:43:35.447 [INFO] OCR done frame 524: text=''
+07:43:35.448 [INFO] timings (prep=0.009s, ocr=1.377s) total=1.386s Error: 40765.71997401738
+07:43:35.678 [INFO] Queued frame 526 for OCR
+07:43:35.678 [INFO] OCR worker: received frame 526
+07:43:35.696 [INFO] OCR done frame 526: text=''
+07:43:35.697 [INFO] timings (prep=0.017s, ocr=1.377s) total=1.394s Error: 41863.51394711151
+07:43:35.891 [INFO] Queued frame 528 for OCR
+07:43:35.892 [INFO] OCR worker: received frame 528
+07:43:35.901 [INFO] OCR done frame 528: text=''
+07:43:35.902 [INFO] timings (prep=0.007s, ocr=1.377s) total=1.384s Error: 45087.43256163518
+07:43:36.118 [INFO] Queued frame 530 for OCR
+07:43:36.119 [INFO] OCR worker: received frame 530
+07:43:36.128 [INFO] OCR done frame 530: text=''
+07:43:36.129 [INFO] timings (prep=0.003s, ocr=1.377s) total=1.380s Error: 45944.60332835621
+07:43:36.362 [INFO] Queued frame 532 for OCR
+07:43:36.362 [INFO] OCR worker: received frame 532
+07:43:36.373 [INFO] OCR done frame 532: text=''
+07:43:36.375 [INFO] timings (prep=0.009s, ocr=1.377s) total=1.386s Error: 43607.23678473563
+07:43:36.609 [INFO] Queued frame 534 for OCR
+07:43:36.609 [INFO] OCR worker: received frame 534
+07:43:36.619 [INFO] OCR done frame 534: text=''
+07:43:36.620 [INFO] timings (prep=0.009s, ocr=1.377s) total=1.385s Error: 45723.28482294333
+07:43:36.854 [INFO] Queued frame 536 for OCR
+07:43:36.855 [INFO] OCR worker: received frame 536
+07:43:36.866 [INFO] OCR done frame 536: text=''
+07:43:36.868 [INFO] timings (prep=0.010s, ocr=1.377s) total=1.386s Error: 22163.006339393578
+07:43:37.072 [INFO] Queued frame 538 for OCR
+07:43:37.073 [INFO] OCR worker: received frame 538
+07:43:37.080 [INFO] OCR done frame 538: text=''
+07:43:37.081 [INFO] timings (prep=0.006s, ocr=1.377s) total=1.383s Error: 45515.89282876916
+07:43:37.299 [INFO] Queued frame 540 for OCR
+07:43:37.302 [INFO] OCR worker: received frame 540
+07:43:37.313 [INFO] OCR done frame 540: text=''
+07:43:37.313 [INFO] timings (prep=0.009s, ocr=1.377s) total=1.386s Error: 44916.20698589764
+07:43:37.544 [INFO] Queued frame 542 for OCR
+07:43:37.544 [INFO] OCR worker: received frame 542
+07:43:37.557 [INFO] OCR done frame 542: text=''
+07:43:37.558 [INFO] timings (prep=0.007s, ocr=1.377s) total=1.384s Error: 26330.52506122884
+07:43:37.768 [INFO] Queued frame 544 for OCR
+07:43:37.769 [INFO] OCR worker: received frame 544
+07:43:37.780 [INFO] OCR done frame 544: text=''
+07:43:37.781 [INFO] timings (prep=0.011s, ocr=1.377s) total=1.388s Error: 40043.932124605344
+07:43:38.016 [INFO] Queued frame 546 for OCR
+07:43:38.016 [INFO] OCR worker: received frame 546
+07:43:38.031 [INFO] OCR done frame 546: text=''
+07:43:38.031 [INFO] timings (prep=0.013s, ocr=1.377s) total=1.390s Error: 45247.23334083533
+07:43:38.256 [INFO] Queued frame 548 for OCR
+07:43:38.256 [INFO] OCR worker: received frame 548
+07:43:38.265 [INFO] OCR done frame 548: text=''
+07:43:38.265 [INFO] timings (prep=0.008s, ocr=1.377s) total=1.385s Error: 42506.28953460888
+07:43:38.510 [INFO] Queued frame 550 for OCR
+07:43:38.510 [INFO] OCR worker: received frame 550
+07:43:38.520 [INFO] OCR done frame 550: text=''
+07:43:38.521 [INFO] timings (prep=0.006s, ocr=1.377s) total=1.383s Error: 45714.75117508571
+07:43:38.765 [INFO] Queued frame 552 for OCR
+07:43:38.766 [INFO] OCR worker: received frame 552
+07:43:38.778 [INFO] OCR done frame 552: text=''
+07:43:38.779 [INFO] timings (prep=0.011s, ocr=1.377s) total=1.388s Error: 45214.886928975066
+07:43:38.984 [INFO] Queued frame 554 for OCR
+07:43:38.985 [INFO] OCR worker: received frame 554
+07:43:38.990 [INFO] OCR done frame 554: text=''
+07:43:38.991 [INFO] timings (prep=0.005s, ocr=1.377s) total=1.382s Error: 41788.89086826785
+07:43:39.241 [INFO] Queued frame 556 for OCR
+07:43:39.242 [INFO] OCR worker: received frame 556
+07:43:39.251 [INFO] OCR done frame 556: text=''
+07:43:39.252 [INFO] timings (prep=0.008s, ocr=1.377s) total=1.385s Error: 34217.541554004136
+07:43:39.485 [INFO] Queued frame 558 for OCR
+07:43:39.486 [INFO] OCR worker: received frame 558
+07:43:39.508 [INFO] OCR done frame 558: text=''
+07:43:39.509 [INFO] timings (prep=0.014s, ocr=1.377s) total=1.391s Error: 43651.948410122546
+07:43:39.743 [INFO] Queued frame 560 for OCR
+07:43:39.743 [INFO] OCR worker: received frame 560
+07:43:39.753 [INFO] OCR done frame 560: text=''
+07:43:39.754 [INFO] timings (prep=0.008s, ocr=1.377s) total=1.385s Error: 41291.10679068799
+07:43:39.993 [INFO] Queued frame 562 for OCR
+07:43:39.994 [INFO] OCR worker: received frame 562
+07:43:40.002 [INFO] OCR done frame 562: text=''
+07:43:40.003 [INFO] timings (prep=0.008s, ocr=1.377s) total=1.385s Error: 41151.50149144014
+07:43:40.244 [INFO] Queued frame 564 for OCR
+07:43:40.266 [INFO] OCR worker: received frame 564
+07:43:40.273 [INFO] OCR done frame 564: text=''
+07:43:40.282 [INFO] timings (prep=0.006s, ocr=1.377s) total=1.383s Error: 30663.683731737125
+07:43:40.505 [INFO] Queued frame 566 for OCR
+07:43:40.506 [INFO] OCR worker: received frame 566
+07:43:40.805 [INFO] Queued frame 568 for OCR
+07:43:42.517 [INFO] OCR done frame 566: text='the'
+07:43:42.518 [INFO] Saying with TTS: the
+07:43:42.521 [INFO] timings (prep=0.003s, ocr=2.003s) total=2.007s Error: 19317.82790584904
+07:43:42.521 [INFO] OCR worker: received frame 568
+07:43:42.529 [INFO] OCR done frame 568: text='the'
+07:43:42.530 [INFO] timings (prep=0.007s, ocr=2.003s) total=2.010s Error: 40441.42430726198
+07:43:42.670 [INFO] Queued frame 580 for OCR
+07:43:42.675 [INFO] OCR worker: received frame 580
+07:43:42.681 [INFO] OCR done frame 580: text='the'
+07:43:42.683 [INFO] timings (prep=0.006s, ocr=2.003s) total=2.009s Error: 35627.98092791675
+07:43:42.991 [INFO] Queued frame 582 for OCR
+07:43:42.992 [INFO] OCR worker: received frame 582
+07:43:43.003 [INFO] OCR done frame 582: text='the'
+07:43:43.007 [INFO] timings (prep=0.010s, ocr=2.003s) total=2.013s Error: 41657.97882759076
+07:43:43.247 [INFO] Queued frame 584 for OCR
+07:43:43.248 [INFO] OCR worker: received frame 584
+07:43:43.259 [INFO] OCR done frame 584: text='the'
+07:43:43.259 [INFO] timings (prep=0.010s, ocr=2.003s) total=2.013s Error: 41725.82383848161
+07:43:43.501 [INFO] Queued frame 586 for OCR
+07:43:43.502 [INFO] OCR worker: received frame 586
+07:43:43.513 [INFO] OCR done frame 586: text='the'
+07:43:43.513 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.012s Error: 41608.78062380583
+07:43:43.783 [INFO] Queued frame 588 for OCR
+07:43:43.784 [INFO] OCR worker: received frame 588
+07:43:43.795 [INFO] OCR done frame 588: text='the'
+07:43:43.796 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.012s Error: 42393.70206764207
+07:43:44.092 [INFO] Queued frame 590 for OCR
+07:43:44.092 [INFO] OCR worker: received frame 590
+07:43:44.103 [INFO] OCR done frame 590: text='the'
+07:43:44.103 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.013s Error: 39385.73853566796
+07:43:44.316 [INFO] Queued frame 592 for OCR
+07:43:44.316 [INFO] OCR worker: received frame 592
+07:43:44.335 [INFO] OCR done frame 592: text='the'
+07:43:44.337 [INFO] timings (prep=0.012s, ocr=2.003s) total=2.015s Error: 34068.99250051284
+07:43:44.539 [INFO] Queued frame 594 for OCR
+07:43:44.541 [INFO] OCR worker: received frame 594
+07:43:44.560 [INFO] OCR done frame 594: text='the'
+07:43:44.561 [INFO] timings (prep=0.010s, ocr=2.003s) total=2.013s Error: 41763.20838968194
+07:43:44.784 [INFO] Queued frame 596 for OCR
+07:43:44.785 [INFO] OCR worker: received frame 596
+07:43:44.800 [INFO] OCR done frame 596: text='the'
+07:43:44.801 [INFO] timings (prep=0.013s, ocr=2.003s) total=2.016s Error: 43157.572916001656
+07:43:45.015 [INFO] Queued frame 598 for OCR
+07:43:45.016 [INFO] OCR worker: received frame 598
+07:43:45.029 [INFO] OCR done frame 598: text='the'
+07:43:45.037 [INFO] timings (prep=0.012s, ocr=2.003s) total=2.015s Error: 44061.16657556856
+07:43:45.250 [INFO] Queued frame 600 for OCR
+07:43:45.251 [INFO] OCR worker: received frame 600
+07:43:45.258 [INFO] OCR done frame 600: text='the'
+07:43:45.259 [INFO] timings (prep=0.006s, ocr=2.003s) total=2.009s Error: 40835.047447015415
+07:43:45.516 [INFO] Queued frame 602 for OCR
+07:43:45.517 [INFO] OCR worker: received frame 602
+07:43:45.525 [INFO] OCR done frame 602: text='the'
+07:43:45.529 [INFO] timings (prep=0.007s, ocr=2.003s) total=2.010s Error: 45210.57232550811
+07:43:45.772 [INFO] Queued frame 604 for OCR
+07:43:45.772 [INFO] OCR worker: received frame 604
+07:43:45.788 [INFO] OCR done frame 604: text='the'
+07:43:45.789 [INFO] timings (prep=0.015s, ocr=2.003s) total=2.018s Error: 44202.61530724172
+07:43:46.017 [INFO] Queued frame 606 for OCR
+07:43:46.017 [INFO] OCR worker: received frame 606
+07:43:46.027 [INFO] OCR done frame 606: text='the'
+07:43:46.028 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.012s Error: 32960.16800624657
+07:43:46.286 [INFO] Queued frame 608 for OCR
+07:43:46.286 [INFO] OCR worker: received frame 608
+07:43:46.302 [INFO] OCR done frame 608: text='the'
+07:43:46.303 [INFO] timings (prep=0.012s, ocr=2.003s) total=2.015s Error: 45515.89282876916
+07:43:46.534 [INFO] Queued frame 610 for OCR
+07:43:46.537 [INFO] OCR worker: received frame 610
+07:43:46.547 [INFO] OCR done frame 610: text='the'
+07:43:46.548 [INFO] timings (prep=0.010s, ocr=2.003s) total=2.013s Error: 48328.38684458649
+07:43:46.780 [INFO] Queued frame 612 for OCR
+07:43:46.780 [INFO] OCR worker: received frame 612
+07:43:46.799 [INFO] OCR done frame 612: text='the'
+07:43:46.800 [INFO] timings (prep=0.015s, ocr=2.003s) total=2.018s Error: 49658.262907596756
+07:43:47.014 [INFO] Queued frame 614 for OCR
+07:43:47.015 [INFO] OCR worker: received frame 614
+07:43:47.029 [INFO] OCR done frame 614: text='the'
+07:43:47.030 [INFO] timings (prep=0.013s, ocr=2.003s) total=2.016s Error: 51704.04046107035
+07:43:47.257 [INFO] Queued frame 616 for OCR
+07:43:47.258 [INFO] OCR worker: received frame 616
+07:43:47.281 [INFO] OCR done frame 616: text='the'
+07:43:47.282 [INFO] timings (prep=0.015s, ocr=2.003s) total=2.018s Error: 50329.403682141914
+07:43:47.503 [INFO] Queued frame 618 for OCR
+07:43:47.504 [INFO] OCR worker: received frame 618
+07:43:47.513 [INFO] OCR done frame 618: text='the'
+07:43:47.515 [INFO] timings (prep=0.008s, ocr=2.003s) total=2.011s Error: 48105.869964069876
+07:43:47.720 [INFO] Queued frame 620 for OCR
+07:43:47.721 [INFO] OCR worker: received frame 620
+07:43:47.739 [INFO] OCR done frame 620: text='the'
+07:43:47.739 [INFO] timings (prep=0.016s, ocr=2.003s) total=2.019s Error: 35217.70648409689
+07:43:47.951 [INFO] Queued frame 622 for OCR
+07:43:47.955 [INFO] OCR worker: received frame 622
+07:43:47.970 [INFO] OCR done frame 622: text='the'
+07:43:47.971 [INFO] timings (prep=0.013s, ocr=2.003s) total=2.016s Error: 50468.74552631559
+07:43:48.201 [INFO] Queued frame 624 for OCR
+07:43:48.202 [INFO] OCR worker: received frame 624
+07:43:48.207 [INFO] OCR done frame 624: text='the'
+07:43:48.208 [INFO] timings (prep=0.005s, ocr=2.003s) total=2.008s Error: 43974.748151638116
+07:43:48.464 [INFO] Queued frame 626 for OCR
+07:43:48.465 [INFO] OCR worker: received frame 626
+07:43:48.483 [INFO] OCR done frame 626: text='the'
+07:43:48.483 [INFO] timings (prep=0.017s, ocr=2.003s) total=2.020s Error: 28603.226216635074
+07:43:48.719 [INFO] Queued frame 628 for OCR
+07:43:48.720 [INFO] OCR worker: received frame 628
+07:43:48.735 [INFO] OCR done frame 628: text='the'
+07:43:48.736 [INFO] timings (prep=0.015s, ocr=2.003s) total=2.018s Error: 26263.762106750815
+07:43:48.989 [INFO] Queued frame 630 for OCR
+07:43:48.990 [INFO] OCR worker: received frame 630
+07:43:49.005 [INFO] OCR done frame 630: text='the'
+07:43:49.005 [INFO] timings (prep=0.013s, ocr=2.003s) total=2.017s Error: 47093.60545764149
+07:43:49.213 [INFO] Queued frame 632 for OCR
+07:43:49.213 [INFO] OCR worker: received frame 632
+07:43:49.225 [INFO] OCR done frame 632: text='the'
+07:43:49.226 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.013s Error: 48926.121090885594
+07:43:49.475 [INFO] Queued frame 634 for OCR
+07:43:49.478 [INFO] OCR worker: received frame 634
+07:43:49.486 [INFO] OCR done frame 634: text='the'
+07:43:49.486 [INFO] timings (prep=0.003s, ocr=2.003s) total=2.007s Error: 30118.08011809518
+07:43:49.717 [INFO] Queued frame 636 for OCR
+07:43:49.717 [INFO] OCR worker: received frame 636
+07:43:49.725 [INFO] OCR done frame 636: text='the'
+07:43:49.730 [INFO] timings (prep=0.007s, ocr=2.003s) total=2.010s Error: 44742.1462381947
+07:43:49.951 [INFO] Queued frame 638 for OCR
+07:43:49.951 [INFO] OCR worker: received frame 638
+07:43:49.958 [INFO] OCR done frame 638: text='the'
+07:43:49.959 [INFO] timings (prep=0.007s, ocr=2.003s) total=2.010s Error: 47074.96149759445
+07:43:50.225 [INFO] Queued frame 640 for OCR
+07:43:50.225 [INFO] OCR worker: received frame 640
+07:43:50.252 [INFO] OCR done frame 640: text='the'
+07:43:50.252 [INFO] timings (prep=0.020s, ocr=2.003s) total=2.023s Error: 45560.87219314398
+07:43:50.477 [INFO] Queued frame 642 for OCR
+07:43:50.478 [INFO] OCR worker: received frame 642
+07:43:50.487 [INFO] OCR done frame 642: text='the'
+07:43:50.488 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.012s Error: 46512.167762855344
+07:43:50.725 [INFO] Queued frame 644 for OCR
+07:43:50.727 [INFO] OCR worker: received frame 644
+07:43:50.736 [INFO] OCR done frame 644: text='the'
+07:43:50.737 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.012s Error: 45083.10576036216
+07:43:50.945 [INFO] Queued frame 646 for OCR
+07:43:50.946 [INFO] OCR worker: received frame 646
+07:43:50.953 [INFO] OCR done frame 646: text='the'
+07:43:50.958 [INFO] timings (prep=0.007s, ocr=2.003s) total=2.010s Error: 44905.34795544958
+07:43:51.190 [INFO] Queued frame 648 for OCR
+07:43:51.190 [INFO] OCR worker: received frame 648
+07:43:51.206 [INFO] OCR done frame 648: text='the'
+07:43:51.207 [INFO] timings (prep=0.015s, ocr=2.003s) total=2.018s Error: 44654.86143747397
+07:43:51.414 [INFO] Queued frame 650 for OCR
+07:43:51.415 [INFO] OCR worker: received frame 650
+07:43:51.421 [INFO] OCR done frame 650: text='the'
+07:43:51.422 [INFO] timings (prep=0.005s, ocr=2.003s) total=2.009s Error: 47147.42437291776
+07:43:51.660 [INFO] Queued frame 652 for OCR
+07:43:51.660 [INFO] OCR worker: received frame 652
+07:43:51.671 [INFO] OCR done frame 652: text='the'
+07:43:51.671 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.012s Error: 46865.2261810396
+07:43:51.903 [INFO] Queued frame 654 for OCR
+07:43:51.906 [INFO] OCR worker: received frame 654
+07:43:51.913 [INFO] OCR done frame 654: text='the'
+07:43:51.918 [INFO] timings (prep=0.006s, ocr=2.003s) total=2.009s Error: 47963.73082861674
+07:43:52.147 [INFO] Queued frame 656 for OCR
+07:43:52.150 [INFO] OCR worker: received frame 656
+07:43:52.156 [INFO] OCR done frame 656: text='the'
+07:43:52.157 [INFO] timings (prep=0.006s, ocr=2.003s) total=2.009s Error: 28888.247610403785
+07:43:52.400 [INFO] Queued frame 658 for OCR
+07:43:52.401 [INFO] OCR worker: received frame 658
+07:43:52.418 [INFO] OCR done frame 658: text='the'
+07:43:52.418 [INFO] timings (prep=0.011s, ocr=2.003s) total=2.014s Error: 48144.37817648079
+07:43:52.656 [INFO] Queued frame 660 for OCR
+07:43:52.656 [INFO] OCR worker: received frame 660
+07:43:52.672 [INFO] OCR done frame 660: text='the'
+07:43:52.674 [INFO] timings (prep=0.010s, ocr=2.003s) total=2.013s Error: 47843.59988546013
+07:43:52.896 [INFO] Queued frame 662 for OCR
+07:43:52.896 [INFO] OCR worker: received frame 662
+07:43:52.907 [INFO] OCR done frame 662: text='the'
+07:43:52.908 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.012s Error: 48824.3433135562
+07:43:53.134 [INFO] Queued frame 664 for OCR
+07:43:53.134 [INFO] OCR worker: received frame 664
+07:43:53.155 [INFO] OCR done frame 664: text='the'
+07:43:53.156 [INFO] timings (prep=0.020s, ocr=2.003s) total=2.023s Error: 33720.79736601731
+07:43:53.401 [INFO] Queued frame 666 for OCR
+07:43:53.401 [INFO] OCR worker: received frame 666
+07:43:53.410 [INFO] OCR done frame 666: text='the'
+07:43:53.411 [INFO] timings (prep=0.008s, ocr=2.003s) total=2.012s Error: 48888.2286445316
+07:43:53.674 [INFO] Queued frame 668 for OCR
+07:43:53.677 [INFO] OCR worker: received frame 668
+07:43:53.681 [INFO] OCR done frame 668: text='the'
+07:43:53.686 [INFO] timings (prep=0.004s, ocr=2.003s) total=2.007s Error: 38372.20478419242
+07:43:53.923 [INFO] Queued frame 670 for OCR
+07:43:53.924 [INFO] OCR worker: received frame 670
+07:43:53.931 [INFO] OCR done frame 670: text='the'
+07:43:53.932 [INFO] timings (prep=0.006s, ocr=2.003s) total=2.009s Error: 49421.99990894743
+07:43:54.173 [INFO] Queued frame 672 for OCR
+07:43:54.177 [INFO] OCR worker: received frame 672
+07:43:54.187 [INFO] OCR done frame 672: text='the'
+07:43:54.187 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.012s Error: 45378.53787860512
+07:43:54.423 [INFO] Queued frame 674 for OCR
+07:43:54.424 [INFO] OCR worker: received frame 674
+07:43:54.449 [INFO] OCR done frame 674: text='the'
+07:43:54.450 [INFO] timings (prep=0.018s, ocr=2.003s) total=2.021s Error: 45251.54444878097
+07:43:54.651 [INFO] Queued frame 676 for OCR
+07:43:54.651 [INFO] OCR worker: received frame 676
+07:43:54.677 [INFO] OCR done frame 676: text='the'
+07:43:54.678 [INFO] timings (prep=0.014s, ocr=2.003s) total=2.017s Error: 47190.84868912616
+07:43:54.872 [INFO] Queued frame 678 for OCR
+07:43:54.872 [INFO] OCR worker: received frame 678
+07:43:54.896 [INFO] OCR done frame 678: text='the'
+07:43:54.897 [INFO] timings (prep=0.018s, ocr=2.003s) total=2.021s Error: 28045.36325312974
+07:43:55.108 [INFO] Queued frame 680 for OCR
+07:43:55.109 [INFO] OCR worker: received frame 680
+07:43:55.123 [INFO] OCR done frame 680: text='the'
+07:43:55.123 [INFO] timings (prep=0.008s, ocr=2.003s) total=2.011s Error: 38984.98845709718
+07:43:55.383 [INFO] Queued frame 682 for OCR
+07:43:55.384 [INFO] OCR worker: received frame 682
+07:43:55.391 [INFO] OCR done frame 682: text='the'
+07:43:55.392 [INFO] timings (prep=0.006s, ocr=2.003s) total=2.009s Error: 44525.80403541299
+07:43:55.627 [INFO] Queued frame 684 for OCR
+07:43:55.627 [INFO] OCR worker: received frame 684
+07:43:55.641 [INFO] OCR done frame 684: text='the'
+07:43:55.643 [INFO] timings (prep=0.011s, ocr=2.003s) total=2.014s Error: 46381.9695571458
+07:43:55.896 [INFO] Queued frame 686 for OCR
+07:43:55.897 [INFO] OCR worker: received frame 686
+07:43:55.911 [INFO] OCR done frame 686: text='the'
+07:43:55.912 [INFO] timings (prep=0.013s, ocr=2.003s) total=2.016s Error: 44924.892320405175
+07:43:56.149 [INFO] Queued frame 688 for OCR
+07:43:56.152 [INFO] OCR worker: received frame 688
+07:43:56.163 [INFO] OCR done frame 688: text='the'
+07:43:56.163 [INFO] timings (prep=0.008s, ocr=2.003s) total=2.012s Error: 47213.578820080984
+07:43:56.376 [INFO] Queued frame 690 for OCR
+07:43:56.377 [INFO] OCR worker: received frame 690
+07:43:56.392 [INFO] OCR done frame 690: text='the'
+07:43:56.393 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.013s Error: 46800.66345683574
+07:43:56.611 [INFO] Queued frame 692 for OCR
+07:43:56.614 [INFO] OCR worker: received frame 692
+07:43:56.624 [INFO] OCR done frame 692: text='the'
+07:43:56.625 [INFO] timings (prep=0.008s, ocr=2.003s) total=2.011s Error: 27814.8782129277
+07:43:56.842 [INFO] Queued frame 694 for OCR
+07:43:56.843 [INFO] OCR worker: received frame 694
+07:43:56.858 [INFO] OCR done frame 694: text='the'
+07:43:56.858 [INFO] timings (prep=0.013s, ocr=2.003s) total=2.016s Error: 43030.82499790121
+07:43:57.107 [INFO] Queued frame 696 for OCR
+07:43:57.110 [INFO] OCR worker: received frame 696
+07:43:57.122 [INFO] OCR done frame 696: text='the'
+07:43:57.123 [INFO] timings (prep=0.010s, ocr=2.003s) total=2.013s Error: 47000.31170109407
+07:43:57.360 [INFO] Queued frame 698 for OCR
+07:43:57.362 [INFO] OCR worker: received frame 698
+07:43:57.373 [INFO] OCR done frame 698: text='the'
+07:43:57.374 [INFO] timings (prep=0.010s, ocr=2.003s) total=2.014s Error: 34908.931879964475
+07:43:57.615 [INFO] Queued frame 700 for OCR
+07:43:57.618 [INFO] OCR worker: received frame 700
+07:43:57.628 [INFO] OCR done frame 700: text='the'
+07:43:57.629 [INFO] timings (prep=0.010s, ocr=2.003s) total=2.013s Error: 46817.333328586756
+07:43:57.867 [INFO] Queued frame 702 for OCR
+07:43:57.867 [INFO] OCR worker: received frame 702
+07:43:57.872 [INFO] OCR done frame 702: text='the'
+07:43:57.874 [INFO] timings (prep=0.004s, ocr=2.003s) total=2.007s Error: 32799.97903962745
+07:43:58.116 [INFO] Queued frame 704 for OCR
+07:43:58.117 [INFO] OCR worker: received frame 704
+07:43:58.129 [INFO] OCR done frame 704: text='the'
+07:43:58.130 [INFO] timings (prep=0.011s, ocr=2.003s) total=2.014s Error: 41042.3272366468
+07:43:58.354 [INFO] Queued frame 706 for OCR
+07:43:58.355 [INFO] OCR worker: received frame 706
+07:43:58.363 [INFO] OCR done frame 706: text='the'
+07:43:58.364 [INFO] timings (prep=0.007s, ocr=2.003s) total=2.010s Error: 39059.974078332416
+07:44:14.484 [INFO] Queued frame 854 for OCR
+07:44:14.484 [INFO] OCR worker: received frame 854
+07:44:14.489 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:44:14.716 [INFO] Queued frame 856 for OCR
+07:44:14.716 [INFO] OCR worker: received frame 856
+07:44:14.725 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:44:15.125 [INFO] Queued frame 860 for OCR
+07:44:15.126 [INFO] OCR worker: received frame 860
+07:44:15.143 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:44:17.379 [INFO] Queued frame 880 for OCR
+07:44:17.380 [INFO] OCR worker: received frame 880
+07:44:17.390 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:44:17.639 [INFO] Queued frame 882 for OCR
+07:44:17.641 [INFO] OCR worker: received frame 882
+07:44:17.676 [INFO] OCR done frame 882: text='the'
+07:44:17.677 [INFO] timings (prep=0.017s, ocr=2.003s) total=2.020s Error: 31883.1589557873
+07:44:17.888 [INFO] Queued frame 884 for OCR
+07:44:17.888 [INFO] OCR worker: received frame 884
+07:44:17.898 [INFO] OCR done frame 884: text='the'
+07:44:17.899 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.012s Error: 26672.804970606296
+07:44:18.113 [INFO] Queued frame 886 for OCR
+07:44:18.118 [INFO] OCR worker: received frame 886
+07:44:18.124 [INFO] OCR done frame 886: text='the'
+07:44:18.125 [INFO] timings (prep=0.006s, ocr=2.003s) total=2.009s Error: 22555.6112752459
+07:44:18.373 [INFO] Queued frame 888 for OCR
+07:44:18.375 [INFO] OCR worker: received frame 888
+07:44:18.381 [INFO] OCR done frame 888: text='the'
+07:44:18.390 [INFO] timings (prep=0.005s, ocr=2.003s) total=2.008s Error: 30520.20846914385
+07:44:18.633 [INFO] Queued frame 890 for OCR
+07:44:18.634 [INFO] OCR worker: received frame 890
+07:44:18.640 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:44:18.889 [INFO] Queued frame 892 for OCR
+07:44:18.889 [INFO] OCR worker: received frame 892
+07:44:18.906 [INFO] OCR done frame 892: text='the'
+07:44:18.907 [INFO] timings (prep=0.016s, ocr=2.003s) total=2.019s Error: 33836.2996647092
+07:44:19.193 [INFO] Queued frame 894 for OCR
+07:44:19.194 [INFO] OCR worker: received frame 894
+07:44:19.206 [INFO] OCR done frame 894: text='the'
+07:44:19.207 [INFO] timings (prep=0.011s, ocr=2.003s) total=2.014s Error: 30507.42245749385
+07:44:19.416 [INFO] Queued frame 896 for OCR
+07:44:19.416 [INFO] OCR worker: received frame 896
+07:44:19.425 [INFO] OCR done frame 896: text='the'
+07:44:19.426 [INFO] timings (prep=0.008s, ocr=2.003s) total=2.011s Error: 33919.79289441491
+07:44:19.632 [INFO] Queued frame 898 for OCR
+07:44:19.634 [INFO] OCR worker: received frame 898
+07:44:19.644 [INFO] OCR done frame 898: text='the'
+07:44:19.644 [INFO] timings (prep=0.007s, ocr=2.003s) total=2.010s Error: 22881.898959658047
+07:44:19.888 [INFO] Queued frame 900 for OCR
+07:44:19.889 [INFO] OCR worker: received frame 900
+07:44:19.904 [INFO] OCR done frame 900: text='the'
+07:44:19.904 [INFO] timings (prep=0.014s, ocr=2.003s) total=2.017s Error: 34373.96216615129
+07:44:20.127 [INFO] Queued frame 902 for OCR
+07:44:20.127 [INFO] OCR worker: received frame 902
+07:44:20.143 [INFO] OCR done frame 902: text='the'
+07:44:20.144 [INFO] timings (prep=0.015s, ocr=2.003s) total=2.019s Error: 30989.582523809513
+07:44:20.394 [INFO] Queued frame 904 for OCR
+07:44:20.394 [INFO] OCR worker: received frame 904
+07:44:20.403 [INFO] OCR done frame 904: text='the'
+07:44:20.404 [INFO] timings (prep=0.008s, ocr=2.003s) total=2.011s Error: 27179.937913836373
+07:44:20.626 [INFO] Queued frame 906 for OCR
+07:44:20.626 [INFO] OCR worker: received frame 906
+07:44:20.639 [INFO] OCR done frame 906: text='the'
+07:44:20.640 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.012s Error: 36176.76291488778
+07:44:20.881 [INFO] Queued frame 908 for OCR
+07:44:20.882 [INFO] OCR worker: received frame 908
+07:44:20.896 [INFO] OCR done frame 908: text='the'
+07:44:20.897 [INFO] timings (prep=0.012s, ocr=2.003s) total=2.015s Error: 36394.494775996
+07:44:21.120 [INFO] Queued frame 910 for OCR
+07:44:21.120 [INFO] OCR worker: received frame 910
+07:44:21.131 [INFO] OCR done frame 910: text='the'
+07:44:21.132 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.012s Error: 34458.98322643893
+07:44:21.368 [INFO] Queued frame 912 for OCR
+07:44:21.368 [INFO] OCR worker: received frame 912
+07:44:21.386 [INFO] OCR done frame 912: text='the'
+07:44:21.386 [INFO] timings (prep=0.016s, ocr=2.003s) total=2.020s Error: 35073.39376222381
+07:44:21.627 [INFO] Queued frame 914 for OCR
+07:44:21.630 [INFO] OCR worker: received frame 914
+07:44:21.647 [INFO] OCR done frame 914: text='the'
+07:44:21.648 [INFO] timings (prep=0.016s, ocr=2.003s) total=2.019s Error: 33642.609143762915
+07:44:21.879 [INFO] Queued frame 916 for OCR
+07:44:21.880 [INFO] OCR worker: received frame 916
+07:44:21.891 [INFO] OCR done frame 916: text='the'
+07:44:21.892 [INFO] timings (prep=0.011s, ocr=2.003s) total=2.014s Error: 34123.34501481354
+07:44:22.138 [INFO] Queued frame 918 for OCR
+07:44:22.138 [INFO] OCR worker: received frame 918
+07:44:22.147 [INFO] OCR done frame 918: text='the'
+07:44:22.148 [INFO] timings (prep=0.007s, ocr=2.003s) total=2.010s Error: 30401.732680885147
+07:44:22.363 [INFO] Queued frame 920 for OCR
+07:44:22.363 [INFO] OCR worker: received frame 920
+07:44:22.377 [INFO] OCR done frame 920: text='the'
+07:44:22.381 [INFO] timings (prep=0.012s, ocr=2.003s) total=2.015s Error: 28087.066418549304
+07:44:22.595 [INFO] Queued frame 922 for OCR
+07:44:22.595 [INFO] OCR worker: received frame 922
+07:44:22.615 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:44:22.858 [INFO] Queued frame 924 for OCR
+07:44:22.858 [INFO] OCR worker: received frame 924
+07:44:22.868 [INFO] OCR done frame 924: text='the'
+07:44:22.869 [INFO] timings (prep=0.008s, ocr=2.003s) total=2.012s Error: 32980.87627701848
+07:44:23.136 [INFO] Queued frame 926 for OCR
+07:44:23.136 [INFO] OCR worker: received frame 926
+07:44:23.153 [INFO] OCR done frame 926: text='the'
+07:44:23.158 [INFO] timings (prep=0.012s, ocr=2.003s) total=2.015s Error: 26054.961139867395
+07:44:23.398 [INFO] Queued frame 928 for OCR
+07:44:23.399 [INFO] OCR worker: received frame 928
+07:44:23.407 [INFO] OCR done frame 928: text='the'
+07:44:23.408 [INFO] timings (prep=0.007s, ocr=2.003s) total=2.010s Error: 33552.612789468425
+07:44:23.644 [INFO] Queued frame 930 for OCR
+07:44:23.646 [INFO] OCR worker: received frame 930
+07:44:23.655 [INFO] OCR done frame 930: text='the'
+07:44:23.656 [INFO] timings (prep=0.008s, ocr=2.003s) total=2.012s Error: 28418.488700140268
+07:44:23.873 [INFO] Queued frame 932 for OCR
+07:44:23.873 [INFO] OCR worker: received frame 932
+07:44:23.880 [INFO] OCR done frame 932: text='the'
+07:44:23.881 [INFO] timings (prep=0.006s, ocr=2.003s) total=2.009s Error: 29059.932467230545
+07:44:24.101 [INFO] Queued frame 934 for OCR
+07:44:24.102 [INFO] OCR worker: received frame 934
+07:44:24.117 [INFO] OCR done frame 934: text='the'
+07:44:24.123 [INFO] timings (prep=0.015s, ocr=2.003s) total=2.018s Error: 28803.71460419645
+07:44:24.355 [INFO] Queued frame 936 for OCR
+07:44:24.358 [INFO] OCR worker: received frame 936
+07:44:24.366 [INFO] OCR done frame 936: text='the'
+07:44:24.367 [INFO] timings (prep=0.008s, ocr=2.003s) total=2.011s Error: 29988.260202952755
+07:44:24.598 [INFO] Queued frame 938 for OCR
+07:44:24.599 [INFO] OCR worker: received frame 938
+07:44:24.604 [INFO] OCR done frame 938: text='the'
+07:44:24.605 [INFO] timings (prep=0.004s, ocr=2.003s) total=2.008s Error: 31011.60669813804
+07:44:24.854 [INFO] Queued frame 940 for OCR
+07:44:24.854 [INFO] OCR worker: received frame 940
+07:44:24.864 [INFO] OCR done frame 940: text='the'
+07:44:24.865 [INFO] timings (prep=0.008s, ocr=2.003s) total=2.011s Error: 27762.228386784805
+07:44:25.094 [INFO] Queued frame 942 for OCR
+07:44:25.096 [INFO] OCR worker: received frame 942
+07:44:25.111 [INFO] OCR done frame 942: text='the'
+07:44:25.112 [INFO] timings (prep=0.015s, ocr=2.003s) total=2.018s Error: 22193.791361549742
+07:44:25.331 [INFO] Queued frame 944 for OCR
+07:44:25.332 [INFO] OCR worker: received frame 944
+07:44:25.346 [INFO] OCR done frame 944: text='the'
+07:44:25.347 [INFO] timings (prep=0.014s, ocr=2.003s) total=2.017s Error: 29994.76454316653
+07:44:25.572 [INFO] Queued frame 946 for OCR
+07:44:25.573 [INFO] OCR worker: received frame 946
+07:44:25.589 [INFO] OCR done frame 946: text='the'
+07:44:25.590 [INFO] timings (prep=0.015s, ocr=2.003s) total=2.018s Error: 34827.810008669796
+07:44:25.818 [INFO] Queued frame 948 for OCR
+07:44:25.818 [INFO] OCR worker: received frame 948
+07:44:25.832 [INFO] OCR done frame 948: text='the'
+07:44:25.833 [INFO] timings (prep=0.009s, ocr=2.003s) total=2.013s Error: 35786.41327375517
+07:44:26.046 [INFO] Queued frame 950 for OCR
+07:44:26.049 [INFO] OCR worker: received frame 950
+07:44:26.381 [INFO] Queued frame 952 for OCR
+07:44:29.734 [INFO] OCR done frame 950: text='success'
+07:44:29.736 [INFO] Saying with TTS: success
+07:44:29.740 [INFO] timings (prep=0.008s, ocr=3.675s) total=3.684s Error: 14761.39475117443
+07:44:29.741 [INFO] OCR worker: received frame 952
+07:44:29.766 [INFO] OCR done frame 952: text='success'
+07:44:29.766 [INFO] timings (prep=0.018s, ocr=3.675s) total=3.694s Error: 32591.154858335412
+07:44:29.810 [INFO] Queued frame 976 for OCR
+07:44:29.811 [INFO] OCR worker: received frame 976
+07:44:29.825 [INFO] OCR done frame 976: text='success'
+07:44:29.827 [INFO] timings (prep=0.013s, ocr=3.675s) total=3.689s Error: 39615.380535847435
+07:44:30.227 [INFO] Queued frame 978 for OCR
+07:44:30.228 [INFO] OCR worker: received frame 978
+07:44:30.245 [INFO] OCR done frame 978: text='success'
+07:44:30.248 [INFO] timings (prep=0.011s, ocr=3.675s) total=3.687s Error: 29680.948434980983
+07:44:30.508 [INFO] Queued frame 980 for OCR
+07:44:30.508 [INFO] OCR worker: received frame 980
+07:44:30.534 [INFO] OCR done frame 980: text='success'
+07:44:30.536 [INFO] timings (prep=0.015s, ocr=3.675s) total=3.691s Error: 34288.73029145291
+07:44:30.781 [INFO] Queued frame 982 for OCR
+07:44:30.786 [INFO] OCR worker: received frame 982
+07:44:30.793 [INFO] OCR done frame 982: text='success'
+07:44:30.793 [INFO] timings (prep=0.006s, ocr=3.675s) total=3.681s Error: 35780.96176739804
+07:44:31.062 [INFO] Queued frame 984 for OCR
+07:44:31.062 [INFO] OCR worker: received frame 984
+07:44:31.072 [INFO] OCR done frame 984: text='success'
+07:44:31.072 [INFO] timings (prep=0.009s, ocr=3.675s) total=3.684s Error: 35493.58181418156
+07:44:31.324 [INFO] Queued frame 986 for OCR
+07:44:31.325 [INFO] OCR worker: received frame 986
+07:44:31.336 [INFO] OCR done frame 986: text='success'
+07:44:31.341 [INFO] timings (prep=0.010s, ocr=3.675s) total=3.686s Error: 33717.90473917381
+07:44:31.701 [INFO] Queued frame 988 for OCR
+07:44:31.702 [INFO] OCR worker: received frame 988
+07:44:31.712 [INFO] OCR done frame 988: text='success'
+07:44:31.716 [INFO] timings (prep=0.009s, ocr=3.675s) total=3.685s Error: 32895.0
+07:44:31.925 [INFO] Queued frame 990 for OCR
+07:44:31.925 [INFO] OCR worker: received frame 990
+07:44:31.936 [INFO] OCR done frame 990: text='success'
+07:44:31.937 [INFO] timings (prep=0.009s, ocr=3.675s) total=3.685s Error: 36995.21860997716
+07:44:32.171 [INFO] Queued frame 992 for OCR
+07:44:32.171 [INFO] OCR worker: received frame 992
+07:44:32.183 [INFO] OCR done frame 992: text='success'
+07:44:32.184 [INFO] timings (prep=0.011s, ocr=3.675s) total=3.686s Error: 37388.60053545733
+07:44:32.401 [INFO] Queued frame 994 for OCR
+07:44:32.402 [INFO] OCR worker: received frame 994
+07:44:32.419 [INFO] OCR done frame 994: text='success'
+07:44:32.419 [INFO] timings (prep=0.012s, ocr=3.675s) total=3.688s Error: 36265.62628716068
+07:44:32.646 [INFO] Queued frame 996 for OCR
+07:44:32.647 [INFO] OCR worker: received frame 996
+07:44:32.657 [INFO] OCR done frame 996: text='success'
+07:44:32.658 [INFO] timings (prep=0.010s, ocr=3.675s) total=3.685s Error: 36327.43281598632
+07:44:32.918 [INFO] Queued frame 998 for OCR
+07:44:32.921 [INFO] OCR worker: received frame 998
+07:44:32.932 [INFO] OCR done frame 998: text='success'
+07:44:32.933 [INFO] timings (prep=0.009s, ocr=3.675s) total=3.685s Error: 35715.47878721493
+07:44:33.176 [INFO] Queued frame 1000 for OCR
+07:44:33.177 [INFO] OCR worker: received frame 1000
+07:44:33.193 [INFO] OCR done frame 1000: text='success'
+07:44:33.194 [INFO] timings (prep=0.006s, ocr=3.675s) total=3.682s Error: 36530.91943819646
+07:44:33.444 [INFO] Queued frame 1002 for OCR
+07:44:33.444 [INFO] OCR worker: received frame 1002
+07:44:33.457 [INFO] OCR done frame 1002: text='success'
+07:44:33.462 [INFO] timings (prep=0.012s, ocr=3.675s) total=3.687s Error: 35377.97619989024
+07:44:33.721 [INFO] Queued frame 1004 for OCR
+07:44:33.721 [INFO] OCR worker: received frame 1004
+07:44:33.753 [INFO] OCR done frame 1004: text='success'
+07:44:33.754 [INFO] timings (prep=0.026s, ocr=3.675s) total=3.701s Error: 36632.23887506741
+07:44:33.973 [INFO] Queued frame 1006 for OCR
+07:44:33.974 [INFO] OCR worker: received frame 1006
+07:44:33.981 [INFO] OCR done frame 1006: text='success'
+07:44:33.982 [INFO] timings (prep=0.006s, ocr=3.675s) total=3.681s Error: 36268.31571771703
+07:44:34.197 [INFO] Queued frame 1008 for OCR
+07:44:34.198 [INFO] OCR worker: received frame 1008
+07:44:34.216 [INFO] OCR done frame 1008: text='success'
+07:44:34.217 [INFO] timings (prep=0.012s, ocr=3.675s) total=3.688s Error: 36897.53955211648
+07:44:34.447 [INFO] Queued frame 1010 for OCR
+07:44:34.449 [INFO] OCR worker: received frame 1010
+07:44:34.458 [INFO] OCR done frame 1010: text='success'
+07:44:34.458 [INFO] timings (prep=0.004s, ocr=3.675s) total=3.679s Error: 33257.70963250476
+07:44:34.690 [INFO] Queued frame 1012 for OCR
+07:44:34.690 [INFO] OCR worker: received frame 1012
+07:44:34.722 [INFO] OCR done frame 1012: text='success'
+07:44:34.723 [INFO] timings (prep=0.032s, ocr=3.675s) total=3.707s Error: 32621.068728660623
+07:44:34.958 [INFO] Queued frame 1014 for OCR
+07:44:34.962 [INFO] OCR worker: received frame 1014
+07:44:34.972 [INFO] OCR done frame 1014: text='success'
+07:44:34.974 [INFO] timings (prep=0.009s, ocr=3.675s) total=3.684s Error: 23525.045696023633
+07:44:35.205 [INFO] Queued frame 1016 for OCR
+07:44:35.205 [INFO] OCR worker: received frame 1016
+07:44:35.226 [INFO] OCR done frame 1016: text='success'
+07:44:35.227 [INFO] timings (prep=0.016s, ocr=3.675s) total=3.691s Error: 35797.313795870214
+07:44:35.468 [INFO] Queued frame 1018 for OCR
+07:44:35.472 [INFO] OCR worker: received frame 1018
+07:44:35.483 [INFO] OCR done frame 1018: text='success'
+07:44:35.484 [INFO] timings (prep=0.010s, ocr=3.675s) total=3.685s Error: 36074.16423148289
+07:44:35.716 [INFO] Queued frame 1020 for OCR
+07:44:35.717 [INFO] OCR worker: received frame 1020
+07:44:35.728 [INFO] OCR done frame 1020: text='success'
+07:44:35.729 [INFO] timings (prep=0.010s, ocr=3.675s) total=3.685s Error: 33251.843557914195
+07:44:35.950 [INFO] Queued frame 1022 for OCR
+07:44:35.951 [INFO] OCR worker: received frame 1022
+07:44:36.227 [INFO] Queued frame 1024 for OCR
+07:44:39.557 [INFO] OCR done frame 1022: text='of'
+07:44:39.557 [INFO] Saying with TTS: of
+07:44:39.563 [INFO] timings (prep=0.011s, ocr=3.594s) total=3.605s Error: 15165.534115223241
+07:44:39.563 [INFO] OCR worker: received frame 1024
+07:44:39.914 [INFO] Queued frame 1048 for OCR
+07:44:43.125 [INFO] OCR done frame 1024: text='of'
+07:44:43.126 [INFO] timings (prep=0.010s, ocr=3.552s) total=3.561s Error: 17281.777252354575
+07:44:43.126 [INFO] OCR worker: received frame 1048
+07:44:43.136 [INFO] OCR done frame 1048: text='of'
+07:44:43.137 [INFO] timings (prep=0.009s, ocr=3.552s) total=3.561s Error: 29363.778707788955
+07:44:43.309 [INFO] Queued frame 1070 for OCR
+07:44:43.310 [INFO] OCR worker: received frame 1070
+07:44:43.333 [INFO] OCR done frame 1070: text='of'
+07:44:43.333 [INFO] timings (prep=0.013s, ocr=3.552s) total=3.565s Error: 37547.39704693256
+07:44:43.574 [INFO] Queued frame 1072 for OCR
+07:44:43.574 [INFO] OCR worker: received frame 1072
+07:44:43.585 [INFO] OCR done frame 1072: text='of'
+07:44:43.586 [INFO] timings (prep=0.010s, ocr=3.552s) total=3.562s Error: 22105.72041350383
+07:44:43.797 [INFO] Queued frame 1074 for OCR
+07:44:43.797 [INFO] OCR worker: received frame 1074
+07:44:43.813 [INFO] OCR done frame 1074: text='of'
+07:44:43.813 [INFO] timings (prep=0.014s, ocr=3.552s) total=3.566s Error: 20157.90725745111
+07:44:44.030 [INFO] Queued frame 1076 for OCR
+07:44:44.030 [INFO] OCR worker: received frame 1076
+07:44:44.048 [INFO] OCR done frame 1076: text='of'
+07:44:44.049 [INFO] timings (prep=0.015s, ocr=3.552s) total=3.567s Error: 36356.955318068096
+07:44:44.252 [INFO] Queued frame 1078 for OCR
+07:44:44.253 [INFO] OCR worker: received frame 1078
+07:44:44.261 [INFO] OCR done frame 1078: text='of'
+07:44:44.262 [INFO] timings (prep=0.006s, ocr=3.552s) total=3.558s Error: 30532.989126516914
+07:44:44.481 [INFO] Queued frame 1080 for OCR
+07:44:44.482 [INFO] OCR worker: received frame 1080
+07:44:44.490 [INFO] OCR done frame 1080: text='of'
+07:44:44.491 [INFO] timings (prep=0.008s, ocr=3.552s) total=3.559s Error: 35791.86394978613
+07:44:44.725 [INFO] Queued frame 1082 for OCR
+07:44:44.728 [INFO] OCR worker: received frame 1082
+07:44:44.743 [INFO] OCR done frame 1082: text='of'
+07:44:44.744 [INFO] timings (prep=0.014s, ocr=3.552s) total=3.565s Error: 35723.67072404514
+07:44:44.979 [INFO] Queued frame 1084 for OCR
+07:44:44.979 [INFO] OCR worker: received frame 1084
+07:44:44.998 [INFO] OCR done frame 1084: text='of'
+07:44:44.999 [INFO] timings (prep=0.016s, ocr=3.552s) total=3.568s Error: 35501.8249530922
+07:44:45.247 [INFO] Queued frame 1086 for OCR
+07:44:45.250 [INFO] OCR worker: received frame 1086
+07:44:45.261 [INFO] OCR done frame 1086: text='of'
+07:44:45.262 [INFO] timings (prep=0.009s, ocr=3.552s) total=3.561s Error: 23102.493371928493
+07:44:45.496 [INFO] Queued frame 1088 for OCR
+07:44:45.497 [INFO] OCR worker: received frame 1088
+07:44:45.517 [INFO] OCR done frame 1088: text='of'
+07:44:45.517 [INFO] timings (prep=0.015s, ocr=3.552s) total=3.566s Error: 36407.89234492983
+07:44:45.723 [INFO] Queued frame 1090 for OCR
+07:44:45.724 [INFO] OCR worker: received frame 1090
+07:44:45.751 [INFO] OCR done frame 1090: text='of'
+07:44:45.751 [INFO] timings (prep=0.026s, ocr=3.552s) total=3.578s Error: 36968.84431517978
+07:44:45.977 [INFO] Queued frame 1092 for OCR
+07:44:45.978 [INFO] OCR worker: received frame 1092
+07:44:45.991 [INFO] OCR done frame 1092: text='of'
+07:44:45.992 [INFO] timings (prep=0.012s, ocr=3.552s) total=3.564s Error: 37134.68964458974
+07:44:46.270 [INFO] Queued frame 1094 for OCR
+07:44:46.270 [INFO] OCR worker: received frame 1094
+07:44:46.279 [INFO] OCR done frame 1094: text='of'
+07:44:46.280 [INFO] timings (prep=0.007s, ocr=3.552s) total=3.558s Error: 35134.521485285666
+07:44:46.515 [INFO] Queued frame 1096 for OCR
+07:44:46.518 [INFO] OCR worker: received frame 1096
+07:44:46.526 [INFO] OCR done frame 1096: text='of'
+07:44:46.526 [INFO] timings (prep=0.007s, ocr=3.552s) total=3.559s Error: 23300.0799354852
+07:44:46.757 [INFO] Queued frame 1098 for OCR
+07:44:46.758 [INFO] OCR worker: received frame 1098
+07:44:46.768 [INFO] OCR done frame 1098: text='of'
+07:44:46.769 [INFO] timings (prep=0.009s, ocr=3.552s) total=3.561s Error: 35380.733104332365
+07:44:47.012 [INFO] Queued frame 1100 for OCR
+07:44:47.012 [INFO] OCR worker: received frame 1100
+07:44:47.017 [INFO] OCR done frame 1100: text='of'
+07:44:47.019 [INFO] timings (prep=0.004s, ocr=3.552s) total=3.556s Error: 37197.67432246269
+07:44:47.270 [INFO] Queued frame 1102 for OCR
+07:44:47.270 [INFO] OCR worker: received frame 1102
+07:44:47.577 [INFO] Queued frame 1104 for OCR
+07:44:49.652 [INFO] OCR done frame 1102: text='the'
+07:44:49.652 [INFO] Saying with TTS: the
+07:44:49.655 [INFO] timings (prep=0.009s, ocr=2.372s) total=2.381s Error: 18365.311731631456
+07:44:49.655 [INFO] OCR worker: received frame 1104
+07:44:50.161 [INFO] Queued frame 1120 for OCR
+07:44:52.168 [INFO] OCR done frame 1104: text='the'
+07:44:52.169 [INFO] timings (prep=0.006s, ocr=2.506s) total=2.512s Error: 16731.187196370734
+07:44:52.169 [INFO] OCR worker: received frame 1120
+07:44:52.197 [INFO] OCR done frame 1120: text='the'
+07:44:52.197 [INFO] timings (prep=0.027s, ocr=2.506s) total=2.533s Error: 30619.119027169934
+07:44:52.259 [INFO] Queued frame 1134 for OCR
+07:44:52.259 [INFO] OCR worker: received frame 1134
+07:44:52.266 [INFO] OCR done frame 1134: text='the'
+07:44:52.267 [INFO] timings (prep=0.006s, ocr=2.506s) total=2.512s Error: 37456.36661503622
+07:44:52.478 [INFO] Queued frame 1136 for OCR
+07:44:52.478 [INFO] OCR worker: received frame 1136
+07:44:52.494 [INFO] OCR done frame 1136: text='the'
+07:44:52.495 [INFO] timings (prep=0.011s, ocr=2.506s) total=2.517s Error: 39346.09510485126
+07:44:52.732 [INFO] Queued frame 1138 for OCR
+07:44:52.734 [INFO] OCR worker: received frame 1138
+07:44:52.744 [INFO] OCR done frame 1138: text='the'
+07:44:52.745 [INFO] timings (prep=0.008s, ocr=2.506s) total=2.514s Error: 38081.32810184015
+07:44:52.970 [INFO] Queued frame 1140 for OCR
+07:44:52.970 [INFO] OCR worker: received frame 1140
+07:44:53.004 [INFO] OCR done frame 1140: text='the'
+07:44:53.005 [INFO] timings (prep=0.029s, ocr=2.506s) total=2.535s Error: 37808.8561054153
+07:44:53.203 [INFO] Queued frame 1142 for OCR
+07:44:53.204 [INFO] OCR worker: received frame 1142
+07:44:53.217 [INFO] OCR done frame 1142: text='the'
+07:44:53.220 [INFO] timings (prep=0.012s, ocr=2.506s) total=2.518s Error: 39595.678741499054
+07:44:53.423 [INFO] Queued frame 1144 for OCR
+07:44:53.424 [INFO] OCR worker: received frame 1144
+07:44:53.446 [INFO] OCR done frame 1144: text='the'
+07:44:53.446 [INFO] timings (prep=0.017s, ocr=2.506s) total=2.523s Error: 38186.19678627344
+07:44:53.682 [INFO] Queued frame 1146 for OCR
+07:44:53.683 [INFO] OCR worker: received frame 1146
+07:44:53.697 [INFO] OCR done frame 1146: text='the'
+07:44:53.697 [INFO] timings (prep=0.012s, ocr=2.506s) total=2.518s Error: 38407.77460358775
+07:44:53.912 [INFO] Queued frame 1148 for OCR
+07:44:53.912 [INFO] OCR worker: received frame 1148
+07:44:53.927 [INFO] OCR done frame 1148: text='the'
+07:44:53.928 [INFO] timings (prep=0.009s, ocr=2.506s) total=2.515s Error: 26749.487845564447
+07:44:54.167 [INFO] Queued frame 1150 for OCR
+07:44:54.167 [INFO] OCR worker: received frame 1150
+07:44:54.182 [INFO] OCR done frame 1150: text='the'
+07:44:54.183 [INFO] timings (prep=0.014s, ocr=2.506s) total=2.520s Error: 34841.810013258495
+07:44:54.418 [INFO] Queued frame 1152 for OCR
+07:44:54.422 [INFO] OCR worker: received frame 1152
+07:44:54.439 [INFO] OCR done frame 1152: text='the'
+07:44:54.440 [INFO] timings (prep=0.016s, ocr=2.506s) total=2.522s Error: 36144.394793660606
+07:44:54.701 [INFO] Queued frame 1154 for OCR
+07:44:54.702 [INFO] OCR worker: received frame 1154
+07:44:54.716 [INFO] OCR done frame 1154: text='the'
+07:44:54.718 [INFO] timings (prep=0.011s, ocr=2.506s) total=2.517s Error: 38799.40431243758
+07:44:54.972 [INFO] Queued frame 1156 for OCR
+07:44:54.973 [INFO] OCR worker: received frame 1156
+07:44:54.981 [INFO] OCR done frame 1156: text='the'
+07:44:54.982 [INFO] timings (prep=0.006s, ocr=2.506s) total=2.512s Error: 38374.74657896779
+07:44:55.211 [INFO] Queued frame 1158 for OCR
+07:44:55.212 [INFO] OCR worker: received frame 1158
+07:44:55.221 [INFO] OCR done frame 1158: text='the'
+07:44:55.221 [INFO] timings (prep=0.008s, ocr=2.506s) total=2.514s Error: 37068.966805132295
+07:44:55.470 [INFO] Queued frame 1160 for OCR
+07:44:55.471 [INFO] OCR worker: received frame 1160
+07:44:55.481 [INFO] OCR done frame 1160: text='the'
+07:44:55.486 [INFO] timings (prep=0.010s, ocr=2.506s) total=2.516s Error: 36751.8611773608
+07:44:55.708 [INFO] Queued frame 1162 for OCR
+07:44:55.709 [INFO] OCR worker: received frame 1162
+07:44:55.717 [INFO] OCR done frame 1162: text='the'
+07:44:55.722 [INFO] timings (prep=0.008s, ocr=2.506s) total=2.514s Error: 36144.394793660606
+07:44:55.957 [INFO] Queued frame 1164 for OCR
+07:44:55.957 [INFO] OCR worker: received frame 1164
+07:44:55.980 [INFO] OCR done frame 1164: text='the'
+07:44:55.981 [INFO] timings (prep=0.008s, ocr=2.506s) total=2.514s Error: 26716.650707002926
+07:44:56.224 [INFO] Queued frame 1166 for OCR
+07:44:56.224 [INFO] OCR worker: received frame 1166
+07:44:56.532 [INFO] Queued frame 1168 for OCR
+07:44:59.377 [INFO] OCR done frame 1166: text='PAKIGLAMBIGIT'
+07:44:59.378 [INFO] Saying with TTS: PAKIGLAMBIGIT
+07:44:59.382 [INFO] timings (prep=0.006s, ocr=3.145s) total=3.151s Error: 18863.106849085067
+07:44:59.383 [INFO] OCR worker: received frame 1168
+07:44:59.391 [INFO] OCR done frame 1168: text='PAKIGLAMBIGIT'
+07:44:59.392 [INFO] timings (prep=0.008s, ocr=3.145s) total=3.152s Error: 39664.59220766048
+07:45:00.171 [INFO] Queued frame 1196 for OCR
+07:45:00.171 [INFO] OCR worker: received frame 1196
+07:45:00.200 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:45:01.318 [INFO] Queued frame 1206 for OCR
+07:45:01.318 [INFO] OCR worker: received frame 1206
+07:45:01.325 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 198, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_43.py", line 119, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:45:02.859 [INFO] Quit requested
+07:45:02.860 [INFO] Shutting down: sending None to worker and waiting
+07:45:02.862 [INFO] OCR worker received shutdown signal
+07:45:02.878 [INFO] Camera stopped
+07:45:02.894 [INFO] Exited cleanly
+07:45:03.288 [INFO] Camera closed successfully.

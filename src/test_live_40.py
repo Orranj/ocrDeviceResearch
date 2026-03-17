@@ -9,7 +9,6 @@ import cv2
 import espeakng
 import numpy as np
 import pytesseract
-from libcamera import controls
 from picamera2 import Picamera2
 
 # ---------- Logging Setup ----------
@@ -102,7 +101,7 @@ def mse_diff(img_base, img_test):
 def fast_diff(a, b):
     # Ensure same size
     if a.shape != b.shape:
-        a = cv2.resize(a, (b.shape[0], b.shape[1]), interpolation=cv2.INTER_LINEAR)
+        return float("inf")
 
     # Convert to float32 to avoid overflow
     diff = cv2.norm(a, b, cv2.NORM_L2)
@@ -113,9 +112,6 @@ def fast_diff(a, b):
 
 
 def ultra_fast_diff(a, b):
-    if a.shape != b.shape:
-        a = cv2.resize(a, (b.shape[0], b.shape[1]), interpolation=cv2.INTER_LINEAR)
-
     return cv2.norm(a, b, cv2.NORM_L2)
 
 
@@ -139,27 +135,11 @@ def preprocess_for_ocr(image, fast=False):
     return proc, time.time() - t0
 
 
-def run_ocr(img, to_data=False):
+def run_ocr(img):
     t0 = time.time()
     config = r"--oem 3 --psm 7 -l " + LANG
     try:
-        if to_data:
-            data = pytesseract.image_to_data(
-                img, config=config, output_type=pytesseract.Output.DICT
-            )
-
-            for i in range(len(data["text"])):
-                x, y, w, h = (
-                    data["left"][i],
-                    data["top"][i],
-                    data["width"][i],
-                    data["height"][i],
-                )
-                cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), 2)
-
-                text = ""
-        else:
-            text = pytesseract.image_to_string(img, config=config).strip()
+        text = pytesseract.image_to_string(img, config=config).strip()
         err = None
     except Exception as e:
         text, err = "", str(e)
@@ -224,12 +204,6 @@ def main():
     )
     picam2.configure(cam_config)
     picam2.start()
-    picam2.set_controls(
-        {
-            "AfMode": controls.AfModeEnum.Continuous,
-            "AfRange": controls.AfRangeEnum.Macro,
-        }
-    )
 
     worker = threading.Thread(target=ocr_worker, daemon=True)
     worker.start()

@@ -1,0 +1,1514 @@
+08:51:19.557 [INFO] Initialization successful.
+08:51:19.557 [INFO] Camera now open.
+08:51:19.569 [INFO] Camera configuration has been adjusted!
+08:51:19.574 [INFO] Configuration successful!
+08:51:19.678 [INFO] Camera started
+08:51:19.680 [INFO] OCR worker started
+08:51:19.681 [INFO] Starting main loop
+08:51:29.503 [INFO] Queued frame 80 for OCR (fingertip_y=150)
+08:51:29.504 [INFO] OCR worker: frame 80, fingertip_y=150
+08:51:29.512 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:32.329 [INFO] Queued frame 106 for OCR (fingertip_y=543)
+08:51:32.329 [INFO] OCR worker: frame 106, fingertip_y=543
+08:51:32.582 [INFO] Queued frame 108 for OCR (fingertip_y=563)
+08:51:35.759 [INFO] OCR done frame 106: text='oe'
+08:51:35.760 [INFO] Saying with TTS: oe
+08:51:35.764 [INFO] timings (prep=0.013s, ocr=3.416s) total=3.429s Error: 14648.634748671973
+08:51:35.765 [INFO] OCR worker: frame 108, fingertip_y=563
+08:51:35.794 [INFO] OCR done frame 108: text='oe'
+08:51:35.795 [INFO] timings (prep=0.028s, ocr=3.416s) total=3.444s Error: 28267.06917952408
+08:51:36.021 [INFO] Queued frame 134 for OCR (fingertip_y=368)
+08:51:36.026 [INFO] OCR worker: frame 134, fingertip_y=368
+08:51:36.057 [INFO] OCR done frame 134: text='oe'
+08:51:36.058 [INFO] timings (prep=0.013s, ocr=3.416s) total=3.429s Error: 35663.55282357606
+08:51:36.339 [INFO] Queued frame 136 for OCR (fingertip_y=376)
+08:51:36.340 [INFO] OCR worker: frame 136, fingertip_y=376
+08:51:36.349 [INFO] OCR done frame 136: text='oe'
+08:51:36.354 [INFO] timings (prep=0.008s, ocr=3.416s) total=3.424s Error: 35020.515772900886
+08:51:36.576 [INFO] Queued frame 138 for OCR (fingertip_y=390)
+08:51:36.577 [INFO] OCR worker: frame 138, fingertip_y=390
+08:51:36.588 [INFO] OCR done frame 138: text='oe'
+08:51:36.591 [INFO] timings (prep=0.008s, ocr=3.416s) total=3.425s Error: 36453.4072481572
+08:51:36.804 [INFO] Queued frame 140 for OCR (fingertip_y=400)
+08:51:36.804 [INFO] OCR worker: frame 140, fingertip_y=400
+08:51:36.813 [INFO] OCR done frame 140: text='oe'
+08:51:36.814 [INFO] timings (prep=0.005s, ocr=3.416s) total=3.421s Error: 36025.462870031246
+08:51:37.058 [INFO] Queued frame 142 for OCR (fingertip_y=405)
+08:51:37.059 [INFO] OCR worker: frame 142, fingertip_y=405
+08:51:37.074 [INFO] OCR done frame 142: text='oe'
+08:51:37.075 [INFO] timings (prep=0.010s, ocr=3.416s) total=3.426s Error: 32047.93090044972
+08:51:37.344 [INFO] Queued frame 144 for OCR (fingertip_y=413)
+08:51:37.344 [INFO] OCR worker: frame 144, fingertip_y=413
+08:51:37.355 [INFO] OCR done frame 144: text='oe'
+08:51:37.356 [INFO] timings (prep=0.009s, ocr=3.416s) total=3.425s Error: 33546.79828239947
+08:51:37.552 [INFO] Queued frame 146 for OCR (fingertip_y=395)
+08:51:37.555 [INFO] OCR worker: frame 146, fingertip_y=395
+08:51:37.567 [INFO] OCR done frame 146: text='oe'
+08:51:37.570 [INFO] timings (prep=0.010s, ocr=3.416s) total=3.426s Error: 34911.72582385466
+08:51:37.798 [INFO] Queued frame 148 for OCR (fingertip_y=404)
+08:51:37.802 [INFO] OCR worker: frame 148, fingertip_y=404
+08:51:37.809 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:38.052 [INFO] Queued frame 150 for OCR (fingertip_y=395)
+08:51:38.052 [INFO] OCR worker: frame 150, fingertip_y=395
+08:51:38.069 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:38.293 [INFO] Queued frame 152 for OCR (fingertip_y=394)
+08:51:38.295 [INFO] OCR worker: frame 152, fingertip_y=394
+08:51:38.305 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:38.544 [INFO] Queued frame 154 for OCR (fingertip_y=395)
+08:51:38.549 [INFO] OCR worker: frame 154, fingertip_y=395
+08:51:38.559 [INFO] OCR done frame 154: text='oe'
+08:51:38.560 [INFO] timings (prep=0.008s, ocr=3.416s) total=3.425s Error: 33741.0388103271
+08:51:38.765 [INFO] Queued frame 156 for OCR (fingertip_y=390)
+08:51:38.768 [INFO] OCR worker: frame 156, fingertip_y=390
+08:51:38.780 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:39.003 [INFO] Queued frame 158 for OCR (fingertip_y=399)
+08:51:39.004 [INFO] OCR worker: frame 158, fingertip_y=399
+08:51:39.015 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:39.243 [INFO] Queued frame 160 for OCR (fingertip_y=402)
+08:51:39.248 [INFO] OCR worker: frame 160, fingertip_y=402
+08:51:39.253 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:39.487 [INFO] Queued frame 162 for OCR (fingertip_y=395)
+08:51:39.491 [INFO] OCR worker: frame 162, fingertip_y=395
+08:51:39.504 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:39.712 [INFO] Queued frame 164 for OCR (fingertip_y=405)
+08:51:39.716 [INFO] OCR worker: frame 164, fingertip_y=405
+08:51:39.731 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:39.936 [INFO] Queued frame 166 for OCR (fingertip_y=408)
+08:51:39.936 [INFO] OCR worker: frame 166, fingertip_y=408
+08:51:39.945 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:40.176 [INFO] Queued frame 168 for OCR (fingertip_y=398)
+08:51:40.177 [INFO] OCR worker: frame 168, fingertip_y=398
+08:51:40.190 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:40.404 [INFO] Queued frame 170 for OCR (fingertip_y=404)
+08:51:40.405 [INFO] OCR worker: frame 170, fingertip_y=404
+08:51:40.414 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:40.647 [INFO] Queued frame 172 for OCR (fingertip_y=398)
+08:51:40.647 [INFO] OCR worker: frame 172, fingertip_y=398
+08:51:40.672 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:40.892 [INFO] Queued frame 174 for OCR (fingertip_y=404)
+08:51:40.893 [INFO] OCR worker: frame 174, fingertip_y=404
+08:51:40.900 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:41.141 [INFO] Queued frame 176 for OCR (fingertip_y=411)
+08:51:41.142 [INFO] OCR worker: frame 176, fingertip_y=411
+08:51:41.150 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:41.373 [INFO] Queued frame 178 for OCR (fingertip_y=401)
+08:51:41.373 [INFO] OCR worker: frame 178, fingertip_y=401
+08:51:41.381 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:41.605 [INFO] Queued frame 180 for OCR (fingertip_y=410)
+08:51:41.605 [INFO] OCR worker: frame 180, fingertip_y=410
+08:51:41.621 [INFO] OCR done frame 180: text='oe'
+08:51:41.622 [INFO] timings (prep=0.010s, ocr=3.416s) total=3.426s Error: 29877.469772388693
+08:51:41.831 [INFO] Queued frame 182 for OCR (fingertip_y=393)
+08:51:41.832 [INFO] OCR worker: frame 182, fingertip_y=393
+08:51:41.838 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:42.079 [INFO] Queued frame 184 for OCR (fingertip_y=409)
+08:51:42.080 [INFO] OCR worker: frame 184, fingertip_y=409
+08:51:42.086 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:42.350 [INFO] Queued frame 186 for OCR (fingertip_y=407)
+08:51:42.350 [INFO] OCR worker: frame 186, fingertip_y=407
+08:51:42.360 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:42.552 [INFO] Queued frame 188 for OCR (fingertip_y=399)
+08:51:42.556 [INFO] OCR worker: frame 188, fingertip_y=399
+08:51:42.566 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:42.777 [INFO] Queued frame 190 for OCR (fingertip_y=409)
+08:51:42.779 [INFO] OCR worker: frame 190, fingertip_y=409
+08:51:42.784 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:43.005 [INFO] Queued frame 192 for OCR (fingertip_y=401)
+08:51:43.005 [INFO] OCR worker: frame 192, fingertip_y=401
+08:51:43.011 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:43.255 [INFO] Queued frame 194 for OCR (fingertip_y=409)
+08:51:43.260 [INFO] OCR worker: frame 194, fingertip_y=409
+08:51:43.269 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:43.475 [INFO] Queued frame 196 for OCR (fingertip_y=409)
+08:51:43.477 [INFO] OCR worker: frame 196, fingertip_y=409
+08:51:43.486 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:43.726 [INFO] Queued frame 198 for OCR (fingertip_y=405)
+08:51:43.726 [INFO] OCR worker: frame 198, fingertip_y=405
+08:51:43.733 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:43.960 [INFO] Queued frame 200 for OCR (fingertip_y=400)
+08:51:43.961 [INFO] OCR worker: frame 200, fingertip_y=400
+08:51:43.972 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:44.185 [INFO] Queued frame 202 for OCR (fingertip_y=406)
+08:51:44.186 [INFO] OCR worker: frame 202, fingertip_y=406
+08:51:44.194 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:44.395 [INFO] Queued frame 204 for OCR (fingertip_y=403)
+08:51:44.395 [INFO] OCR worker: frame 204, fingertip_y=403
+08:51:44.406 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:44.622 [INFO] Queued frame 206 for OCR (fingertip_y=403)
+08:51:44.622 [INFO] OCR worker: frame 206, fingertip_y=403
+08:51:44.634 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:44.849 [INFO] Queued frame 208 for OCR (fingertip_y=405)
+08:51:44.852 [INFO] OCR worker: frame 208, fingertip_y=405
+08:51:44.862 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:45.070 [INFO] Queued frame 210 for OCR (fingertip_y=402)
+08:51:45.071 [INFO] OCR worker: frame 210, fingertip_y=402
+08:51:45.083 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:45.288 [INFO] Queued frame 212 for OCR (fingertip_y=407)
+08:51:45.289 [INFO] OCR worker: frame 212, fingertip_y=407
+08:51:45.297 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:45.506 [INFO] Queued frame 214 for OCR (fingertip_y=406)
+08:51:45.507 [INFO] OCR worker: frame 214, fingertip_y=406
+08:51:45.514 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:45.759 [INFO] Queued frame 216 for OCR (fingertip_y=405)
+08:51:45.764 [INFO] OCR worker: frame 216, fingertip_y=405
+08:51:45.772 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:45.969 [INFO] Queued frame 218 for OCR (fingertip_y=402)
+08:51:45.970 [INFO] OCR worker: frame 218, fingertip_y=402
+08:51:45.977 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:46.182 [INFO] Queued frame 220 for OCR (fingertip_y=402)
+08:51:46.182 [INFO] OCR worker: frame 220, fingertip_y=402
+08:51:46.189 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:46.400 [INFO] Queued frame 222 for OCR (fingertip_y=402)
+08:51:46.400 [INFO] OCR worker: frame 222, fingertip_y=402
+08:51:46.412 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:46.607 [INFO] Queued frame 224 for OCR (fingertip_y=398)
+08:51:46.607 [INFO] OCR worker: frame 224, fingertip_y=398
+08:51:46.622 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:46.812 [INFO] Queued frame 226 for OCR (fingertip_y=406)
+08:51:46.816 [INFO] OCR worker: frame 226, fingertip_y=406
+08:51:46.824 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:47.042 [INFO] Queued frame 228 for OCR (fingertip_y=406)
+08:51:47.043 [INFO] OCR worker: frame 228, fingertip_y=406
+08:51:47.051 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:47.280 [INFO] Queued frame 230 for OCR (fingertip_y=407)
+08:51:47.281 [INFO] OCR worker: frame 230, fingertip_y=407
+08:51:47.288 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:47.507 [INFO] Queued frame 232 for OCR (fingertip_y=407)
+08:51:47.507 [INFO] OCR worker: frame 232, fingertip_y=407
+08:51:47.515 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:47.727 [INFO] Queued frame 234 for OCR (fingertip_y=404)
+08:51:47.731 [INFO] OCR worker: frame 234, fingertip_y=404
+08:51:47.743 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:47.946 [INFO] Queued frame 236 for OCR (fingertip_y=405)
+08:51:47.946 [INFO] OCR worker: frame 236, fingertip_y=405
+08:51:47.955 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:48.174 [INFO] Queued frame 238 for OCR (fingertip_y=409)
+08:51:48.175 [INFO] OCR worker: frame 238, fingertip_y=409
+08:51:48.183 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:48.396 [INFO] Queued frame 240 for OCR (fingertip_y=403)
+08:51:48.396 [INFO] OCR worker: frame 240, fingertip_y=403
+08:51:48.402 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:48.615 [INFO] Queued frame 242 for OCR (fingertip_y=407)
+08:51:48.616 [INFO] OCR worker: frame 242, fingertip_y=407
+08:51:48.625 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:48.833 [INFO] Queued frame 244 for OCR (fingertip_y=411)
+08:51:48.835 [INFO] OCR worker: frame 244, fingertip_y=411
+08:51:48.844 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:49.056 [INFO] Queued frame 246 for OCR (fingertip_y=405)
+08:51:49.057 [INFO] OCR worker: frame 246, fingertip_y=405
+08:51:49.064 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:49.310 [INFO] Queued frame 248 for OCR (fingertip_y=409)
+08:51:49.311 [INFO] OCR worker: frame 248, fingertip_y=409
+08:51:49.320 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:49.541 [INFO] Queued frame 250 for OCR (fingertip_y=409)
+08:51:49.541 [INFO] OCR worker: frame 250, fingertip_y=409
+08:51:49.552 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:49.786 [INFO] Queued frame 252 for OCR (fingertip_y=407)
+08:51:49.787 [INFO] OCR worker: frame 252, fingertip_y=407
+08:51:49.796 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:49.984 [INFO] Queued frame 254 for OCR (fingertip_y=408)
+08:51:49.985 [INFO] OCR worker: frame 254, fingertip_y=408
+08:51:49.994 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:50.227 [INFO] Queued frame 256 for OCR (fingertip_y=397)
+08:51:50.227 [INFO] OCR worker: frame 256, fingertip_y=397
+08:51:50.236 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:50.432 [INFO] Queued frame 258 for OCR (fingertip_y=405)
+08:51:50.433 [INFO] OCR worker: frame 258, fingertip_y=405
+08:51:50.442 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:50.642 [INFO] Queued frame 260 for OCR (fingertip_y=407)
+08:51:50.642 [INFO] OCR worker: frame 260, fingertip_y=407
+08:51:50.650 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:50.859 [INFO] Queued frame 262 for OCR (fingertip_y=400)
+08:51:50.860 [INFO] OCR worker: frame 262, fingertip_y=400
+08:51:50.871 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:51.108 [INFO] Queued frame 264 for OCR (fingertip_y=394)
+08:51:51.109 [INFO] OCR worker: frame 264, fingertip_y=394
+08:51:51.118 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:51.325 [INFO] Queued frame 266 for OCR (fingertip_y=405)
+08:51:51.330 [INFO] OCR worker: frame 266, fingertip_y=405
+08:51:51.336 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:51.558 [INFO] Queued frame 268 for OCR (fingertip_y=406)
+08:51:51.559 [INFO] OCR worker: frame 268, fingertip_y=406
+08:51:51.574 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:51.797 [INFO] Queued frame 270 for OCR (fingertip_y=407)
+08:51:51.797 [INFO] OCR worker: frame 270, fingertip_y=407
+08:51:51.818 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:52.008 [INFO] Queued frame 272 for OCR (fingertip_y=406)
+08:51:52.009 [INFO] OCR worker: frame 272, fingertip_y=406
+08:51:52.018 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:52.230 [INFO] Queued frame 274 for OCR (fingertip_y=396)
+08:51:52.230 [INFO] OCR worker: frame 274, fingertip_y=396
+08:51:52.237 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:52.454 [INFO] Queued frame 276 for OCR (fingertip_y=405)
+08:51:52.454 [INFO] OCR worker: frame 276, fingertip_y=405
+08:51:52.472 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:52.672 [INFO] Queued frame 278 for OCR (fingertip_y=406)
+08:51:52.672 [INFO] OCR worker: frame 278, fingertip_y=406
+08:51:52.682 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:52.915 [INFO] Queued frame 280 for OCR (fingertip_y=401)
+08:51:52.915 [INFO] OCR worker: frame 280, fingertip_y=401
+08:51:52.932 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:53.143 [INFO] Queued frame 282 for OCR (fingertip_y=406)
+08:51:53.144 [INFO] OCR worker: frame 282, fingertip_y=406
+08:51:53.153 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:53.368 [INFO] Queued frame 284 for OCR (fingertip_y=409)
+08:51:53.372 [INFO] OCR worker: frame 284, fingertip_y=409
+08:51:53.380 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:53.587 [INFO] Queued frame 286 for OCR (fingertip_y=404)
+08:51:53.587 [INFO] OCR worker: frame 286, fingertip_y=404
+08:51:53.603 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:53.804 [INFO] Queued frame 288 for OCR (fingertip_y=406)
+08:51:53.805 [INFO] OCR worker: frame 288, fingertip_y=406
+08:51:53.824 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:54.017 [INFO] Queued frame 290 for OCR (fingertip_y=402)
+08:51:54.018 [INFO] OCR worker: frame 290, fingertip_y=402
+08:51:54.041 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:54.293 [INFO] Queued frame 292 for OCR (fingertip_y=401)
+08:51:54.293 [INFO] OCR worker: frame 292, fingertip_y=401
+08:51:54.298 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:54.501 [INFO] Queued frame 294 for OCR (fingertip_y=400)
+08:51:54.502 [INFO] OCR worker: frame 294, fingertip_y=400
+08:51:54.511 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:54.717 [INFO] Queued frame 296 for OCR (fingertip_y=407)
+08:51:54.718 [INFO] OCR worker: frame 296, fingertip_y=407
+08:51:54.732 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:51:54.933 [INFO] Queued frame 298 for OCR (fingertip_y=422)
+08:51:54.935 [INFO] OCR worker: frame 298, fingertip_y=422
+08:51:54.942 [INFO] OCR done frame 298: text='oe'
+08:51:54.942 [INFO] timings (prep=0.006s, ocr=3.416s) total=3.422s Error: 34285.88557992924
+08:51:55.161 [INFO] Queued frame 300 for OCR (fingertip_y=428)
+08:51:55.163 [INFO] OCR worker: frame 300, fingertip_y=428
+08:51:55.169 [INFO] OCR done frame 300: text='oe'
+08:51:55.170 [INFO] timings (prep=0.006s, ocr=3.416s) total=3.422s Error: 33570.050268058876
+08:51:55.371 [INFO] Queued frame 302 for OCR (fingertip_y=448)
+08:51:55.371 [INFO] OCR worker: frame 302, fingertip_y=448
+08:51:55.384 [INFO] OCR done frame 302: text='oe'
+08:51:55.385 [INFO] timings (prep=0.008s, ocr=3.416s) total=3.425s Error: 24745.513229674587
+08:51:55.588 [INFO] Queued frame 304 for OCR (fingertip_y=460)
+08:51:55.588 [INFO] OCR worker: frame 304, fingertip_y=460
+08:51:55.598 [INFO] OCR done frame 304: text='oe'
+08:51:55.599 [INFO] timings (prep=0.009s, ocr=3.416s) total=3.425s Error: 30462.629154424605
+08:51:55.814 [INFO] Queued frame 306 for OCR (fingertip_y=463)
+08:51:55.814 [INFO] OCR worker: frame 306, fingertip_y=463
+08:51:55.821 [INFO] OCR done frame 306: text='oe'
+08:51:55.822 [INFO] timings (prep=0.006s, ocr=3.416s) total=3.422s Error: 33985.86581212843
+08:51:56.041 [INFO] Queued frame 308 for OCR (fingertip_y=459)
+08:51:56.043 [INFO] OCR worker: frame 308, fingertip_y=459
+08:51:56.071 [INFO] OCR done frame 308: text='oe'
+08:51:56.080 [INFO] timings (prep=0.014s, ocr=3.416s) total=3.430s Error: 34594.58230706074
+08:51:56.273 [INFO] Queued frame 310 for OCR (fingertip_y=446)
+08:51:56.273 [INFO] OCR worker: frame 310, fingertip_y=446
+08:51:56.279 [INFO] OCR done frame 310: text='oe'
+08:51:56.280 [INFO] timings (prep=0.004s, ocr=3.416s) total=3.420s Error: 26577.55773204152
+08:51:56.498 [INFO] Queued frame 312 for OCR (fingertip_y=451)
+08:51:56.499 [INFO] OCR worker: frame 312, fingertip_y=451
+08:51:56.510 [INFO] OCR done frame 312: text='oe'
+08:51:56.513 [INFO] timings (prep=0.011s, ocr=3.416s) total=3.427s Error: 32579.181619555762
+08:51:56.711 [INFO] Queued frame 314 for OCR (fingertip_y=455)
+08:51:56.720 [INFO] OCR worker: frame 314, fingertip_y=455
+08:51:56.725 [INFO] OCR done frame 314: text='oe'
+08:51:56.726 [INFO] timings (prep=0.003s, ocr=3.416s) total=3.420s Error: 22425.506683239066
+08:51:56.924 [INFO] Queued frame 316 for OCR (fingertip_y=462)
+08:51:56.925 [INFO] OCR worker: frame 316, fingertip_y=462
+08:51:56.929 [INFO] OCR done frame 316: text='oe'
+08:51:56.930 [INFO] timings (prep=0.004s, ocr=3.416s) total=3.420s Error: 31102.683565891868
+08:51:57.148 [INFO] Queued frame 318 for OCR (fingertip_y=463)
+08:51:57.149 [INFO] OCR worker: frame 318, fingertip_y=463
+08:51:57.157 [INFO] OCR done frame 318: text='oe'
+08:51:57.163 [INFO] timings (prep=0.008s, ocr=3.416s) total=3.424s Error: 29110.235313373887
+08:51:57.361 [INFO] Queued frame 320 for OCR (fingertip_y=463)
+08:51:57.361 [INFO] OCR worker: frame 320, fingertip_y=463
+08:51:57.367 [INFO] OCR done frame 320: text='oe'
+08:51:57.370 [INFO] timings (prep=0.005s, ocr=3.416s) total=3.421s Error: 31959.54786914233
+08:51:57.560 [INFO] Queued frame 322 for OCR (fingertip_y=464)
+08:51:57.560 [INFO] OCR worker: frame 322, fingertip_y=464
+08:51:57.580 [INFO] OCR done frame 322: text='oe'
+08:51:57.580 [INFO] timings (prep=0.012s, ocr=3.416s) total=3.428s Error: 32722.571338450773
+08:51:57.757 [INFO] Queued frame 324 for OCR (fingertip_y=465)
+08:51:57.760 [INFO] OCR worker: frame 324, fingertip_y=465
+08:51:57.769 [INFO] OCR done frame 324: text='oe'
+08:51:57.770 [INFO] timings (prep=0.009s, ocr=3.416s) total=3.425s Error: 30424.182404791092
+08:51:57.962 [INFO] Queued frame 326 for OCR (fingertip_y=465)
+08:51:57.963 [INFO] OCR worker: frame 326, fingertip_y=465
+08:51:57.972 [INFO] OCR done frame 326: text='oe'
+08:51:57.973 [INFO] timings (prep=0.004s, ocr=3.416s) total=3.420s Error: 32172.47192865354
+08:51:58.160 [INFO] Queued frame 328 for OCR (fingertip_y=464)
+08:51:58.160 [INFO] OCR worker: frame 328, fingertip_y=464
+08:51:58.169 [INFO] OCR done frame 328: text='oe'
+08:51:58.170 [INFO] timings (prep=0.005s, ocr=3.416s) total=3.421s Error: 27111.669074404104
+08:51:58.368 [INFO] Queued frame 330 for OCR (fingertip_y=464)
+08:51:58.369 [INFO] OCR worker: frame 330, fingertip_y=464
+08:51:58.376 [INFO] OCR done frame 330: text='oe'
+08:51:58.377 [INFO] timings (prep=0.006s, ocr=3.416s) total=3.422s Error: 25536.94823192466
+08:51:58.579 [INFO] Queued frame 332 for OCR (fingertip_y=464)
+08:51:58.592 [INFO] OCR worker: frame 332, fingertip_y=464
+08:51:58.615 [INFO] OCR done frame 332: text='oe'
+08:51:58.615 [INFO] timings (prep=0.022s, ocr=3.416s) total=3.438s Error: 27426.432505887453
+08:51:58.802 [INFO] Queued frame 334 for OCR (fingertip_y=471)
+08:51:58.803 [INFO] OCR worker: frame 334, fingertip_y=471
+08:51:58.817 [INFO] OCR done frame 334: text='oe'
+08:51:58.818 [INFO] timings (prep=0.009s, ocr=3.416s) total=3.425s Error: 32969.04457214373
+08:51:59.012 [INFO] Queued frame 336 for OCR (fingertip_y=474)
+08:51:59.016 [INFO] OCR worker: frame 336, fingertip_y=474
+08:51:59.026 [INFO] OCR done frame 336: text='oe'
+08:51:59.027 [INFO] timings (prep=0.005s, ocr=3.416s) total=3.421s Error: 28027.968620647483
+08:51:59.225 [INFO] Queued frame 338 for OCR (fingertip_y=479)
+08:51:59.232 [INFO] OCR worker: frame 338, fingertip_y=479
+08:51:59.249 [INFO] OCR done frame 338: text='oe'
+08:51:59.250 [INFO] timings (prep=0.007s, ocr=3.416s) total=3.423s Error: 28107.89479843697
+08:51:59.430 [INFO] Queued frame 340 for OCR (fingertip_y=481)
+08:51:59.430 [INFO] OCR worker: frame 340, fingertip_y=481
+08:51:59.439 [INFO] OCR done frame 340: text='oe'
+08:51:59.440 [INFO] timings (prep=0.007s, ocr=3.416s) total=3.423s Error: 28191.054432213066
+08:51:59.622 [INFO] Queued frame 342 for OCR (fingertip_y=484)
+08:51:59.623 [INFO] OCR worker: frame 342, fingertip_y=484
+08:51:59.635 [INFO] OCR done frame 342: text='oe'
+08:51:59.636 [INFO] timings (prep=0.011s, ocr=3.416s) total=3.427s Error: 32954.24896731831
+08:51:59.827 [INFO] Queued frame 344 for OCR (fingertip_y=483)
+08:51:59.828 [INFO] OCR worker: frame 344, fingertip_y=483
+08:52:00.101 [INFO] Queued frame 346 for OCR (fingertip_y=480)
+08:52:02.296 [INFO] OCR done frame 344: text='n'
+08:52:02.299 [INFO] Saying with TTS: n
+08:52:02.306 [INFO] timings (prep=0.005s, ocr=2.462s) total=2.467s Error: 12208.08338765754
+08:52:02.307 [INFO] OCR worker: frame 346, fingertip_y=480
+08:52:02.318 [INFO] OCR done frame 346: text='n'
+08:52:02.319 [INFO] timings (prep=0.010s, ocr=2.462s) total=2.471s Error: 31671.36956306121
+08:52:02.502 [INFO] Queued frame 364 for OCR (fingertip_y=491)
+08:52:02.503 [INFO] OCR worker: frame 364, fingertip_y=491
+08:52:02.525 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:02.833 [INFO] Queued frame 366 for OCR (fingertip_y=484)
+08:52:02.835 [INFO] OCR worker: frame 366, fingertip_y=484
+08:52:02.842 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:03.055 [INFO] Queued frame 368 for OCR (fingertip_y=481)
+08:52:03.055 [INFO] OCR worker: frame 368, fingertip_y=481
+08:52:03.065 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:03.293 [INFO] Queued frame 370 for OCR (fingertip_y=475)
+08:52:03.298 [INFO] OCR worker: frame 370, fingertip_y=475
+08:52:03.302 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:03.531 [INFO] Queued frame 372 for OCR (fingertip_y=483)
+08:52:03.531 [INFO] OCR worker: frame 372, fingertip_y=483
+08:52:03.540 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:03.877 [INFO] Queued frame 374 for OCR (fingertip_y=474)
+08:52:03.878 [INFO] OCR worker: frame 374, fingertip_y=474
+08:52:03.884 [INFO] OCR done frame 374: text='n'
+08:52:03.884 [INFO] timings (prep=0.005s, ocr=2.462s) total=2.467s Error: 31417.821375773336
+08:52:04.112 [INFO] Queued frame 376 for OCR (fingertip_y=474)
+08:52:04.113 [INFO] OCR worker: frame 376, fingertip_y=474
+08:52:04.121 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:04.329 [INFO] Queued frame 378 for OCR (fingertip_y=476)
+08:52:04.330 [INFO] OCR worker: frame 378, fingertip_y=476
+08:52:04.339 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:04.568 [INFO] Queued frame 380 for OCR (fingertip_y=471)
+08:52:04.569 [INFO] OCR worker: frame 380, fingertip_y=471
+08:52:04.579 [INFO] OCR done frame 380: text='n'
+08:52:04.580 [INFO] timings (prep=0.007s, ocr=2.462s) total=2.469s Error: 34356.932706515
+08:52:04.794 [INFO] Queued frame 382 for OCR (fingertip_y=479)
+08:52:04.794 [INFO] OCR worker: frame 382, fingertip_y=479
+08:52:04.805 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:05.012 [INFO] Queued frame 384 for OCR (fingertip_y=483)
+08:52:05.012 [INFO] OCR worker: frame 384, fingertip_y=483
+08:52:05.021 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:05.235 [INFO] Queued frame 386 for OCR (fingertip_y=475)
+08:52:05.236 [INFO] OCR worker: frame 386, fingertip_y=475
+08:52:05.246 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:05.468 [INFO] Queued frame 388 for OCR (fingertip_y=477)
+08:52:05.468 [INFO] OCR worker: frame 388, fingertip_y=477
+08:52:05.478 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:05.700 [INFO] Queued frame 390 for OCR (fingertip_y=490)
+08:52:05.700 [INFO] OCR worker: frame 390, fingertip_y=490
+08:52:05.718 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:05.948 [INFO] Queued frame 392 for OCR (fingertip_y=483)
+08:52:05.948 [INFO] OCR worker: frame 392, fingertip_y=483
+08:52:05.961 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:06.177 [INFO] Queued frame 394 for OCR (fingertip_y=490)
+08:52:06.178 [INFO] OCR worker: frame 394, fingertip_y=490
+08:52:06.192 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:06.404 [INFO] Queued frame 396 for OCR (fingertip_y=493)
+08:52:06.405 [INFO] OCR worker: frame 396, fingertip_y=493
+08:52:06.411 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:06.646 [INFO] Queued frame 398 for OCR (fingertip_y=495)
+08:52:06.646 [INFO] OCR worker: frame 398, fingertip_y=495
+08:52:06.664 [INFO] OCR done frame 398: text='n'
+08:52:06.665 [INFO] timings (prep=0.016s, ocr=2.462s) total=2.478s Error: 35095.63434388956
+08:52:06.864 [INFO] Queued frame 400 for OCR (fingertip_y=491)
+08:52:06.867 [INFO] OCR worker: frame 400, fingertip_y=491
+08:52:06.879 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:07.105 [INFO] Queued frame 402 for OCR (fingertip_y=486)
+08:52:07.106 [INFO] OCR worker: frame 402, fingertip_y=486
+08:52:07.118 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:07.310 [INFO] Queued frame 404 for OCR (fingertip_y=493)
+08:52:07.310 [INFO] OCR worker: frame 404, fingertip_y=493
+08:52:07.318 [INFO] OCR done frame 404: text='n'
+08:52:07.318 [INFO] timings (prep=0.007s, ocr=2.462s) total=2.468s Error: 32420.118753638148
+08:52:07.528 [INFO] Queued frame 406 for OCR (fingertip_y=494)
+08:52:07.533 [INFO] OCR worker: frame 406, fingertip_y=494
+08:52:07.543 [INFO] OCR done frame 406: text='n'
+08:52:07.544 [INFO] timings (prep=0.009s, ocr=2.462s) total=2.471s Error: 33289.954565904714
+08:52:07.769 [INFO] Queued frame 408 for OCR (fingertip_y=496)
+08:52:07.769 [INFO] OCR worker: frame 408, fingertip_y=496
+08:52:07.775 [INFO] OCR done frame 408: text='n'
+08:52:07.779 [INFO] timings (prep=0.005s, ocr=2.462s) total=2.467s Error: 34203.28602634548
+08:52:07.981 [INFO] Queued frame 410 for OCR (fingertip_y=492)
+08:52:07.982 [INFO] OCR worker: frame 410, fingertip_y=492
+08:52:07.991 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:08.195 [INFO] Queued frame 412 for OCR (fingertip_y=494)
+08:52:08.196 [INFO] OCR worker: frame 412, fingertip_y=494
+08:52:08.205 [INFO] OCR done frame 412: text='n'
+08:52:08.207 [INFO] timings (prep=0.007s, ocr=2.462s) total=2.468s Error: 29049.861445452712
+08:52:08.438 [INFO] Queued frame 414 for OCR (fingertip_y=494)
+08:52:08.439 [INFO] OCR worker: frame 414, fingertip_y=494
+08:52:08.451 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:08.657 [INFO] Queued frame 416 for OCR (fingertip_y=495)
+08:52:08.658 [INFO] OCR worker: frame 416, fingertip_y=495
+08:52:08.668 [INFO] OCR done frame 416: text='n'
+08:52:08.669 [INFO] timings (prep=0.008s, ocr=2.462s) total=2.469s Error: 28170.287538468612
+08:52:08.903 [INFO] Queued frame 418 for OCR (fingertip_y=494)
+08:52:08.903 [INFO] OCR worker: frame 418, fingertip_y=494
+08:52:08.912 [INFO] OCR done frame 418: text='n'
+08:52:08.913 [INFO] timings (prep=0.008s, ocr=2.462s) total=2.469s Error: 37443.34420160678
+08:52:09.108 [INFO] Queued frame 420 for OCR (fingertip_y=495)
+08:52:09.111 [INFO] OCR worker: frame 420, fingertip_y=495
+08:52:09.119 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:09.338 [INFO] Queued frame 422 for OCR (fingertip_y=494)
+08:52:09.339 [INFO] OCR worker: frame 422, fingertip_y=494
+08:52:09.349 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:09.552 [INFO] Queued frame 424 for OCR (fingertip_y=496)
+08:52:09.552 [INFO] OCR worker: frame 424, fingertip_y=496
+08:52:09.561 [INFO] OCR done frame 424: text='n'
+08:52:09.562 [INFO] timings (prep=0.008s, ocr=2.462s) total=2.470s Error: 33151.96148043129
+08:52:09.775 [INFO] Queued frame 426 for OCR (fingertip_y=496)
+08:52:09.776 [INFO] OCR worker: frame 426, fingertip_y=496
+08:52:09.793 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:10.003 [INFO] Queued frame 428 for OCR (fingertip_y=494)
+08:52:10.003 [INFO] OCR worker: frame 428, fingertip_y=494
+08:52:10.025 [INFO] OCR done frame 428: text='n'
+08:52:10.026 [INFO] timings (prep=0.016s, ocr=2.462s) total=2.477s Error: 35427.56765571128
+08:52:10.248 [INFO] Queued frame 430 for OCR (fingertip_y=492)
+08:52:10.249 [INFO] OCR worker: frame 430, fingertip_y=492
+08:52:10.266 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:10.484 [INFO] Queued frame 432 for OCR (fingertip_y=494)
+08:52:10.485 [INFO] OCR worker: frame 432, fingertip_y=494
+08:52:10.489 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:10.724 [INFO] Queued frame 434 for OCR (fingertip_y=493)
+08:52:10.725 [INFO] OCR worker: frame 434, fingertip_y=493
+08:52:10.737 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:10.961 [INFO] Queued frame 436 for OCR (fingertip_y=486)
+08:52:10.961 [INFO] OCR worker: frame 436, fingertip_y=486
+08:52:10.974 [INFO] OCR done frame 436: text='n'
+08:52:10.975 [INFO] timings (prep=0.010s, ocr=2.462s) total=2.472s Error: 30001.267473225194
+08:52:11.195 [INFO] Queued frame 438 for OCR (fingertip_y=490)
+08:52:11.199 [INFO] OCR worker: frame 438, fingertip_y=490
+08:52:11.498 [INFO] Queued frame 440 for OCR (fingertip_y=498)
+08:52:12.491 [INFO] OCR done frame 438: text=''
+08:52:12.491 [INFO] timings (prep=0.005s, ocr=1.286s) total=1.290s Error: 17349.372467037534
+08:52:12.492 [INFO] OCR worker: frame 440, fingertip_y=498
+08:52:12.758 [INFO] Queued frame 450 for OCR (fingertip_y=496)
+08:52:13.646 [INFO] OCR done frame 440: text=''
+08:52:13.647 [INFO] timings (prep=0.004s, ocr=1.150s) total=1.153s Error: 12800.898405971357
+08:52:13.647 [INFO] OCR worker: frame 450, fingertip_y=496
+08:52:13.653 [INFO] OCR done frame 450: text=''
+08:52:13.654 [INFO] timings (prep=0.004s, ocr=1.150s) total=1.154s Error: 26992.686509497347
+08:52:13.793 [INFO] Queued frame 458 for OCR (fingertip_y=475)
+08:52:13.794 [INFO] OCR worker: frame 458, fingertip_y=475
+08:52:13.809 [INFO] OCR done frame 458: text=''
+08:52:13.809 [INFO] timings (prep=0.014s, ocr=1.150s) total=1.163s Error: 32998.615880063815
+08:52:14.003 [INFO] Queued frame 460 for OCR (fingertip_y=475)
+08:52:14.004 [INFO] OCR worker: frame 460, fingertip_y=475
+08:52:14.013 [INFO] OCR done frame 460: text=''
+08:52:14.015 [INFO] timings (prep=0.008s, ocr=1.150s) total=1.158s Error: 30774.813159465324
+08:52:14.209 [INFO] Queued frame 462 for OCR (fingertip_y=473)
+08:52:14.211 [INFO] OCR worker: frame 462, fingertip_y=473
+08:52:14.215 [INFO] OCR done frame 462: text=''
+08:52:14.219 [INFO] timings (prep=0.003s, ocr=1.150s) total=1.153s Error: 33980.1254412046
+08:52:14.421 [INFO] Queued frame 464 for OCR (fingertip_y=471)
+08:52:14.421 [INFO] OCR worker: frame 464, fingertip_y=471
+08:52:14.432 [INFO] OCR done frame 464: text=''
+08:52:14.433 [INFO] timings (prep=0.008s, ocr=1.150s) total=1.158s Error: 28569.105691288274
+08:52:14.632 [INFO] Queued frame 466 for OCR (fingertip_y=472)
+08:52:14.632 [INFO] OCR worker: frame 466, fingertip_y=472
+08:52:14.646 [INFO] OCR done frame 466: text=''
+08:52:14.647 [INFO] timings (prep=0.010s, ocr=1.150s) total=1.160s Error: 29126.98362343756
+08:52:14.844 [INFO] Queued frame 468 for OCR (fingertip_y=474)
+08:52:14.845 [INFO] OCR worker: frame 468, fingertip_y=474
+08:52:15.073 [INFO] Queued frame 470 for OCR (fingertip_y=473)
+08:52:17.281 [INFO] OCR done frame 468: text='someone'
+08:52:17.282 [INFO] Saying with TTS: someone
+08:52:17.285 [INFO] timings (prep=0.005s, ocr=2.430s) total=2.435s Error: 17951.710224934002
+08:52:17.285 [INFO] OCR worker: frame 470, fingertip_y=473
+08:52:17.294 [INFO] OCR done frame 470: text='someone'
+08:52:17.295 [INFO] timings (prep=0.008s, ocr=2.430s) total=2.438s Error: 33251.843557914195
+08:52:17.328 [INFO] Queued frame 488 for OCR (fingertip_y=498)
+08:52:17.329 [INFO] OCR worker: frame 488, fingertip_y=498
+08:52:17.343 [INFO] OCR done frame 488: text='someone'
+08:52:17.348 [INFO] timings (prep=0.013s, ocr=2.430s) total=2.443s Error: 34223.24210240754
+08:52:17.618 [INFO] Queued frame 490 for OCR (fingertip_y=486)
+08:52:17.619 [INFO] OCR worker: frame 490, fingertip_y=486
+08:52:17.631 [INFO] OCR done frame 490: text='someone'
+08:52:17.638 [INFO] timings (prep=0.011s, ocr=2.430s) total=2.441s Error: 33694.75478468422
+08:52:17.826 [INFO] Queued frame 492 for OCR (fingertip_y=498)
+08:52:17.826 [INFO] OCR worker: frame 492, fingertip_y=498
+08:52:17.833 [INFO] OCR done frame 492: text='someone'
+08:52:17.834 [INFO] timings (prep=0.006s, ocr=2.430s) total=2.436s Error: 33824.76718323424
+08:52:18.061 [INFO] Queued frame 494 for OCR (fingertip_y=493)
+08:52:18.064 [INFO] OCR worker: frame 494, fingertip_y=493
+08:52:18.084 [INFO] OCR done frame 494: text='someone'
+08:52:18.085 [INFO] timings (prep=0.020s, ocr=2.430s) total=2.450s Error: 32390.01929607329
+08:52:18.322 [INFO] Queued frame 496 for OCR (fingertip_y=489)
+08:52:18.322 [INFO] OCR worker: frame 496, fingertip_y=489
+08:52:18.329 [INFO] OCR done frame 496: text='someone'
+08:52:18.329 [INFO] timings (prep=0.006s, ocr=2.430s) total=2.436s Error: 32236.074900645086
+08:52:18.562 [INFO] Queued frame 498 for OCR (fingertip_y=498)
+08:52:18.563 [INFO] OCR worker: frame 498, fingertip_y=498
+08:52:18.573 [INFO] OCR done frame 498: text='someone'
+08:52:18.574 [INFO] timings (prep=0.009s, ocr=2.430s) total=2.439s Error: 31846.427193642932
+08:52:18.809 [INFO] Queued frame 500 for OCR (fingertip_y=488)
+08:52:18.809 [INFO] OCR worker: frame 500, fingertip_y=488
+08:52:18.823 [INFO] OCR done frame 500: text='someone'
+08:52:18.827 [INFO] timings (prep=0.012s, ocr=2.430s) total=2.442s Error: 32808.89894525569
+08:52:19.111 [INFO] Queued frame 502 for OCR (fingertip_y=489)
+08:52:19.115 [INFO] OCR worker: frame 502, fingertip_y=489
+08:52:19.124 [INFO] OCR done frame 502: text='someone'
+08:52:19.124 [INFO] timings (prep=0.007s, ocr=2.430s) total=2.437s Error: 32865.33546154672
+08:52:19.335 [INFO] Queued frame 504 for OCR (fingertip_y=494)
+08:52:19.337 [INFO] OCR worker: frame 504, fingertip_y=494
+08:52:19.346 [INFO] OCR done frame 504: text='someone'
+08:52:19.346 [INFO] timings (prep=0.008s, ocr=2.430s) total=2.438s Error: 30995.876741915206
+08:52:19.558 [INFO] Queued frame 506 for OCR (fingertip_y=488)
+08:52:19.564 [INFO] OCR worker: frame 506, fingertip_y=488
+08:52:19.577 [INFO] OCR done frame 506: text='someone'
+08:52:19.577 [INFO] timings (prep=0.012s, ocr=2.430s) total=2.442s Error: 33902.53530342532
+08:52:19.807 [INFO] Queued frame 508 for OCR (fingertip_y=498)
+08:52:19.807 [INFO] OCR worker: frame 508, fingertip_y=498
+08:52:19.815 [INFO] OCR done frame 508: text='someone'
+08:52:19.818 [INFO] timings (prep=0.006s, ocr=2.430s) total=2.436s Error: 33865.11368650635
+08:52:20.017 [INFO] Queued frame 510 for OCR (fingertip_y=494)
+08:52:20.018 [INFO] OCR worker: frame 510, fingertip_y=494
+08:52:20.028 [INFO] OCR done frame 510: text='someone'
+08:52:20.029 [INFO] timings (prep=0.009s, ocr=2.430s) total=2.439s Error: 34390.983193273205
+08:52:20.224 [INFO] Queued frame 512 for OCR (fingertip_y=499)
+08:52:20.225 [INFO] OCR worker: frame 512, fingertip_y=499
+08:52:20.232 [INFO] OCR done frame 512: text='someone'
+08:52:20.233 [INFO] timings (prep=0.007s, ocr=2.430s) total=2.437s Error: 31455.05364802292
+08:52:20.428 [INFO] Queued frame 514 for OCR (fingertip_y=528)
+08:52:20.432 [INFO] OCR worker: frame 514, fingertip_y=528
+08:52:20.438 [INFO] OCR done frame 514: text='someone'
+08:52:20.439 [INFO] timings (prep=0.006s, ocr=2.430s) total=2.436s Error: 27032.405553335426
+08:52:21.834 [INFO] Queued frame 528 for OCR (fingertip_y=116)
+08:52:21.835 [INFO] OCR worker: frame 528, fingertip_y=116
+08:52:22.329 [INFO] Queued frame 532 for OCR (fingertip_y=175)
+08:52:24.423 [INFO] OCR done frame 528: text='Oo'
+08:52:24.423 [INFO] Saying with TTS: Oo
+08:52:24.426 [INFO] timings (prep=0.007s, ocr=2.580s) total=2.587s Error: 15634.224477088717
+08:52:24.427 [INFO] OCR worker: frame 532, fingertip_y=175
+08:52:25.634 [INFO] Queued frame 558 for OCR (fingertip_y=577)
+08:52:29.000 [INFO] OCR done frame 532: text='BO'
+08:52:29.000 [INFO] Saying with TTS: BO
+08:52:29.003 [INFO] timings (prep=0.004s, ocr=4.564s) total=4.569s Error: 14257.21396346425
+08:52:29.003 [INFO] OCR worker: frame 558, fingertip_y=577
+08:52:29.008 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 201, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+08:52:37.473 [INFO] Quit requested
+08:52:37.474 [INFO] Shutting down: sending None to worker and waiting
+08:52:37.474 [INFO] OCR worker received shutdown signal
+08:52:37.488 [INFO] Camera stopped
+08:52:37.495 [INFO] Exited cleanly
+08:52:37.901 [INFO] Camera closed successfully.

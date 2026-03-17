@@ -1,0 +1,561 @@
+07:58:56.781 [INFO] Initialization successful.
+07:58:56.782 [INFO] Camera now open.
+07:58:56.794 [INFO] Camera configuration has been adjusted!
+07:58:56.799 [INFO] Configuration successful!
+07:58:56.861 [INFO] Camera started
+07:58:56.863 [INFO] OCR worker started
+07:58:56.864 [INFO] Starting main loop
+07:58:57.684 [INFO] Queued frame 0 for OCR
+07:58:57.684 [INFO] OCR worker: received frame 0 with fingertip (None, None)
+07:58:57.691 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 194, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:58:59.407 [INFO] Queued frame 2 for OCR
+07:58:59.408 [INFO] OCR worker: received frame 2 with fingertip (None, None)
+07:58:59.414 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 194, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:58:59.618 [INFO] Queued frame 4 for OCR
+07:58:59.619 [INFO] OCR worker: received frame 4 with fingertip (None, None)
+07:58:59.627 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 194, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:58:59.902 [INFO] Queued frame 6 for OCR
+07:58:59.903 [INFO] OCR worker: received frame 6 with fingertip (None, None)
+07:58:59.914 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 194, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:59:00.311 [INFO] Queued frame 10 for OCR
+07:59:00.311 [INFO] OCR worker: received frame 10 with fingertip (None, None)
+07:59:00.319 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 194, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:59:00.540 [INFO] Queued frame 12 for OCR
+07:59:00.544 [INFO] OCR worker: received frame 12 with fingertip (None, None)
+07:59:00.784 [INFO] Queued frame 14 for OCR
+07:59:04.600 [INFO] OCR done frame 12: selected_word=''
+07:59:04.601 [INFO] timings (prep=0.006s, ocr=4.050s) total=4.055s Error: 16754.489696794706
+07:59:04.601 [INFO] OCR worker: received frame 14 with fingertip (None, None)
+07:59:04.604 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 194, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:59:05.389 [INFO] Queued frame 56 for OCR
+07:59:05.390 [INFO] OCR worker: received frame 56 with fingertip (None, None)
+07:59:06.611 [INFO] Queued frame 68 for OCR
+07:59:07.718 [INFO] OCR done frame 56: selected_word=''
+07:59:07.719 [INFO] timings (prep=0.021s, ocr=2.300s) total=2.321s Error: 15609.249661658949
+07:59:07.719 [INFO] OCR worker: received frame 68 with fingertip (None, None)
+07:59:07.726 [INFO] OCR done frame 68: selected_word=''
+07:59:07.726 [INFO] timings (prep=0.006s, ocr=2.300s) total=2.306s Error: 31383.652990052004
+07:59:07.784 [INFO] Queued frame 76 for OCR
+07:59:07.784 [INFO] OCR worker: received frame 76 with fingertip (None, None)
+07:59:07.792 [INFO] OCR done frame 76: selected_word=''
+07:59:07.793 [INFO] timings (prep=0.007s, ocr=2.300s) total=2.307s Error: 36082.274734279155
+07:59:07.986 [INFO] Queued frame 78 for OCR
+07:59:07.986 [INFO] OCR worker: received frame 78 with fingertip (None, None)
+07:59:07.999 [INFO] OCR done frame 78: selected_word=''
+07:59:08.000 [INFO] timings (prep=0.007s, ocr=2.300s) total=2.308s Error: 37076.85969712106
+07:59:08.197 [INFO] Queued frame 80 for OCR
+07:59:08.197 [INFO] OCR worker: received frame 80 with fingertip (None, None)
+07:59:08.205 [INFO] OCR done frame 80: selected_word=''
+07:59:08.206 [INFO] timings (prep=0.007s, ocr=2.300s) total=2.307s Error: 37362.50393108042
+07:59:08.415 [INFO] Queued frame 82 for OCR
+07:59:08.416 [INFO] OCR worker: received frame 82 with fingertip (None, None)
+07:59:08.425 [INFO] OCR done frame 82: selected_word=''
+07:59:08.426 [INFO] timings (prep=0.005s, ocr=2.300s) total=2.306s Error: 29243.95322113616
+07:59:08.618 [INFO] Queued frame 84 for OCR
+07:59:08.618 [INFO] OCR worker: received frame 84 with fingertip (None, None)
+07:59:08.626 [INFO] OCR done frame 84: selected_word=''
+07:59:08.627 [INFO] timings (prep=0.007s, ocr=2.300s) total=2.307s Error: 31968.702272691648
+07:59:08.854 [INFO] Queued frame 86 for OCR
+07:59:08.855 [INFO] OCR worker: received frame 86 with fingertip (None, None)
+07:59:08.861 [INFO] OCR done frame 86: selected_word=''
+07:59:08.865 [INFO] timings (prep=0.003s, ocr=2.300s) total=2.304s Error: 33430.29576596653
+07:59:09.108 [INFO] Queued frame 88 for OCR
+07:59:09.110 [INFO] OCR worker: received frame 88 with fingertip (None, None)
+07:59:09.118 [INFO] OCR done frame 88: selected_word=''
+07:59:09.119 [INFO] timings (prep=0.007s, ocr=2.300s) total=2.308s Error: 27429.988607361833
+07:59:09.308 [INFO] Queued frame 90 for OCR
+07:59:09.308 [INFO] OCR worker: received frame 90 with fingertip (None, None)
+07:59:09.314 [INFO] OCR done frame 90: selected_word=''
+07:59:09.318 [INFO] timings (prep=0.005s, ocr=2.300s) total=2.305s Error: 26493.015117196457
+07:59:09.520 [INFO] Queued frame 92 for OCR
+07:59:09.520 [INFO] OCR worker: received frame 92 with fingertip (None, None)
+07:59:09.531 [INFO] OCR done frame 92: selected_word=''
+07:59:09.532 [INFO] timings (prep=0.010s, ocr=2.300s) total=2.310s Error: 25968.71723824648
+07:59:09.715 [INFO] Queued frame 94 for OCR
+07:59:09.716 [INFO] OCR worker: received frame 94 with fingertip (None, None)
+07:59:09.725 [INFO] OCR done frame 94: selected_word=''
+07:59:09.727 [INFO] timings (prep=0.008s, ocr=2.300s) total=2.309s Error: 25972.472928082916
+07:59:09.914 [INFO] Queued frame 96 for OCR
+07:59:09.915 [INFO] OCR worker: received frame 96 with fingertip (None, None)
+07:59:09.934 [INFO] OCR done frame 96: selected_word=''
+07:59:09.935 [INFO] timings (prep=0.015s, ocr=2.300s) total=2.315s Error: 30973.841382689363
+07:59:10.114 [INFO] Queued frame 98 for OCR
+07:59:10.115 [INFO] OCR worker: received frame 98 with fingertip (None, None)
+07:59:10.129 [INFO] OCR done frame 98: selected_word=''
+07:59:10.130 [INFO] timings (prep=0.010s, ocr=2.300s) total=2.311s Error: 31115.22497106521
+07:59:10.322 [INFO] Queued frame 100 for OCR
+07:59:10.322 [INFO] OCR worker: received frame 100 with fingertip (None, None)
+07:59:10.336 [INFO] OCR done frame 100: selected_word=''
+07:59:10.337 [INFO] timings (prep=0.011s, ocr=2.300s) total=2.311s Error: 31302.7430906622
+07:59:10.541 [INFO] Queued frame 102 for OCR
+07:59:10.542 [INFO] OCR worker: received frame 102 with fingertip (None, None)
+07:59:10.553 [INFO] OCR done frame 102: selected_word=''
+07:59:10.553 [INFO] timings (prep=0.008s, ocr=2.300s) total=2.309s Error: 36003.79667479528
+07:59:10.764 [INFO] Queued frame 104 for OCR
+07:59:10.768 [INFO] OCR worker: received frame 104 with fingertip (None, None)
+07:59:10.775 [INFO] OCR done frame 104: selected_word=''
+07:59:10.776 [INFO] timings (prep=0.005s, ocr=2.300s) total=2.305s Error: 32154.276542942152
+07:59:10.967 [INFO] Queued frame 106 for OCR
+07:59:10.968 [INFO] OCR worker: received frame 106 with fingertip (None, None)
+07:59:10.974 [INFO] OCR done frame 106: selected_word=''
+07:59:10.975 [INFO] timings (prep=0.006s, ocr=2.300s) total=2.306s Error: 30784.319872298624
+07:59:11.191 [INFO] Queued frame 108 for OCR
+07:59:11.195 [INFO] OCR worker: received frame 108 with fingertip (None, None)
+07:59:11.201 [INFO] OCR done frame 108: selected_word=''
+07:59:11.202 [INFO] timings (prep=0.005s, ocr=2.300s) total=2.305s Error: 34014.553135386035
+07:59:11.427 [INFO] Queued frame 110 for OCR
+07:59:11.427 [INFO] OCR worker: received frame 110 with fingertip (None, None)
+07:59:11.436 [INFO] OCR done frame 110: selected_word=''
+07:59:11.437 [INFO] timings (prep=0.009s, ocr=2.300s) total=2.309s Error: 34989.86567564957
+07:59:11.637 [INFO] Queued frame 112 for OCR
+07:59:11.637 [INFO] OCR worker: received frame 112 with fingertip (None, None)
+07:59:11.645 [INFO] OCR done frame 112: selected_word=''
+07:59:11.646 [INFO] timings (prep=0.007s, ocr=2.300s) total=2.307s Error: 34208.988950274455
+07:59:11.847 [INFO] Queued frame 114 for OCR
+07:59:11.848 [INFO] OCR worker: received frame 114 with fingertip (None, None)
+07:59:11.855 [INFO] OCR done frame 114: selected_word=''
+07:59:11.856 [INFO] timings (prep=0.007s, ocr=2.300s) total=2.307s Error: 23838.06776985081
+07:59:12.045 [INFO] Queued frame 116 for OCR
+07:59:12.046 [INFO] OCR worker: received frame 116 with fingertip (None, None)
+07:59:12.055 [INFO] OCR done frame 116: selected_word=''
+07:59:12.056 [INFO] timings (prep=0.007s, ocr=2.300s) total=2.307s Error: 33125.47169475478
+07:59:12.264 [INFO] Queued frame 118 for OCR
+07:59:12.265 [INFO] OCR worker: received frame 118 with fingertip (None, None)
+07:59:12.272 [INFO] OCR done frame 118: selected_word=''
+07:59:12.273 [INFO] timings (prep=0.006s, ocr=2.300s) total=2.306s Error: 34855.80439467722
+07:59:12.460 [INFO] Queued frame 120 for OCR
+07:59:12.461 [INFO] OCR worker: received frame 120 with fingertip (None, None)
+07:59:12.473 [INFO] OCR done frame 120: selected_word=''
+07:59:12.474 [INFO] timings (prep=0.009s, ocr=2.300s) total=2.309s Error: 32151.242977527323
+07:59:12.669 [INFO] Queued frame 122 for OCR
+07:59:12.670 [INFO] OCR worker: received frame 122 with fingertip (None, None)
+07:59:12.678 [INFO] OCR done frame 122: selected_word=''
+07:59:12.679 [INFO] timings (prep=0.006s, ocr=2.300s) total=2.307s Error: 34149.06074843055
+07:59:12.892 [INFO] Queued frame 124 for OCR
+07:59:12.896 [INFO] OCR worker: received frame 124 with fingertip (None, None)
+07:59:12.902 [INFO] OCR done frame 124: selected_word=''
+07:59:12.903 [INFO] timings (prep=0.006s, ocr=2.300s) total=2.306s Error: 30891.85815065193
+07:59:13.119 [INFO] Queued frame 126 for OCR
+07:59:13.119 [INFO] OCR worker: received frame 126 with fingertip (None, None)
+07:59:13.126 [INFO] OCR done frame 126: selected_word=''
+07:59:13.127 [INFO] timings (prep=0.006s, ocr=2.300s) total=2.307s Error: 32989.74727093252
+07:59:13.375 [INFO] Queued frame 128 for OCR
+07:59:13.375 [INFO] OCR worker: received frame 128 with fingertip (None, None)
+07:59:13.382 [INFO] OCR done frame 128: selected_word=''
+07:59:13.382 [INFO] timings (prep=0.005s, ocr=2.300s) total=2.306s Error: 33010.43698589887
+07:59:13.591 [INFO] Queued frame 130 for OCR
+07:59:13.591 [INFO] OCR worker: received frame 130 with fingertip (None, None)
+07:59:13.598 [INFO] OCR done frame 130: selected_word=''
+07:59:13.599 [INFO] timings (prep=0.006s, ocr=2.300s) total=2.307s Error: 31058.74876745681
+07:59:13.804 [INFO] Queued frame 132 for OCR
+07:59:13.805 [INFO] OCR worker: received frame 132 with fingertip (None, None)
+07:59:13.810 [INFO] OCR done frame 132: selected_word=''
+07:59:13.811 [INFO] timings (prep=0.004s, ocr=2.300s) total=2.304s Error: 34484.44866892901
+07:59:14.033 [INFO] Queued frame 134 for OCR
+07:59:14.034 [INFO] OCR worker: received frame 134 with fingertip (None, None)
+07:59:14.044 [INFO] OCR done frame 134: selected_word=''
+07:59:14.045 [INFO] timings (prep=0.008s, ocr=2.300s) total=2.309s Error: 21781.239634143876
+07:59:14.261 [INFO] Queued frame 136 for OCR
+07:59:14.262 [INFO] OCR worker: received frame 136 with fingertip (None, None)
+07:59:14.268 [INFO] OCR done frame 136: selected_word=''
+07:59:14.268 [INFO] timings (prep=0.005s, ocr=2.300s) total=2.306s Error: 34953.60818284716
+07:59:14.469 [INFO] Queued frame 138 for OCR
+07:59:14.469 [INFO] OCR worker: received frame 138 with fingertip (None, None)
+07:59:14.483 [INFO] OCR done frame 138: selected_word=''
+07:59:14.484 [INFO] timings (prep=0.009s, ocr=2.300s) total=2.309s Error: 33529.34871124102
+07:59:14.693 [INFO] Queued frame 140 for OCR
+07:59:14.695 [INFO] OCR worker: received frame 140 with fingertip (None, None)
+07:59:14.703 [INFO] OCR done frame 140: selected_word=''
+07:59:14.720 [INFO] timings (prep=0.007s, ocr=2.300s) total=2.307s Error: 31760.5545449068
+07:59:14.896 [INFO] Queued frame 142 for OCR
+07:59:14.897 [INFO] OCR worker: received frame 142 with fingertip (None, None)
+07:59:14.905 [INFO] OCR done frame 142: selected_word=''
+07:59:14.906 [INFO] timings (prep=0.008s, ocr=2.300s) total=2.308s Error: 30376.055537215492
+07:59:15.103 [INFO] Queued frame 144 for OCR
+07:59:15.103 [INFO] OCR worker: received frame 144 with fingertip (None, None)
+07:59:15.134 [INFO] OCR done frame 144: selected_word=''
+07:59:15.134 [INFO] timings (prep=0.025s, ocr=2.300s) total=2.326s Error: 31383.652990052004
+07:59:15.305 [INFO] Queued frame 146 for OCR
+07:59:15.307 [INFO] OCR worker: received frame 146 with fingertip (None, None)
+07:59:15.311 [INFO] OCR done frame 146: selected_word=''
+07:59:15.315 [INFO] timings (prep=0.003s, ocr=2.300s) total=2.303s Error: 32072.269564220118
+07:59:15.518 [INFO] Queued frame 148 for OCR
+07:59:15.518 [INFO] OCR worker: received frame 148 with fingertip (None, None)
+07:59:15.528 [INFO] OCR done frame 148: selected_word=''
+07:59:15.529 [INFO] timings (prep=0.009s, ocr=2.300s) total=2.310s Error: 33709.225369325824
+07:59:15.726 [INFO] Queued frame 150 for OCR
+07:59:15.726 [INFO] OCR worker: received frame 150 with fingertip (None, None)
+07:59:15.734 [INFO] OCR done frame 150: selected_word=''
+07:59:15.735 [INFO] timings (prep=0.007s, ocr=2.300s) total=2.307s Error: 29549.208111216787
+07:59:15.932 [INFO] Queued frame 152 for OCR
+07:59:15.932 [INFO] OCR worker: received frame 152 with fingertip (None, None)
+07:59:16.212 [INFO] Queued frame 154 for OCR
+07:59:19.050 [INFO] OCR done frame 152: selected_word=''
+07:59:19.050 [INFO] timings (prep=0.012s, ocr=3.104s) total=3.116s Error: 19513.748999103173
+07:59:19.050 [INFO] OCR worker: received frame 154 with fingertip (None, None)
+07:59:19.061 [INFO] OCR done frame 154: selected_word=''
+07:59:19.061 [INFO] timings (prep=0.010s, ocr=3.104s) total=3.114s Error: 32242.12578289465
+07:59:19.114 [INFO] Queued frame 176 for OCR
+07:59:19.115 [INFO] OCR worker: received frame 176 with fingertip (None, None)
+07:59:19.121 [INFO] OCR done frame 176: selected_word=''
+07:59:19.121 [INFO] timings (prep=0.005s, ocr=3.104s) total=3.109s Error: 28425.352240561595
+07:59:19.319 [INFO] Queued frame 178 for OCR
+07:59:19.320 [INFO] OCR worker: received frame 178 with fingertip (None, None)
+07:59:19.327 [INFO] OCR done frame 178: selected_word=''
+07:59:19.331 [INFO] timings (prep=0.007s, ocr=3.104s) total=3.111s Error: 34356.932706515
+07:59:19.527 [INFO] Queued frame 180 for OCR
+07:59:19.528 [INFO] OCR worker: received frame 180 with fingertip (None, None)
+07:59:19.774 [INFO] Queued frame 182 for OCR
+07:59:22.418 [INFO] OCR done frame 180: selected_word=''
+07:59:22.419 [INFO] timings (prep=0.011s, ocr=2.878s) total=2.889s Error: 11251.829851184206
+07:59:22.420 [INFO] OCR worker: received frame 182 with fingertip (None, None)
+07:59:22.424 [INFO] OCR done frame 182: selected_word=''
+07:59:22.425 [INFO] timings (prep=0.004s, ocr=2.878s) total=2.882s Error: 33131.36014412931
+07:59:22.612 [INFO] Queued frame 206 for OCR
+07:59:22.616 [INFO] OCR worker: received frame 206 with fingertip (None, None)
+07:59:22.628 [INFO] OCR done frame 206: selected_word=''
+07:59:22.629 [INFO] timings (prep=0.011s, ocr=2.878s) total=2.889s Error: 34040.35105576909
+07:59:22.862 [INFO] Queued frame 208 for OCR
+07:59:22.862 [INFO] OCR worker: received frame 208 with fingertip (None, None)
+07:59:22.873 [INFO] OCR done frame 208: selected_word=''
+07:59:22.873 [INFO] timings (prep=0.009s, ocr=2.878s) total=2.888s Error: 36629.57616462413
+07:59:23.084 [INFO] Queued frame 210 for OCR
+07:59:23.084 [INFO] OCR worker: received frame 210 with fingertip (None, None)
+07:59:23.091 [INFO] OCR done frame 210: selected_word=''
+07:59:23.093 [INFO] timings (prep=0.006s, ocr=2.878s) total=2.884s Error: 36648.21107503066
+07:59:23.302 [INFO] Queued frame 212 for OCR
+07:59:23.302 [INFO] OCR worker: received frame 212 with fingertip (None, None)
+07:59:23.314 [INFO] OCR done frame 212: selected_word=''
+07:59:23.317 [INFO] timings (prep=0.010s, ocr=2.878s) total=2.888s Error: 33891.025360705746
+07:59:23.519 [INFO] Queued frame 214 for OCR
+07:59:23.520 [INFO] OCR worker: received frame 214 with fingertip (None, None)
+07:59:23.531 [INFO] OCR done frame 214: selected_word=''
+07:59:23.533 [INFO] timings (prep=0.009s, ocr=2.878s) total=2.887s Error: 34131.91907877434
+07:59:23.739 [INFO] Queued frame 216 for OCR
+07:59:23.740 [INFO] OCR worker: received frame 216 with fingertip (None, None)
+07:59:23.753 [INFO] OCR done frame 216: selected_word=''
+07:59:23.754 [INFO] timings (prep=0.012s, ocr=2.878s) total=2.890s Error: 37461.5743128876
+07:59:23.962 [INFO] Queued frame 218 for OCR
+07:59:23.963 [INFO] OCR worker: received frame 218 with fingertip (None, None)
+07:59:23.970 [INFO] OCR done frame 218: selected_word=''
+07:59:23.971 [INFO] timings (prep=0.007s, ocr=2.878s) total=2.885s Error: 37021.574115642354
+07:59:24.159 [INFO] Queued frame 220 for OCR
+07:59:24.160 [INFO] OCR worker: received frame 220 with fingertip (None, None)
+07:59:24.166 [INFO] OCR done frame 220: selected_word=''
+07:59:24.167 [INFO] timings (prep=0.006s, ocr=2.878s) total=2.884s Error: 32248.175529787728
+07:59:24.371 [INFO] Queued frame 222 for OCR
+07:59:24.371 [INFO] OCR worker: received frame 222 with fingertip (None, None)
+07:59:24.378 [INFO] OCR done frame 222: selected_word=''
+07:59:24.379 [INFO] timings (prep=0.006s, ocr=2.878s) total=2.884s Error: 32272.363176563318
+07:59:24.617 [INFO] Queued frame 224 for OCR
+07:59:24.617 [INFO] OCR worker: received frame 224 with fingertip (None, None)
+07:59:24.625 [INFO] OCR done frame 224: selected_word=''
+07:59:24.626 [INFO] timings (prep=0.007s, ocr=2.878s) total=2.885s Error: 33199.00224404342
+07:59:24.828 [INFO] Queued frame 226 for OCR
+07:59:24.828 [INFO] OCR worker: received frame 226 with fingertip (None, None)
+07:59:24.837 [INFO] OCR done frame 226: selected_word=''
+07:59:24.838 [INFO] timings (prep=0.008s, ocr=2.878s) total=2.886s Error: 34724.034543814174
+07:59:25.041 [INFO] Queued frame 228 for OCR
+07:59:25.042 [INFO] OCR worker: received frame 228 with fingertip (None, None)
+07:59:25.049 [INFO] OCR done frame 228: selected_word=''
+07:59:25.050 [INFO] timings (prep=0.006s, ocr=2.878s) total=2.885s Error: 34546.61850311836
+07:59:25.256 [INFO] Queued frame 230 for OCR
+07:59:25.258 [INFO] OCR worker: received frame 230 with fingertip (None, None)
+07:59:25.262 [INFO] OCR done frame 230: selected_word=''
+07:59:25.263 [INFO] timings (prep=0.003s, ocr=2.878s) total=2.881s Error: 33648.40709454164
+07:59:25.481 [INFO] Queued frame 232 for OCR
+07:59:25.481 [INFO] OCR worker: received frame 232 with fingertip (None, None)
+07:59:25.492 [INFO] OCR done frame 232: selected_word=''
+07:59:25.493 [INFO] timings (prep=0.010s, ocr=2.878s) total=2.888s Error: 37591.53229119558
+07:59:25.733 [INFO] Queued frame 234 for OCR
+07:59:25.734 [INFO] OCR worker: received frame 234 with fingertip (None, None)
+07:59:25.747 [INFO] OCR done frame 234: selected_word=''
+07:59:25.752 [INFO] timings (prep=0.012s, ocr=2.878s) total=2.890s Error: 38977.48196074241
+07:59:25.933 [INFO] Queued frame 236 for OCR
+07:59:25.934 [INFO] OCR worker: received frame 236 with fingertip (None, None)
+07:59:25.940 [INFO] OCR done frame 236: selected_word=''
+07:59:25.941 [INFO] timings (prep=0.006s, ocr=2.878s) total=2.884s Error: 26125.99136875001
+07:59:26.150 [INFO] Queued frame 238 for OCR
+07:59:26.151 [INFO] OCR worker: received frame 238 with fingertip (None, None)
+07:59:26.159 [INFO] OCR done frame 238: selected_word=''
+07:59:26.160 [INFO] timings (prep=0.006s, ocr=2.878s) total=2.885s Error: 38068.51947475762
+07:59:26.371 [INFO] Queued frame 240 for OCR
+07:59:26.371 [INFO] OCR worker: received frame 240 with fingertip (None, None)
+07:59:26.376 [INFO] OCR done frame 240: selected_word=''
+07:59:26.377 [INFO] timings (prep=0.005s, ocr=2.878s) total=2.883s Error: 35206.62650695178
+07:59:26.579 [INFO] Queued frame 242 for OCR
+07:59:26.579 [INFO] OCR worker: received frame 242 with fingertip (None, None)
+07:59:26.592 [INFO] OCR done frame 242: selected_word=''
+07:59:26.593 [INFO] timings (prep=0.012s, ocr=2.878s) total=2.890s Error: 34754.91907629767
+07:59:26.784 [INFO] Queued frame 244 for OCR
+07:59:26.785 [INFO] OCR worker: received frame 244 with fingertip (None, None)
+07:59:26.794 [INFO] OCR done frame 244: selected_word=''
+07:59:26.795 [INFO] timings (prep=0.006s, ocr=2.878s) total=2.884s Error: 31068.168597456788
+07:59:27.002 [INFO] Queued frame 246 for OCR
+07:59:27.002 [INFO] OCR worker: received frame 246 with fingertip (None, None)
+07:59:27.011 [INFO] OCR done frame 246: selected_word=''
+07:59:27.012 [INFO] timings (prep=0.007s, ocr=2.878s) total=2.886s Error: 35156.72339681273
+07:59:27.212 [INFO] Queued frame 248 for OCR
+07:59:27.224 [INFO] OCR worker: received frame 248 with fingertip (None, None)
+07:59:27.241 [INFO] OCR done frame 248: selected_word=''
+07:59:27.242 [INFO] timings (prep=0.017s, ocr=2.878s) total=2.895s Error: 32223.969727518055
+07:59:27.409 [INFO] Queued frame 250 for OCR
+07:59:27.409 [INFO] OCR worker: received frame 250 with fingertip (None, None)
+07:59:27.416 [INFO] OCR done frame 250: selected_word=''
+07:59:27.417 [INFO] timings (prep=0.006s, ocr=2.878s) total=2.884s Error: 35408.290342799664
+07:59:27.615 [INFO] Queued frame 252 for OCR
+07:59:27.617 [INFO] OCR worker: received frame 252 with fingertip (None, None)
+07:59:27.626 [INFO] OCR done frame 252: selected_word=''
+07:59:27.627 [INFO] timings (prep=0.008s, ocr=2.878s) total=2.886s Error: 37785.631197586205
+07:59:27.837 [INFO] Queued frame 254 for OCR
+07:59:27.838 [INFO] OCR worker: received frame 254 with fingertip (None, None)
+07:59:27.851 [INFO] OCR done frame 254: selected_word=''
+07:59:27.852 [INFO] timings (prep=0.010s, ocr=2.878s) total=2.889s Error: 37153.07120548717
+07:59:28.033 [INFO] Queued frame 256 for OCR
+07:59:28.035 [INFO] OCR worker: received frame 256 with fingertip (None, None)
+07:59:28.044 [INFO] OCR done frame 256: selected_word=''
+07:59:28.045 [INFO] timings (prep=0.008s, ocr=2.878s) total=2.886s Error: 36602.93840663615
+07:59:28.264 [INFO] Queued frame 258 for OCR
+07:59:28.268 [INFO] OCR worker: received frame 258 with fingertip (None, None)
+07:59:28.278 [INFO] OCR done frame 258: selected_word=''
+07:59:28.279 [INFO] timings (prep=0.009s, ocr=2.878s) total=2.887s Error: 37661.52313701611
+07:59:28.499 [INFO] Queued frame 260 for OCR
+07:59:28.499 [INFO] OCR worker: received frame 260 with fingertip (None, None)
+07:59:28.506 [INFO] OCR done frame 260: selected_word=''
+07:59:28.507 [INFO] timings (prep=0.006s, ocr=2.878s) total=2.884s Error: 38063.39481706801
+07:59:28.709 [INFO] Queued frame 262 for OCR
+07:59:28.709 [INFO] OCR worker: received frame 262 with fingertip (None, None)
+07:59:28.717 [INFO] OCR done frame 262: selected_word=''
+07:59:28.718 [INFO] timings (prep=0.007s, ocr=2.878s) total=2.886s Error: 37111.04283094184
+07:59:28.921 [INFO] Queued frame 264 for OCR
+07:59:28.921 [INFO] OCR worker: received frame 264 with fingertip (None, None)
+07:59:28.937 [INFO] OCR done frame 264: selected_word=''
+07:59:28.938 [INFO] timings (prep=0.013s, ocr=2.878s) total=2.892s Error: 38086.45034654713
+07:59:29.131 [INFO] Queued frame 266 for OCR
+07:59:29.131 [INFO] OCR worker: received frame 266 with fingertip (None, None)
+07:59:29.141 [INFO] OCR done frame 266: selected_word=''
+07:59:29.142 [INFO] timings (prep=0.009s, ocr=2.878s) total=2.888s Error: 35507.319315881905
+07:59:29.375 [INFO] Queued frame 268 for OCR
+07:59:29.375 [INFO] OCR worker: received frame 268 with fingertip (None, None)
+07:59:29.651 [INFO] Queued frame 270 for OCR
+07:59:31.805 [INFO] OCR done frame 268: selected_word=''
+07:59:31.806 [INFO] timings (prep=0.003s, ocr=2.425s) total=2.428s Error: 19528.73843851671
+07:59:31.806 [INFO] OCR worker: received frame 270 with fingertip (None, None)
+07:59:31.816 [INFO] OCR done frame 270: selected_word=''
+07:59:31.817 [INFO] timings (prep=0.010s, ocr=2.425s) total=2.434s Error: 36128.19985828245
+07:59:31.880 [INFO] Queued frame 288 for OCR
+07:59:31.884 [INFO] OCR worker: received frame 288 with fingertip (None, None)
+07:59:31.898 [INFO] OCR done frame 288: selected_word=''
+07:59:31.898 [INFO] timings (prep=0.013s, ocr=2.425s) total=2.437s Error: 37669.29187016926
+07:59:32.099 [INFO] Queued frame 290 for OCR
+07:59:32.099 [INFO] OCR worker: received frame 290 with fingertip (None, None)
+07:59:32.108 [INFO] OCR done frame 290: selected_word=''
+07:59:32.110 [INFO] timings (prep=0.008s, ocr=2.425s) total=2.432s Error: 36517.56700548381
+07:59:32.316 [INFO] Queued frame 292 for OCR
+07:59:32.320 [INFO] OCR worker: received frame 292 with fingertip (None, None)
+07:59:32.327 [INFO] OCR done frame 292: selected_word=''
+07:59:32.328 [INFO] timings (prep=0.006s, ocr=2.425s) total=2.431s Error: 32930.56217254725
+07:59:32.525 [INFO] Queued frame 294 for OCR
+07:59:32.526 [INFO] OCR worker: received frame 294 with fingertip (None, None)
+07:59:32.537 [INFO] OCR done frame 294: selected_word=''
+07:59:32.538 [INFO] timings (prep=0.009s, ocr=2.425s) total=2.434s Error: 34721.225496805266
+07:59:32.729 [INFO] Queued frame 296 for OCR
+07:59:32.730 [INFO] OCR worker: received frame 296 with fingertip (None, None)
+07:59:32.739 [INFO] OCR done frame 296: selected_word=''
+07:59:32.740 [INFO] timings (prep=0.008s, ocr=2.425s) total=2.433s Error: 36656.19456517547
+07:59:32.935 [INFO] Queued frame 298 for OCR
+07:59:32.935 [INFO] OCR worker: received frame 298 with fingertip (None, None)
+07:59:32.942 [INFO] OCR done frame 298: selected_word=''
+07:59:32.942 [INFO] timings (prep=0.005s, ocr=2.425s) total=2.430s Error: 36203.71424315467
+07:59:33.147 [INFO] Queued frame 300 for OCR
+07:59:33.148 [INFO] OCR worker: received frame 300 with fingertip (None, None)
+07:59:33.154 [INFO] OCR done frame 300: selected_word=''
+07:59:33.155 [INFO] timings (prep=0.006s, ocr=2.425s) total=2.430s Error: 37195.052090298246
+07:59:33.345 [INFO] Queued frame 302 for OCR
+07:59:33.347 [INFO] OCR worker: received frame 302 with fingertip (None, None)
+07:59:33.352 [INFO] OCR done frame 302: selected_word=''
+07:59:33.353 [INFO] timings (prep=0.005s, ocr=2.425s) total=2.429s Error: 37855.26317435926
+07:59:33.563 [INFO] Queued frame 304 for OCR
+07:59:33.563 [INFO] OCR worker: received frame 304 with fingertip (None, None)
+07:59:33.576 [INFO] OCR done frame 304: selected_word=''
+07:59:33.577 [INFO] timings (prep=0.009s, ocr=2.425s) total=2.434s Error: 35532.03343463472
+07:59:33.773 [INFO] Queued frame 306 for OCR
+07:59:33.775 [INFO] OCR worker: received frame 306 with fingertip (None, None)
+07:59:33.782 [INFO] OCR done frame 306: selected_word=''
+07:59:33.782 [INFO] timings (prep=0.003s, ocr=2.425s) total=2.428s Error: 32477.230870257397
+07:59:33.979 [INFO] Queued frame 308 for OCR
+07:59:33.979 [INFO] OCR worker: received frame 308 with fingertip (None, None)
+07:59:33.992 [INFO] OCR done frame 308: selected_word=''
+07:59:33.993 [INFO] timings (prep=0.011s, ocr=2.425s) total=2.436s Error: 31102.683565891868
+07:59:34.190 [INFO] Queued frame 310 for OCR
+07:59:34.195 [INFO] OCR worker: received frame 310 with fingertip (None, None)
+07:59:34.199 [INFO] OCR done frame 310: selected_word=''
+07:59:34.199 [INFO] timings (prep=0.003s, ocr=2.425s) total=2.428s Error: 35040.00642123229
+07:59:34.408 [INFO] Queued frame 312 for OCR
+07:59:34.409 [INFO] OCR worker: received frame 312 with fingertip (None, None)
+07:59:34.416 [INFO] OCR done frame 312: selected_word=''
+07:59:34.417 [INFO] timings (prep=0.007s, ocr=2.425s) total=2.431s Error: 33790.1461227974
+07:59:34.640 [INFO] Queued frame 314 for OCR
+07:59:34.640 [INFO] OCR worker: received frame 314 with fingertip (None, None)
+07:59:34.651 [INFO] OCR done frame 314: selected_word=''
+07:59:34.652 [INFO] timings (prep=0.009s, ocr=2.425s) total=2.433s Error: 31327.660701048204
+07:59:34.856 [INFO] Queued frame 316 for OCR
+07:59:34.860 [INFO] OCR worker: received frame 316 with fingertip (None, None)
+07:59:34.870 [INFO] OCR done frame 316: selected_word=''
+07:59:34.871 [INFO] timings (prep=0.009s, ocr=2.425s) total=2.433s Error: 34054.67478922681
+07:59:35.072 [INFO] Queued frame 318 for OCR
+07:59:35.072 [INFO] OCR worker: received frame 318 with fingertip (None, None)
+07:59:35.081 [INFO] OCR done frame 318: selected_word=''
+07:59:35.081 [INFO] timings (prep=0.007s, ocr=2.425s) total=2.431s Error: 26297.164771130745
+07:59:35.297 [INFO] Queued frame 320 for OCR
+07:59:35.298 [INFO] OCR worker: received frame 320 with fingertip (None, None)
+07:59:35.305 [INFO] OCR done frame 320: selected_word=''
+07:59:35.306 [INFO] timings (prep=0.006s, ocr=2.425s) total=2.430s Error: 31953.443476407985
+07:59:35.497 [INFO] Queued frame 322 for OCR
+07:59:35.498 [INFO] OCR worker: received frame 322 with fingertip (None, None)
+07:59:35.504 [INFO] OCR done frame 322: selected_word=''
+07:59:35.505 [INFO] timings (prep=0.005s, ocr=2.425s) total=2.430s Error: 33093.066494358
+07:59:35.733 [INFO] Queued frame 324 for OCR
+07:59:35.733 [INFO] OCR worker: received frame 324 with fingertip (None, None)
+07:59:36.007 [INFO] Queued frame 326 for OCR
+07:59:38.543 [INFO] OCR done frame 324: selected_word=''
+07:59:38.544 [INFO] timings (prep=0.009s, ocr=2.800s) total=2.809s Error: 13279.600897617367
+07:59:38.544 [INFO] OCR worker: received frame 326 with fingertip (None, None)
+07:59:38.550 [INFO] OCR done frame 326: selected_word=''
+07:59:38.550 [INFO] timings (prep=0.005s, ocr=2.800s) total=2.805s Error: 33908.28880967012
+07:59:38.728 [INFO] Queued frame 348 for OCR
+07:59:38.738 [INFO] OCR worker: received frame 348 with fingertip (None, None)
+07:59:38.753 [INFO] OCR done frame 348: selected_word=''
+07:59:38.754 [INFO] timings (prep=0.014s, ocr=2.800s) total=2.814s Error: 29923.139039880156
+07:59:38.944 [INFO] Queued frame 350 for OCR
+07:59:38.948 [INFO] OCR worker: received frame 350 with fingertip (None, None)
+07:59:39.201 [INFO] Queued frame 352 for OCR
+07:59:42.588 [INFO] OCR done frame 350: selected_word=''
+07:59:42.589 [INFO] timings (prep=0.005s, ocr=3.634s) total=3.639s Error: 13945.959092152823
+07:59:42.589 [INFO] OCR worker: received frame 352 with fingertip (None, None)
+07:59:42.598 [INFO] OCR done frame 352: selected_word=''
+07:59:42.598 [INFO] timings (prep=0.008s, ocr=3.634s) total=3.642s Error: 30510.619462737886
+07:59:43.306 [INFO] Queued frame 386 for OCR
+07:59:43.306 [INFO] OCR worker: received frame 386 with fingertip (None, None)
+07:59:43.312 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 194, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:59:43.556 [INFO] Queued frame 388 for OCR
+07:59:43.559 [INFO] OCR worker: received frame 388 with fingertip (None, None)
+07:59:43.572 [INFO] OCR done frame 388: selected_word=''
+07:59:43.573 [INFO] timings (prep=0.010s, ocr=3.634s) total=3.645s Error: 29147.068892085874
+07:59:43.831 [INFO] Queued frame 390 for OCR
+07:59:43.831 [INFO] OCR worker: received frame 390 with fingertip (None, None)
+07:59:43.837 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 194, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:59:44.080 [INFO] Queued frame 392 for OCR
+07:59:44.081 [INFO] OCR worker: received frame 392 with fingertip (None, None)
+07:59:44.083 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 194, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:59:44.321 [INFO] Queued frame 394 for OCR
+07:59:44.321 [INFO] OCR worker: received frame 394 with fingertip (None, None)
+07:59:44.325 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 194, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:59:44.563 [INFO] Queued frame 396 for OCR
+07:59:44.565 [INFO] OCR worker: received frame 396 with fingertip (None, None)
+07:59:44.570 [ERROR] OCR worker exception: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+Traceback (most recent call last):
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 194, in ocr_worker
+    mse = ultra_fast_diff(prev_frame, preprocessed_img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/ocrDeviceResearch/./src/test_live_42.py", line 115, in ultra_fast_diff
+    return cv2.norm(a, b, cv2.NORM_L2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/core/src/norm.dispatch.cpp:538: error: (-215:Assertion failed) _src1.sameSize(_src2) in function 'norm'
+
+07:59:47.500 [INFO] Quit requested
+07:59:47.501 [INFO] Shutting down: sending None to worker and waiting
+07:59:47.503 [INFO] OCR worker received shutdown signal
+07:59:47.527 [INFO] Camera stopped
+07:59:47.550 [INFO] Exited cleanly
+07:59:47.939 [INFO] Camera closed successfully.
